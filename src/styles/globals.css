@@ -34,3 +34,13 @@ body {
   font-family: ArgentItalic;
   src: url(../fonts/ArgentPixelCF-Italic.otf)
 }
+
+@font-face {
+  font-family: NeueHaasRoman;
+  src: url(../fonts/NeueHaasDisplayRoman.ttf)
+}
+
+@font-face {
+  font-family: NeueHaasLight;
+  src: url(../fonts/NeueHaasDisplayLight.ttf)
+}

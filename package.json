@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mux/mux-player": "^1.11.1",
+    "@mux/mux-player-react": "^1.11.1",
     "autoprefixer": "10.4.14",
     "framer-motion": "^10.12.12",
     "next": "13.4.3",

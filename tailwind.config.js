@@ -23,7 +23,14 @@ module.exports = {
     extend: {
       fontFamily: {
         ArgentItalic: "ArgentItalic",
-      }
+        NeueHaasRoman: "NeueHaasRoman",
+        NeueHaasLight: "NeueHaasLight",
+      },
+      colors: {
+        'regal-gray': '#232323',
+        'linear-gray': '#2F2F2F',
+        'sub-gray': '#515151',
+      },
     },
   },
   plugins: [],
