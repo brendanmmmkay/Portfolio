@@ -155,7 +155,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="flex justify-between pt-20">
+        <div className="flex justify-between">
           <Link href={"/contact"}>
             <h2>Design</h2>
           </Link>
