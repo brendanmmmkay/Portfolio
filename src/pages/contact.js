@@ -23,7 +23,7 @@ export default function Contact() {
                     animate={{ y: 0 }}
                     initial={{ y: "100%" }}
                     transition={{ delay: 0.5, duration: 0.5 }}
-                    className='text-4xl text-left lg:text-9x1 font-NeueHaas-Roman w-4/5 text-white'>A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.
+                    className='text-4xl text-left lg:text-9x1 font-NeueHaas-Roman w-4/5 text-white'>TEST A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.
                 </m.h1>
             </div>
 
