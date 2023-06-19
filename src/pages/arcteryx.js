@@ -15,7 +15,7 @@ import ArcyImg9 from "../image/ArcyImg9.png"
 import ArcyImg10 from "../image/ArcyImg10.png"
 import ArcyImg11 from "../image/ArcyImg11.png"
 import ArcyImg12 from "../image/ArcyImg12.png"
-// import '@/styles/globals.css'
+import ArcyImg13 from "../image/ArcyImg13.png"
 
 export default function Arcteryx() {
     return (
@@ -25,12 +25,63 @@ export default function Arcteryx() {
             transition={{ duration: 0.75, ease: "easeOut" }}
             exit={{ opacity: 1 }}
             className="text-gray-900 absolute z-2 top-0 left-0 w-full h-ful  bg-regal-gray lg:px-48 px-16">
-            <div className='mt-60 mb-40 p-1'>
+            <div className='mt-20 mb-40 p-1'>
+
+                <div className="flex justify-between">
+                    <Link href={"/contact"}>
+                        <h2 className="text-stone-400 font-NeueHaasLight tracking-wide leading-relaxed">January — May
+                            2020</h2>
+                    </Link>
+                    <div>
+                        <h2 className="text-stone-400 font-NeueHaasLight tracking-wide leading-relaxed">14 week project in collaboration with Arc’teryx</h2>
+                    </div>
+
+                    <div class="text-stone-400 grid grid-cols-1 gap-3">
+                        <div className="font-NeueHaasRoman text-1xl">
+                            Contribution
+                        </div>
+                        <div className="font-NeueHaasLight">
+                            <div>Design Strategy</div>
+                            <div>Ethnography</div>
+                            <div>Workshop Facilitaion</div>
+                            <div>Service Design</div>
+                        </div>
+                    </div>
+
+
+                    <div class="text-stone-400 grid grid-cols-1 gap-3">
+                        <div className="font-NeueHaasRoman text-1xl">
+                            Tools
+                        </div>
+                        <div className="font-NeueHaasLight">
+                            <div>Figma</div>
+                            <div>Miro</div>
+                            <div>Photoshop</div>
+                            <div>Illustrator</div>
+                        </div>
+                    </div>
+
+
+                    <div class="text-stone-400 grid grid-cols-1 gap-3">
+                        <div className="font-NeueHaasRoman">
+                            Team
+                        </div>
+                        <div className="font-NeueHaasLight">
+                            <div>Brendan McKay</div>
+                            <div>Aliasger Rasheed</div>
+                            <div>Tracy Chen</div>
+                            <div>Yan Tymoshenko</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
                 <m.h1
                     animate={{ y: 0 }}
                     initial={{ y: "100%" }}
                     transition={{ delay: 0.5, duration: 0.5 }}
-                    className='text-4xl text-left lg:text-10x1 font-NeueHaas-Roman w-5/6 text-white'>A two product solution that leverages upcycled material to tell customers about the importance of product care - renewing trust in Arc’teryx’s lasting quality, and helping the brand achieve sustainable goals.
+                    className='text-4xl text-left lg:text-10x1 font-NeueHaas-Roman w-5/6 text-white mt-20'>A two product solution that leverages upcycled material to tell customers about the importance of product care - renewing trust in Arc’teryx’s lasting quality, and helping the brand achieve sustainable goals.
                 </m.h1>
             </div>
 
@@ -90,15 +141,15 @@ export default function Arcteryx() {
                 </div>
 
                 <div className="font-NeueHaasLight pt-20 tracking-wide text-white text-2xl leading-loose">
-                For a senior research and design course at Simon Fraser University, my team and I reached out to Arc’teryx. We practiced ethnography in depth, documenting and interviewing to find the best opportunity for design. 
-                   </div>
+                    For a senior research and design course at Simon Fraser University, my team and I reached out to Arc’teryx. We practiced ethnography in depth, documenting and interviewing to find the best opportunity for design.
+                </div>
                 <div className="font-NeueHaas-Roman pt-10 text-white text-4xl leading-relaxed tracking-tight">
-                Ultimately, we discovered that customers become unhappy with their gear because they do not perform proper product care procedures.
+                    Ultimately, we discovered that customers become unhappy with their gear because they do not perform proper product care procedures.
                 </div>
 
                 <div className="font-NeueHaasLight tracking-wide text-white text-2xl pt-20 leading-loose">
-                Through iteration and continual feedback, we concluded that a post-purchase intervention, communicating the importance of product care, would renew trust in the garments lasting quality and help Arc’teryx achieve sustainable goals.
-                   </div>
+                    Through iteration and continual feedback, we concluded that a post-purchase intervention, communicating the importance of product care, would renew trust in the garments lasting quality and help Arc’teryx achieve sustainable goals.
+                </div>
 
             </div>
 
@@ -125,29 +176,29 @@ export default function Arcteryx() {
                 </div>
 
                 <div className="font-NeueHaas-Roman pt-20 text-white text-3xl leading-relaxed">
-                The product care journey begins with a gift. Arc'teryx customers are able to choose a free gift upon purchasing an item, online or in-store. We decided on gifts because we wanted to make product care knowledge available to every customer - free of cost. 
-                    </div>
+                    The product care journey begins with a gift. Arc'teryx customers are able to choose a free gift upon purchasing an item, online or in-store. We decided on gifts because we wanted to make product care knowledge available to every customer - free of cost.
+                </div>
                 <div className="font-NeueHaasLight tracking-wide text-white text-2xl pt-20 leading-loose">
-                We identified an opportunity to design for online buyers after discovering that there are no current product care touchpoints when ordering garments on the Arc'teryx website.
-                    </div>
+                    We identified an opportunity to design for online buyers after discovering that there are no current product care touchpoints when ordering garments on the Arc'teryx website.
+                </div>
 
             </div>
 
 
             <m.div>
-                    <div class="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1">
-                        <div className="pt-5 xs={12}">
-                            <Image
-                                src={ArcyImg9}
-                                width={800}
-                                height={200} />
-                        </div>
-                        <div className="pt-5">
-                            <Image
-                                src={ArcyImg10}
-                                width={800}
-                                height={200} />
-                        </div>
+                <div class="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1">
+                    <div className="pt-5 xs={12}">
+                        <Image
+                            src={ArcyImg9}
+                            width={800}
+                            height={200} />
+                    </div>
+                    <div className="pt-5">
+                        <Image
+                            src={ArcyImg10}
+                            width={800}
+                            height={200} />
+                    </div>
                 </div>
             </m.div>
 
@@ -165,8 +216,8 @@ export default function Arcteryx() {
 
 
                 <div className="font-NeueHaasLight tracking-wide text-white text-2xl pt-20 leading-loose">
-                As a regularly used and washed garment for hikers, the Trail Bandana accessory acts as physical reminder of product care. On its front, the fabric pattern features legendary hiking trails near international brand store locations. On the back side, there are product care instructions for Gore-tex garments. The bandana is sustainably produced with gore-tex scraps, making it a collectible memento that supports brand values and product education.
-                    </div>
+                    As a regularly used and washed garment for hikers, the Trail Bandana accessory acts as physical reminder of product care. On its front, the fabric pattern features legendary hiking trails near international brand store locations. On the back side, there are product care instructions for Gore-tex garments. The bandana is sustainably produced with gore-tex scraps, making it a collectible memento that supports brand values and product education.
+                </div>
 
             </m.div>
 
@@ -192,8 +243,8 @@ export default function Arcteryx() {
 
 
                 <div className="font-NeueHaasLight tracking-wide text-white text-2xl pt-20 leading-loose">
-                The magnet is a product care guide made from Gore-tex scraps. The back of the grommet is magnetic, so people can stick it on their washing machines. The grommet loop allows people to put it on their hangers or hooks, so the care instructions can always live with the clothes.
-               </div>
+                    The magnet is a product care guide made from Gore-tex scraps. The back of the grommet is magnetic, so people can stick it on their washing machines. The grommet loop allows people to put it on their hangers or hooks, so the care instructions can always live with the clothes.
+                </div>
 
             </m.div>
 
@@ -318,42 +369,75 @@ export default function Arcteryx() {
             </m.div>
 
 
-            <m.div>
-<div class="xl:w-4/6">
-    <div className="pt-20"></div>
-    <h1 className='text-5xl font-NeueHaasRoman text-white'>Key Insights</h1>
-            <ul className="list-disc font-NeueHaasRoman tracking-snug leading-wide text-white pt-20 text-3xl">
-                <li>Customers lose their trust in the Arc’teryx brand when their garments wet out due to lack of product care.</li>
-                <li className="pt-10 text-3xl">There are no product care touchpoints when ordering garments online.</li>
-            </ul>
-            </div>
+            {/* <m.div>
+                <div class="xl:w-4/6">
+                    <div className="pt-20"></div>
+                    <h1 className='text-5xl font-NeueHaasRoman text-white'>Key Insights</h1>
+                    <ul className="list-disc font-NeueHaasRoman tracking-snug leading-wide text-white pt-20 text-3xl">
+                        <li>Customers lose their trust in the Arc’teryx brand when their garments wet out due to lack of product care.</li>
+                        <li className="pt-10 text-3xl">There are no product care touchpoints when ordering garments online.</li>
+                    </ul>
+                </div>
+            </m.div> */}
+
+
+
+            <m.div className="xl:w-4/6">
+                <div className="mt-40">
+                    <h1 className='text-5xl font-NeueHaas-Roman text-white'>Reflection</h1>
+                </div>
+
+                <div class="divide-y divide-linear-gray pt-5">
+                    <div></div>
+                    <div>
+                    </div>
+                </div>
+
+
+                <div className="font-NeueHaasLight tracking-wide text-white text-2xl pt-20 leading-loose">
+                Reaching out to Arc'teryx opened the door to an incredible experience. My greatest learning was in the importance of taking initiative, and believing in my abilities and process. Creating a mini sprint to be held in a professional environment with non-designers was initially daunting. I was always nervous that our collaboration would feel like a chore for our connections at Arc'teryx, and it increased when the sprint went virtual. Of course, they were eternally friendly and excited to be involved. Taking initiative and believing in ourselves fueled our communications with Arc'teryx, our professor, and our research participants. Through conversations and study mehtods, the greater initiative we took - the better our understanding became.
+                    </div>
+
+            </m.div>
+
+            <m.div className="pt-20">
+                <Image
+                    src={ArcyImg13}
+                    width={1500}
+                    height={200} />
             </m.div>
 
 
 
-
-
-
             <div class="flex flex-col-reverse">
-                <div className="font-NeueHaasLight text-sub-gray pt-5 pb-5">Freelance product design and logo design</div>
-                <Link href={"/contact"}>
-                    <div className="font-NeueHaasRoman text-white pt-52 lg:text-2xl leading-loose tracking-wide">Thanks for stopping by! I have so much more to share about this project, let's get in touch!</div>
+               
+            <Link href={"/contact"}>
+                <div className="font-NeueHaasLight text-white lg:text-3xl pt-10 pb-5 underline">Return home.</div>
                 </Link>
+                    <div className="font-NeueHaasRoman text-white pt-52 lg:text-4xl leading-loose tracking-wide">Thanks for stopping by! I have so much more to share about this project, let's get in touch!</div>
             </div>
 
-            <div className="flex pt-20 gap-40">
+            <div className="flex pt-40 gap-40">
                 <div className="lg:text-2xl text-base text-white">
-                    <Link href={"/"}>
-                        <h4>Find me</h4>
-                    </Link>
+                    
+                        <h4>Find me:</h4>
+                    
                 </div>
                 <div className="lg:text-6xl text-2xl underline text-white">
                     <ul>
                         <div className="overflow-hidden">
-                            <li className="pb-4">Email</li>
+                        <Link href={"mailto:bpmckay@sfu.ca"}>
+                            <li className="pb-4">bpmckay@sfu.ca</li>
+                            </Link>
+                            <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
                             <li className="pb-4">Linkedin</li>
+                            </Link>
+                            <Link href={"https://read.cv/bedthyme/"}>
                             <li className="pb-4">Read.cv</li>
+                            </Link>
+                            <Link href={"https://medium.com/@brendanmckaydesign"}>
                             <li className="pb-12">Medium</li>
+                            </Link>
                         </div>
                     </ul>
                 </div>

@@ -23,7 +23,7 @@ export default function Contact() {
                     animate={{ y: 0 }}
                     initial={{ y: "100%" }}
                     transition={{ delay: 0.5, duration: 0.5 }}
-                    className='text-4xl text-left lg:text-9x1 font-NeueHaas-Roman w-4/5 text-white'>TEST A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.
+                    className='text-4xl text-left lg:text-9x1 font-NeueHaas-Roman w-4/5 text-white'>A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.
                 </m.h1>
             </div>
 
@@ -227,26 +227,35 @@ export default function Contact() {
 
 
 
-            <div class="flex flex-col-reverse">
-                <div className="font-NeueHaasLight text-sub-gray pt-5 pb-5">Freelance product design and logo design</div>
-                <Link href={"/contact"}>
-                    <div className="font-NeueHaasRoman text-white pt-52 lg:text-2xl leading-loose tracking-wide">Thanks for stopping by! I have so much more to share about this project, let's get in touch!</div>
-                </Link>
-            </div>
+<div class="flex flex-col-reverse">
+               
+               <Link href={"/contact"}>
+                   <div className="font-NeueHaasLight text-white lg:text-3xl pt-10 pb-5 underline">Return home.</div>
+                   </Link>
+                       <div className="font-NeueHaasRoman text-white pt-52 lg:text-4xl leading-loose tracking-wide">Thanks for stopping by! I have so much more to share about this project, let's get in touch!</div>
+               </div>
 
-            <div className="flex pt-20 gap-40">
+            <div className="flex pt-40 gap-40">
                 <div className="lg:text-2xl text-base text-white">
-                    <Link href={"/"}>
-                        <h4>Find me</h4>
-                    </Link>
+                    
+                        <h4>Find me:</h4>
+                    
                 </div>
                 <div className="lg:text-6xl text-2xl underline text-white">
                     <ul>
                         <div className="overflow-hidden">
-                            <li className="pb-4">Email</li>
+                        <Link href={"mailto:bpmckay@sfu.ca"}>
+                            <li className="pb-4">bpmckay@sfu.ca</li>
+                            </Link>
+                            <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
                             <li className="pb-4">Linkedin</li>
+                            </Link>
+                            <Link href={"https://read.cv/bedthyme/"}>
                             <li className="pb-4">Read.cv</li>
+                            </Link>
+                            <Link href={"https://medium.com/@brendanmckaydesign"}>
                             <li className="pb-12">Medium</li>
+                            </Link>
                         </div>
                     </ul>
                 </div>

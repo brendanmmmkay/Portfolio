@@ -12,6 +12,9 @@ import boschPanel3 from "../image/boschPanel3.png"
 import momentPanel1 from "../image/momentPanel1.png"
 import momentPanel2 from "../image/momentPanel2.png"
 import momentPanel3 from "../image/momentPanel3.png"
+import arcPanel1 from "../image/ArcPanel1.png"
+import arcPanel2 from "../image/ArcPanel2.png"
+import arcPanel3 from "../image/ArcPanel3.png"
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -85,35 +88,44 @@ export default function Home() {
         
 
         <div className="mt-20">
+        <Link href={"/arcteryx"}>
           <h1 className='text-5xl font-ArgentItalic text-white pb-5'>Arcteryx</h1>
+          </Link>
         </div>
         <div class="grid grid-cols-1 divide-y divide-linear-gray">
           <div></div>
           <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
-            <div className="lg:pt-5">           
+            <div className="lg:pt-5">      
+            <Link href={"/arcteryx"}>
               <Image
-              src={boschPanel1}
+              src={arcPanel1}
               width={500}
               height={200} />
+              </Link> 
               </div>
             <div className="lg:pt-5">
+            <Link href={"/arcteryx"}>
             <Image
-              src={boschPanel2}
+              src={arcPanel2}
               width={500}
               height={200} />
+              </Link>
             </div>
             <div className="lg:pt-5">
+            <Link href={"/arcteryx"}>
             <Image
-              src={boschPanel3}
+              src={arcPanel3}
               width={500}
               height={200} />
+              </Link>
             </div>
             </div>
+            
           </div>
         <div class="flex flex-col-reverse">
-          <div className="font-NeueHaasLight text-sub-gray pt-2 pb-5 tracking-wide">Product Design, Art Direction, Interaction Design</div>
+          <div className="font-NeueHaasLight text-sub-gray pt-2 pb-5 tracking-wide">Strategy, Copywriting, Prototyping, Service Design</div>
           <Link href={"/arcteryx"}>
-            <div className="font-NeueHaasRoman text-white pt-5 tracking-wide">A safety solution for E-bike couriers</div>
+            <div className="font-NeueHaasRoman text-white pt-5 tracking-wide">A Product Care Campaign</div>
           </Link>
         </div>
 
@@ -186,6 +198,8 @@ export default function Home() {
             <div className="font-NeueHaasRoman text-white pt-5 tracking-wide">A new brand and website to disrupt the energy industry.</div>
           </Link>
         </div>
+
+
 
         <div className="flex justify-between">
           <Link href={"/contact"}>
