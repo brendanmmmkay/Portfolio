@@ -84,6 +84,38 @@ export default function Home() {
         </div>
         
 
+        <div className="mt-20">
+          <h1 className='text-5xl font-ArgentItalic text-white pb-5'>Arcteryx</h1>
+        </div>
+        <div class="grid grid-cols-1 divide-y divide-linear-gray">
+          <div></div>
+          <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
+            <div className="lg:pt-5">           
+              <Image
+              src={boschPanel1}
+              width={500}
+              height={200} />
+              </div>
+            <div className="lg:pt-5">
+            <Image
+              src={boschPanel2}
+              width={500}
+              height={200} />
+            </div>
+            <div className="lg:pt-5">
+            <Image
+              src={boschPanel3}
+              width={500}
+              height={200} />
+            </div>
+            </div>
+          </div>
+        <div class="flex flex-col-reverse">
+          <div className="font-NeueHaasLight text-sub-gray pt-2 pb-5 tracking-wide">Product Design, Art Direction, Interaction Design</div>
+          <Link href={"/arcteryx"}>
+            <div className="font-NeueHaasRoman text-white pt-5 tracking-wide">A safety solution for E-bike couriers</div>
+          </Link>
+        </div>
 
 
         <div className="mt-20">
