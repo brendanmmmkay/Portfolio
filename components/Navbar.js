@@ -5,10 +5,10 @@ export default function Navbar() {
         <nav className="textx-2xl font-medium absolute z-50">
             <ul className="flex gap-12">
                 <Link href={"/"}>
-                    <li className="pr-5">Home</li>
+                    <li className="pr-5"></li>
                 </Link>
                 <Link href={"/contact"}>
-                    <li>Contact</li>
+                    <li></li>
                 </Link>
             </ul>
         </nav>
