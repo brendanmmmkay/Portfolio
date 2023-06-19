@@ -39,7 +39,7 @@ export default function Home() {
             animate={{ y: 0 }}
             initial={{ y: "100%" }}
             transition={{ delay: 0.5, duration: 0.5 }}
-            className='text-4xl text-left lg:text-9x1 font-ArgentItalic text-white xl:w-5/6'>I weave business value with compelling visual storytelling toward impactful design that solves problems for people.
+            className='text-left lg:text-5xl sm:text-2xl font-ArgentItalic text-white'>I weave business value with compelling visual storytelling toward impactful design that solves problems for people.
           </m.h1>
         </div>
 
@@ -206,18 +206,18 @@ export default function Home() {
         </div>
 
 
-
-        <div className="flex pt-40 gap-40">
+<div className="grid lg:grid-cols-2 sm:grid-cols-1">
+        <div className="pt-40 gap-40">
                 <div className="lg:text-2xl text-base text-white">
                     
-                        <h4>Find me:</h4>
+                        <h4>Contact me:</h4>
                     
                 </div>
                 <div className="lg:text-6xl text-2xl underline text-white">
                     <ul>
                         <div className="overflow-hidden">
                         <Link href={"mailto:bpmckay@sfu.ca"}>
-                            <li className="pb-4">bpmckay@sfu.ca</li>
+                            <li className="pb-4 pt-10">bpmckay@sfu.ca</li>
                             </Link>
                             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
                             <li className="pb-4">Linkedin</li>
@@ -231,6 +231,7 @@ export default function Home() {
                         </div>
                     </ul>
                 </div>
+            </div>
             </div>
 
 

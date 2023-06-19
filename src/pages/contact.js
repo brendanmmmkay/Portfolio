@@ -23,7 +23,7 @@ export default function Contact() {
                     animate={{ y: 0 }}
                     initial={{ y: "100%" }}
                     transition={{ delay: 0.5, duration: 0.5 }}
-                    className='text-4xl text-left lg:text-9x1 font-NeueHaas-Roman w-4/5 text-white'>A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.
+                    className='text-left sm:text-2xl lg:text-4xl font-NeueHaas-Roman w-4/5 text-white'>A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.
                 </m.h1>
             </div>
 
@@ -235,7 +235,7 @@ export default function Contact() {
                        <div className="font-NeueHaasRoman text-white pt-52 lg:text-4xl leading-loose tracking-wide">Thanks for stopping by! I have so much more to share about this project, let's get in touch!</div>
                </div>
 
-            <div className="flex pt-40 gap-40">
+            <div className="flex pt-40 lg:gap-40 sm:">
                 <div className="lg:text-2xl text-base text-white">
                     
                         <h4>Find me:</h4>
