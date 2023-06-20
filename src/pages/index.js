@@ -55,8 +55,8 @@ export default function Home() {
             <Link href={"/contact"}>
               <Image
               src={test1}
-              width={500}
-              height={200} />
+              
+               />
 </Link>
               </div>
             <div className="lg:pt-5">
@@ -77,8 +77,7 @@ export default function Home() {
             <Link href={"/contact"}>
             <Image
               src={test2}
-              width={500}
-              height={200} />
+    />
               </Link>
             </div>
           </div>
@@ -88,14 +87,14 @@ export default function Home() {
           <div className="font-NeueHaasLight text-sub-gray pt-2 pb-5 tracking-wide">Freelance product design and logo design</div>
           </Link>
           <Link href={"/contact"}>
-            <div className="font-NeueHaasRoman text-white pt-5 tracking-wide">A digital design directory</div>
+            <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic">A digital design directory</div>
           </Link>
         </div>
         
 
         <div className="mt-20">
         <Link href={"/arcteryx"}>
-          <h1 className='text-5xl font-ArgentItalic text-white pb-5'>Arcteryx</h1>
+          <h1 className='text-5xl font-ArgentItalic text-white pb-5'>Arc'teryx</h1>
           </Link>
         </div>
         <div class="grid grid-cols-1 divide-y divide-linear-gray">
@@ -105,24 +104,21 @@ export default function Home() {
             <Link href={"/arcteryx"}>
               <Image
               src={arcPanel1}
-              width={500}
-              height={200} />
+    />
               </Link> 
               </div>
             <div className="lg:pt-5">
             <Link href={"/arcteryx"}>
             <Image
               src={arcPanel2}
-              width={500}
-              height={200} />
+        />
               </Link>
             </div>
             <div className="lg:pt-5">
             <Link href={"/arcteryx"}>
             <Image
               src={arcPanel3}
-              width={500}
-              height={200} />
+            />
               </Link>
             </div>
             </div>
@@ -131,7 +127,7 @@ export default function Home() {
         <div class="flex flex-col-reverse">
           <div className="font-NeueHaasLight text-sub-gray pt-2 pb-5 tracking-wide">Strategy, Copywriting, Prototyping, Service Design</div>
           <Link href={"/arcteryx"}>
-            <div className="font-NeueHaasRoman text-white pt-5 tracking-wide">A Product Care Campaign</div>
+            <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic">A Product Care Campaign</div>
           </Link>
         </div>
 
@@ -139,33 +135,30 @@ export default function Home() {
         <div className="mt-20">
           <h1 className='text-5xl font-ArgentItalic text-white pb-5'>Bosch Courier Connect - Coming Soon</h1>
         </div>
-        <div class="grid grid-cols-1 divide-y divide-linear-gray">
+        <div class="grid grid-cols-1 divide-y divide-linear-gray hover:font-ArgentItalic">
           <div></div>
           <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
             <div className="lg:pt-5">           
               <Image
               src={boschPanel1}
-              width={500}
-              height={200} />
+          />
               </div>
             <div className="lg:pt-5">
             <Image
               src={boschPanel2}
-              width={500}
-              height={200} />
+         />
             </div>
             <div className="lg:pt-5">
             <Image
               src={boschPanel3}
-              width={500}
-              height={200} />
+             />
             </div>
             </div>
           </div>
         <div class="flex flex-col-reverse">
           <div className="font-NeueHaasLight text-sub-gray pt-2 pb-5 tracking-wide">Product Design, Art Direction, Interaction Design</div>
           <Link href={"/contact"}>
-            <div className="font-NeueHaasRoman text-white pt-5 tracking-wide">A safety solution for E-bike couriers</div>
+            <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic">A safety solution for E-bike couriers</div>
           </Link>
         </div>
 
@@ -181,27 +174,24 @@ export default function Home() {
             <div className="lg:pt-5">           
               <Image
               src={momentPanel1}
-              width={500}
-              height={200} />
+        />
               </div>
             <div className="lg:pt-5">
             <Image
               src={momentPanel2}
-              width={500}
-              height={200} />
+             />
             </div>
             <div className="lg:pt-5">
             <Image
               src={momentPanel3}
-              width={500}
-              height={200} />
+            />
             </div>
             </div>
           </div>
         <div class="flex flex-col-reverse">
           <div className="font-NeueHaasLight text-sub-gray pt-2 pb-5 tracking-wide">Branding, Brand Strategy, UX Design</div>
           <Link href={"/contact"}>
-            <div className="font-NeueHaasRoman text-white pt-5 tracking-wide">A new brand and website to disrupt the energy industry.</div>
+            <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic">A new brand and website to disrupt the energy industry.</div>
           </Link>
         </div>
 

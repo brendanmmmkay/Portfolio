@@ -27,20 +27,20 @@ export default function Arcteryx() {
             className="text-gray-900 absolute z-2 top-0 left-0 w-full h-ful  bg-regal-gray lg:px-48 px-16">
             <div className='mt-20 mb-40 p-1'>
 
-                <div className="flex justify-between">
-                    <Link href={"/contact"}>
-                        <h2 className="text-stone-400 font-NeueHaasLight tracking-wide leading-relaxed">January — May
+                <div className="grid lg:grid-cols-5 sm:grid-cols-1 gap-6">
+                    <div className="col-start-1 col-span-2">
+                
+                        <h2 className="text-white font-NeueHaasLight tracking-wide leading-relaxed">January — May
                             2020</h2>
-                    </Link>
-                    <div>
-                        <h2 className="text-stone-400 font-NeueHaasLight tracking-wide leading-relaxed">14 week project in collaboration with Arc’teryx</h2>
+                            <h2 className="text-stone-400 font-NeueHaasLight tracking-wider leading-relaxed gap-10">14 week SFU project in collaboration with Arc’teryx</h2>
+            
                     </div>
 
-                    <div class="text-stone-400 grid grid-cols-1 gap-3">
+                    <div class="text-white grid grid-cols-1 gap-3">
                         <div className="font-NeueHaasRoman text-1xl">
                             Contribution
                         </div>
-                        <div className="font-NeueHaasLight">
+                        <div className="font-NeueHaasLight tracking-wide text-stone-400">
                             <div>Design Strategy</div>
                             <div>Ethnography</div>
                             <div>Workshop Facilitaion</div>
@@ -49,11 +49,11 @@ export default function Arcteryx() {
                     </div>
 
 
-                    <div class="text-stone-400 grid grid-cols-1 gap-3">
+                    <div class="text-white grid grid-cols-1 gap-3">
                         <div className="font-NeueHaasRoman text-1xl">
                             Tools
                         </div>
-                        <div className="font-NeueHaasLight">
+                        <div className="text-stone-400 tracking-wide font-NeueHaasLight">
                             <div>Figma</div>
                             <div>Miro</div>
                             <div>Photoshop</div>
@@ -62,11 +62,11 @@ export default function Arcteryx() {
                     </div>
 
 
-                    <div class="text-stone-400 grid grid-cols-1 gap-3">
+                    <div class="text-white grid grid-cols-1 gap-3">
                         <div className="font-NeueHaasRoman">
                             Team
                         </div>
-                        <div className="font-NeueHaasLight">
+                        <div className="text-stone-400 tracking-wide font-NeueHaasLight">
                             <div>Brendan McKay</div>
                             <div>Aliasger Rasheed</div>
                             <div>Tracy Chen</div>
@@ -81,15 +81,14 @@ export default function Arcteryx() {
                     animate={{ y: 0 }}
                     initial={{ y: "100%" }}
                     transition={{ delay: 0.5, duration: 0.5 }}
-                    className='text-4xl text-left lg:text-10x1 font-NeueHaas-Roman w-5/6 text-white mt-20'>A two product solution that leverages upcycled material to tell customers about the importance of product care - renewing trust in Arc’teryx’s lasting quality, and helping the brand achieve sustainable goals.
+                    className='lg:text-4xl text-left sm:text-5xl font-NeueHaas-Roman w-5/6 text-white mt-20 sm:mt-80'>A two product solution that leverages upcycled material to tell customers about the importance of product care - renewing trust in Arc’teryx’s lasting quality, and helping the brand achieve sustainable goals.
                 </m.h1>
             </div>
 
             <div>
                 <Image
                     src={ArcyImg1}
-                    width={1600}
-                    height={200} />
+           />
             </div>
 
 
@@ -414,7 +413,7 @@ export default function Arcteryx() {
             <Link href={"/"}>
                 <div className="font-NeueHaasLight text-white lg:text-3xl pt-10 pb-5 underline">Return home.</div>
                 </Link>
-                    <div className="font-NeueHaasRoman text-white pt-52 lg:text-4xl leading-loose tracking-wide">Thanks for stopping by! I have so much more to share about this project, let's get in touch!</div>
+                    <div className="font-NeueHaasRoman text-white pt-52 lg:text-4xl leading-loose tracking-wide xl:w-4/6">Thanks for stopping by! I have so much more to share about this project, let's get in touch!</div>
             </div>
 
             <div className="flex pt-40 lg:gap-40">
@@ -423,20 +422,20 @@ export default function Arcteryx() {
                         <h4>Find me:</h4>
                     
                 </div>
-                <div className="lg:text-6xl text-2xl underline text-white">
+                <div className="lg:text-6xl text-2xl text-white underline">
                     <ul>
                         <div className="overflow-hidden">
                         <Link href={"mailto:bpmckay@sfu.ca"}>
-                            <li className="pb-4">bpmckay@sfu.ca</li>
+                            <li className="pb-4 hover:font-ArgentItalic">bpmckay@sfu.ca</li>
                             </Link>
                             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                            <li className="pb-4">Linkedin</li>
+                            <li className="pb-4 hover:font-ArgentItalic">Linkedin</li>
                             </Link>
                             <Link href={"https://read.cv/bedthyme/"}>
-                            <li className="pb-4">Read.cv</li>
+                            <li className="pb-4 hover:font-ArgentItalic">Read.cv</li>
                             </Link>
                             <Link href={"https://medium.com/@brendanmckaydesign"}>
-                            <li className="pb-12">Medium</li>
+                            <li className="pb-12 hover:font-ArgentItalic">Medium</li>
                             </Link>
                         </div>
                     </ul>
