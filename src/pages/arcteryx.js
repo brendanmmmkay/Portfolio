@@ -411,7 +411,7 @@ export default function Arcteryx() {
             <div class="flex flex-col-reverse">
                
             <Link href={"/"}>
-                <div className="font-NeueHaasLight text-white lg:text-3xl pt-10 pb-5 underline">Return home.</div>
+                <div className="font-NeueHaasLight text-white lg:text-3xl pt-10 pb-5 underline hover:font-ArgentItalic">Return home.</div>
                 </Link>
                     <div className="font-NeueHaasRoman text-white pt-52 lg:text-4xl leading-loose tracking-wide xl:w-4/6">Thanks for stopping by! I have so much more to share about this project, let's get in touch!</div>
             </div>
