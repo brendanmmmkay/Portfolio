@@ -207,16 +207,16 @@ export default function Home() {
                     <ul>
                         <div className="overflow-hidden">
                         <Link href={"mailto:bpmckay@sfu.ca"}>
-                            <li className="pb-4 pt-10">bpmckay@sfu.ca</li>
+                            <li className="pb-4 pt-10 hover:font-ArgentItalic">bpmckay@sfu.ca</li>
                             </Link>
                             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                            <li className="pb-4">Linkedin</li>
+                            <li className="pb-4 hover:font-ArgentItalic">Linkedin</li>
                             </Link>
                             <Link href={"https://read.cv/bedthyme/"}>
-                            <li className="pb-4">Read.cv</li>
+                            <li className="pb-4 hover:font-ArgentItalic">Read.cv</li>
                             </Link>
                             <Link href={"https://medium.com/@brendanmckaydesign"}>
-                            <li className="pb-12">Medium</li>
+                            <li className="pb-12 hover:font-ArgentItalic">Medium</li>
                             </Link>
                         </div>
                     </ul>
