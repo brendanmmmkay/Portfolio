@@ -78,7 +78,7 @@ export default function Bosch() {
             </div>
 
             <div>
-                <Image
+                <Image className="h-96 object-cover lg:h-full lg:object-cover"
                     src={BoschImg6}
                 />
             </div>
