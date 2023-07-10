@@ -46,7 +46,7 @@ export default function Home() {
               animate={{ y: 0 }}
               initial={{ y: "100%" }}
               transition={{ delay: 0.5, duration: 0.5 }}
-              className='text-left  text-[17px] lg:text-3xl xl:w-3/6 pt-6 font-ArgentItalic text-transparent bg-clip-text bg-gradient-to-br from-tahiti-100 to-tahiti-200'>I weave business value with compelling visual storytelling toward impactful design that solves problems for people.
+              className='text-left  text-[16px] lg:text-3xl xl:w-3/6 pt-6 font-ArgentItalic text-transparent bg-clip-text bg-gradient-to-br from-tahiti-100 to-tahiti-200'>I weave business value with compelling visual storytelling toward impactful design that solves problems for people.
             </m.h1>
           </div>
         </div>
