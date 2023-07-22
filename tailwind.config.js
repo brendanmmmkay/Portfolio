@@ -68,9 +68,12 @@ module.exports = {
       backgroundImage: {
         'hero-pattern': "url('../image/footer-texture.svg')",
         'footer-texture': "url('/image/footer-texture.svg')",
-      }
+      },
 
-  
+      lineHeight: {
+        'extra-loose': '3.5',
+        '12': '3rem',
+      },
 
     },
   },

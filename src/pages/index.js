@@ -38,9 +38,9 @@ export default function Home() {
         <div className='bg-hero-pattern bg-cover py-24'>
           <div className='lg:px-48 px-16'>
           <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-            <button type="button" class="text-gray-900  bg-white border border-tahiti-200 focus:outline-none hover:bg-tahiti-200 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-tahiti-300 dark:text-tahiti-200 dark:border-tahiti-200 dark:hover:bg-tahiti-200 dark:hover:border-tahiti-200 dark:hover:text-tahiti-300 dark:focus:ring-green-700 cursor-pointer">Resume</button>
+            <button type="button" class="text-gray-900 border border-tahiti-200 focus:outline-none hover:bg-tahiti-200 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-2 bg-tahiti-300 dark:text-tahiti-200 dark:border-tahiti-200 dark:hover:bg-tahiti-200 dark:hover:border-tahiti-200 dark:hover:text-tahiti-300 dark:focus:ring-green-700 cursor-pointer">Resume</button>
             </Link>
-            <button type="button" class="text-gray-900 bg-white border border-tahiti-200 focus:outline-none hover:bg-tahiti-200 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-tahiti-300 dark:text-tahiti-200 dark:border-tahiti-200 dark:hover:bg-tahiti-200 dark:hover:border-tahiti-200 dark:hover:text-tahiti-300 dark:focus:ring-green-700 cursor-pointer">bpmckay@sfu.ca</button>
+            <button type="button" class="text-gray-900 border border-tahiti-200 focus:outline-none hover:bg-tahiti-200 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-2 bg-tahiti-300 dark:text-tahiti-200 dark:border-tahiti-200 dark:hover:bg-tahiti-200 dark:hover:border-tahiti-200 dark:hover:text-tahiti-300 dark:focus:ring-green-700 cursor-pointer">bpmckay@sfu.ca</button>
 
             <m.h1
               animate={{ y: 0 }}
