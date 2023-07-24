@@ -42,12 +42,12 @@ export default function Home() {
             </Link>
             <button type="button" class="text-gray-900 border border-tahiti-200 focus:outline-none hover:bg-tahiti-200 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-2 bg-tahiti-300 dark:text-tahiti-200 dark:border-tahiti-200 dark:hover:bg-tahiti-200 dark:hover:border-tahiti-200 dark:hover:text-tahiti-300 dark:focus:ring-green-700 cursor-pointer">bpmckay@sfu.ca</button>
 
-            <m.h1
+            <h1
               animate={{ y: 0 }}
               initial={{ y: "100%" }}
               transition={{ delay: 0.5, duration: 0.5 }}
               className='text-left  text-[16px] lg:text-3xl xl:w-3/6 pt-6 font-ArgentItalic text-transparent bg-clip-text bg-gradient-to-br from-tahiti-100 to-tahiti-200'>I weave business value with compelling visual storytelling toward impactful design that solves problems for people.
-            </m.h1>
+            </h1>
           </div>
         </div>
 
