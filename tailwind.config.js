@@ -47,6 +47,9 @@ module.exports = {
           pointer: 'url(../image/cursor2.svg), pointer',
       },
 
+      spacing: {
+        '128': '42rem',
+      },
 
 
       fontFamily: {

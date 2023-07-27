@@ -27,11 +27,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </head>
     </div>,
-    <m.div
-      initial={{ y: "100%" }}
-      animate={{ y: "0%" }}
-      transition={{ duration: 0.75, ease: "easeOut" }}
-      exit={{ opacity: 1 }}
+    <div
       className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default bg-regal-gray"
     >
       <main>
@@ -41,13 +37,13 @@ export default function Home() {
           <button type="button" class="border border-tahiti-200 focus:outline-none hover:bg-tahiti-200  hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-2 bg-tahiti-300 text-tahiti-200 cursor-pointer">Resume</button>
             </Link>
             <Link href={"mailto:bpmckay@sfu.ca"}>
-            <button type="button" class="border border-tahiti-200 focus:outline-none hover:bg-tahiti-200 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-2 bg-tahiti-300 dark:text-tahiti-200 cursor-pointer">bpmckay@sfu.ca</button>
+            <button type="button" class="border border-tahiti-200 focus:outline-none hover:bg-tahiti-200 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-2 bg-tahiti-300 text-tahiti-200 cursor-pointer">bpmckay@sfu.ca</button>
             </Link>
             <h1
               animate={{ y: 0 }}
               initial={{ y: "100%" }}
               transition={{ delay: 0.5, duration: 0.5 }}
-              className='text-left  text-[16px] lg:text-3xl xl:w-3/6 pt-6 font-ArgentItalic text-transparent bg-clip-text bg-gradient-to-br from-tahiti-100 to-tahiti-200'>I weave business value with compelling visual storytelling toward impactful design that solves problems for people.
+              className='text-left  text-[16px] lg:text-3xl max-w-sm md:max-w-2xl pt-6 font-ArgentItalic text-transparent bg-clip-text bg-gradient-to-br from-tahiti-100 to-tahiti-200'>I weave business value with compelling visual storytelling toward impactful design that solves problems for people.
             </h1>
           </div>
         </div>
@@ -257,6 +253,6 @@ export default function Home() {
 
 
       </main>
-    </m.div>
+    </div>
   )
 }
