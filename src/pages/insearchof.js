@@ -23,12 +23,49 @@ export default function insearchof() {
             exit={{ opacity: 1 }}
             className="text-gray-900 absolute z-2 top-0 left-0 w-full h-ful  bg-regal-gray lg:px-48 px-16">
 
-            <div className='mt-60 mb-40 p-1'>
+
+            <div className='mt-20 mb-10 p-1'>
+            <div className="grid lg:grid-cols-5 grid-cols-1 gap-6">
+                    <div className="col-start-1 col-span-2">
+
+                        <h2 className="text-white font-NeueHaasLight tracking-wide leading-relaxed">September — December
+                            2020</h2>
+                        <h2 className="text-stone-400 font-NeueHaasLight tracking-wider leading-relaxed gap-10">Freelance Product Design and Brand creation</h2>
+
+                    </div>
+
+                    <div class="text-white grid grid-cols-1 gap-3">
+                        <div className="font-NeueHaasRoman text-1xl">
+                            Contribution
+                        </div>
+                        <div className="font-NeueHaasLight tracking-wide text-stone-400">
+                            <div>Design Strategy</div>
+                            <div>Art Direction</div>
+                            <div>Product Design</div>
+                            <div>Interaction Design</div>
+                        </div>
+                    </div>
+
+
+                    <div class="text-white grid grid-cols-1 gap-3">
+                        <div className="font-NeueHaasRoman text-1xl">
+                            Tools
+                        </div>
+                        <div className="text-stone-400 tracking-wide font-NeueHaasLight">
+                            <div>Figma</div>
+                            <div>Miro</div>
+                            <div>Photoshop</div>
+                            <div>Illustrator</div>
+                        </div>
+                    </div>
+                    </div>
+
+
                 <m.h1
                     animate={{ y: 0 }}
                     initial={{ y: "100%" }}
                     transition={{ delay: 0.5, duration: 0.5 }}
-                    className='text-left sm:text-2xl lg:text-4xl font-NeueHaas-Roman w-4/5 text-white'>A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.
+                    className='text-left sm:text-2xl lg:text-4xl font-NeueHaas-Roman w-4/5 text-white mt-10 lg:mt-80'>A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.
                 </m.h1>
             </div>
 
@@ -45,16 +82,16 @@ export default function insearchof() {
 
             <m.div className="xl:w-4/6">
                 <div className="mt-40">
-                    <h1 className='text-5xl font-NeueHaas-Roman text-white'>How it began</h1>
-                    <h1 className='text-3xl font-NeueHaas-Roman text-stone-600 pt-1'>A problem shared by design educators</h1>
+                    <h1 className='text-2xl lg:text-5xl font-NeueHaas-Roman text-white'>How it began</h1>
+                    <h1 className='text-1xl lg:text-3xl font-NeueHaas-Roman text-stone-600 pt-1'>A problem shared by design educators</h1>
                 </div>
 
                 <div>
-                    <div className="font-NeueHaasLight tracking-wide text-white text-2xl pt-10 leading-loose">
+                    <div className="font-NeueHaasLight tracking-wide text-white text-1xl lg:text-2xl pt-10 leading-loose">
                         In January 2022 I met JP Ramirez, a professor teaching a design course in typography and space at the University of Illinois School of Art + Design. Meanwhile, I was organizing weekly meetings as president of the Design Club at Simon Fraser University.
                     </div>
 
-                    <div className="font-NeueHaasLight tracking-wide pt-5 text-white text-2xl pb-10 leading-loose">
+                    <div className="font-NeueHaasLight tracking-wide pt-5 text-white text-1xl lg:text-2xl pb-10 leading-loose">
                         We both commonly referred our students to a loose list of great design resources that we had scattered across our notes and bookmarks.
 
                         Our goal was to formalize this list in an easy to access directory for budding design professionals.
@@ -90,7 +127,7 @@ export default function insearchof() {
 
             <div class="xl:w-4/6 pb-10">
                 <div className="mt-40">
-                    <h1 className='text-5xl font-NeueHaas-Roman text-white'>Creating the Logo</h1>
+                    <h1 className='text-2xl lg:text-5xl font-NeueHaas-Roman text-white'>Creating the Logo</h1>
                 </div>
 
                 <div class="divide-y divide-linear-gray pt-5">
@@ -99,11 +136,11 @@ export default function insearchof() {
                     </div>
                 </div>
 
-                <div className="font-NeueHaasLight tracking-wide text-white text-2xl pt-20 leading-loose">
+                <div className="font-NeueHaasLight tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-loose">
                     I used a pen and sketchbook to create 8 logo iterations in 8 minutes as a warmup exercise each day. The initial form for this iteration of the logo began with a location pin, inspired by our brand pillar to ‘map the landscape of design’.
                 </div>
 
-                <div className="font-NeueHaasLight tracking-wide pt-20 text-white text-2xl leading-loose">
+                <div className="font-NeueHaasLight tracking-wide pt-20 text-white text-1xl lg:text-2xl leading-loose">
                     By scaling and reflecting the pin, I created a head and body that represents our individual seeker. Together, they create a flower-like form where the seeds are waypoints, representing the connections our seeker gains as they explore In Search Of.
                 </div>
             </div>
@@ -122,7 +159,7 @@ export default function insearchof() {
 
             <m.div class="xl:w-4/6">
                 <div className="mt-40">
-                    <h1 className='text-5xl font-NeueHaas-Roman text-white'>Design Sprint Process</h1>
+                    <h1 className='text-2xl lg:text-5xl font-NeueHaas-Roman text-white'>Design Sprint Process</h1>
                 </div>
 
 
@@ -133,7 +170,7 @@ export default function insearchof() {
                 </div>
 
 
-                <div className="font-NeueHaasLight tracking-wide pt-20  text-white text-2xl leading-loose">
+                <div className="font-NeueHaasLight tracking-wide pt-20  text-white text-1xl lg:text-2xl leading-loose">
                     I hosted sprint activities with JP and our developer, Bryant, where we asked questions and attempted to paint a picture of our persona. Next, I created an online questionnaire seeking to confirm and test our assumptions with potential users to develop a persona with real user data.
                 </div>
 
@@ -165,7 +202,7 @@ export default function insearchof() {
 
             <m.div className="xl:w-4/6">
                 <div className="mt-40">
-                    <h1 className='text-5xl font-NeueHaas-Roman text-white'>Determining Value for Seekers</h1>
+                    <h1 className='text-2xl lg:text-5xl font-NeueHaas-Roman text-white'>Determining Value for Seekers</h1>
                 </div>
 
                 <div class="divide-y divide-linear-gray pt-5">
@@ -175,7 +212,7 @@ export default function insearchof() {
                 </div>
 
 
-                <div className="font-NeueHaasLight tracking-wide text-white text-2xl pt-20 leading-loose">
+                <div className="font-NeueHaasLight tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-loose">
                     Leveraging data I gained from the google poll, I created a journey frameworks to understand how people would get to our website, and how their experience would develop as they used our directory over time.
                 </div>
 
@@ -195,7 +232,7 @@ export default function insearchof() {
 
             <m.div className="xl:w-4/6">
                 <div className="mt-40">
-                    <h1 className='text-5xl font-NeueHaas-Roman text-white'>Mapping the landscape of design</h1>
+                    <h1 className='text-2xl lg:text-5xl font-NeueHaas-Roman text-white'>Mapping the landscape of design</h1>
                 </div>
                 <div class="divide-y divide-linear-gray pt-5">
                     <div></div>
@@ -204,11 +241,11 @@ export default function insearchof() {
                 </div>
 
 
-                <div className="font-NeueHaasLight tracking-wide text-white leading-loose text-2xl pt-20">
+                <div className="font-NeueHaasLight tracking-wide text-white leading-loose text-1xl lg:text-2xl pt-20">
                     To contextualize the respective design domains that each resource is a part of, I leveraged chips. The chips work as tags in the backend, which allowed us to easily populate each resource with important context.
                 </div>
 
-                <div className="font-NeueHaasLight tracking-wide text-white leading-loose text-2xl pt-10 pb-20">
+                <div className="font-NeueHaasLight tracking-wide text-white leading-loose text-1xl lg:text-2xl pt-10 pb-20">
                     On cards, I used the scrollable chip pattern to retain contextual design discovery and inform users search decisions. To map the landscape of design - chip categories include media type, type of design discipline, and type of organization.
                 </div>
             </m.div>
@@ -233,18 +270,18 @@ export default function insearchof() {
 <div class="flex flex-col-reverse">
                
                <Link href={"/contact"}>
-                   <div className="font-NeueHaasLight text-white lg:text-3xl pt-10 pb-5 underline hover:font-ArgentItalic">Return home.</div>
+                   <div className="font-NeueHaasLight text-white text-3xl pt-10 pb-5 underline hover:font-ArgentItalic">Return home.</div>
                    </Link>
-                       <div className="font-NeueHaasRoman text-white pt-52 lg:text-4xl leading-loose tracking-wide xl:w-4/6">Thanks for stopping by! I have so much more to share about this project, let's get in touch!</div>
+                       <div className="font-NeueHaasRoman text-white pt-52 text-2xl lg:text-4xl leading-loose tracking-wide xl:w-4/6">Thanks for stopping by! I have so much more to share about this project, let's get in touch!</div>
                </div>
 
             <div className="flex pt-40 lg:gap-40 sm:">
-                <div className="lg:text-2xl text-base text-white">
+                <div className="text-1xl lg:text-2xl text-base text-white">
                     
                         <h4>Find me:</h4>
                     
                 </div>
-                <div className="lg:text-6xl text-2xl underline text-white">
+                <div className="text-2xl lg:text-6xl underline text-white">
                     <ul>
                         <div className="overflow-hidden">
                         <Link href={"mailto:bpmckay@sfu.ca"}>

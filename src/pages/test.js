@@ -42,17 +42,43 @@ export default function Home() {
             <button type="button" class="border border-tahiti-200 focus:outline-none hover:bg-tahiti-200 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-2 bg-tahiti-300 text-tahiti-200 cursor-pointer">Resume</button>
             </Link>
             <button type="button" class="border border-tahiti-200 focus:outline-none hover:bg-tahiti-200 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-2 bg-tahiti-300 dark:text-tahiti-200 cursor-pointer">bpmckay@sfu.ca</button>
-
-            <h1
-              animate={{ y: 0 }}
-              initial={{ y: "100%" }}
-              transition={{ delay: 0.5, duration: 0.5 }}
-              className='text-left  text-[16px] lg:text-3xl xl:w-3/6 pt-6 font-ArgentItalic text-transparent bg-clip-text bg-gradient-to-br from-tahiti-100 to-tahiti-200'>I weave business value with compelling visual storytelling toward impactful design that solves problems for people.
-            </h1>
+            
+            <div className='pt-10 lg:pt-20  text-tahiti-200 text-1xl lg:text-6xl font-ArgentItalic'><AnimatedTextWord text="Conscious and impactful design." /></div>
+            
+         
           </div>
         </div>
 
+        <div className="container h-screen mx-auto flex flex-col items-center justify-center text-1xl lg:text-3xl">
+      <AnimatedTextWord text="Conscious and impactful design." />
+    </div>
+
+
+    <motion.div
+    
+    initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.5 }}
+    whileInView={{ opacity: 1 }}
+  >
+<div className="container border border-tahiti-100"></div>
+<h1>hello world hello world hello world</h1>
+
+
+  </motion.div>
+
+    <motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+/>
+
         <div className='lg:px-48 px-16'>
+
+
+        <motion.div
+    
+    initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}>
           <div className="mt-10 lg:mt-40">
             <Link href={"/insearchof"}>
               <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5 cursor-pointer'>In Search Of</h1>
@@ -100,7 +126,7 @@ export default function Home() {
               <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic cursor-pointer">A digital design directory</div>
             </Link>
           </div>
-
+          </motion.div>
 
 
           <div className="mt-20">

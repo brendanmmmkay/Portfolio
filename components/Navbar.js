@@ -1,19 +1,19 @@
-import Link from "next/link";
+// import Link from "next/link";
 
-export default function Navbar() {
-    return (
-        <nav className="textx-2xl font-medium absolute z-50">
-            <ul className="flex gap-12">
-                <Link href={"/"}>
-                    <li className="pr-5"></li>
-                </Link>
-                <Link href={"/contact"}>
-                    <li></li>
-                </Link>
-            </ul>
-        </nav>
-    );
-}
+// export default function Navbar() {
+//     return (
+//         <nav className="textx-2xl font-medium absolute z-50">
+//             <ul className="flex gap-12">
+//                 <Link href={"/"}>
+//                     <li className="pr-5"></li>
+//                 </Link>
+//                 <Link href={"/contact"}>
+//                     <li></li>
+//                 </Link>
+//             </ul>
+//         </nav>
+//     );
+// }
 
 
 // export default function Navbar() {
