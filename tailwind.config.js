@@ -40,7 +40,10 @@ module.exports = {
         }],
       },
 
-
+      lineHeight: {
+        'extra-tight': '0.5',
+        '12': '3rem',
+      },
 
         cursor: {
           default: 'url(../image/cursor.svg), default',
@@ -56,7 +59,11 @@ module.exports = {
         ArgentItalic: "ArgentItalic",
         NeueHaasRoman: "NeueHaasRoman",
         NeueHaasLight: "NeueHaasLight",
+        NationalLight: "NationalLight",
+        NationalBook: "NationalBook",
+        NationalMedium: "NationalMedium",
       },
+
       colors: {
         'regal-gray': '#232323',
         'linear-gray': '#2F2F2F',
@@ -69,7 +76,8 @@ module.exports = {
       },
 
       backgroundImage: {
-        'hero-pattern': "url('../image/footer-texture.svg')",
+        'hero-pattern': "url('../image/hero-pattern.svg')",
+        'hero-pattern2': "url('../image/hero-pattern2.svg')",
         'footer-texture': "url('/image/footer-texture.svg')",
       },
 

@@ -36,41 +36,38 @@ export default function Home() {
       className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default bg-regal-gray"
     >
       <main>
-        <div className='bg-hero-pattern bg-cover py-24'>
-          <div className='lg:px-48 px-16'>
-          <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-            <button type="button" class="border border-tahiti-200 focus:outline-none hover:bg-tahiti-200 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-2 bg-tahiti-300 text-tahiti-200 cursor-pointer">Resume</button>
+        <div className='bg-hero-pattern2 bg-cover'>
+        <div className='pl-5 lg:px-48 py-1 lg:py-24'>
+          
+
+          <h1
+              className='text-left text-[38px] lg:text-7xl leading-[2.6rem] lg:leading-15 tracking-tighter max-w-sm md:max-w-2xl pt-6 pb-20 font-NationalMedium text-tahiti-300'>I create conscious and impactful design through brand strategy and digital storytelling.
+            </h1>
+
+            <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
+          <button type="button" class="border border-tahiti-200 focus:outline-none hover:bg-tahiti-200  hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-1 bg-tahiti-300 text-tahiti-200 cursor-pointer">Resume</button>
             </Link>
-            <button type="button" class="border border-tahiti-200 focus:outline-none hover:bg-tahiti-200 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-2 bg-tahiti-300 dark:text-tahiti-200 cursor-pointer">bpmckay@sfu.ca</button>
-            
-            <div className='pt-10 lg:pt-20  text-tahiti-200 text-1xl lg:text-6xl font-ArgentItalic'><AnimatedTextWord text="Conscious and impactful design." /></div>
-            
+            <Link href={"mailto:bpmckay@sfu.ca"}>
+            <button type="button" class="border border-tahiti-200 focus:outline-none hover:bg-tahiti-200 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-1 bg-tahiti-300 text-tahiti-200 cursor-pointer">bpmckay@sfu.ca</button>
+            </Link>
+</div>
+            <div className='lg:px-48 px-16'>
+              
+
+
+
+      
+
+            {/* <div className='pt-10 lg:pt-20  text-stone-800 text-1xl lg:text-7xl tracking-tighter font-ArgentItalic'><AnimatedTextWord text="I create conscious and impactful design through brand strategy and digital storytelling." /></div>
+             */}
          
           </div>
         </div>
 
-        <div className="container h-screen mx-auto flex flex-col items-center justify-center text-1xl lg:text-3xl">
-      <AnimatedTextWord text="Conscious and impactful design." />
-    </div>
-
-
-    <motion.div
-    
-    initial={{ opacity: 0, scale: 0.5 }}
-    animate={{ opacity: 1, scale: 1 }}
-    transition={{ duration: 0.5 }}
-    whileInView={{ opacity: 1 }}
-  >
-<div className="container border border-tahiti-100"></div>
-<h1>hello world hello world hello world</h1>
-
-
-  </motion.div>
-
-    <motion.div
+    {/* <motion.div
   initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}
-/>
+/> */}
 
         <div className='lg:px-48 px-16'>
 
@@ -131,7 +128,7 @@ export default function Home() {
 
           <div className="mt-20">
             <Link href={"/arcteryx"}>
-              <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5 cursor-pointer'>Arc'teryx</h1>
+              <h1 className='text-3xl lg:text-5xl font-NeueHaasRoman text-white pb-5 cursor-pointer'>Arc'teryx</h1>
             </Link>
           </div>
           <div class="grid grid-cols-1 divide-y divide-linear-gray">
@@ -171,7 +168,7 @@ export default function Home() {
 
           <div className="mt-20">
             <Link href={"/bosch"}>
-              <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5 cursor-pointer'>Bosch Courier Connect</h1>
+              <h1 className='text-3xl lg:text-5xl font-NeueHaasRoman text-white pb-5 cursor-pointer'>Bosch Courier Connect</h1>
             </Link>
           </div>
           <div class="grid grid-cols-1 divide-y divide-linear-gray hover:font-ArgentItalic">
@@ -209,7 +206,7 @@ export default function Home() {
 
 
           <div className="mt-20">
-            <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5'>Moment Energy - Coming Soon</h1>
+            <h1 className='text-3xl lg:text-5xl font-NeueHaasRoman text-white pb-5'>Moment Energy - Coming Soon</h1>
           </div>
           <div class="grid grid-cols-1 divide-y divide-linear-gray">
             <div></div>
@@ -239,14 +236,55 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='bg-hero-pattern bg-cover py-24'>
+        
+
+
+        {/* <div className='bg-hero-pattern bg-cover py-24'> */}
+        <div className='py-24'>
+
+        <div className="grid lg:grid-cols-5 grid-cols-1 gap-6 px-48">
+                    <div className="col-start-1 col-span-2">
+
+                        <h2 className="text-white font-NeueHaasLight tracking-wide leading-relaxed">September — December
+                            2020</h2>
+                        <h2 className="text-stone-400 font-NeueHaasLight tracking-wider leading-relaxed gap-10">6 week Academic Experience Design Project</h2>
+
+                    </div>
+
+                    <div class="text-white grid grid-cols-1 gap-3">
+                        <div className="font-NeueHaasRoman text-1xl">
+                            Contribution
+                        </div>
+                        <div className="font-NeueHaasLight tracking-wide text-stone-400">
+                            <div>Design Strategy</div>
+                            <div>Art Direction</div>
+                            <div>Product Design</div>
+                            <div>Interaction Design</div>
+                        </div>
+                    </div>
+
+
+                    <div class="text-white grid grid-cols-1 gap-3">
+                        <div className="font-NeueHaasRoman text-1xl">
+                            Tools
+                        </div>
+                        <div className="text-stone-400 tracking-wide font-NeueHaasLight">
+                            <div>Figma</div>
+                            <div>Miro</div>
+                            <div>Photoshop</div>
+                            <div>Illustrator</div>
+                        </div>
+                    </div>
+</div>
 
           <div className='lg:px-48 px-16'>
 
-            <div class="flex rounded-lg bg-tahiti-300 border-tahiti-100 dark:border-tahiti-100 shadow-xl shadow-black/5 dark:shadow-black/30 pl-10">
+            {/* <div class="flex rounded-lg bg-tahiti-300 border-tahiti-100 dark:border-tahiti-100 shadow-xl shadow-black/5 dark:shadow-black/30 pl-10"> */}
+            <div>
               <div className="grid lg:grid-cols-2 sm:grid-cols-1">
                 <div className="pt-10 gap-40">
                   <div className="lg:text-2xl text-base text-white">
+
 
 
                     <div className='drop-shadow-2xl text-tahiti-200'>

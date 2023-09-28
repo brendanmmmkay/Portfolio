@@ -45,6 +45,21 @@ body {
   src: url(../fonts/NeueHaasDisplayLight.ttf)
 }
 
+@font-face {
+  font-family: NationalLight;
+  src: url(../fonts/TestNational-Light.otf)
+}
+
+@font-face {
+  font-family: NationalBook;
+  src: url(../fonts/TestNational-Book.otf)
+}
+
+@font-face {
+  font-family: NationalMedium;
+  src: url(../fonts/TestNational-Medium.otf)
+}
+
 .progress-bar {
   position: fixed;
   top: 0;
