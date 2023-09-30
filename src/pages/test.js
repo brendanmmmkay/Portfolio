@@ -41,17 +41,17 @@ export default function Home() {
           
 
           <h1
-              className='text-left text-[38px] lg:text-7xl leading-[2.6rem] lg:leading-15 tracking-tighter max-w-sm md:max-w-2xl pt-6 pb-20 font-NationalMedium text-tahiti-300'>I create conscious and impactful design through brand strategy and digital storytelling.
+              className='text-left mr-1 text-[32px] lg:text-7xl leading-[2.3rem] lg:leading-15 tracking-tighter max-w-sm md:max-w-4xl pt-6 pb-20 font-NationalMedium text-tahiti-300'>I create conscious and impactful design through brand strategy and digital storytelling.
             </h1>
 
             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-          <button type="button" class="border border-tahiti-200 focus:outline-none hover:bg-tahiti-200  hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-1 bg-tahiti-300 text-tahiti-200 cursor-pointer">Resume</button>
+          <button type="button" class=" focus:outline-none hover:bg-tahiti-200  hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-1 bg-tahiti-300 text-tahiti-200 font-PPNeueMachina tracking-3 leading-1 cursor-pointer">RESUME</button>
             </Link>
             <Link href={"mailto:bpmckay@sfu.ca"}>
-            <button type="button" class="border border-tahiti-200 focus:outline-none hover:bg-tahiti-200 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-1 bg-tahiti-300 text-tahiti-200 cursor-pointer">bpmckay@sfu.ca</button>
+            <button type="button" class=" focus:outline-none hover:bg-tahiti-200 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-1 bg-tahiti-300 text-tahiti-200 font-PPNeueMachina tracking-3 cursor-pointer">BPMCKAY@SFU.CA</button>
             </Link>
 </div>
-            <div className='lg:px-48 px-16'>
+           
               
 
 
@@ -61,7 +61,7 @@ export default function Home() {
             {/* <div className='pt-10 lg:pt-20  text-stone-800 text-1xl lg:text-7xl tracking-tighter font-ArgentItalic'><AnimatedTextWord text="I create conscious and impactful design through brand strategy and digital storytelling." /></div>
              */}
          
-          </div>
+          
         </div>
 
     {/* <motion.div
@@ -69,7 +69,7 @@ export default function Home() {
   whileInView={{ opacity: 1 }}
 /> */}
 
-        <div className='lg:px-48 px-16'>
+        <div className='lg:px-48 px-4'>
 
 
         <motion.div
@@ -128,7 +128,7 @@ export default function Home() {
 
           <div className="mt-20">
             <Link href={"/arcteryx"}>
-              <h1 className='text-3xl lg:text-5xl font-NeueHaasRoman text-white pb-5 cursor-pointer'>Arc'teryx</h1>
+              <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5 cursor-pointer'>Arc'teryx</h1>
             </Link>
           </div>
           <div class="grid grid-cols-1 divide-y divide-linear-gray">
@@ -168,7 +168,7 @@ export default function Home() {
 
           <div className="mt-20">
             <Link href={"/bosch"}>
-              <h1 className='text-3xl lg:text-5xl font-NeueHaasRoman text-white pb-5 cursor-pointer'>Bosch Courier Connect</h1>
+              <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5 cursor-pointer'>Bosch Courier Connect</h1>
             </Link>
           </div>
           <div class="grid grid-cols-1 divide-y divide-linear-gray hover:font-ArgentItalic">
@@ -206,7 +206,7 @@ export default function Home() {
 
 
           <div className="mt-20">
-            <h1 className='text-3xl lg:text-5xl font-NeueHaasRoman text-white pb-5'>Moment Energy - Coming Soon</h1>
+            <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5'>Moment Energy - Coming Soon</h1>
           </div>
           <div class="grid grid-cols-1 divide-y divide-linear-gray">
             <div></div>
@@ -234,70 +234,40 @@ export default function Home() {
               <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic">A new brand and website to disrupt the energy industry.</div>
             </Link>
           </div>
+
+          <div className='tracking-tighter drop-shadow-2xl text-white pb-3 text-3xl'>
+                      <h4>Let's get in touch:</h4>
+                    </div>
+
         </div>
 
         
 
 
-        {/* <div className='bg-hero-pattern bg-cover py-24'> */}
-        <div className='py-24'>
-
-        <div className="grid lg:grid-cols-5 grid-cols-1 gap-6 px-48">
-                    <div className="col-start-1 col-span-2">
-
-                        <h2 className="text-white font-NeueHaasLight tracking-wide leading-relaxed">September — December
-                            2020</h2>
-                        <h2 className="text-stone-400 font-NeueHaasLight tracking-wider leading-relaxed gap-10">6 week Academic Experience Design Project</h2>
-
-                    </div>
-
-                    <div class="text-white grid grid-cols-1 gap-3">
-                        <div className="font-NeueHaasRoman text-1xl">
-                            Contribution
-                        </div>
-                        <div className="font-NeueHaasLight tracking-wide text-stone-400">
-                            <div>Design Strategy</div>
-                            <div>Art Direction</div>
-                            <div>Product Design</div>
-                            <div>Interaction Design</div>
-                        </div>
-                    </div>
+        <div className='bg-hero-pattern2 bg-cover pt-6'>
+        <div className='pt-3 pb-6'>
 
 
-                    <div class="text-white grid grid-cols-1 gap-3">
-                        <div className="font-NeueHaasRoman text-1xl">
-                            Tools
-                        </div>
-                        <div className="text-stone-400 tracking-wide font-NeueHaasLight">
-                            <div>Figma</div>
-                            <div>Miro</div>
-                            <div>Photoshop</div>
-                            <div>Illustrator</div>
-                        </div>
-                    </div>
-</div>
 
           <div className='lg:px-48 px-16'>
 
             {/* <div class="flex rounded-lg bg-tahiti-300 border-tahiti-100 dark:border-tahiti-100 shadow-xl shadow-black/5 dark:shadow-black/30 pl-10"> */}
             <div>
               <div className="grid lg:grid-cols-2 sm:grid-cols-1">
-                <div className="pt-10 gap-40">
-                  <div className="lg:text-2xl text-base text-white">
+                <div className="pt-3 gap-40">
+                  <div className="lg:text-3xl text-base">
 
 
 
-                    <div className='drop-shadow-2xl text-tahiti-200'>
-                      <h4>Let's get in touch:</h4>
-                    </div>
 
 
 
-                    <div className="lg:text-6xl text-2xl underline text-tahiti-100">
+
+                    <div className="lg:text-6xl text-2xl underline font-NationalMedium text-tahiti-100 leading-[2.3rem] lg:leading-15 tracking-tighter">
                       <ul>
                         <div className="overflow-hidden">
                           <Link href={"mailto:bpmckay@sfu.ca"}>
-                            <li className="pb-4 pt-10 hover:font-ArgentItalic">bpmckay@sfu.ca</li>
+                            <li className="pb-4 pt-3 hover:font-ArgentItalic">bpmckay@sfu.ca</li>
                           </Link>
                           <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
                             <li className="pb-4 hover:font-ArgentItalic">Linkedin</li>
@@ -306,7 +276,7 @@ export default function Home() {
                             <li className="pb-4 hover:font-ArgentItalic">Read.cv</li>
                           </Link>
                           <Link href={"https://medium.com/@brendanmckaydesign"}>
-                            <li className="pb-12 hover:font-ArgentItalic">Medium</li>
+                            <li className="pb-30 hover:font-ArgentItalic">Medium</li>
                           </Link>
                         </div>
                       </ul>
@@ -315,6 +285,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
 

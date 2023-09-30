@@ -60,6 +60,11 @@ body {
   src: url(../fonts/TestNational-Medium.otf)
 }
 
+@font-face {
+  font-family: PPNeueMachina;
+  src: url(../fonts/PPNeueMachina-InktrapUltrabold.otf);
+}
+
 .progress-bar {
   position: fixed;
   top: 0;

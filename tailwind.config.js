@@ -62,6 +62,7 @@ module.exports = {
         NationalLight: "NationalLight",
         NationalBook: "NationalBook",
         NationalMedium: "NationalMedium",
+        PPNeueMachina: "PPNeueMachina",
       },
 
       colors: {
@@ -69,8 +70,8 @@ module.exports = {
         'linear-gray': '#2F2F2F',
         'sub-gray': '#515151',
         'tahiti': {
-          100: '#E7F68D',
-          200: '#A6BC5B',
+          100: '#1A2017',
+          200: '#CCF994',
           300: '#192117',
         },
       },
