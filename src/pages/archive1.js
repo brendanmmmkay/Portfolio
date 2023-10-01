@@ -1,7 +1,7 @@
 import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import Head from 'next/head';
-import { motion } from "framer-motion";
+import { motion as m } from "framer-motion";
 import Link from "next/link";
 import MuxPlayer from "@mux/mux-player-react";
 import test1 from "../image/TWimgTest.png"
@@ -16,7 +16,6 @@ import arcPanel1 from "../image/ArcPanel1.png"
 import arcPanel2 from "../image/ArcPanel2.png"
 import arcPanel3 from "../image/ArcPanel3.png"
 import cursor from "../image/cursor.svg"
-import AnimatedTextWord from '../../components/AnimatedTextWord';
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -29,61 +28,36 @@ export default function Home() {
       </head>
     </div>,
     <div
-      initial={{ y: "100%" }}
-      animate={{ y: "0%" }}
-      transition={{ duration: 0.75, ease: "easeOut" }}
-      exit={{ opacity: 1 }}
       className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default bg-regal-gray"
     >
       <main>
-        <div className='bg-hero-pattern2 bg-cover'>
-        <div className='pl-5 lg:px-48 py-1 lg:py-24'>
-          
-
-          <h1
-              className='text-left mr-1 text-[48px] lg:text-7xl leading-[3rem] lg:leading-15 tracking-tighter max-w-sm md:max-w-4xl pt-6 pb-20 font-NationalExtraBold text-tahiti-300'>Conscious and impactful design through brand strategy and digital storytelling.
-            </h1>
-
-            <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-          <button type="button" class=" focus:outline-none hover:bg-tahiti-200  hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-3 bg-tahiti-300 text-tahiti-200 font-PPNeueMachina tracking-3 leading-1 cursor-pointer">RESUME</button>
+        <div className='bg-hero-pattern bg-cover py-24'>
+          <div className='lg:px-48 px-16'>
+          <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
+          <button type="button" class="border border-tahiti-200 focus:outline-none hover:bg-tahiti-200  hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-2 bg-tahiti-300 text-tahiti-200 cursor-pointer">Resume</button>
             </Link>
             <Link href={"mailto:bpmckay@sfu.ca"}>
-            <button type="button" class=" focus:outline-none hover:bg-tahiti-200 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 bg-tahiti-300 text-tahiti-200 font-PPNeueMachina tracking-3 cursor-pointer">BPMCKAY@SFU.CA</button>
+            <button type="button" class="border border-tahiti-200 focus:outline-none hover:bg-tahiti-200 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-2 bg-tahiti-300 text-tahiti-200 cursor-pointer">bpmckay@sfu.ca</button>
             </Link>
-</div>
-           
-              
-
-
-
-      
-
-            {/* <div className='pt-10 lg:pt-20  text-stone-800 text-1xl lg:text-7xl tracking-tighter font-ArgentItalic'><AnimatedTextWord text="I create conscious and impactful design through brand strategy and digital storytelling." /></div>
-             */}
-         
-          
+            <h1
+              animate={{ y: 0 }}
+              initial={{ y: "100%" }}
+              transition={{ delay: 0.5, duration: 0.5 }}
+              className='text-left  text-[16px] lg:text-3xl max-w-sm md:max-w-2xl pt-6 font-ArgentItalic text-transparent bg-clip-text bg-gradient-to-br from-tahiti-100 to-tahiti-200'>I weave business value with compelling visual storytelling toward impactful design that solves problems for people.
+            </h1>
+          </div>
         </div>
 
-    {/* <motion.div
-  initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}
-/> */}
+        <div className='lg:px-48 px-16'>
 
-        <div className='lg:px-48 px-4'>
-
-
-        <motion.div
-    
-    initial={{ opacity: 0, scale: 0.5 }}
-    animate={{ opacity: 1, scale: 1 }}>
           <div className="mt-10 lg:mt-40">
             <Link href={"/insearchof"}>
               <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5 cursor-pointer'>In Search Of</h1>
             </Link>
           </div>
-          <div class="grid grid-cols-1 divide-y divide-linear-gray">
+          <div className="grid grid-cols-1 divide-y divide-linear-gray">
             <div></div>
-            <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
+            <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
               <div className="lg:pt-5">
                 <Link href={"/insearchof"}>
                   <Image
@@ -115,7 +89,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="flex flex-col-reverse">
+          <div className="flex flex-col-reverse">
             <Link href={"/insearchof"}>
               <div className="font-NeueHaasLight text-stone-500 pt-2 pb-5 tracking-wide cursor-pointer">Freelance product design and logo design</div>
             </Link>
@@ -123,7 +97,6 @@ export default function Home() {
               <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic cursor-pointer">A digital design directory</div>
             </Link>
           </div>
-          </motion.div>
 
 
           <div className="mt-20">
@@ -131,9 +104,9 @@ export default function Home() {
               <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5 cursor-pointer'>Arc'teryx</h1>
             </Link>
           </div>
-          <div class="grid grid-cols-1 divide-y divide-linear-gray">
+          <div className="grid grid-cols-1 divide-y divide-linear-gray">
             <div></div>
-            <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
+            <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
               <div className="lg:pt-5 cursor-pointer">
                 <Link href={"/arcteryx"}>
                   <Image
@@ -158,7 +131,7 @@ export default function Home() {
             </div>
 
           </div>
-          <div class="flex flex-col-reverse">
+          <div className="flex flex-col-reverse">
             <div className="font-NeueHaasLight text-stone-500 pt-2 pb-5 tracking-wide cursor-pointer">Strategy, Copywriting, Prototyping, Service Design</div>
             <Link href={"/arcteryx"}>
               <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic cursor-pointer">A Product Care Campaign</div>
@@ -173,7 +146,7 @@ export default function Home() {
           </div>
           <div class="grid grid-cols-1 divide-y divide-linear-gray hover:font-ArgentItalic">
             <div></div>
-            <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
+            <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
               <div className="lg:pt-5 cursor-pointer">
                 <Link href={"/bosch"}>
                   <Image
@@ -194,7 +167,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="flex flex-col-reverse">
+          <div className="flex flex-col-reverse">
             <div className="font-NeueHaasLight text-stone-500 pt-2 pb-5 tracking-wide cursor-pointer">Product Design, Art Direction, Interaction Design</div>
             <Link href={"/Bosch"}>
               <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic cursor-pointer">A safety solution for E-bike couriers</div>
@@ -208,9 +181,9 @@ export default function Home() {
           <div className="mt-20">
             <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5'>Moment Energy - Coming Soon</h1>
           </div>
-          <div class="grid grid-cols-1 divide-y divide-linear-gray">
+          <div className="grid grid-cols-1 divide-y divide-linear-gray">
             <div></div>
-            <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
+            <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
               <div className="lg:pt-5">
                 <Image
                   src={momentPanel1}
@@ -228,46 +201,35 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="flex flex-col-reverse">
+          <div className="flex flex-col-reverse">
             <div className="font-NeueHaasLight text-stone-500 pt-2 pb-40 tracking-wide">Branding, Brand Strategy, UX Design</div>
             <Link href={"/contact"}>
               <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic">A new brand and website to disrupt the energy industry.</div>
             </Link>
           </div>
+        </div>
 
-          <div className='tracking-tighter drop-shadow-2xl text-white pb-3 text-3xl'>
+        <div className='bg-hero-pattern bg-cover py-24'>
+
+          <div className='lg:px-48 px-16'>
+
+            <div className="flex rounded-lg bg-tahiti-300 border-tahiti-100 dark:border-tahiti-100 shadow-xl shadow-black/5 dark:shadow-black/30 pl-10">
+              <div className="grid lg:grid-cols-2 sm:grid-cols-1">
+                <div className="pt-10 gap-40">
+                  <div className="lg:text-2xl text-base text-white">
+
+
+                    <div className='drop-shadow-2xl text-tahiti-200'>
                       <h4>Let's get in touch:</h4>
                     </div>
 
-        </div>
-
-        
 
 
-        <div className='bg-hero-pattern2 bg-cover pt-6'>
-        <div className='pt-3 pb-6'>
-
-
-
-          <div className='lg:px-48 px-5'>
-
-            {/* <div class="flex rounded-lg bg-tahiti-300 border-tahiti-100 dark:border-tahiti-100 shadow-xl shadow-black/5 dark:shadow-black/30 pl-10"> */}
-            <div>
-              <div className="grid lg:grid-cols-2 sm:grid-cols-1">
-                <div className="pt-3 gap-40">
-                  <div className="text-base">
-
-
-
-
-
-
-
-                    <div className="lg:text-6xl text-4xl underline font-NationalMedium text-tahiti-100 leading-[2.3rem] lg:leading-15 tracking-tighter pb-[20rem]">
+                    <div className="lg:text-6xl text-2xl underline text-tahiti-100">
                       <ul>
                         <div className="overflow-hidden">
                           <Link href={"mailto:bpmckay@sfu.ca"}>
-                            <li className="pb-4 pt-3 hover:font-ArgentItalic">bpmckay@sfu.ca</li>
+                            <li className="pb-4 pt-10 hover:font-ArgentItalic">bpmckay@sfu.ca</li>
                           </Link>
                           <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
                             <li className="pb-4 hover:font-ArgentItalic">Linkedin</li>
@@ -276,7 +238,7 @@ export default function Home() {
                             <li className="pb-4 hover:font-ArgentItalic">Read.cv</li>
                           </Link>
                           <Link href={"https://medium.com/@brendanmckaydesign"}>
-                            <li className=" hover:font-ArgentItalic">Medium</li>
+                            <li className="pb-12 hover:font-ArgentItalic">Medium</li>
                           </Link>
                         </div>
                       </ul>
@@ -285,7 +247,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
           </div>
         </div>
 
