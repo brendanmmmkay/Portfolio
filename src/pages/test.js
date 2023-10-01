@@ -249,13 +249,13 @@ export default function Home() {
 
 
 
-          <div className='lg:px-48 px-16'>
+          <div className='lg:px-48 px-5'>
 
             {/* <div class="flex rounded-lg bg-tahiti-300 border-tahiti-100 dark:border-tahiti-100 shadow-xl shadow-black/5 dark:shadow-black/30 pl-10"> */}
             <div>
               <div className="grid lg:grid-cols-2 sm:grid-cols-1">
                 <div className="pt-3 gap-40">
-                  <div className="lg:text-3xl text-base">
+                  <div className="text-base">
 
 
 
@@ -263,7 +263,7 @@ export default function Home() {
 
 
 
-                    <div className="lg:text-6xl text-2xl underline font-NationalMedium text-tahiti-100 leading-[2.3rem] lg:leading-15 tracking-tighter">
+                    <div className="lg:text-6xl text-4xl underline font-NationalMedium text-tahiti-100 leading-[2.3rem] lg:leading-15 tracking-tighter pb-[20rem]">
                       <ul>
                         <div className="overflow-hidden">
                           <Link href={"mailto:bpmckay@sfu.ca"}>
@@ -276,7 +276,7 @@ export default function Home() {
                             <li className="pb-4 hover:font-ArgentItalic">Read.cv</li>
                           </Link>
                           <Link href={"https://medium.com/@brendanmckaydesign"}>
-                            <li className="pb-30 hover:font-ArgentItalic">Medium</li>
+                            <li className=" hover:font-ArgentItalic">Medium</li>
                           </Link>
                         </div>
                       </ul>
