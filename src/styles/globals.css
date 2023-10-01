@@ -46,6 +46,16 @@ body {
 }
 
 @font-face {
+  font-family: NeueHaasBold;
+  src: url(../fonts/NeueHaasDisplayBold.ttf)
+}
+
+@font-face {
+  font-family: NeueHaasBlack;
+  src: url(../fonts/NeueHaasDisplayBlack.ttf)
+}
+
+@font-face {
   font-family: NationalLight;
   src: url(../fonts/TestNational-Light.otf)
 }
@@ -58,6 +68,11 @@ body {
 @font-face {
   font-family: NationalMedium;
   src: url(../fonts/TestNational-Medium.otf)
+}
+
+@font-face {
+  font-family: NationalExtraBold;
+  src: url(../fonts/TestNational-Extrabold.otf)
 }
 
 @font-face {

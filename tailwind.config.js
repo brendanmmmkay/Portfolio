@@ -59,9 +59,12 @@ module.exports = {
         ArgentItalic: "ArgentItalic",
         NeueHaasRoman: "NeueHaasRoman",
         NeueHaasLight: "NeueHaasLight",
+        NeueHaasBold: "NeueHaasBold",
+        NeueHaasBlack: "NeueHaasBlack",
         NationalLight: "NationalLight",
         NationalBook: "NationalBook",
         NationalMedium: "NationalMedium",
+        NationalExtraBold: "NationalExtraBold",
         PPNeueMachina: "PPNeueMachina",
       },
 
