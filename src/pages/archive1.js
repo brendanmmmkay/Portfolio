@@ -16,6 +16,8 @@ import arcPanel1 from "../image/ArcPanel1.png"
 import arcPanel2 from "../image/ArcPanel2.png"
 import arcPanel3 from "../image/ArcPanel3.png"
 import cursor from "../image/cursor.svg"
+'use client';
+import { Carousel } from 'flowbite-react';
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -28,9 +30,10 @@ export default function Home() {
       </head>
     </div>,
     <div
-      className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default bg-regal-gray"
+      className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default bg-stone-400"
     >
       <main>
+      <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <div className='bg-hero-pattern bg-cover py-24'>
           <div className='lg:px-48 px-16'>
           <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
@@ -49,6 +52,58 @@ export default function Home() {
         </div>
 
         <div className='lg:px-48 px-16'>
+
+
+        <div class="h-[5000px]">
+  <div class="body sticky top-0 z-[1] flex h-20 flex-row items-center bg-gray-200">Nav content here</div>
+  <div class="mt-40">
+    <div class="bg-conversly_color-blush absolute z-0 -ml-6 h-4/6 w-full md:h-2/6 lg:mt-40 lg:h-3/6"></div>
+    <div class="z-1 relative mb-20 flex w-full flex-1 flex-col justify-center">About content here</div>
+    {/* <div className="z-5"> */}
+
+<div class="duration-700 ease-in-out inset-0 transition-all transform translate-x-0" data-carousel-item="">
+<Carousel className="h-96 w-full">
+      <Image
+        alt="..."
+        src={arcPanel2}
+      />
+      <Image
+      src={boschPanel2}
+      alt="..."
+      />
+    </Carousel>
+  <div class="top-1/2 px-4 py-2 opacity-100">
+    <h2 class="text-xl text-white font-bold text-center ">Text 1 here</h2>
+    <h2 class="text-xl text-white font-bold text-center ">Text 2 here</h2>
+
+  {/* </div>       */}
+</div>
+</div>
+    
+  </div>
+</div>
+  
+{/* <div class="z-[1] m-[0] absolute">04</div> */}
+
+{/* <div className="z-5"> */}
+<div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20" data-carousel-item="">
+<Carousel className="h-96 w-full">
+      <Image
+        alt="..."
+        src={momentPanel2}
+      />
+      <Image
+      src={boschPanel2}
+      alt="..."
+      />
+    </Carousel>
+  <div class="top-1/2 px-4 py-2 opacity-100">
+    <h2 class="text-xl text-white font-bold text-center ">Text 1 here</h2>
+    <h2 class="text-xl text-white font-bold text-center ">Text 2 here</h2>
+
+  {/* </div>       */}
+</div>
+</div>
 
           <div className="mt-10 lg:mt-40">
             <Link href={"/insearchof"}>
@@ -97,6 +152,122 @@ export default function Home() {
               <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic cursor-pointer">A digital design directory</div>
             </Link>
           </div>
+
+          <Image src={test2} alt="..."/>
+          <img src={test1} class="absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+
+<h1 className="font-NeueHaasRoman text-white">CARoOOOOOSUELLL</h1>
+
+<img src={test1}/>
+<img src={test1}/>
+<img src={test1}/>
+<img src={test1}/>
+
+
+
+
+
+
+
+
+
+
+    <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20" data-carousel-item="">
+  <Image src={momentPanel2} class="block  absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt=""/>
+  <Image src={momentPanel1} class="block  absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt=""/>
+  <div class="relative top-500 top-1/2 px-4 py-2 opacity-100 ">
+    <h2 class="text-xl text-white font-bold text-center ">Text 1 here</h2>
+    <h2 class="text-xl text-white font-bold text-center ">Text 2 here</h2>
+
+  </div>      
+</div>
+
+
+
+
+<div className="h-1000 w-full">
+<Carousel className="z-4">
+      <Image
+        alt="..."
+        src={boschPanel2}
+      />
+      <Image
+      src={boschPanel3}
+      alt="..."
+      />
+    </Carousel>
+    </div>
+
+
+
+<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <a href="#">
+        <Image class="rounded-t-lg" src={arcPanel1} alt="" /> 
+    </a>
+    <div class="p-5">
+        <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Read more
+             <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </a>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+        <div id="default-carousel" class="relative w-full" data-carousel="slide">
+  
+  <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+   
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+      <Image src={arcPanel1} class="w-full absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt={momentPanel1}/>
+
+      </div>
+    
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+      <Image src={arcPanel1} class="w-full absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt={momentPanel2}/>
+      </div>
+     
+  </div>
+
+  <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+  </div>
+
+  <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+          </svg>
+          <span class="sr-only">Previous</span>
+      </span>
+  </button>
+  <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <span class="sr-only">Next</span>
+      </span>
+  </button>
+</div>
+
 
 
           <div className="mt-20">
@@ -209,7 +380,58 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='bg-hero-pattern bg-cover py-24'>
+{/*        
+
+        <div id="default-carousel" class="relative w-full" data-carousel="slide">
+  
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+      
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src={"arcPanel1"} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+        </div>
+     
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/docs/images/carousel/carousel-2.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+        </div>
+      
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/docs/images/carousel/carousel-3.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+        </div>
+       
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src={arcPanel2} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+        </div>
+      
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="arcPanel3" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+        </div>
+    </div>
+ 
+    <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+    </div>
+
+    <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div> */}
 
           <div className='lg:px-48 px-16'>
 
@@ -243,7 +465,7 @@ export default function Home() {
                         </div>
                       </ul>
                     </div>
-                  </div>
+            
                 </div>
               </div>
             </div>

@@ -18,11 +18,13 @@ module.exports = {
   //     },
   //   },
   // },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+]
 }
 
 module.exports = {
-  content: ["./src/**/*.{html,js,tsx}"],
+  content: ["./src/**/*.{html,js,tsx}", "./node_modules/flowbite/**/*.js", 'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
 
@@ -52,6 +54,7 @@ module.exports = {
 
       spacing: {
         '128': '42rem',
+        '150': '60rem',
       },
 
 
