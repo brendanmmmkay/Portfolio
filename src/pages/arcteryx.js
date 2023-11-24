@@ -24,7 +24,7 @@ export default function Arcteryx() {
             animate={{ y: "0%" }}
             transition={{ duration: 0.75, ease: "easeOut" }}
             exit={{ opacity: 1 }}
-            className="text-gray-900 absolute z-2 top-0 left-0 w-full h-ful  bg-regal-gray lg:px-48 px-16">
+            className="text-gray-900 absolute z-2 top-0 left-0 w-full h-ful  bg-regal-gray lg:px-48 px-5">
             <div className='mt-20 mb-40 p-1'>
 
                 <div className="grid lg:grid-cols-5 sm:grid-cols-1 gap-6">
