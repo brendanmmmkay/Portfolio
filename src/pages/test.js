@@ -341,9 +341,9 @@ export default function Home() {
 
 
 
-          <div className='tracking-tighter drop-shadow-2xl text-white pb-3 text-3xl'>
-            <h4>Let's get inNNNNNNN touch:</h4>
-          </div>
+          {/* <div className='tracking-tighter drop-shadow-2xl text-white pb-3 text-3xl'>
+            <h4 className='font-Avenir'>Thanks for stopping by,</h4>
+          </div> */}
 
         </div>
 
@@ -365,21 +365,21 @@ export default function Home() {
 
 
                       {/* TEST ZONE START */}
-
+                      <div className='px-0 lg:px-48 py-1'>
 
                       {/* FUCK */}
 
-                      <div class="grid w-full items-center pb-20">
+                      <div class="grid w-full items-center pb-5">
                         <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
                           {/* DIV 1 */}
-                          <div className='tracking-tighter drop-shadow-2xl text-white pb-3 text-3xl'>
-                            <h4>Let's get in touch:</h4>
-                            <h5>Available November 2023 for design opportunities.</h5>
+                          <div className=' drop-shadow-2xl  pb-3 text-3xl'>
+                            <h4 className="font-Garamond pt-3 text-5xl text-stone-800 tracking-tighter">Let's get in touch:</h4>
+                            <h5 className="font-Avenir pt-2 text-stone-600 tracking-normal text-[1.4rem]">Available November 2023 for design opportunities.</h5>
                           </div>
                           {/* DIV 2 */}
 
-                          <div className="">
-                            <button class="bg-stone-900 hover:bg-stone-700 text-white font-bold py-4 px-4 w-60 h-15 right-0">
+                          <div className="pt-20">
+                            <button class="bg-stone-900 hover:bg-stone-700 font-Avenir text-1xl text-white py-4 px-4 w-60 h-15 right-0">
                               Contact Me
                             </button></div>
 
@@ -390,25 +390,25 @@ export default function Home() {
 
 
 
-                      <div className="divide-y divide-linear-gray pt-5">
+                      <div className="divide-y divide-stone-300">
                         <div></div>
                         <div>
                         </div>
                       </div>
 
 
-                      <h6 className="pt-20">competencies</h6>
+                      <h6 className="pt-20 font-SFproBold text-[14px] text-stone-600 uppercase tracking-[.15em]">competencies</h6>
 
                       <div>
 
                         <div className='mt-10 mb-10 p-1'>
-                          <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+                          <div className="grid grid-cols-0 md:grid-cols-5 gap-0 md:gap-16">
 
                             <div class="text-white">
-                              <div className="font-NeueHaasRoman text-1xl">
+                              {/* <div className="font-Avenir text-1xl">
                                 Contribution
-                              </div>
-                              <div className="font-NeueHaasLight tracking-wide text-stone-400">
+                              </div> */}
+                              <div className="font-Avenir tracking-wide text-stone-800">
                                 <div>Design Strategy</div>
                                 <div>Art Direction</div>
                                 <div>Product Design</div>
@@ -418,10 +418,10 @@ export default function Home() {
 
 
                             <div class="text-white divide-x">
-                              <div className="font-NeueHaasRoman text-1xl">
+                              {/* <div className="font-Avenir text-1xl">
                                 Tools
-                              </div>
-                              <div className="text-stone-400 tracking-wide font-NeueHaasLight">
+                              </div> */}
+                              <div className="text-stone-800 tracking-wide font-Avenir">
                                 <div>Figma</div>
                                 <div>Miro</div>
                                 <div>Photoshop</div>
@@ -430,23 +430,23 @@ export default function Home() {
                             </div>
 
                             <div class="text-white divide-x">
-                              <div className="font-NeueHaasRoman text-1xl pr-5">
+                              {/* <div className="font-Avenir text-1xl pr-5">
                                 Tools
-                              </div>
-                              <div className="text-stone-400 tracking-wide font-NeueHaasLight pr-5">
-                                <div>Figma</div>
-                                <div>Miro</div>
-                                <div>Photoshop</div>
-                                <div>Illustrator</div>
+                              </div> */}
+                              <div className="text-stone-800 tracking-wide font-Avenir pr-5 pt-10 md:pt-0">
+                                <div>Sprinting</div>
+                                <div>Copywriting</div>
+                                <div>User Research</div>
+                                <div>Project Management</div>                        
                               </div>
                             </div>
 
-                            <div className="">
-                              {/* <div className="col-span-2"> */}
+                            
+                              <div className="col-span-2">
 
-                              <h2 className="text-white font-NeueHaasLight tracking-wide leading-relaxed">September — December
+                              <h2 className="text-white font-Avenir tracking-wide leading-relaxed pt-20 md:pt-0">September — December
                                 2020</h2>
-                              <h2 className="text-stone-400 font-NeueHaasLight tracking-wider leading-relaxed gap-10">Freelance Product Design and Brand creation</h2>
+                              <h2 className="text-stone-800 font-Avenir tracking-wider leading-relaxed gap-10">Freelance Product Design and Brand creation</h2>
 
                             </div>
 
@@ -464,8 +464,9 @@ export default function Home() {
                         </div>
 
                         {/* center align */}
-                        <div className="grid grid-flow-col justify-center">
-                          <div>one</div>
+                        <div className="font-Avenir text-[14px] text-stone-400 grid grid-flow-col justify-center pt-40">
+                          <div>Developed with Next.js and React by Brendan McKay</div>
+                          </div>
                         </div>
                       </div>
 

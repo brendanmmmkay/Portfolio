@@ -80,6 +80,27 @@ body {
   src: url(../fonts/PPNeueMachina-InktrapUltrabold.otf);
 }
 
+@font-face {
+  font-family: Garamond;
+  src: url(../fonts/AGaramondPro-Regular.otf);
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(../fonts/Avenir.ttc);
+}
+
+@font-face {
+  font-family: SFproBold;
+  src: url(../fonts/SF-Pro-Display-Bold.otf);
+}
+
+@font-face {
+  font-family: SFpro;
+  src: url(../fonts/SF-Pro-Text-Semibold.otf);
+}
+
+
 .progress-bar {
   position: fixed;
   top: 0;

@@ -69,6 +69,10 @@ module.exports = {
         NationalMedium: "NationalMedium",
         NationalExtraBold: "NationalExtraBold",
         PPNeueMachina: "PPNeueMachina",
+        Garamond: "Garamond",
+        Avenir: "Avenir",
+        SFproBold: "SFproBold",
+        SFpro:"SFpro",
       },
 
       colors: {
@@ -79,6 +83,7 @@ module.exports = {
           100: '#1A2017',
           200: '#CCF994',
           300: '#192117',
+          400: 'F3F3F3',
         },
       },
 
