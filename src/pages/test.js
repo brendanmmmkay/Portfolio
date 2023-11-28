@@ -47,7 +47,7 @@ export default function Home() {
 
           <div class="body sticky top-0 z-[1000] flex h-20 flex-row items-center bg-gray-200">Nav content here</div>
 
-          <div className="z-50 absolute">
+          <div className="z-50 absolute lg:px-48 px-4">
             <h1
               className='text-left mr-1 text-[48px] lg:text-7xl leading-[3rem] lg:leading-15 tracking-tighter max-w-sm md:max-w-4xl pt-6 pb-20 font-NationalExtraBold text-tahiti-300'>Conscious and impactful design through brand strategy and digital storytelling.
             </h1>
@@ -350,6 +350,12 @@ export default function Home() {
 
 
 
+{/* FOOTER */}
+
+
+
+
+
         <div className='bg-hero-pattern2 bg-cover pt-6'>
           <div className='pt-3 pb-6'>
 
@@ -396,9 +402,12 @@ export default function Home() {
                         </div>
                       </div>
 
-
+                      {/* <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
+                      <h6 className="pt-20 font-SFproBold text-[14px] text-stone-600 uppercase tracking-[.15em]">competencies</h6> */}
                       <h6 className="pt-20 font-SFproBold text-[14px] text-stone-600 uppercase tracking-[.15em]">competencies</h6>
-
+                     {/* </div> */}
+                     
+                     
                       <div>
 
                         <div className='mt-10 mb-10 p-1'>
@@ -444,10 +453,10 @@ export default function Home() {
                             
                               <div className="col-span-2">
 
-                              <h2 className="text-white font-Avenir tracking-wide leading-relaxed pt-20 md:pt-0">September — December
-                                2020</h2>
-                              <h2 className="text-stone-800 font-Avenir tracking-wider leading-relaxed gap-10">Freelance Product Design and Brand creation</h2>
-
+                              <h2 className="text-stone-700 font-SFpro leading-relaxed pt-20 md:pt-0">Resume
+                                </h2>
+                             <Link href={"https://github.com/brendanmmmkay/Old-Portfolio/blob/master/brendan_mckay_Resume.pdf"}><h2 className="text-stone-800 font-Avenir  leading-relaxed gap-10">A degree in design and freelance work experience.</h2>
+                             </Link>
                             </div>
 
 
