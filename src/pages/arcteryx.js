@@ -24,7 +24,8 @@ export default function Arcteryx() {
             animate={{ y: "0%" }}
             transition={{ duration: 0.75, ease: "easeOut" }}
             exit={{ opacity: 1 }}
-            className="text-gray-900 absolute z-2 top-0 left-0 w-full h-ful  bg-regal-gray lg:px-48 px-5">
+            className="text-gray-900 absolute z-2 top-0 left-0 w-full h-ful  bg-regal-gray">
+                <div className="lg:px-48 px-5">
             <div className='mt-20 mb-40 p-1'>
 
                 <div className="grid lg:grid-cols-5 sm:grid-cols-1 gap-6">
@@ -81,7 +82,7 @@ export default function Arcteryx() {
                     animate={{ y: 0 }}
                     initial={{ y: "100%" }}
                     transition={{ delay: 0.5, duration: 0.5 }}
-                    className='text-1xl lg:text-4xl text-left font-NeueHaas-Roman w-5/6 text-white mt-10 lg:mt-80'>A two product solution that leverages upcycled material to tell customers about the importance of product care - renewing trust in Arc’teryx’s lasting quality, and helping the brand achieve sustainable goals.
+                    className='text-2xl lg:text-5xl text-left font-Garamond w-6/10 text-white mt-10 lg:mt-40'>A two product solution that leverages upcycled material to tell customers about the importance of product care - renewing trust in Arc’teryx’s lasting quality, and helping the brand achieve sustainable goals.
                 </m.h1>
             </div>
 
@@ -403,48 +404,156 @@ export default function Arcteryx() {
 
             </m.div>
 
-            <m.div className="pt-20">
+            <m.div className="pt-20 pb-60">
                 <Image
                     src={ArcyImg13}
                     width={1500}
                     height={200} />
             </m.div>
 
-
-
-            <div class="flex flex-col-reverse">
-               
-            <Link href={"/"}>
-                <div className="font-NeueHaasLight text-white text-1xl lg:lg:text-3xl pt-10 pb-5 underline hover:font-ArgentItalic">Return home.</div>
-                </Link>
-                    <div className="font-NeueHaasRoman text-white pt-52 text-1xl lg:lg:text-4xl leading-10 xl:leading-12 tracking-wide xl:w-4/6">Thanks for stopping by! I have so much more to share about this project, let's get in touch!</div>
             </div>
 
-            <div className="flex pt-40 lg:gap-40">
-                <div className="text-1xl lg:text-2xl text-base text-white">
-                    
-                        <h4>Find me:</h4>
-                    
-                </div>
-                <div className="lg:text-6xl text-2xl text-white underline">
-                    <ul>
-                        <div className="overflow-hidden">
-                        <Link href={"mailto:bpmckay@sfu.ca"}>
-                            <li className="pb-4 hover:font-ArgentItalic">bpmckay@sfu.ca</li>
-                            </Link>
-                            <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                            <li className="pb-4 hover:font-ArgentItalic">Linkedin</li>
-                            </Link>
-                            <Link href={"https://read.cv/bedthyme/"}>
-                            <li className="pb-4 hover:font-ArgentItalic">Read.cv</li>
-                            </Link>
-                            <Link href={"https://medium.com/@brendanmckaydesign"}>
-                            <li className="pb-12 hover:font-ArgentItalic">Medium</li>
-                            </Link>
+
+
+
+
+
+
+
+            <div className='bg-hero-pattern2 bg-cover pt-6 lg:px-48 px-5'>
+          <div className='pt-3 pb-6'>
+
+
+
+            <div className='lg:px-[4rem] px-5'>
+
+              {/* <div class="flex rounded-lg bg-tahiti-300 border-tahiti-100 dark:border-tahiti-100 shadow-xl shadow-black/5 dark:shadow-black/30 pl-10"> */}
+              <div>
+                <div className="grid lg:grid-cols-1 sm:grid-cols-1 content-end">
+                  <div className="pt-3 gap-40">
+                    <div className="text-base">
+
+
+                      {/* TEST ZONE START */}
+                      <div className='px-0  py-1'>
+
+                      {/* FUCK */}
+
+                      <div class="grid w-full items-center pb-5">
+                        <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
+                          {/* DIV 1 */}
+                          <div className=' drop-shadow-2xl  pb-3 text-3xl'>
+                            <h4 className="font-Garamond pt-3 text-5xl text-stone-800 tracking-tighter">Let's get in touch:</h4>
+                            <h5 className="font-Avenir pt-2 text-stone-600 tracking-normal text-[1.4rem]">Available November 2023 for design opportunities.</h5>
+                          </div>
+                          {/* DIV 2 */}
+
+                          <div className="pt-20">
+                            <button class="bg-stone-900 hover:bg-stone-700 font-Avenir text-1xl text-white py-4 px-4 w-60 h-15 right-0">
+                              Contact Me
+                            </button></div>
+
                         </div>
-                    </ul>
+                      </div>
+
+                      {/* TEST ZONE END */}
+
+
+
+                      <div className="divide-y divide-stone-300">
+                        <div></div>
+                        <div>
+                        </div>
+                      </div>
+
+                      {/* <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
+                      <h6 className="pt-20 font-SFproBold text-[14px] text-stone-600 uppercase tracking-[.15em]">competencies</h6> */}
+                      <h6 className="pt-20 font-SFproBold text-[14px] text-stone-600 uppercase tracking-[.15em]">competencies</h6>
+                     {/* </div> */}
+                     
+                     
+                      <div>
+
+                        <div className='mt-10 mb-10 p-1'>
+                          <div className="grid grid-cols-0 md:grid-cols-5 gap-0 md:gap-16">
+
+                            <div class="text-white">
+                              {/* <div className="font-Avenir text-1xl">
+                                Contribution
+                              </div> */}
+                              <div className="font-Avenir tracking-wide text-stone-800">
+                                <div>Design Strategy</div>
+                                <div>Art Direction</div>
+                                <div>Product Design</div>
+                                <div>Interaction Design</div>
+                              </div>
+                            </div>
+
+
+                            <div class="text-white divide-x">
+                              {/* <div className="font-Avenir text-1xl">
+                                Tools
+                              </div> */}
+                              <div className="text-stone-800 tracking-wide font-Avenir">
+                                <div>Figma</div>
+                                <div>Miro</div>
+                                <div>Photoshop</div>
+                                <div>Illustrator</div>
+                              </div>
+                            </div>
+
+                            <div class="text-white divide-x">
+                              {/* <div className="font-Avenir text-1xl pr-5">
+                                Tools
+                              </div> */}
+                              <div className="text-stone-800 tracking-wide font-Avenir pr-5 pt-10 md:pt-0">
+                                <div>Sprinting</div>
+                                <div>Copywriting</div>
+                                <div>User Research</div>
+                                <div>Project Management</div>                        
+                              </div>
+                            </div>
+
+                            
+                              <div className="col-span-2">
+
+                              <h2 className="text-stone-700 font-SFpro leading-relaxed pt-20 md:pt-0">Resume
+                                </h2>
+                             <Link href={"https://github.com/brendanmmmkay/Old-Portfolio/blob/master/brendan_mckay_Resume.pdf"}><h2 className="text-stone-800 font-Avenir  leading-relaxed gap-10">A degree in design and freelance work experience.</h2>
+                             </Link>
+                            </div>
+
+
+                            {/* <div class="grid grid-cols-3 divide-x">
+  <div>01</div>
+  <div>02</div>
+</div> */}
+
+
+
+
+
+                          </div>
+                        </div>
+
+                        {/* center align */}
+                        <div className="font-Avenir text-[14px] text-stone-400 grid grid-flow-col justify-center pt-40">
+                          <div>Developed with Next.js and React by Brendan McKay</div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+        </div>
+
+
+
+
         </m.main>
     );
 }
