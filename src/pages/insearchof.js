@@ -18,9 +18,9 @@ export default function insearchof() {
             animate={{ y: "0%" }}
             transition={{ duration: 0.75, ease: "easeOut" }}
             exit={{ opacity: 1 }}
-            className="text-gray-900 absolute z-2 top-0 left-0 w-full bg-regal-gray lg:px-48 px-5">
+            className="text-gray-900 absolute z-2 top-0 left-0 w-full bg-regal-gray">
 
-<div className="">
+<div className="lg:px-48 px-5">
             <div className='mt-20 mb-10 p-1'>
             <div className="grid lg:grid-cols-5 grid-cols-1 gap-6">
                     <div className="col-start-1 col-span-2">
@@ -62,7 +62,7 @@ export default function insearchof() {
                     animate={{ y: 0 }}
                     initial={{ y: "100%" }}
                     transition={{ delay: 0.5, duration: 0.5 }}
-                    className='text-left sm:text-2xl lg:text-4xl font-NeueHaas-Roman w-4/5 text-white mt-10 lg:mt-80'>A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.
+                    className='text-left sm:text-2xl lg:text-5xl font-Garamond w-4/5 text-white mt-10 lg:mt-80'>A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.
                 </m.h1>
             </div>
 
@@ -258,12 +258,11 @@ export default function insearchof() {
                 loop
             />
 
+</div>
 
 
 
-
-
-<div className='bg-hero-pattern2 bg-cover pt-6'>
+<div className='bg-hero-pattern2 bg-cover pt-6 lg:px-48 px-5'>
           <div className='pt-3 pb-6'>
 
 
@@ -393,7 +392,7 @@ export default function insearchof() {
             </div>
           </div>
         </div>
-        </div>
+        
 
         </m.main>
     );
