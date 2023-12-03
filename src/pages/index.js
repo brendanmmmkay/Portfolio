@@ -41,7 +41,7 @@ export default function Home() {
 
 
             <h1
-              className='text-left mr-1 text-[48px] lg:text-7xl leading-[3rem] lg:leading-15 tracking-tighter max-w-sm md:max-w-4xl pt-6 pb-20 font-Garamond text-tahiti-300'>Conscious and impactful design through brand strategy and digital storytelling.
+              className='text-left mr-1 text-[48px] lg:text-7xl leading-[3rem] lg:leading-15 tracking-tighter max-w-sm md:max-w-3xl pt-6 pb-20 font-Garamond text-tahiti-300'>Conscious and impactful design through brand strategy and digital storytelling.
             </h1>
 
             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
