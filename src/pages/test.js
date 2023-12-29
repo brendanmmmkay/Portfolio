@@ -15,10 +15,12 @@ import momentPanel3 from "../image/momentPanel3.png"
 import arcPanel1 from "../image/ArcPanel1.png"
 import arcPanel2 from "../image/ArcPanel2.png"
 import arcPanel3 from "../image/ArcPanel3.png"
+import grassLand from "../image/grassLand.png"
 import cursor from "../image/cursor.svg"
 import AnimatedTextWord from '../../components/AnimatedTextWord';
 'use client';
 import { Carousel } from 'flowbite-react';
+// const carousel = new Carousel(carouselElement, items, options, instanceOptions);
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -45,18 +47,19 @@ export default function Home() {
 
           </div>
 
-          <div class="body sticky top-0 z-[1000] flex h-20 flex-row items-center bg-gray-200">Nav content here</div>
+          {/* <div class="body sticky top-0 z-[1000] flex h-20 flex-row items-center bg-gray-200">Nav content here</div> */}
 
-          <div className="z-50 absolute lg:px-48 px-4">
-            <h1
-              className='text-left mr-1 text-[48px] lg:text-7xl leading-[3rem] lg:leading-15 tracking-tighter max-w-sm md:max-w-4xl pt-6 pb-20 font-NationalExtraBold text-tahiti-300'>Conscious and impactful design through brand strategy and digital storytelling.
+          <div className="z-50 absolute lg:px-48 px-4 pt-20">
+       
+          <h1
+              className='text-left mr-1 text-[48px] lg:text-7xl leading-[3rem] lg:leading-15 tracking-tighter max-w-sm md:max-w-3xl pt-6 pb-20 font-Garamond text-white'>Conscious and impactful design through brand strategy and digital storytelling.
             </h1>
 
             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-              <button type="button" class=" focus:outline-none hover:bg-tahiti-200  hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-3 bg-tahiti-300 text-tahiti-200 font-PPNeueMachina tracking-3 leading-1 cursor-pointer">RESUME</button>
+              <button type="button" class=" focus:outline-none hover:bg-stone-300  hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-3 bg-stone-800 text-white font-NationalBook tracking-3 leading-1 cursor-pointer">RESUME</button>
             </Link>
             <Link href={"mailto:bpmckay@sfu.ca"}>
-              <button type="button" class=" focus:outline-none hover:bg-tahiti-200 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 bg-tahiti-300 text-tahiti-200 font-PPNeueMachina tracking-3 cursor-pointer">BPMCKAY@SFU.CA</button>
+              <button type="button" class=" focus:outline-none hover:bg-stone-300 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 bg-stone-800 text-white font-NationalBook tracking-3 cursor-pointer">BPMCKAY@SFU.CA</button>
             </Link>
           </div>
 
@@ -108,13 +111,32 @@ export default function Home() {
 
           {/* This shit works!!! */}
           <div class="bg-indigo-300 h-150 lg:h-128">
-            <Carousel>
-              <Image className="h-150 lg:h-128 object-cover lg:object-cover"
+            <Carousel slideInterval={250000}>
+              {/* <Image className="h-150 lg:h-128 object-cover lg:object-cover"
                 src={test2}
-              />
+              /> */}
+
+<Link href={"/insearchof"}>
+                    <MuxPlayer
+                      streamType="on-demand"
+                      playbackId="oWqKBxCME02obOSNxtb01T801ew3tcgwwOp5502l7BihPyc"
+                      metadataVideoTitle="Placeholder (optional)"
+                      metadataViewerUserId="Placeholder (optional)"
+                      primaryColor="#FFFFFF"
+                      secondaryColor="#000000"
+                      autoplay="muted"
+                      loop
+                    />
+                  </Link>
               <Image className="h-150 lg:h-128 object-cover lg:object-cover"
-                src={test2}
+                src={grassLand}
               />
+              <mux-player
+  playback-id="nrCOycEeew0002I62nNMZEuqSUN02AcNOVd00p5bUnPXvqs"
+  metadata-video-title="Placeholder (optional)"
+  metadata-viewer-user-id="Placeholder (optional)"
+  accent-color="#FF0000"
+></mux-player>
             </Carousel>
           </div>
 

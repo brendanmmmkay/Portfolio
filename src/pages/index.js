@@ -45,10 +45,10 @@ export default function Home() {
             </h1>
 
             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-              <button type="button" class=" focus:outline-none hover:bg-tahiti-200  hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-3 bg-stone-800 text-white font-SFpro tracking-3 leading-1 cursor-pointer">RESUME</button>
+              <button type="button" class=" focus:outline-none hover:bg-stone-300  hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-3 bg-stone-800 text-white font-NeueHaasBold tracking-3 leading-1 cursor-pointer">RESUME</button>
             </Link>
             <Link href={"mailto:bpmckay@sfu.ca"}>
-              <button type="button" class=" focus:outline-none hover:bg-tahiti-200 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 bg-stone-800 text-white font-SFpro tracking-3 cursor-pointer">BPMCKAY@SFU.CA</button>
+              <button type="button" class=" focus:outline-none hover:bg-stone-300 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 bg-stone-800 text-white font-NeueHaasBold tracking-3 cursor-pointer">BPMCKAY@SFU.CA</button>
             </Link>
           </div>
 
