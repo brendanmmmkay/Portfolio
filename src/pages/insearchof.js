@@ -8,6 +8,7 @@ import isoDummy2 from "../image/isoDummy2.png"
 import isoDummy3 from "../image/isoDummy3.png"
 import isoDummy4 from "../image/isoDummy4.png"
 import isoDummy5 from "../image/isoDummy5.png"
+import arrow from "../image/arrow.svg"
 
 export default function insearchof() {
 

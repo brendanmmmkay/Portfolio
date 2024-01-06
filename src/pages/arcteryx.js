@@ -16,6 +16,7 @@ import ArcyImg10 from "../image/ArcyImg10.png"
 import ArcyImg11 from "../image/ArcyImg11.png"
 import ArcyImg12 from "../image/ArcyImg12.png"
 import ArcyImg13 from "../image/ArcyImg13.png"
+import arrow from "../image/arrow.svg"
 
 export default function Arcteryx() {
     return (

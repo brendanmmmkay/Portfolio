@@ -8,6 +8,8 @@ import BoschImg3 from "../image/BoschImg3.png"
 import BoschImg4 from "../image/BoschImg4.png"
 import BoschImg5 from "../image/BoschImg5.png"
 import BoschImg6 from "../image/BoschImg6.png"
+import arrow from "../image/arrow.svg"
+
 export default function Bosch() {
     return (
         <m.main
