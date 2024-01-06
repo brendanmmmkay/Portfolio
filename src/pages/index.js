@@ -45,10 +45,10 @@ export default function Home() {
             </h1>
 
             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-              <button type="button" class=" focus:outline-none hover:bg-stone-300  hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-3 bg-stone-800 text-white font-NeueHaasBold tracking-3 leading-1 cursor-pointer">RESUME</button>
+              <button type="button" class=" focus:outline-none hover:bg-stone-300  hover:text-tahiti-300 focus:ring-4 focus:ring-black  rounded-full text-sm px-5 py-2.5 mr-2 mb-3 bg-stone-800 text-white font-NeueHaasBold tracking-3 leading-1 cursor-pointer">RESUME</button>
             </Link>
             <Link href={"mailto:bpmckay@sfu.ca"}>
-              <button type="button" class=" focus:outline-none hover:bg-stone-300 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 bg-stone-800 text-white font-NeueHaasBold tracking-3 cursor-pointer">BPMCKAY@SFU.CA</button>
+              <button type="button" class=" focus:outline-none hover:bg-stone-300 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-black  rounded-full text-sm px-5 py-2.5 bg-stone-800 text-white font-NeueHaasBold tracking-3 cursor-pointer">BPMCKAY@SFU.CA</button>
             </Link>
           </div>
 
@@ -254,6 +254,10 @@ export default function Home() {
 
 {/* FOOTER */}
 
+
+
+
+
 <div className='bg-hero-pattern2 bg-cover pt-6'>
           <div className='pt-3 pb-6'>
 
@@ -283,7 +287,7 @@ export default function Home() {
                           {/* DIV 2 */}
 
                           <div className="pt-20">
-                            <button class="bg-stone-900 hover:bg-stone-700 font-Avenir text-1xl text-white py-4 px-4 w-60 h-15 right-0">
+                            <button class="bg-stone-900 hover:bg-white font-Avenir text-1xl text-white hover:text-stone-800 hover:border border-stone-800 py-4 px-4 w-60 h-15 right-0">
                               Contact Me
                             </button></div>
 
@@ -302,13 +306,13 @@ export default function Home() {
 
                       {/* <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
                       <h6 className="pt-20 font-SFproBold text-[14px] text-stone-600 uppercase tracking-[.15em]">competencies</h6> */}
-                      <h6 className="pt-20 font-SFproBold text-[14px] text-stone-600 uppercase tracking-[.15em]">competencies</h6>
+                      <h6 className="pt-20 font-SFproBold text-[15px] text-stone-600 uppercase tracking-[.2em]">competencies</h6>
                      {/* </div> */}
                      
                      
                       <div>
 
-                        <div className='mt-10 mb-10 p-1'>
+                        <div className='mt-20 mb-10 p-1'>
                           <div className="grid grid-cols-0 md:grid-cols-5 gap-0 md:gap-16">
 
                             <div class="text-white">
@@ -348,12 +352,19 @@ export default function Home() {
                               </div>
                             </div>
 
-                            
-                              <div className="col-span-2">
 
-                              <h2 className="text-stone-700 font-SFpro leading-relaxed pt-20 md:pt-0">Resume
+
+                            
+                              <div className="col-span-2 md:border-l  border-stone-300">
+                              <Link href={"https://github.com/brendanmmmkay/Portfolio/blob/main/brendanmckayresume.pdf"}>
+                              <h2 className="text-stone-700 font-SFpro leading-relaxed pt-20 md:pt-0 md:pl-10">Resume
                                 </h2>
-                             <Link href={"https://github.com/brendanmmmkay/Old-Portfolio/blob/master/brendan_mckay_Resume.pdf"}><h2 className="text-stone-800 font-Avenir  leading-relaxed gap-10">A degree in design and freelance work experience.</h2>
+                                </Link>
+                             <Link href={"https://github.com/brendanmmmkay/Portfolio/blob/main/brendanmckayresume.pdf"}><h2 className="text-stone-800 font-Avenir  leading-relaxed gap-10 md:pl-10 pt-5">A degree in design at Simon Fraser University and 5 years of freelance work experience.</h2>
+                             </Link>
+                            
+                            <Link href={"https://github.com/brendanmmmkay/Portfolio/blob/main/brendanmckayresume.pdf"}>
+                             <Image className="pt-10 md:ml-10 transition ease-in-out delay-15 hover:translate-x-3" src={arrow}></Image>
                              </Link>
                             </div>
 
