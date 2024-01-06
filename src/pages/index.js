@@ -15,6 +15,7 @@ import momentPanel3 from "../image/momentPanel3.png"
 import arcPanel1 from "../image/ArcPanel1.png"
 import arcPanel2 from "../image/ArcPanel2.png"
 import arcPanel3 from "../image/ArcPanel3.png"
+import arrow from "../image/arrow.svg"
 import cursor from "../image/cursor.svg"
 import AnimatedTextWord from '../../components/AnimatedTextWord';
 
