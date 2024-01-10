@@ -17,24 +17,27 @@ export default function Bosch() {
             animate={{ y: "0%" }}
             transition={{ duration: 0.75, ease: "easeOut" }}
             exit={{ opacity: 1 }}
-            className="text-gray-900 absolute z-2 top-0 left-0 w-full h-ful  bg-regal-gray">
-                   <div className="lg:px-48 px-5">
-            <div className='mt-20 mb-10 p-1'>
+            className="text-gray-900 absolute z-2 top-0 left-0 w-full h-ful  bg-tahiti-100">
+                <div className="bg-tahiti-200 pt-10"></div>
+                   <div className="">
+            <div className='mb-10'>
 
-                <div className="grid lg:grid-cols-5 grid-cols-1 gap-6">
-                    <div className="col-start-1 col-span-2">
+<div className="border-y border-stone-600">
+    <div className="">
+                <div className="grid lg:grid-cols-5 grid-cols-1 gap-6 divide-x divide-stone-600">
+                    <div className="col-start-1 col-span-2 lg:px-48 px-5">
 
-                        <h2 className="text-white font-NeueHaasLight tracking-wide leading-relaxed">September — December
+                        <h2 className="text-white font-NeueHaasLight tracking-wide leading-relaxed pt-10">September — December
                             2020</h2>
-                        <h2 className="text-stone-400 font-NeueHaasLight tracking-wider leading-relaxed gap-10">6 week Academic Experience Design Project</h2>
+                        <h2 className="text-stone-400 font-Avenir text-[1.1rem] tracking-wider leading-relaxed gap-10 pt-10">6 week Academic <br></br>Experience Design Project</h2>
 
                     </div>
 
                     <div class="text-white grid grid-cols-1 gap-3">
-                        <div className="font-NeueHaasRoman text-1xl">
+                        <div className="font-NeueHaasRoman text-1xl px-5 pt-10">
                             Contribution
                         </div>
-                        <div className="font-NeueHaasLight tracking-wide text-stone-400">
+                        <div className="font-Avenir tracking-wide text-stone-400 pb-5 px-5">
                             <div>Design Strategy</div>
                             <div>Art Direction</div>
                             <div>Product Design</div>
@@ -44,17 +47,18 @@ export default function Bosch() {
 
 
                     <div class="text-white grid grid-cols-1 gap-3">
-                        <div className="font-NeueHaasRoman text-1xl">
+                        <div className="font-NeueHaasRoman text-1xl px-5 pt-10">
                             Tools
                         </div>
-                        <div className="text-stone-400 tracking-wide font-NeueHaasLight">
+                        <div className="text-stone-400 tracking-wide font-Avenir px-5 pb-10">
                             <div>Figma</div>
                             <div>Miro</div>
                             <div>Photoshop</div>
                             <div>Illustrator</div>
                         </div>
                     </div>
-
+                    </div>
+                    </div>
 
                     {/* <div class="text-white grid grid-cols-1 gap-3">
                         <div className="font-NeueHaasRoman">
@@ -75,11 +79,12 @@ export default function Bosch() {
                     animate={{ y: 0 }}
                     initial={{ y: "100%" }}
                     transition={{ delay: 0.5, duration: 0.5 }}
-                    className='lg:text-5xl text-left text-1xl font-Garamond w-5/6 text-white mt-10 lg:mt-80'>A smart phone application that leverages the Bosch eBike Systems technology to help couriers win time.
+                    className='lg:text-[3.7rem] text-left text-1xl font-Garamond text-tahiti-500 leading-tight mt-10 pb-5 lg:mt-60 lg:px-48'>A smart phone application that <br></br>leverages the Bosch eBike Systems <br></br>technology to help couriers win time.
                 </m.h1>
             </div>
+            </div>
 
-            <div>
+            <div className="border-t border-stone-600">
                 <Image className="h-96 object-cover lg:h-full lg:object-cover"
                     src={BoschImg6}
                 />
@@ -88,21 +93,21 @@ export default function Bosch() {
 
 
 
-            <div class="xl:w-4/6 pb-10">
+            <div class="lg:px-96 pb-10">
                 <div className="mt-40">
-                    <h1 className='text-2xl lg:text-5xl font-NeueHaas-Roman text-white'>Context</h1>
+                    <h1 className='text-2xl lg:text-5xl font-Garamond text-white tracking-wide'>Context</h1>
                 </div>
 
-                <div class="divide-y divide-linear-gray pt-5">
+                <div class="divide-y divide-linear divide-stone-500 pt-5">
                     <div></div>
                     <div>
                     </div>
                 </div>
 
-                <div className="font-NeueHaasLight pt-20 tracking-wide text-white text-1xl lg:text-2xl leading-10 xl:leading-12">
+                <div className="font-Avenir pt-20 tracking-wide text-white text-1xl lg:text-2xl leading-10 xl:leading-12">
                     While food delivery apps have seen rapid growth since the pandemic, couriers in the gig economy are under pressure on the job to perform to high standards as the backbone for companies who seek to restore the food industry.
                 </div>
-                <div className="font-NeueHaas-Roman pt-10 text-white text-1xl lg:text-2xl leading-10 xl:leading-12 tracking-tight">
+                <div className="font-Avenir pt-10 text-white text-1xl lg:text-2xl leading-10 xl:leading-12 tracking-wide">
                     To just barely make minimum wage, couriers push their limits - often ignoring fatigue and exhaustion.
                 </div>
 
@@ -111,7 +116,7 @@ export default function Bosch() {
 
 
 
-            <div className="xl:w-4/6 pb-10">
+            <div className="lg:px-96 pb-10">
                 <div className="font-NeueHaas-Roman pt-20 text-white text-3xl leading-10 xl:leading-12">
                     “If I succeed in making two deliveries per hour, I barely earn minimum wage.”
                 </div>
@@ -121,8 +126,9 @@ export default function Bosch() {
             </div>
 
 
+<div className="w-screen overflow-x-auto">
             <m.div>
-                <div class="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1">
+                <div class="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1 ml-[20rem]">
                     <div className="pt-5 xs={12}">
                         <Image
                             src={BoschImg2}
@@ -135,25 +141,25 @@ export default function Bosch() {
                     </div>
                 </div>
             </m.div>
+            </div>
 
-
-            <div className="xl:w-4/6 pb-10">
+            <div className="lg:px-96 pb-10">
                 <div className="mt-40">
-                    <h1 className='text-2xl lg:text-5xl font-NeueHaasRoman text-white'>Business opportunity</h1>
+                    <h1 className='text-2xl lg:text-5xl font-Garamond tracking-widest text-white'>Business opportunity</h1>
                 </div>
 
-                <div class="divide-y divide-linear-gray pt-5">
+                <div class="divide-y divide-linear divide-stone-500 pt-5">
                     <div></div>
                     <div>
                     </div>
                 </div>
 
-                <div className="font-NeueHaasLight tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
                     For a senior level design course, I was tasked with an ill-defined, client based project. My mission was to find a company that could benefit from an experience design intervention.
 
                 </div>
 
-                <div className="font-NeueHaasLight tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 pb-20 leading-10 xl:leading-12">
                     Bosch is focusing on developing a stress-free experience for eBike riders, providing fitness tracking and wayfinding for recreational users. However, despite partnering with manufacturers that target eBike couriers, Bosch does not yet address their key problems with its current line of smart technology and software.
                 </div>
 
@@ -167,28 +173,28 @@ export default function Bosch() {
             </div>
 
 
-            <div className="xl:w-4/6 pb-10">
+            <div className="lg:px-96 pb-10">
                 <div className="mt-40">
-                    <h1 className='text-2xl lg:text-5xl font-NeueHaasRoman text-white'>Framing</h1>
-                    <h1 className='text-1xl lg:text-3xl font-NeueHaas-Roman text-stone-500 pt-1'>Identifying a design opportunity</h1>
+                    <h1 className='text-2xl lg:text-5xl font-Garamond text-white pb-2'>Framing</h1>
+                    <h1 className='text-1xl lg:text-2xl font-NeueHaasRoman tracking-wide text-stone-500 pt-1'>Identifying a design opportunity</h1>
                 </div>
 
-                <div class="divide-y divide-linear-gray pt-5">
+                <div class="divide-y divide-linear divide-stone-500 pt-5">
                     <div></div>
                     <div>
                     </div>
                 </div>
 
-                <div className="font-NeueHaasLight tracking-wide text-white text-2xl lg:text-3xl pt-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white text-2xl lg:text-3xl pt-20 leading-10 xl:leading-12">
                     Help ebike couriers win time by aiding them to memorize their city and ride to the best of their abilities - in order to maximize their earnings.
                 </div>
             </div>
 
 
 
-            <div className="xl:w-4/6 pb-10">
+            <div className="lg:px-96 pb-10">
                 <div className="mt-40">
-                    <h1 className='text-2xl lg:text-5xl font-NeueHaasRoman text-white'>Wayfinding</h1>
+                    <h1 className='text-2xl lg:text-5xl font-Garamond text-white'>Wayfinding</h1>
                 </div>
 
                 <div class="divide-y divide-linear-gray pt-5">
@@ -197,57 +203,57 @@ export default function Bosch() {
                     </div>
                 </div>
 
-                <div className="font-NeueHaasLight tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
                     Couriers don’t want to rely on constant directions from their map.
                 </div>
 
-                <div className="font-NeueHaasLight tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
                     After accepting a delivery, they begin riding as quickly as possible, seeking to reach a landmark in the area. Couriers lose time on the trip when they near the address, seeking specific directions on their map.
                 </div>
 
-                <div className="font-NeueHaasLight tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
                     To encourage riders to rely on their memory, Courier Connect defaults to providing simple assurance, and indicates the direction of the address to ensure they are going the right way when riding through a familiar area.
                 </div>
 
             </div>
 
 
-            <div className="pt-5 h-96 object-cover lg:h-full lg:object-cover">
+            <div className="pt-20 h-96 object-cover lg:h-full lg:object-cover">
                         <Image
                             src={BoschImg4}
                         />
                     </div>
 
 
-                    <div className="xl:w-4/6 pb-10">
+                    <div className="lg:px-96 pb-10">
                 <div className="mt-40">
-                    <h1 className='text-2xl lg:text-5xl font-NeueHaasRoman text-white'>Time Saving Intervention</h1>
+                    <h1 className='text-2xl lg:text-5xl font-Garamond text-white'>Time Saving Intervention</h1>
                 </div>
 
-                <div class="divide-y divide-linear-gray pt-5">
+                <div class="divide-y divide-linear divide-stone-600 pt-5">
                     <div></div>
                     <div>
                     </div>
                 </div>
 
-                <div className="font-NeueHaasLight tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
+                <div className="tracking-wide font-NeueHaasRoman text-white text-1xl lg:text-3xl pt-20 leading-10 xl:leading-12">
                 Couriers rely on tips to earn money, so they must complete deliveries as quickly as possible.
                 </div>
 
-                <div className="font-NeueHaasLight tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
                 As riders approach their destination, Courier Connect chimes in. To eliminate the most common culprit of wasted time, Courier Connect automatically enables directions as riders near arrival to equip them with the information necessary to seamlessly continue toward the delivery address.
                     </div>
 
             </div>
 
 
-            <div className="h-96 object-cover lg:h-full lg:object-cover pb-60">
+            <div className="h-96 pt-20 object-cover lg:h-full lg:object-cover pb-60">
                         <Image
                             src={BoschImg5}
                         />
                     </div>
 
-                    </div>
+                    
 
 
 
@@ -399,8 +405,6 @@ export default function Bosch() {
             </div>
           </div>
         </div>
-
-
 
 
 
