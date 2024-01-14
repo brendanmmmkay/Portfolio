@@ -166,13 +166,19 @@ export default function Bosch() {
 
             </div>
 
-            <div className="border-y border-stone-600">
-            <div>
+
+
+            <div className="h-96 object-cover lg:h-full lg:object-cover ">
+                        <Image className="border-y border-stone-600 h-96 object-cover lg:h-full lg:object-cover"
+                            src={BoschImg1}
+                        />
+                    </div>
+            {/* <div>
                 <Image className="h-96 object-cover lg:h-full lg:object-cover"
                     src={BoschImg1}
                 />
-            </div>
-</div>
+            </div> */}
+
 
             <div className="lg:px-96 px-5 pb-10">
                 <div className="mt-40">
