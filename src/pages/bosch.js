@@ -24,7 +24,7 @@ export default function Bosch() {
 
 <div className="border-y border-stone-600">
     <div className="">
-                <div className="grid lg:grid-cols-5 grid-cols-1 gap-6 divide-x divide-stone-600">
+                <div className="grid lg:grid-cols-5 grid-cols-1 gap-6 md:divide-x md:divide-stone-600">
                     <div className="col-start-1 col-span-2 lg:px-48 px-5">
 
                         <h2 className="text-white font-NeueHaasLight tracking-wide leading-relaxed pt-10">September — December
@@ -34,10 +34,10 @@ export default function Bosch() {
                     </div>
 
                     <div class="text-white grid grid-cols-1 gap-3">
-                        <div className="font-NeueHaasRoman text-1xl px-5 pt-10">
+                        <div className="font-NeueHaasRoman  tracking-wider text-1xl pl-5 pt-10">
                             Contribution
                         </div>
-                        <div className="font-Avenir tracking-wide text-stone-400 pb-5 px-5">
+                        <div className="font-Avenir tracking-wide text-stone-400 pb-5 pl-5">
                             <div>Design Strategy</div>
                             <div>Art Direction</div>
                             <div>Product Design</div>
@@ -46,6 +46,7 @@ export default function Bosch() {
                     </div>
 
 
+<div className="invisible md:visible">
                     <div class="text-white grid grid-cols-1 gap-3">
                         <div className="font-NeueHaasRoman text-1xl px-5 pt-10">
                             Tools
@@ -59,7 +60,7 @@ export default function Bosch() {
                     </div>
                     </div>
                     </div>
-
+                    </div>
                     {/* <div class="text-white grid grid-cols-1 gap-3">
                         <div className="font-NeueHaasRoman">
                             Team
@@ -79,12 +80,12 @@ export default function Bosch() {
                     animate={{ y: 0 }}
                     initial={{ y: "100%" }}
                     transition={{ delay: 0.5, duration: 0.5 }}
-                    className='lg:text-[3.7rem] text-left text-1xl font-Garamond text-tahiti-500 leading-tight mt-10 pb-5 lg:mt-60 lg:px-48'>A smart phone application that <br></br>leverages the Bosch eBike Systems <br></br>technology to help couriers win time.
+                    className='text-2xl px-5 lg:text-[3.7rem] text-left text-1xl font-Garamond text-tahiti-500 leading-relaxed  md:leading-tight mt-10 pb-1 md:pb-5 lg:mt-60 lg:px-48'>A smart phone application that <br></br>leverages the Bosch eBike Systems <br></br>technology to help couriers win time.
                 </m.h1>
             </div>
             </div>
 
-            <div className="border-t border-stone-600">
+            <div className="border-y border-stone-600">
                 <Image className="h-96 object-cover lg:h-full lg:object-cover"
                     src={BoschImg6}
                 />
@@ -93,9 +94,9 @@ export default function Bosch() {
 
 
 
-            <div class="lg:px-96 pb-10">
-                <div className="mt-40">
-                    <h1 className='text-2xl lg:text-5xl font-Garamond text-white tracking-wide'>Context</h1>
+            <div class="lg:px-96 px-5 pb-10">
+                <div className="mt-20 md:mt-40">
+                    <h1 className='text-3xl lg:text-5xl font-Garamond text-white tracking-wide'>Context</h1>
                 </div>
 
                 <div class="divide-y divide-linear divide-stone-500 pt-5">
@@ -116,7 +117,7 @@ export default function Bosch() {
 
 
 
-            <div className="lg:px-96 pb-10">
+            <div className="lg:px-96 px-5 pb-10">
                 <div className="font-NeueHaas-Roman pt-20 text-white text-3xl leading-10 xl:leading-12">
                     “If I succeed in making two deliveries per hour, I barely earn minimum wage.”
                 </div>
@@ -128,7 +129,7 @@ export default function Bosch() {
 
 <div className="w-screen overflow-x-auto">
             <m.div>
-                <div class="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1 ml-[20rem]">
+                <div class="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1 lg:ml-[20rem]">
                     <div className="pt-5 xs={12}">
                         <Image
                             src={BoschImg2}
@@ -143,9 +144,9 @@ export default function Bosch() {
             </m.div>
             </div>
 
-            <div className="lg:px-96 pb-10">
+            <div className="lg:px-96 px-5 pb-10">
                 <div className="mt-40">
-                    <h1 className='text-2xl lg:text-5xl font-Garamond tracking-widest text-white'>Business opportunity</h1>
+                    <h1 className='text-3xl lg:text-5xl font-Garamond tracking-wide text-white'>Business opportunity</h1>
                 </div>
 
                 <div class="divide-y divide-linear divide-stone-500 pt-5">
@@ -165,18 +166,18 @@ export default function Bosch() {
 
             </div>
 
-
+            <div className="border-y border-stone-600">
             <div>
-                <Image
+                <Image className="h-96 object-cover lg:h-full lg:object-cover"
                     src={BoschImg1}
                 />
             </div>
+</div>
 
-
-            <div className="lg:px-96 pb-10">
+            <div className="lg:px-96 px-5 pb-10">
                 <div className="mt-40">
-                    <h1 className='text-2xl lg:text-5xl font-Garamond text-white pb-2'>Framing</h1>
-                    <h1 className='text-1xl lg:text-2xl font-NeueHaasRoman tracking-wide text-stone-500 pt-1'>Identifying a design opportunity</h1>
+                    <h1 className='text-3xl lg:text-5xl font-Garamond text-white pb-2'>Framing</h1>
+                    <h1 className='text-1xl lg:text-2xl font-NeueHaasRoman tracking-widest text-stone-400 lg:pt-1'>Identifying a design opportunity</h1>
                 </div>
 
                 <div class="divide-y divide-linear divide-stone-500 pt-5">
@@ -192,12 +193,12 @@ export default function Bosch() {
 
 
 
-            <div className="lg:px-96 pb-10">
+            <div className="lg:px-96 px-5 pb-10">
                 <div className="mt-40">
-                    <h1 className='text-2xl lg:text-5xl font-Garamond text-white'>Wayfinding</h1>
+                    <h1 className='text-3xl lg:text-5xl tracking-wide font-Garamond text-white'>Wayfinding</h1>
                 </div>
 
-                <div class="divide-y divide-linear-gray pt-5">
+                <div class="divide-y divide-stone-500 pt-5">
                     <div></div>
                     <div>
                     </div>
@@ -211,23 +212,23 @@ export default function Bosch() {
                     After accepting a delivery, they begin riding as quickly as possible, seeking to reach a landmark in the area. Couriers lose time on the trip when they near the address, seeking specific directions on their map.
                 </div>
 
-                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 pb-20 leading-10 xl:leading-12">
                     To encourage riders to rely on their memory, Courier Connect defaults to providing simple assurance, and indicates the direction of the address to ensure they are going the right way when riding through a familiar area.
                 </div>
 
             </div>
 
 
-            <div className="pt-20 h-96 object-cover lg:h-full lg:object-cover">
-                        <Image
+            <div className="h-96 object-cover lg:h-full lg:object-cover ">
+                        <Image className="border-y border-stone-600 h-96 object-cover lg:h-full lg:object-cover"
                             src={BoschImg4}
                         />
                     </div>
 
 
-                    <div className="lg:px-96 pb-10">
+                    <div className="lg:px-96 px-5 pb-10">
                 <div className="mt-40">
-                    <h1 className='text-2xl lg:text-5xl font-Garamond text-white'>Time Saving Intervention</h1>
+                    <h1 className='text-3xl lg:text-5xl font-Garamond text-white'>Time Saving Intervention</h1>
                 </div>
 
                 <div class="divide-y divide-linear divide-stone-600 pt-5">
@@ -236,19 +237,19 @@ export default function Bosch() {
                     </div>
                 </div>
 
-                <div className="tracking-wide font-NeueHaasRoman text-white text-1xl lg:text-3xl pt-20 leading-10 xl:leading-12">
+                <div className="tracking-wide font-Avenir text-white text-1xl lg:text-3xl pt-20 leading-10 xl:leading-12">
                 Couriers rely on tips to earn money, so they must complete deliveries as quickly as possible.
                 </div>
 
-                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 pb-20 leading-10 xl:leading-12">
                 As riders approach their destination, Courier Connect chimes in. To eliminate the most common culprit of wasted time, Courier Connect automatically enables directions as riders near arrival to equip them with the information necessary to seamlessly continue toward the delivery address.
                     </div>
 
             </div>
 
 
-            <div className="h-96 pt-20 object-cover lg:h-full lg:object-cover pb-60">
-                        <Image
+            <div className="h-96 object-cover lg:h-full lg:object-cover border-y border-stone-600">
+                        <Image className="h-96 object-cover lg:h-full lg:object-cover"
                             src={BoschImg5}
                         />
                     </div>
@@ -257,7 +258,7 @@ export default function Bosch() {
 
 
 
-
+<div className="pt-60"></div>
 
 
 
@@ -291,8 +292,8 @@ export default function Bosch() {
                         <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
                           {/* DIV 1 */}
                           <div className=' drop-shadow-2xl  pb-3 text-3xl'>
-                            <h4 className="font-Garamond pt-3 text-5xl text-stone-800 tracking-tighter">Let's get in touch:</h4>
-                            <h5 className="font-Avenir pt-2 text-stone-600 tracking-normal text-[1.4rem]">Available November 2023 for design opportunities.</h5>
+                            <h4 className="font-Garamond pt-3 text-4xl text-stone-800 tracking-tighter">Let's get in touch:</h4>
+                            <h5 className="font-Avenir pt-2 text-stone-600 tracking-normal text-[1.1rem] leading-tight max-w-0.5 md:max-w-1 md:text-[1.4rem]">Available November 2023 for design opportunities.</h5>
                           </div>
                           {/* DIV 2 */}
 
