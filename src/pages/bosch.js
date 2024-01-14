@@ -99,16 +99,16 @@ export default function Bosch() {
                     <h1 className='text-3xl lg:text-5xl font-Garamond text-white tracking-wide'>Context</h1>
                 </div>
 
-                <div class="divide-y divide-linear divide-stone-500 pt-5">
+                <div class="divide-y divide-linear divide-stone-500 pt-5 max-w-screen-xl">
                     <div></div>
                     <div>
                     </div>
                 </div>
 
-                <div className="font-Avenir pt-20 tracking-wide text-white text-1xl lg:text-2xl leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
                     While food delivery apps have seen rapid growth since the pandemic, couriers in the gig economy are under pressure on the job to perform to high standards as the backbone for companies who seek to restore the food industry.
                 </div>
-                <div className="font-Avenir pt-10 text-white text-1xl lg:text-2xl leading-10 xl:leading-12 tracking-wide">
+                <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
                     To just barely make minimum wage, couriers push their limits - often ignoring fatigue and exhaustion.
                 </div>
 
@@ -118,7 +118,7 @@ export default function Bosch() {
 
 
             <div className="lg:px-96 px-5 pb-10">
-                <div className="font-NeueHaas-Roman pt-20 text-white text-3xl leading-10 xl:leading-12">
+                <div className="font-NeueHaas-Roman pt-20 text-white text-3xl font-Avenir tracking-wide leading-10 md:leading-loose md:text-2xl max-w-prose">
                     “If I succeed in making two deliveries per hour, I barely earn minimum wage.”
                 </div>
                 <div className="font-NeueHaas-Roman pt-10 text-stone-400 text-1xl leading-10 xl:leading-12">
@@ -149,18 +149,18 @@ export default function Bosch() {
                     <h1 className='text-3xl lg:text-5xl font-Garamond tracking-wide text-white'>Business opportunity</h1>
                 </div>
 
-                <div class="divide-y divide-linear divide-stone-500 pt-5">
+                <div class="divide-y divide-linear divide-stone-500 pt-5 max-w-screen-xl">
                     <div></div>
                     <div>
                     </div>
                 </div>
 
-                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
                     For a senior level design course, I was tasked with an ill-defined, client based project. My mission was to find a company that could benefit from an experience design intervention.
 
                 </div>
 
-                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 pb-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose pb-20">
                     Bosch is focusing on developing a stress-free experience for eBike riders, providing fitness tracking and wayfinding for recreational users. However, despite partnering with manufacturers that target eBike couriers, Bosch does not yet address their key problems with its current line of smart technology and software.
                 </div>
 
@@ -180,13 +180,13 @@ export default function Bosch() {
                     <h1 className='text-1xl lg:text-2xl font-NeueHaasRoman tracking-widest text-stone-400 lg:pt-1'>Identifying a design opportunity</h1>
                 </div>
 
-                <div class="divide-y divide-linear divide-stone-500 pt-5">
+                <div class="divide-y divide-linear divide-stone-500 pt-5 max-w-screen-xl">
                     <div></div>
                     <div>
                     </div>
                 </div>
 
-                <div className="font-Avenir tracking-wide text-white text-2xl lg:text-3xl pt-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
                     Help ebike couriers win time by aiding them to memorize their city and ride to the best of their abilities - in order to maximize their earnings.
                 </div>
             </div>
@@ -198,7 +198,7 @@ export default function Bosch() {
                     <h1 className='text-3xl lg:text-5xl tracking-wide font-Garamond text-white'>Wayfinding</h1>
                 </div>
 
-                <div class="divide-y divide-stone-500 pt-5">
+                <div class="divide-y divide-stone-500 pt-5 max-w-screen-xl">
                     <div></div>
                     <div>
                     </div>
@@ -208,11 +208,11 @@ export default function Bosch() {
                     Couriers don’t want to rely on constant directions from their map.
                 </div>
 
-                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
                     After accepting a delivery, they begin riding as quickly as possible, seeking to reach a landmark in the area. Couriers lose time on the trip when they near the address, seeking specific directions on their map.
                 </div>
 
-                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 pb-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose pb-20">
                     To encourage riders to rely on their memory, Courier Connect defaults to providing simple assurance, and indicates the direction of the address to ensure they are going the right way when riding through a familiar area.
                 </div>
 
@@ -231,17 +231,17 @@ export default function Bosch() {
                     <h1 className='text-3xl lg:text-5xl font-Garamond text-white'>Time Saving Intervention</h1>
                 </div>
 
-                <div class="divide-y divide-linear divide-stone-600 pt-5">
+                <div class="divide-y divide-linear divide-stone-600 pt-5 max-w-screen-xl">
                     <div></div>
                     <div>
                     </div>
                 </div>
 
-                <div className="tracking-wide font-Avenir text-white text-1xl lg:text-3xl pt-20 leading-10 xl:leading-12">
+                <div className="font-NeueHaasRoman tracking-wider text-white pt-20 leading-10 md:leading-loose md:text-3xl max-w-[50rem]">
                 Couriers rely on tips to earn money, so they must complete deliveries as quickly as possible.
                 </div>
 
-                <div className="font-Avenir tracking-wide text-white text-1xl lg:text-2xl pt-20 pb-20 leading-10 xl:leading-12">
+                <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
                 As riders approach their destination, Courier Connect chimes in. To eliminate the most common culprit of wasted time, Courier Connect automatically enables directions as riders near arrival to equip them with the information necessary to seamlessly continue toward the delivery address.
                     </div>
 
@@ -309,7 +309,7 @@ export default function Bosch() {
 
 
 
-                      <div className="divide-y divide-stone-300">
+                      <div className="divide-y divide-stone-300 ">
                         <div></div>
                         <div>
                         </div>
