@@ -312,29 +312,14 @@ export default function Bosch() {
 
 
 
-            <div className="w-screen overflow-x-auto">
-                <m.div>
-                    <div class="h-96 grid container lg:grid-cols-3 gap-6 sm:grid-cols-1 lg:ml-[20rem]">
-                        <div className="pt-5 xs={12}">
-                            <Image
-                                src={momentPitch}
-                            />
-                        </div>
-                        <div className="pt-5">
-                            <Image
-                                src={momentSlide2}
-                            />
-                        </div>
-                        <div className="pt-5">
-                            <Image
-                                src={momentSlide1}
-                            />
-                        </div>
-                    </div>
-                </m.div>
+            <div className="overflow-x-scroll w-full p-4">
+                <div className="flex flex-nowrap space-x-4 ml-40">
+                    <Image className="w-[60rem] flex-none" src={momentPitch} />
+                    <Image className="w-[60rem] flex-none" src={momentSlide1} />
+                    <Image className="w-[60rem] flex-none" src={momentSlide2} />
+                    <Image className="w-[60rem] flex-none" src={momentSlide1} />
+                </div>
             </div>
-
-
 
 
 
