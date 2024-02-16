@@ -83,7 +83,7 @@ export default function Home() {
                                             src={momentPanelRedux1}
                                         />
                                         <div>
-                                            <Container>
+                                            {/* <Container> */}
                                             <MuxPlayer muted autoPlay="muted" 
                                                 streamType="on-demand"
                                                 playbackId="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
@@ -94,7 +94,7 @@ export default function Home() {
                                                 thumbnailTime="22"
                                                 autoplay="any"
                                             />
-                                            </Container>
+                                            {/* </Container> */}
                                             <p className="invisible md:visible pt-[3.1rem] text-chip-deep-gray absolute text-[0.6rem] tracking-[0.2rem] font-AvenirHeavy ">ABOUT:</p>
                                             <p className="invisible md:visible pt-[4.8rem] absolute text-1xl font-Avenir">A new brand and website to disrupt the energy industry.</p>
                                         </div>
