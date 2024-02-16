@@ -23,7 +23,7 @@ import cursor from "../image/cursor.svg"
 import AnimatedTextWord from '../../components/AnimatedTextWord';
 'use client';
 import { Carousel } from 'flowbite-react';
-import { Container } from './components/styles/Container.styled';
+// import { Container } from './components/styles/Container.styled';
 // const carousel = new Carousel(carouselElement, items, options, instanceOptions);
 
 // const inter = Inter({ subsets: ['latin'] })
