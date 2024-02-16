@@ -71,6 +71,7 @@ module.exports = {
         PPNeueMachina: "PPNeueMachina",
         Garamond: "Garamond",
         Avenir: "Avenir",
+        AvenirHeavy:"AvenirHeavy",
         SFproBold: "SFproBold",
         SFpro:"SFpro",
       },
@@ -79,6 +80,9 @@ module.exports = {
         'regal-gray': '#232323',
         'linear-gray': '#2F2F2F',
         'sub-gray': '#515151',
+        'off-white': '#F5F5F5',
+        'edge-white': '#D9D9D9',
+        'chip-deep-gray': '#9B9A9A',
         'tahiti': {
           100: '#2F2E2E',
           200: '#252424',
@@ -91,6 +95,8 @@ module.exports = {
       backgroundImage: {
         'hero-pattern': "url('../image/hero-pattern.svg')",
         'hero-pattern2': "url('../image/hero-pattern2.svg')",
+        'hero-pattern3': "url('../image/hero-pattern3.svg')",
+        'hero-pattern4': "url('../image/hero-pattern4.svg')",
         'footer-texture': "url('/image/footer-texture.svg')",
       },
 

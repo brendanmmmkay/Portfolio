@@ -3,14 +3,17 @@ import '../styles/globals.css';
 import { AnimatePresence } from "framer-motion";
 import { Router } from 'next/router';
 import { motion, useScroll, useSpring } from "framer-motion";
+import Navbar from '../../components/Navbar';
 
 function App({ Component, pageProps, router }) {
 return (
-  // <div className="py-24 px-12 lg:px-48">
-<AnimatePresence>  
-  <Component key={Router.pathname} {...pageProps} />
+  <>
+  <Navbar />
+  <AnimatePresence>
+    <Component key={router.pathname} {...pageProps} />
   </AnimatePresence>
-  // </div>
+  </>
+  
 );
 }
 

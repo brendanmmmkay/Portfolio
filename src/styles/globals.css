@@ -100,6 +100,11 @@ body {
   src: url(../fonts/SF-Pro-Text-Semibold.otf);
 }
 
+@font-face {
+  font-family: AvenirHeavy;
+  src: url(../fonts/Avenir-Heavy.otf);
+}
+
 
 .progress-bar {
   position: fixed;
@@ -116,4 +121,16 @@ body {
 *:before,
 *:after {
   @apply cursor-default;
+}
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
 }

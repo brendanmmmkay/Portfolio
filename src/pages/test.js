@@ -40,7 +40,7 @@ export default function Home() {
       animate={{ y: "0%" }}
       transition={{ duration: 0.75, ease: "easeOut" }}
       exit={{ opacity: 1 }}
-      className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default bg-regal-gray"
+      className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default bg-off-white"
     >
       <main>
         <div className='bg-hero-pattern2 bg-cover'>
@@ -51,8 +51,8 @@ export default function Home() {
           {/* <div class="body sticky top-0 z-[1000] flex h-20 flex-row items-center bg-gray-200">Nav content here</div> */}
 
           <div className="z-50 absolute lg:px-48 px-4 pt-20">
-       
-          <h1
+
+            <h1
               className='text-left mr-1 text-[48px] lg:text-7xl leading-[3rem] lg:leading-15 tracking-tighter max-w-sm md:max-w-3xl pt-6 pb-20 font-Garamond text-white'>Conscious and impactful design through brand strategy and digital storytelling.
             </h1>
 
@@ -117,27 +117,27 @@ export default function Home() {
                 src={test2}
               /> */}
 
-<Link href={"/insearchof"}>
-                    <MuxPlayer
-                      streamType="on-demand"
-                      playbackId="oWqKBxCME02obOSNxtb01T801ew3tcgwwOp5502l7BihPyc"
-                      metadataVideoTitle="Placeholder (optional)"
-                      metadataViewerUserId="Placeholder (optional)"
-                      primaryColor="#FFFFFF"
-                      secondaryColor="#000000"
-                      autoplay="muted"
-                      loop
-                    />
-                  </Link>
+              <Link href={"/insearchof"}>
+                <MuxPlayer
+                  streamType="on-demand"
+                  playbackId="oWqKBxCME02obOSNxtb01T801ew3tcgwwOp5502l7BihPyc"
+                  metadataVideoTitle="Placeholder (optional)"
+                  metadataViewerUserId="Placeholder (optional)"
+                  primaryColor="#FFFFFF"
+                  secondaryColor="#000000"
+                  autoplay="muted"
+                  loop
+                />
+              </Link>
               <Image className="h-150 lg:h-128 object-cover lg:object-cover"
                 src={grassLand}
               />
               <mux-player
-  playback-id="nrCOycEeew0002I62nNMZEuqSUN02AcNOVd00p5bUnPXvqs"
-  metadata-video-title="Placeholder (optional)"
-  metadata-viewer-user-id="Placeholder (optional)"
-  accent-color="#FF0000"
-></mux-player>
+                playback-id="nrCOycEeew0002I62nNMZEuqSUN02AcNOVd00p5bUnPXvqs"
+                metadata-video-title="Placeholder (optional)"
+                metadata-viewer-user-id="Placeholder (optional)"
+                accent-color="#FF0000"
+              ></mux-player>
             </Carousel>
           </div>
 
@@ -320,6 +320,7 @@ export default function Home() {
 
 
 
+
           <div className="mt-20">
             <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5'>Moment Energy - Coming Soon</h1>
           </div>
@@ -352,6 +353,37 @@ export default function Home() {
 
 
 
+
+
+
+
+
+
+
+
+
+          {/* 
+<div className="w-screen overflow-x-auto">
+            <div>
+                <div class="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1 lg:ml-[20rem]">
+                    <div className="pt-5 xs={12}">
+                        <Image
+                            src={test1}
+                        />
+                    </div>
+                    <div className="pt-5">
+                        <Image
+                            src={test2}
+                        />
+                    </div>
+                </div>
+            </div>
+            </div> */}
+
+
+
+
+
           {/* NEW FOOTER */}
 
 
@@ -373,7 +405,7 @@ export default function Home() {
 
 
 
-{/* FOOTER */}
+        {/* FOOTER */}
 
 
 
@@ -396,101 +428,101 @@ export default function Home() {
                       {/* TEST ZONE START */}
                       <div className='px-0 lg:px-48 py-1'>
 
-                      {/* FUCK */}
+                        {/* FUCK */}
 
-                      <div class="grid w-full items-center pb-5">
-                        <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
-                          {/* DIV 1 */}
-                          <div className=' drop-shadow-2xl  pb-3 text-3xl'>
-                            <h4 className="font-Garamond pt-3 text-5xl text-stone-800 tracking-tighter">Let's get in touch:</h4>
-                            <h5 className="font-Avenir pt-2 text-stone-600 tracking-normal text-[1.4rem]">Available November 2023 for design opportunities.</h5>
+                        <div class="grid w-full items-center pb-5">
+                          <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
+                            {/* DIV 1 */}
+                            <div className=' drop-shadow-2xl  pb-3 text-3xl'>
+                              <h4 className="font-Garamond pt-3 text-5xl text-stone-800 tracking-tighter">Let's get in touch:</h4>
+                              <h5 className="font-Avenir pt-2 text-stone-600 tracking-normal text-[1.4rem]">Available November 2023 for design opportunities.</h5>
+                            </div>
+                            {/* DIV 2 */}
+
+                            <div className="pt-20">
+                              <button class="bg-stone-900 hover:bg-white font-Avenir text-1xl text-white hover:text-stone-800 hover:border border-stone-800 py-4 px-4 w-60 h-15 right-0">
+                                Contact Me
+                              </button></div>
+
                           </div>
-                          {/* DIV 2 */}
-
-                          <div className="pt-20">
-                            <button class="bg-stone-900 hover:bg-white font-Avenir text-1xl text-white hover:text-stone-800 hover:border border-stone-800 py-4 px-4 w-60 h-15 right-0">
-                              Contact Me
-                            </button></div>
-
                         </div>
-                      </div>
 
-                      {/* TEST ZONE END */}
-
+                        {/* TEST ZONE END */}
 
 
-                      <div className="divide-y divide-stone-300">
-                        <div></div>
-                        <div>
+
+                        <div className="divide-y divide-stone-300">
+                          <div></div>
+                          <div>
+                          </div>
                         </div>
-                      </div>
 
-                      {/* <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
+                        {/* <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
                       <h6 className="pt-20 font-SFproBold text-[14px] text-stone-600 uppercase tracking-[.15em]">competencies</h6> */}
-                      <h6 className="pt-20 font-SFproBold text-[15px] text-stone-600 uppercase tracking-[.2em]">competencies</h6>
-                     {/* </div> */}
-                     
-                     
-                      <div>
+                        <h6 className="pt-20 font-SFproBold text-[15px] text-stone-600 uppercase tracking-[.2em]">competencies</h6>
+                        {/* </div> */}
 
-                        <div className='mt-20 mb-10 p-1'>
-                          <div className="grid grid-cols-0 md:grid-cols-5 gap-0 md:gap-16">
 
-                            <div class="text-white">
-                              {/* <div className="font-Avenir text-1xl">
+                        <div>
+
+                          <div className='mt-20 mb-10 p-1'>
+                            <div className="grid grid-cols-0 md:grid-cols-5 gap-0 md:gap-16">
+
+                              <div class="text-white">
+                                {/* <div className="font-Avenir text-1xl">
                                 Contribution
                               </div> */}
-                              <div className="font-Avenir tracking-wide text-stone-800">
-                                <div>Design Strategy</div>
-                                <div>Art Direction</div>
-                                <div>Product Design</div>
-                                <div>Interaction Design</div>
+                                <div className="font-Avenir tracking-wide text-stone-800">
+                                  <div>Design Strategy</div>
+                                  <div>Art Direction</div>
+                                  <div>Product Design</div>
+                                  <div>Interaction Design</div>
+                                </div>
                               </div>
-                            </div>
 
 
-                            <div class="text-white divide-x">
-                              {/* <div className="font-Avenir text-1xl">
+                              <div class="text-white divide-x">
+                                {/* <div className="font-Avenir text-1xl">
                                 Tools
                               </div> */}
-                              <div className="text-stone-800 tracking-wide font-Avenir">
-                                <div>Figma</div>
-                                <div>Miro</div>
-                                <div>Photoshop</div>
-                                <div>Illustrator</div>
+                                <div className="text-stone-800 tracking-wide font-Avenir">
+                                  <div>Figma</div>
+                                  <div>Miro</div>
+                                  <div>Photoshop</div>
+                                  <div>Illustrator</div>
+                                </div>
                               </div>
-                            </div>
 
-                            <div class="text-white divide-x">
-                              {/* <div className="font-Avenir text-1xl pr-5">
+                              <div class="text-white divide-x">
+                                {/* <div className="font-Avenir text-1xl pr-5">
                                 Tools
                               </div> */}
-                              <div className="text-stone-800 tracking-wide font-Avenir pr-5 pt-10 md:pt-0">
-                                <div>Sprinting</div>
-                                <div>Copywriting</div>
-                                <div>User Research</div>
-                                <div>Project Management</div>                        
+                                <div className="text-stone-800 tracking-wide font-Avenir pr-5 pt-10 md:pt-0">
+                                  <div>Sprinting</div>
+                                  <div>Copywriting</div>
+                                  <div>User Research</div>
+                                  <div>Project Management</div>
+                                </div>
                               </div>
-                            </div>
 
 
 
-                            
+
                               <div className="col-span-2 md:border-l  border-stone-300">
-                              <Link href={"https://github.com/brendanmmmkay/Portfolio/blob/main/brendanmckayresume.pdf"}>
-                              <h2 className="text-stone-700 font-SFpro leading-relaxed pt-20 md:pt-0 md:pl-10">Resume
-                                </h2>
+                                <Link href={"https://github.com/brendanmmmkay/Portfolio/blob/main/brendanmckayresume.pdf"}>
+                                  <h2 className="text-stone-700 font-SFpro leading-relaxed pt-20 md:pt-0 md:pl-10">Resume
+                                  </h2>
                                 </Link>
-                             <Link href={"https://github.com/brendanmmmkay/Portfolio/blob/main/brendanmckayresume.pdf"}><h2 className="text-stone-800 font-Avenir  leading-relaxed gap-10 md:pl-10 pt-5">A degree in design at Simon Fraser University and 5 years of freelance work experience.</h2>
-                             </Link>
-                            
-                            <Link href={"https://github.com/brendanmmmkay/Portfolio/blob/main/brendanmckayresume.pdf"}>
-                             <Image className="pt-10 md:ml-10 transition ease-in-out delay-15 hover:translate-x-3" src={arrow}></Image>
-                             </Link>
-                            </div>
+                                <Link href={"https://github.com/brendanmmmkay/Portfolio/blob/main/brendanmckayresume.pdf"}><h2 className="text-stone-800 font-Avenir  leading-relaxed gap-10 md:pl-10 pt-5">A degree in design at Simon Fraser University and 5 years of freelance work experience.</h2>
+                                </Link>
+
+                                <Link href={"https://github.com/brendanmmmkay/Portfolio/blob/main/brendanmckayresume.pdf"}>
+                                  <Image className="pt-10 md:ml-10 transition ease-in-out delay-15 hover:translate-x-3" src={arrow}></Image>
+                                </Link>
+                              </div>
 
 
-                            {/* <div class="grid grid-cols-3 divide-x">
+                              {/* <div class="grid grid-cols-3 divide-x">
   <div>01</div>
   <div>02</div>
 </div> */}
@@ -499,12 +531,12 @@ export default function Home() {
 
 
 
+                            </div>
                           </div>
-                        </div>
 
-                        {/* center align */}
-                        <div className="font-Avenir text-[14px] text-stone-400 grid grid-flow-col justify-center pt-40">
-                          <div>Developed with Next.js and React by Brendan McKay</div>
+                          {/* center align */}
+                          <div className="font-Avenir text-[14px] text-stone-400 grid grid-flow-col justify-center pt-40">
+                            <div>Developed with Next.js and React by Brendan McKay</div>
                           </div>
                         </div>
                       </div>
@@ -516,6 +548,213 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+        <div className="w-screen overflow-x-scroll">
+          <div className="ml-20"></div>
+          <div class=" rounded shadow-lg bg-white">
+            <a href="#">
+              <div class="grid container lg:grid-cols-3 gap-1 sm:grid-cols-1">
+                <Image
+                  src={momentPanel3}
+                />                <Image
+                  src={momentPanel2}
+                />                <Image
+                  src={momentPanel2}
+                />
+              </div>
+            </a>
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+              <p class="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              </p>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div className="w-screen overflow-x-scroll">
+
+          <div class="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1 lg:ml-[20rem]">
+            <div className="pt-5 xs={12}">
+              <Image width={1000}
+                src={test1}
+              />
+            </div>
+            <div className="pt-5">
+              <Image
+                src={test2}
+              />
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        {/* <div>
+          <h2 className="z-0 pt-30">uhhhh</h2>
+        </div> */}
+
+
+        <div className="md:overflow-x-scroll scroll-smooth no-scrollbar snap-x duration-1000 ease-in-out z-50">
+          
+          <div className="md:pl-40">
+            <div class=" bg-white border border-edge-white drop-shadow-2xl lg:w-[150rem] mb-16 mt-32">
+              <a href="#">
+                <div className="grid grid-cols-1 lg:grid-cols-4 gap-1">
+                  <Image className="md:scroll-ml-48 snap-start" width={1000}
+                    src={momentPanel3}
+                  />                <Image
+                    src={momentPanel2}
+                  />                
+                  <div>
+                  <Image
+                    src={momentPanel2}
+                    
+                  />
+                  <p>yoooo</p>
+                  </div>
+                  <Image
+                    src={momentPanel2}
+                  />
+                </div>
+              </a>
+              <div class="p-5 overflow-x-scroll">
+                <a href="#">
+                  <h5 class="mb-2 text-3xl font-Avenir tracking-tight text-gray-900">Moment Energy</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                <a href="#" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                  Read more
+                  <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        <div className="md:overflow-x-scroll scroll-smooth no-scrollbar snap-x duration-1000 ease-in-out z-50">
+          
+          <div className="md:pl-40">
+            <div class=" bg-white border border-edge-white drop-shadow-2xl lg:w-[150rem] mb-16">
+              <a href="#">
+                <div className="grid grid-cols-1 lg:grid-cols-4 gap-1">
+                  <Image className="md:scroll-ml-48 snap-start" width={1000}
+                    src={momentPanel3}
+                  />
+                  <div>
+                   <Image
+                    src={momentPanel2}
+                  />   
+                  <p className="invisible md:visible pt-[3.1rem] text-chip-deep-gray absolute text-[0.6rem] tracking-[0.2rem] font-AvenirHeavy ">ABOUT:</p>
+                  <p className="invisible md:visible pt-[4.8rem] absolute text-1xl font-Avenir">A new brand and website to disrupt the energy industry.</p>
+                </div>
+                  <div>
+                  <Image
+                    src={momentPanel2}
+                    
+                  />
+                  {/* <p>yoooo</p> */}
+                  </div>
+                  <Image
+                    src={momentPanel2}
+                  />
+                </div>
+              </a>
+              <div class="">
+                <a href="#">
+                  <h5 class="mb-2 ml-1 md:ml-5 mt-11 text-4xl font-Avenir tracking-tight text-gray-900 p-5">Moment Energy</h5>
+                </a>
+
+                <div className='pt-5 pl-6'>
+                <article className="md:invisible visible text-1xl font-Avenir text-balance w-60 leading-6">A new brand and website to disrupt the energy industry.</article>
+                </div>
+                
+                <div class="divide-y-2 divide-linear divide-edge-white pt-10 md:pt-0">
+                    <div></div>
+                    <div>
+                    </div>
+              
+              
+                </div>
+                <div className='py-4 md:p-4 flex flex-row text-nowrap overflow-x-scroll no-scrollbar'>
+                <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
+              <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr:1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">BRAND IDENTITY</button>
+            </Link>
+            <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
+              <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">LOGO DESIGN</button>
+            </Link>
+            <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
+              <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">PITCH DECKS</button>
+            </Link>
+            <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
+              <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">PITCH DECKS</button>
+            </Link>
+            <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
+              <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">PITCH DECKS</button>
+            </Link>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="w-screen overflow-x-scroll">
+
+          <div class="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1 lg:ml-[20rem]">
+            <div className="pt-5 xs={12}">
+              <Image width={1000}
+                src={test1}
+              />
+            </div>
+            <div className="pt-5">
+              <Image
+                src={test2}
+              />
+            </div>
+          </div>
+
+        </div>
+
+
 
 
 

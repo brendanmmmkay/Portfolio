@@ -16,8 +16,9 @@ import arcPanel1 from "../image/ArcPanel1.png"
 import arcPanel2 from "../image/ArcPanel2.png"
 import arcPanel3 from "../image/ArcPanel3.png"
 import arrow from "../image/arrow.svg"
-import cursor from "../image/cursor.svg"
-import AnimatedTextWord from '../../components/AnimatedTextWord';
+// import cursor from "../image/cursor.svg"
+// import Navbar from '../../components/Navbar';
+// import AnimatedTextWord from '../../components/AnimatedTextWord';
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -34,10 +35,10 @@ export default function Home() {
       animate={{ y: "0%" }}
       transition={{ duration: 0.75, ease: "easeOut" }}
       exit={{ opacity: 1 }}
-      className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default bg-regal-gray"
+      className="absolute z-0 text-gray-900 top-0 left-0 w-full cursor-default  bg-regal-gray"
     >
       <main>
-        <div className='bg-hero-pattern2 bg-cover'>
+        <div className='bg-hero-pattern2 bg-cover z-10'>
           <div className='pl-5 lg:px-48 py-1 lg:py-24'>
 
 

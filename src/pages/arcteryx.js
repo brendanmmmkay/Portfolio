@@ -88,7 +88,7 @@ export default function Bosch() {
                         animate={{ y: 0 }}
                         initial={{ y: "100%" }}
                         transition={{ delay: 0.5, duration: 0.5 }}
-                        className='text-2xl px-5 lg:text-[3.7rem] text-left text-1xl font-Garamond text-tahiti-500 leading-relaxed  md:leading-tight mt-10 pb-1 md:pb-5 lg:mt-40 lg:px-48 max-w-[94%]'>A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.
+                        className='text-2xl px-5 lg:text-[3.7rem] text-left text-1xl font-Garamond text-tahiti-500 leading-relaxed  md:leading-tight mt-10 pb-1 md:pb-5 lg:mt-40 lg:px-48 max-w-[84%] text-pretty'>A two product solution renewing trust in Arc’teryx’s lasting quality, helping the brand achieve sustainable goals.
                     </m.h1>
                 </div>
             </div>
@@ -102,34 +102,6 @@ export default function Bosch() {
 
 
 
-            <div class="lg:px-96 px-5 pb-10">
-                <div className="mt-20 md:mt-40">
-                    <h1 className='text-3xl lg:text-5xl font-Garamond text-white tracking-wide'>Value</h1>
-                    <h1 className='text-1xl lg:text-2xl font-NeueHaasRoman tracking-widest text-stone-400 lg:pt-1'>Identifying a design opportunity</h1>
-                </div>
-
-                <div class="divide-y divide-linear divide-stone-500 pt-5 max-w-screen-xl">
-                    <div></div>
-                    <div>
-                    </div>
-                </div>
-
-                <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
-                    "To minimize our impact as much as possible and make sure that we build products to last a really, really long time”
-                </div>
-                <div className="font-Avenir tracking-wide text-white pt-20 pb-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
-                    We made two products; the Product Care Magnet, and the Trail Bandana. Each product equips customers with the ability, the motivation, and the necessary reminder that longevity is achieved through a commitment to care.
-                </div>
-            </div>
-
-
-
-
-            <div className="h-96 object-cover lg:h-full lg:object-cover border-y border-stone-600">
-                <Image
-                    src={ArcyImg4}
-                />
-            </div>
 
 
 
@@ -157,6 +129,42 @@ export default function Bosch() {
                 </div>
 
             </div>
+
+
+
+
+            <div className="h-96 object-cover lg:h-full lg:object-cover border-y border-stone-600">
+                <Image
+                    src={ArcyImg4}
+                />
+            </div>
+
+
+
+
+            <div class="lg:px-96 px-5 pb-10">
+                <div className="mt-20 md:mt-40">
+                    <h1 className='text-3xl lg:text-5xl font-Garamond text-white tracking-wide'>Value</h1>
+                    <h1 className='text-1xl lg:text-2xl font-NeueHaasRoman tracking-widest text-stone-400 lg:pt-1'>Identifying a design opportunity</h1>
+                </div>
+
+                <div class="divide-y divide-linear divide-stone-500 pt-5 max-w-screen-xl">
+                    <div></div>
+                    <div>
+                    </div>
+                </div>
+<article className="text-wrap">
+                <p className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
+                    "To minimize our impact as much as possible and make sure that we build products to last a really, really long time”
+                </p>
+                <p className="font-Avenir tracking-wide text-white pt-20 pb-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
+                    We made two products; the Product Care Magnet, and the Trail Bandana. Each product equips customers with the ability, the motivation, and the necessary reminder that longevity is achieved through a commitment to care.
+                </p>
+                </article>
+
+            </div>
+
+
 
 
             <div className="h-96 object-cover lg:h-full lg:object-cover border-y border-stone-600">
