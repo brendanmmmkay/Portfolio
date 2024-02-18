@@ -19,6 +19,11 @@ import momentProductDetail from "../image/momentProductDetail.png"
 import momentPitch from "../image/momentPitch.png"
 import momentSlide1 from "../image/momentSlide1.png"
 import momentSlide2 from "../image/momentSlide2.png"
+import momentMood1 from "../image/momentMood1.png"
+import momentMood2 from "../image/momentMood2.png"
+import momentMood3 from "../image/momentMood3.png"
+import momentMood4 from "../image/momentMood4.png"
+import momoPromo from "../image/momoPromo.svg"
 
 
 export default function Bosch() {
@@ -31,21 +36,21 @@ export default function Bosch() {
             className="text-gray-900 absolute z-2 top-0 left-0 w-full h-ful  bg-tahiti-100">
             <div className="bg-tahiti-200 pt-10"></div>
             <div className="">
-                <div className='bg-off-white'>
+                <div className=''>
 
                     <div className="border-y border-edge-white bg-off-white">
                         <div className="">
                             <div className="grid lg:grid-cols-5 grid-cols-1 gap-6 md:divide-x md:divide-edge-white">
                                 <div className="col-start-1 col-span-2 lg:px-48 px-5">
 
-                                    <h2 className="text-stone-600 font-NeueHaasLight tracking-wide leading-relaxed pt-10">April — August
+                                    <h2 className="text-stone-600 font-NeueHaasRoman tracking-wide leading-relaxed pt-10">April — August
                                         2021</h2>
-                                    <h2 className="text-stone-400 font-Avenir text-[1.1rem] tracking-wide leading-relaxed gap-10 pt-10">Product design and brand refresh <br></br> 4 month Internship</h2>
+                                    <h2 className="text-stone-600 font-Avenir text-[1.1rem] tracking-wide leading-relaxed gap-10 pt-10">Product design and brand refresh, <br></br> 4 month Internship</h2>
 
                                 </div>
 
                                 <div class="text-stone-600 grid grid-cols-1 gap-3">
-                                    <div className="font-NeueHaasLight  tracking-wider text-1xl pl-5 pt-10">
+                                    <div className="font-NeueHaasRoman  tracking-wide text-1xl pl-5 pt-10">
                                         Roles
                                     </div>
                                     <div className="font-Avenir tracking-wide text-stone-400 pb-5 pl-5">
@@ -59,7 +64,7 @@ export default function Bosch() {
 
                                 <div className="invisible md:visible">
                                     <div class="text-stone-600 grid grid-cols-1 gap-3">
-                                        <div className="font-NeueHaasLight text-1xl px-5 pt-10">
+                                        <div className="font-NeueHaasRoman tracking-wide text-1xl px-5 pt-10">
                                             Tools
                                         </div>
                                         <div className="text-stone-400 tracking-wide font-Avenir px-5 pb-10">
@@ -87,13 +92,27 @@ export default function Bosch() {
 
                     </div>
 
+
+
+
+<div className="bg-white">
+                    <div className="px-5 lg:px-48 font-AvenirHeavy text-stone-500 pt-20">Moment Energy</div>
+
                     <m.h1
                         animate={{ y: 0 }}
                         initial={{ y: "100%" }}
                         transition={{ delay: 0.5, duration: 0.5 }}
-                        className="text-2xl px-5 lg:text-[2.5rem] text-left tracking-loose font-Garamond text-stone-600 leading-relaxed  md:leading-tight pb-10 lg:mt-20 lg:px-48">A new brand and website for Moment Energy
+                        className="text-2xl px-5 lg:text-[2.8rem] text-left tracking-loose font-Garamond text-stone-600 leading-relaxed  md:leading-tight pb-5 lg:mt-10 lg:px-48">A new logo, visual identity, and web strategy <br></br> to disrupt the energy storage industry.
                     </m.h1>
+
+                    <div className="px-5 lg:px-48 pt-20">
+                        <p className="font-AvenirHeavy text-stone-500 tracking-widest text-[0.6rem]">AS SEEN ON:</p>                       
+                        <Image className="pb-10" src={momoPromo}/>
+                    </div>
+
+
                 </div>
+            </div>
             </div>
 
             <div className="border-y border-stone-600">
@@ -124,9 +143,9 @@ export default function Bosch() {
                     Moment Energy is a cleantech company that is helping to build a sustainable economy through battery energy storage systems made from repurposed electric vehicle batteries, with a mission to provide worldwide access to clean, reliable and affordable power.
                 </div>
 
-                <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
+                {/* <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
                     Moment is the only Canadian company working with Nissan North America and Mercedes Benz Energy to repurpose their EV batteries. In my internship, I designed a pitch deck that saw Moment recognized as the Grand Prize Winner of the 2021 National Impact Investor Challenge held by Spring Activator in June 2021.
-                </div>
+                </div> */}
 
             </div>
 
@@ -200,27 +219,15 @@ export default function Bosch() {
 
 
 
-            <div className="w-screen overflow-x-auto">
-                <m.div>
-                    <div class="grid container lg:grid-cols-3 gap-6 sm:grid-cols-1 lg:ml-[20rem]">
-                        <div className="pt-5 xs={12}">
-                            <Image
-                                src={momentlogoAlt1}
-                            />
-                        </div>
-                        <div className="pt-5">
-                            <Image
-                                src={momentlogo2}
-                            />
-                        </div>
-                        <div className="pt-5">
-                            <Image
-                                src={momentlogo3}
-                            />
-                        </div>
-                    </div>
-                </m.div>
+            <div className="md:overflow-x-scroll w-full p-4">
+                <div className="flex md:flex-nowrap space-x-4 ml-1 md:ml-40">
+                    <Image className="w-[60rem] flex-none" src={momentlogoAlt1} />
+                    <Image className="w-[60rem] flex-none" src={momentlogo2} />
+                    <Image className="w-[60rem] flex-none" src={momentlogo3} />
+                </div>
             </div>
+
+
 
 
             <div className="lg:px-96 px-5 pb-10">
@@ -282,10 +289,10 @@ export default function Bosch() {
 
             <div className="overflow-x-scroll w-full p-4">
                 <div className="flex flex-nowrap space-x-4 ml-40">
-                    <Image className="w-[60rem] flex-none" src={momentSlide1} />
-                    <Image className="w-[60rem] flex-none" src={momentSlide1} />
-                    <Image className="w-[60rem] flex-none" src={momentSlide1} />
-                    <Image className="w-[60rem] flex-none" src={momentSlide1} />
+                    <Image className="w-[60rem] flex-none" src={momentMood1} />
+                    <Image className="w-[60rem] flex-none" src={momentMood2} />
+                    <Image className="w-[60rem] flex-none" src={momentMood3} />
+                    <Image className="w-[60rem] flex-none" src={momentMood4} />
                 </div>
             </div>
 
@@ -317,7 +324,6 @@ export default function Bosch() {
                     <Image className="w-[60rem] flex-none" src={momentPitch} />
                     <Image className="w-[60rem] flex-none" src={momentSlide1} />
                     <Image className="w-[60rem] flex-none" src={momentSlide2} />
-                    <Image className="w-[60rem] flex-none" src={momentSlide1} />
                 </div>
             </div>
 
