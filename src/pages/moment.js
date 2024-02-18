@@ -219,11 +219,20 @@ export default function Bosch() {
 
 
 
-            <div className="md:overflow-x-scroll w-full p-4">
-                <div className="flex md:flex-nowrap space-x-4 ml-1 md:ml-40">
-                    <Image className="w-[60rem] flex-none" src={momentlogoAlt1} />
-                    <Image className="w-[60rem] flex-none" src={momentlogo2} />
-                    <Image className="w-[60rem] flex-none" src={momentlogo3} />
+            <div className="md:overflow-x-scroll md:w-full p-4">
+                <div className="flex flex-wrap md:flex-nowrap space-x-4 ml-1 md:ml-40">
+                    <Image className="w-[60rem] md:flex-none" src={momentlogoAlt1} />
+                    <Image className="w-[60rem] md:flex-none" src={momentlogo2} />
+                    <Image className="w-[60rem] md:flex-none" src={momentlogo3} />
+                </div>
+            </div>
+
+
+            <div className="md:overflow-x-scroll md:w-full p-4">
+                <div className="flex flex-wrap md:flex-nowrap space-x-4 ml-1 md:ml-40">
+                    <Image className="w-[60rem] md:flex-none" src={momentlogoAlt1} />
+                    <Image className="w-[60rem] md:flex-none" src={momentlogo2} />
+                    <Image className="w-[60rem] md:flex-none" src={momentlogo3} />
                 </div>
             </div>
 
