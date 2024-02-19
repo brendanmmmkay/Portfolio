@@ -19,11 +19,11 @@ import momentProductDetail from "../image/momentProductDetail.png"
 import momentPitch from "../image/momentPitch.png"
 import momentSlide1 from "../image/momentSlide1.png"
 import momentSlide2 from "../image/momentSlide2.png"
-import momentMood1 from "../image/momentMood1.png"
-import momentMood2 from "../image/momentMood2.png"
-import momentMood3 from "../image/momentMood3.png"
-import momentMood4 from "../image/momentMood4.png"
-import momoPromo from "../image/momoPromo.svg"
+// import momentMood1 from "../image/momentMood1.png"
+// import momentMood2 from "../image/momentMood2.png"
+// import momentMood3 from "../image/momentMood3.png"
+// import momentMood4 from "../image/momentMood4.png"
+// import momoPromo from "../image/momoPromo.svg"
 
 
 export default function Bosch() {
@@ -105,10 +105,10 @@ export default function Bosch() {
                         className="text-2xl px-5 lg:text-[2.8rem] text-left tracking-loose font-Garamond text-stone-600 leading-relaxed  md:leading-tight pb-5 lg:mt-10 lg:px-48">A new logo, visual identity, and web strategy <br></br> to disrupt the energy storage industry.
                     </m.h1>
 
-                    <div className="px-5 lg:px-48 pt-20">
+                    {/* <div className="px-5 lg:px-48 pt-20">
                         <p className="font-AvenirHeavy text-stone-500 tracking-widest text-[0.6rem]">AS SEEN ON:</p>                       
                         <Image className="pb-10" src={momoPromo}/>
-                    </div>
+                    </div> */}
 
 
                 </div>
@@ -294,7 +294,7 @@ export default function Bosch() {
 
 
 
-
+{/* 
             <div className="overflow-x-scroll w-full p-4">
                 <div className="flex flex-nowrap space-x-4 ml-40">
                     <Image className="w-[60rem] flex-none" src={momentMood1} />
@@ -302,7 +302,7 @@ export default function Bosch() {
                     <Image className="w-[60rem] flex-none" src={momentMood3} />
                     <Image className="w-[60rem] flex-none" src={momentMood4} />
                 </div>
-            </div>
+            </div> */}
 
 
 
