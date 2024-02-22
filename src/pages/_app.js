@@ -4,6 +4,7 @@ import { AnimatePresence } from "framer-motion";
 import { Router } from 'next/router';
 import { motion, useScroll, useSpring } from "framer-motion";
 import Navbar from '../../components/Navbar';
+import Footer from '../../components/footer.js/Footer';
 
 function App({ Component, pageProps, router }) {
 return (
@@ -12,6 +13,7 @@ return (
   <AnimatePresence>
     <Component key={router.pathname} {...pageProps} />
   </AnimatePresence>
+  {/* <Footer/> */}
   </>
   
 );

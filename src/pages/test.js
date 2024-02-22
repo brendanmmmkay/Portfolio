@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import Head from 'next/head';
@@ -19,7 +20,6 @@ import grassLand from "../image/grassLand.png"
 import arrow from "../image/arrow.svg"
 import cursor from "../image/cursor.svg"
 import AnimatedTextWord from '../../components/AnimatedTextWord';
-'use client';
 import { Carousel } from 'flowbite-react';
 // const carousel = new Carousel(carouselElement, items, options, instanceOptions);
 
@@ -185,6 +185,24 @@ export default function Home() {
 
 
         <div className='lg:px-48 px-4'>
+
+
+          {/* <div className="bg-white">
+
+                    <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
+          <button class="group hover:scale-110 border-2 hover:shadow hover:border-none hover:tracking-widest borderColor-off-white focus:borderColor-white text-xs tracking-wider py-2 px-4 rounded-full font-NationalHeavy text-chip-deep-gray cursor-pointer">
+            LINKEDIN
+          </button>
+          </Link>
+
+          <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
+          <button class="group text-chip-deep-gray borderColor-off-white relative h-12 overflow-hidden text-xs tracking-wider text-toverflow-x-hidden rounded-full bg-white px-8 py-2 cursor-pointer text-neutral-750"><span class="relative z-10">LINKEDIN</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
+       </Link>
+
+       <button class="inline-block px-4 py-2 bg-blue-500 text-white border border-blue-500 rounded-md shadow-md hover:shadow-lg hover:border-transparent transition duration-300 ease-in-out">
+  Hover Me
+</button>
+</div> */}
 
 
           <motion.div

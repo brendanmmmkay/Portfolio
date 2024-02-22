@@ -19,11 +19,11 @@ import momentProductDetail from "../image/momentProductDetail.png"
 import momentPitch from "../image/momentPitch.png"
 import momentSlide1 from "../image/momentSlide1.png"
 import momentSlide2 from "../image/momentSlide2.png"
-// import momentMood1 from "../image/momentMood1.png"
-// import momentMood2 from "../image/momentMood2.png"
-// import momentMood3 from "../image/momentMood3.png"
-// import momentMood4 from "../image/momentMood4.png"
-// import momoPromo from "../image/momoPromo.svg"
+import momentMood1 from "../image/momentMood1.png"
+import momentMood2 from "../image/momentMood2.png"
+import momentMood3 from "../image/momentMood3.png"
+import momentMood4 from "../image/momentMood4.png"
+import momoPromo from "../image/momoPromo.svg"
 
 
 export default function Bosch() {
@@ -43,31 +43,33 @@ export default function Bosch() {
                             <div className="grid lg:grid-cols-5 grid-cols-1 gap-6 md:divide-x md:divide-edge-white">
                                 <div className="col-start-1 col-span-2 lg:px-48 px-5">
 
-                                    <h2 className="text-stone-600 font-NeueHaasRoman tracking-wide leading-relaxed pt-10">April — August
+                                    <h2 className="text-stone-500 text-sm font-NeueHaasRoman tracking-wide leading-relaxed pt-14">April — August
                                         2021</h2>
-                                    <h2 className="text-stone-600 font-Avenir text-[1.1rem] tracking-wide leading-relaxed gap-10 pt-10">Product design and brand refresh, <br></br> 4 month Internship</h2>
+                                    <h2 className="text-stone-600 font-AvenirMedium text-[1.1rem] tracking-relaxed leading-relaxed gap-10 pt-3">Product design and brand refresh, <br></br> 4 month Internship</h2>
 
                                 </div>
 
-                                <div class="text-stone-600 grid grid-cols-1 gap-3">
-                                    <div className="font-NeueHaasRoman  tracking-wide text-1xl pl-5 pt-10">
+                                <div className="invisible md:visible">
+                                <div class=" grid grid-cols-1 gap-3">
+                                    <div className="font-NeueHaasRoman text-stone-600 tracking-wide text-sm pl-5 pt-14">
                                         Roles
                                     </div>
-                                    <div className="font-Avenir tracking-wide text-stone-400 pb-5 pl-5">
+                                    <div className="font-Avenir tracking-wide text-stone-500 text-sm pb-5 pl-5">
                                         <div>Brand Strategy</div>
                                         <div>Logo Design</div>
                                         <div>Product Design</div>
                                         <div>Pitch Deck Design</div>
                                     </div>
                                 </div>
+                                </div>
 
 
                                 <div className="invisible md:visible">
                                     <div class="text-stone-600 grid grid-cols-1 gap-3">
-                                        <div className="font-NeueHaasRoman tracking-wide text-1xl px-5 pt-10">
+                                        <div className="font-NeueHaasRoman tracking-wide text-sm pl-5 pt-14">
                                             Tools
                                         </div>
-                                        <div className="text-stone-400 tracking-wide font-Avenir px-5 pb-10">
+                                        <div className="font-Avenir tracking-wide text-stone-500 text-sm pb-5 pl-5">
                                             <div>Figma</div>
                                             <div>Miro</div>
                                             <div>Photoshop</div>
@@ -94,21 +96,20 @@ export default function Bosch() {
 
 
 
-
 <div className="bg-white">
-                    <div className="px-5 lg:px-48 font-AvenirHeavy text-stone-500 pt-20">Moment Energy</div>
+                    <div className="px-5 lg:px-48 font-AvenirHeavy text-stone-400 pt-16">Moment Energy</div>
 
                     <m.h1
                         animate={{ y: 0 }}
                         initial={{ y: "100%" }}
                         transition={{ delay: 0.5, duration: 0.5 }}
-                        className="text-2xl px-5 lg:text-[2.8rem] text-left tracking-loose font-Garamond text-stone-600 leading-relaxed  md:leading-tight pb-5 lg:mt-10 lg:px-48">A new logo, visual identity, and web strategy <br></br> to disrupt the energy storage industry.
+                        className="text-[1.2rem] px-5 lg:text-[3rem] text-left tracking-loose font-Garamond text-stone-600 leading-relaxed  md:leading-tight pb-5 mt-5 lg:mt-8 lg:px-48">A new logo, visual identity, and web strategy <br></br> to disrupt the energy storage industry.
                     </m.h1>
 
-                    {/* <div className="px-5 lg:px-48 pt-20">
+                    <div className="px-5 lg:px-48 pt-20">
                         <p className="font-AvenirHeavy text-stone-500 tracking-widest text-[0.6rem]">AS SEEN ON:</p>                       
                         <Image className="pb-10" src={momoPromo}/>
-                    </div> */}
+                    </div>
 
 
                 </div>
@@ -215,26 +216,19 @@ export default function Bosch() {
                 </div>
 
             </div>
+            
 
 
 
 
             <div className="md:overflow-x-scroll md:w-full p-4">
-                <div className="flex flex-wrap md:flex-nowrap space-x-4 ml-1 md:ml-40">
+                <div className="flex flex-wrap md:flex-nowrap gap-4 md:space-x-4 ml-1 md:ml-40">
                     <Image className="w-[60rem] md:flex-none" src={momentlogoAlt1} />
                     <Image className="w-[60rem] md:flex-none" src={momentlogo2} />
                     <Image className="w-[60rem] md:flex-none" src={momentlogo3} />
                 </div>
             </div>
 
-
-            <div className="md:overflow-x-scroll md:w-full p-4">
-                <div className="flex flex-wrap md:flex-nowrap space-x-4 ml-1 md:ml-40">
-                    <Image className="w-[60rem] md:flex-none" src={momentlogoAlt1} />
-                    <Image className="w-[60rem] md:flex-none" src={momentlogo2} />
-                    <Image className="w-[60rem] md:flex-none" src={momentlogo3} />
-                </div>
-            </div>
 
 
 
@@ -293,16 +287,14 @@ export default function Bosch() {
             </div>
 
 
-
-{/* 
-            <div className="overflow-x-scroll w-full p-4">
-                <div className="flex flex-nowrap space-x-4 ml-40">
-                    <Image className="w-[60rem] flex-none" src={momentMood1} />
-                    <Image className="w-[60rem] flex-none" src={momentMood2} />
-                    <Image className="w-[60rem] flex-none" src={momentMood3} />
-                    <Image className="w-[60rem] flex-none" src={momentMood4} />
+            <div className="md:overflow-x-scroll md:w-full p-4">
+                <div className="flex flex-wrap md:flex-nowrap gap-4 md:space-x-4 ml-1 md:ml-40">
+                    <Image className="w-[60rem] md:flex-none" src={momentMood1} />
+                    <Image className="w-[60rem] md:flex-none" src={momentMood2} />
+                    <Image className="w-[60rem] md:flex-none" src={momentMood3} />
+                    <Image className="w-[60rem] md:flex-none" src={momentMood4} />
                 </div>
-            </div> */}
+            </div>
 
 
 
@@ -326,15 +318,14 @@ export default function Bosch() {
 
 
 
-
-            <div className="overflow-x-scroll w-full p-4">
-                <div className="flex flex-nowrap space-x-4 ml-40">
-                    <Image className="w-[60rem] flex-none" src={momentPitch} />
-                    <Image className="w-[60rem] flex-none" src={momentSlide1} />
-                    <Image className="w-[60rem] flex-none" src={momentSlide2} />
+            
+            <div className="md:overflow-x-scroll md:w-full p-4">
+                <div className="flex flex-wrap md:flex-nowrap gap-4 md:space-x-4 ml-1 md:ml-40">
+                    <Image className="w-[60rem] md:flex-none" src={momentPitch} />
+                    <Image className="w-[60rem] md:flex-none" src={momentSlide1} />
+                    <Image className="w-[60rem] md:flex-none" src={momentSlide2} />
                 </div>
             </div>
-
 
 
             <div className="pt-60"></div>
@@ -455,6 +446,8 @@ export default function Bosch() {
 
                                                             <Link href={"https://github.com/brendanmmmkay/Portfolio/blob/main/brendanmckayresume.pdf"}>
                                                                 <Image className="pt-10 md:ml-10 transition ease-in-out delay-15 hover:translate-x-3" src={arrow}></Image>
+                                                                {/* <button class="group relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-neutral-950"><div class="transition duration-300 group-hover:rotate-[360deg]"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-200"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></div></button> */}
+                                                                <button class="group relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-neutral-150"><div class="transition duration-300 group-hover:rotate-[360deg]"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-800"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></div></button>
                                                             </Link>
                                                         </div>
 

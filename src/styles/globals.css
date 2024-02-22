@@ -91,6 +91,11 @@ body {
 }
 
 @font-face {
+  font-family: AvenirMedium;
+  src: url(../fonts/AvenirNext-Medium.otf);
+}
+
+@font-face {
   font-family: SFproBold;
   src: url(../fonts/SF-Pro-Display-Bold.otf);
 }

@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import Head from 'next/head';
@@ -16,7 +17,6 @@ import arcPanel1 from "../image/ArcPanel1.png"
 import arcPanel2 from "../image/ArcPanel2.png"
 import arcPanel3 from "../image/ArcPanel3.png"
 import cursor from "../image/cursor.svg"
-'use client';
 import { Carousel } from 'flowbite-react';
 
 // const inter = Inter({ subsets: ['latin'] })
