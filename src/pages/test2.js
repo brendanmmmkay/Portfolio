@@ -39,8 +39,6 @@ export default function Home() {
 
             </head>
         </div>,
-
-
         <div
             initial={{ y: "100%" }}
             animate={{ y: "0%" }}
@@ -79,7 +77,7 @@ export default function Home() {
                                 <a href="#">
                                     <div class="grid grid-cols-1 lg:grid-cols-3 gap-1">
                                         <div class="flex">
-                                            <Image src={momentPanelRedux1} alt="Moment Panel Redux" class="object-cover w-auto h-full" />
+                                            <Image src={momentPanelRedux1} alt="Moment Panel Redux" class="object-cover h-full" />
                                         </div>
                                         <div class="flex p-0">
                                             {/* Your MuxPlayer and other content */}
@@ -94,14 +92,20 @@ export default function Home() {
                                                 secondaryColor="#000000"
                                                 thumbnailTime="22"
                                                 autoplay="any"
-                                                className="object-cover w-auto h-full"
+                                                className="object-cover h-full"
                                             />
                                             <p className="invisible md:visible pt-[31.3rem] text-chip-deep-gray absolute text-[0.6rem] tracking-[0.2rem] font-AvenirHeavy ">ABOUT:</p>
                                             <p className="invisible md:visible pt-[32.8rem] absolute text-1xl font-Avenir">A new brand and website to disrupt the energy industry.</p>
+
                                         </div>
 
                                         <div class="flex p-0">
                                             <Image src={momentPanelRedux1} alt="Moment Panel Redux" class="object-cover w-auto h-full" />
+                                            <div className="invisible md:visible">
+                                            <Link href={"https://github.com/brendanmmmkay/Portfolio/blob/main/brendanmckayresume.pdf"}>
+                                                <button class="group relative inline-flex h-12 md:w-12 items-center justify-center overflow-hidden rounded-full bg-neutral-150"><div class="transition duration-300 group-hover:rotate-[360deg]"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-700"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></div></button>
+                                            </Link>
+                                            </div>
                                         </div>
                                     </div>
                                 </a>
@@ -121,27 +125,30 @@ export default function Home() {
 
 
                                     </div>
-                                    <div className='py-4 md:p-4 flex flex-row text-nowrap overflow-x-scroll no-scrollbar'>
+                                    <div className='py-4 md:p-4 flex flex-row text-nowrap overflow-x-scroll no-scrollbar gap-2'>
+
                                         <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                                            <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-off-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr:1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">BRAND IDENTITY</button>
+                                            <button class="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirMedium relative h-9 overflow-hidden text-xs tracking-widest text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span class="relative z-10">BRAND IDENTITY</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
                                         </Link>
                                         <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                                            <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-off-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">LOGO DESIGN</button>
+                                            <button class="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirHeavy relative h-9 overflow-hidden text-xs tracking-widest text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span class="relative z-10">LOGO DESIGN</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
                                         </Link>
                                         <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                                            <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-off-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">PITCH DECKS</button>
+                                            <button class="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirHeavy relative h-9 overflow-hidden text-xs tracking-widest text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span class="relative z-10">PRODUCT STRATEGY</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
                                         </Link>
                                         <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                                            <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-off-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">PITCH DECKS</button>
-                                        </Link>
-                                        <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                                            <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-off-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">PITCH DECKS</button>
+                                            <button class="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirHeavy relative h-9 overflow-hidden text-xs tracking-widest text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span class="relative z-10">PITCH DECKS</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
                                         </Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
+
+
+
 
 
 
@@ -157,6 +164,8 @@ export default function Home() {
                     <div class="relative h-32 w-32 ...">
                         <div class="absolute top-0 right-0 h-16 w-16 ...">03</div>
                     </div>
+
+
 
 
 
@@ -200,8 +209,8 @@ export default function Home() {
                                                     <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
                                                         {/* DIV 1 */}
                                                         <div className=' drop-shadow-2xl  pb-3 text-3xl'>
-                                                            <h4 className="font-Garamond pt-3 text-5xl text-stone-200 tracking-tighter">Let's get in touch!</h4>
-                                                            <h5 className="font-Avenir pt-2 text-stone-400 tracking-normal text-[1.4rem]">Available March 2023 for design opportunities.</h5>
+                                                            <h4 className="font-Garamond pt-3 text-4xl md:text-5xl text-stone-200 tracking-tighter">Let's get in touch!</h4>
+                                                            <h5 className="font-Avenir pt-2 text-stone-400 leading-snug md:leading-normal tracking-normal text-[1.1rem] md:text-[1.4rem]">Available March 2023 for design opportunities.</h5>
                                                         </div>
                                                         {/* DIV 2 */}
 
@@ -283,7 +292,7 @@ export default function Home() {
                                                                 </Link>
                                                                 <div className="md:pl-6">
                                                                     <Link href={"https://github.com/brendanmmmkay/Portfolio/blob/main/brendanmckayresume.pdf"}>
-                                                                        <button class="group relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-neutral-150"><div class="transition duration-300 group-hover:rotate-[360deg]"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-200"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></div></button>
+                                                                        <button class="group relative inline-flex h-12 md:w-12 items-center justify-center overflow-hidden rounded-full bg-neutral-150"><div class="transition duration-300 group-hover:rotate-[360deg]"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-200"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></div></button>
                                                                     </Link>
                                                                 </div>
                                                             </div>

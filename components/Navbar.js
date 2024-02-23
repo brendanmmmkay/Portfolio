@@ -36,6 +36,14 @@ export default function Navbar() {
           <button class="group text-chip-deep-gray borderColor-off-white relative h-8 overflow-hidden text-xs tracking-wider text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span class="relative z-10">BPMCKAY@SFU.CA</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
           </Link>
 
+
+
+
+
+
+
+          
+
         </div>
       </ul>
       </div>
