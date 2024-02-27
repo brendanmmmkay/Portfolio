@@ -38,7 +38,10 @@ export default function Bosch() {
             <div className="">
                 <div className=''>
 
-                    <div className="border-y border-edge-white bg-off-white">
+
+
+
+                {/* <div className="border-y border-edge-white bg-off-white">
                         <div className="">
                             <div className="grid lg:grid-cols-5 grid-cols-1 gap-6 md:divide-x md:divide-edge-white">
                                 <div className="col-start-1 col-span-2 lg:px-48 px-5">
@@ -79,25 +82,13 @@ export default function Bosch() {
                                 </div>
                             </div>
                         </div>
-                        {/* <div class="text-white grid grid-cols-1 gap-3">
-                        <div className="font-NeueHaasRoman">
-                            Team
-                        </div>
-                        <div className="text-stone-400 tracking-wide font-NeueHaasLight">
-                            <div>Brendan McKay</div>
-                            <div>Christina Hoang</div>
-                            <div>Tracy Chen</div>
-                            <div>Yan Tymoshenko</div>
-                        </div>
                     </div> */}
 
-
-                    </div>
 
 
 
 <div className="bg-white">
-                    <div className="px-5 lg:px-48 font-AvenirHeavy text-stone-400 pt-16">Moment Energy</div>
+                    <div className="px-5 lg:px-48 font-AvenirHeavy tracking-wider text-sm text-stone-400 pt-24">Moment Energy</div>
 
                     <m.h1
                         animate={{ y: 0 }}
@@ -107,7 +98,7 @@ export default function Bosch() {
                     </m.h1>
 
                     <div className="px-5 lg:px-48 pt-20">
-                        <p className="font-AvenirHeavy text-stone-500 tracking-widest text-[0.6rem]">AS SEEN ON:</p>                       
+                        <p className="font-AvenirHeavy text-stone-500 tracking-widest text-[0.6rem]">FEATURED ON:</p>                       
                         <Image className="pb-10" src={momoPromo}/>
                     </div>
 
@@ -121,6 +112,55 @@ export default function Bosch() {
                     src={momentTrainSplash}
                 />
             </div>
+
+
+
+
+
+
+            <div className="border-y border-tahiti-100 bg-tahiti-200">
+                        <div className="">
+                            <div className="grid lg:grid-cols-5 grid-cols-1 gap-6 md:divide-x md:divide-tahiti-100 divide-x-6">
+                                <div className="col-start-1 col-span-2 lg:px-48 px-5">
+
+                                    <h2 className="text-stone-500 text-sm font-NeueHaasRoman tracking-wide leading-relaxed pt-10">April — August
+                                        2021</h2>
+                                    <h2 className="text-stone-400 font-AvenirMedium text-[1.1rem] tracking-relaxed leading-relaxed gap-10 pt-3">Product design and brand refresh, <br></br> 4 month Internship</h2>
+
+                                </div>
+
+                                <div className="invisible md:visible">
+                                <div class=" grid grid-cols-1 gap-3">
+                                    <div className="font-NeueHaasRoman text-stone-500 tracking-wide text-sm pl-5 pt-10">
+                                        Roles
+                                    </div>
+                                    <div className="font-Avenir tracking-wide text-stone-400 text-sm pb-10 pl-5">
+                                        <div>Brand Strategy</div>
+                                        <div>Logo Design</div>
+                                        <div>Product Design</div>
+                                        <div>Pitch Deck Design</div>
+                                    </div>
+                                </div>
+                                </div>
+
+
+                                <div className="invisible md:visible">
+                                    <div class="text-stone-500 grid grid-cols-1 gap-3">
+                                        <div className="font-NeueHaasRoman tracking-wide text-sm pl-5 pt-10">
+                                            Tools
+                                        </div>
+                                        <div className="font-Avenir tracking-wide text-stone-400 text-sm pb-5 pl-5">
+                                            <div>Figma</div>
+                                            <div>Miro</div>
+                                            <div>Photoshop</div>
+                                            <div>Illustrator</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 
 
 
@@ -190,7 +230,7 @@ export default function Bosch() {
 
             </div>
 
-            <div className="h-96 object-cover lg:h-full lg:object-cover ">
+            <div className="h-96 object-cover lg:h-full lg:object-cover pt-20">
                 <Image className="border-y border-stone-600 h-full object-cover lg:w-full  lg:object-cover"
                     src={momentProductDetail}
                 />
