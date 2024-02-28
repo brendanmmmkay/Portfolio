@@ -99,7 +99,7 @@ export default function Home() {
 
 
 
-                    {/* <Card
+                    <Card
                         src={false}
                         src2={false}
                         src3={Images.isoDuo}
@@ -121,9 +121,9 @@ export default function Home() {
                         NLEmotto="something is going to happen tomorrow"
                         playbackId={false}
                         playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
-                    /> */}
+                    />
 
-
+{/* 
 
                     <LazyCardWrapper
                         src={false}
@@ -182,7 +182,7 @@ export default function Home() {
                         playbackId={false}
                         playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
                     />
-
+ */}
 
 
                     {/* NEW FOOTER */}
