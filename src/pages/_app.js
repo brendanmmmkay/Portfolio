@@ -5,7 +5,7 @@ import { Router } from 'next/router';
 import { motion, useScroll, useSpring } from "framer-motion";
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/footer.js/Footer';
-import Card from '../../components/Card';
+
 
 
 
