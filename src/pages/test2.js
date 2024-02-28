@@ -29,6 +29,7 @@ import Card from '../../components/card';
 import Images from '@/image';
 import { images } from '../../next.config';
 import MuxPlayerComponent from '../../components/MuxPlayer';
+import LazyCardWrapper from '../../components/LazyCard';
 // import { Container } from './components/styles/Container.styled';
 // const carousel = new Carousel(carouselElement, items, options, instanceOptions);
 
@@ -59,7 +60,7 @@ export default function Home() {
 
                     {/* <div class="body sticky top-0 z-[1000] flex h-20 flex-row items-center bg-gray-200">Nav content here</div> */}
 
-                    <div className='bg-hero-pattern4 bg-cover pt-6'>
+                    {/* <div className='bg-hero-pattern4 bg-cover pt-6'>
                         <div className="flex justify-center items-center lg:px-48 px-4 pt-32">
 
                             <h1
@@ -67,7 +68,7 @@ export default function Home() {
                             </h1>
 
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* <button class="group relative h-12 overflow-hidden overflow-x-hidden rounded-md bg-neutral-950 px-8 py-2 text-neutral-50"><span class="relative z-10">Hover Me</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full rounded-full bg-blue-500 transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
 
@@ -99,9 +100,9 @@ export default function Home() {
 
 
 
-                    <Card
-src={false}
-src2={false}
+                    {/* <Card
+                        src={false}
+                        src2={false}
                         src3={Images.isoDuo}
                         fill="true"
                         alt="a bluejay"
@@ -121,185 +122,67 @@ src2={false}
                         NLEmotto="something is going to happen tomorrow"
                         playbackId={false}
                         playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
+                    /> */}
+
+
+
+                    <LazyCardWrapper
+                        src={false}
+                        src2={false}
+                        src3={Images.isoDuo}
+                        fill="true"
+                        alt="a bluejay"
+                        content="In Search Of"
+                        NLEmotto="something is going to happen tomorrow"
+                        playbackId="dOM00pqI022lCLHtNFaLn6r2KZ1aI01OstRGpqleqGV6r00"
+                        playbackId2="oWqKBxCME02obOSNxtb01T801ew3tcgwwOp5502l7BihPyc"
                     />
 
-
-                    <Card
+                    <LazyCardWrapper
                         src={Images.trains}
+                        src2={false}
+                        src3={Images.isoDuo}
                         fill="true"
                         alt="a bluejay"
                         content="Moment"
                         NLEmotto="something is going to happen tomorrow"
-                        playbackId="dOM00pqI022lCLHtNFaLn6r2KZ1aI01OstRGpqleqGV6r00"
+                        playbackId={false}
                         playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
                     />
 
-                    <Card src={Images.trains} fill="true" alt="a bluejay" content="Moment" NLEmotto="something is going to happen tomorrow" playbackId2="DBmBiBdlLIdzER7uLGQv7QVZL802qPu00KdbgOO9eBwfA" />
-
-                    {/* <Card src={Images.trains} fill="true" alt="a bluejay" content="Moment" NLEmotto="something is going to happen tomorrow" playbackId="dOM00pqI022lCLHtNFaLn6r2KZ1aI01OstRGpqleqGV6r00" /> */}
-
-
-
-                    <div class="pl-40 py-1">
-                        <p class="pt-20 text-[0.7rem] tracking-widest text-stone-500 font-AvenirHeavy">NON COMPONENT CARDS</p>
-                    </div>
-
-                    <div class="md:overflow-x-scroll scroll-smooth no-scrollbar snap-x duration-1000 ease-in-out z-50 pt-3">
-                        <div class="md:pl-40">
-                            <div class="bg-white border border-off-white drop-shadow-2xl lg:w-[150rem] mb-16">
-                                {/* <a href="#"> */}
-                                <div class="grid grid-cols-1 lg:grid-cols-3 gap-1 overflow-hidden">
-
-                                    <div class="flex-none h-100 overflow-hidden">
-                                        <Image src={momentTrainSplash} alt="Moment Panel Redux" class="object-cover w-auto h-full" />
-                                    </div>
-
-                                    <div class="flex-none h-[27rem] overflow-hidden">
-                                        {/* Your MuxPlayer and other content */}
-                                        <MuxPlayer
-                                            muted
-                                            autoPlay="muted"
-                                            streamType="on-demand"
-                                            playbackId="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
-                                            metadataVideoTitle="Placeholder (optional)"
-                                            metadataViewerUserId="Placeholder (optional)"
-                                            primaryColor="#FFFFFF"
-                                            secondaryColor="#000000"
-                                            thumbnailTime="22"
-                                            autoplay="any"
-                                            className="object-cover"
-                                        />
-
-                                        <p className="invisible lg:visible text-chip-deep-gray pt-[1.5rem] absolute text-[0.6rem] tracking-[0.2rem] font-AvenirHeavy ">ABOUT:</p>
-                                        <p className="invisible lg:visible absolute pt-[3.2rem] text-1xl font-Avenir">A digital design directory.</p>
-
-                                    </div>
-
-                                    <div class="flex-none h-100 overflow-hidden">
-                                        <Image src={momentProductDetail} alt="Moment Panel Redux" class="object-cover w-auto h-full" />
-                                    </div>
-
-                                </div>
-
-
-                                <a href="#">
-                                    <h5 class="ml-1 md:ml-5 mt-11 text-4xl font-Avenir tracking-tight text-gray-900 p-5">In Search Of</h5>
-                                </a>
-
-                                <div className='pt-1 pl-6'>
-                                    <article className="md:invisible visible text-1xl font-Avenir text-balance w-60 leading-6">A digital design directory.</article>
-                                </div>
-
-                                <div class="divide-y-2 divide-linear divide-off-white pt-10 md:pt-0">
-                                    <div></div>
-                                    <div>
-                                    </div>
-
-
-                                </div>
-                                <div className='py-4 md:p-4 flex flex-row text-nowrap overflow-x-scroll no-scrollbar gap-2'>
-
-                                    <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                                        <button class="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirHeavy relative h-9 overflow-hidden text-xs tracking-widest text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span class="relative z-10">PRODUCT DESIGN</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
-                                    </Link>
-                                    <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                                        <button class="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirHeavy relative h-9 overflow-hidden text-xs tracking-widest text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span class="relative z-10">LOGO DESIGN</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
-                                    </Link>
-                                    <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                                        <button class="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirHeavy relative h-9 overflow-hidden text-xs tracking-widest text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span class="relative z-10">INTERACTION DESIGN</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
-                                    </Link>
-                                    <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                                        <button class="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirHeavy relative h-9 overflow-hidden text-xs tracking-widest text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span class="relative z-10">ART DIRECTION</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-
-
-                    <div class="md:overflow-x-scroll scroll-smooth no-scrollbar snap-x duration-1000 ease-in-out z-50 pt-3">
-                        <div class="md:pl-40">
-                            <div class="bg-white border border-off-white drop-shadow-2xl lg:w-[150rem] mb-16">
-                                {/* <a href="#"> */}
-                                <div class="grid grid-cols-1 lg:grid-cols-3 gap-1">
-                                    <div class="flex">
-                                        <Image src={momentPanelRedux1} alt="Moment Panel Redux" class="object-cover h-full" />
-                                    </div>
-                                    <div class="flex p-0">
-                                        {/* Your MuxPlayer and other content */}
-                                        <MuxPlayer
-                                            muted
-                                            autoPlay="muted"
-                                            streamType="on-demand"
-                                            playbackId="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
-                                            metadataVideoTitle="Placeholder (optional)"
-                                            metadataViewerUserId="Placeholder (optional)"
-                                            primaryColor="#FFFFFF"
-                                            secondaryColor="#000000"
-                                            thumbnailTime="22"
-                                            autoplay="any"
-                                            className="object-cover h-full"
-                                        />
-                                        <p className="invisible md:visible pt-[31.3rem] text-chip-deep-gray absolute text-[0.6rem] tracking-[0.2rem] font-AvenirHeavy ">ABOUT:</p>
-                                        <p className="invisible md:visible pt-[32.8rem] absolute text-1xl font-Avenir">A new brand and website to disrupt the energy industry.</p>
-
-                                    </div>
-
-                                    <div class="flex p-0">
-                                        <Image src={momentProductDetail} alt="Moment Panel Redux" class="object-cover w-auto h-full" />
-                                        {/* <Link href={"https://github.com/brendanmmmkay/Portfolio/blob/main/brendanmckayresume.pdf"}>
-                                            <button class="group relative inline-flex h-12 md:w-12 items-center justify-center overflow-hidden rounded-full bg-neutral-150"><div class="transition duration-300 group-hover:rotate-[360deg]"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-800"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></div></button>
-                                        </Link> */}
-                                    </div>
-                                </div>
-                                {/* </a> */}
-
-
-                                <div class="">
-                                    <a href="#">
-                                        <h5 class="ml-1 md:ml-5 mt-11 text-4xl font-Avenir tracking-tight text-gray-900 p-5">Moment Energy</h5>
-                                    </a>
-
-                                    <div className='pt-1 pl-6'>
-                                        <article className="md:invisible visible text-1xl font-Avenir text-balance w-60 leading-6">A new brand and website to disrupt the energy industry.</article>
-                                    </div>
-
-                                    <div class="divide-y-2 divide-linear divide-off-white pt-10 md:pt-0">
-                                        <div></div>
-                                        <div>
-                                        </div>
-
-
-                                    </div>
-                                    <div className='py-4 md:p-4 flex flex-row text-nowrap overflow-x-scroll no-scrollbar gap-2'>
-
-                                        <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                                            <button class="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirHeavy relative h-9 overflow-hidden text-xs tracking-widest text-overflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span class="relative z-10">BRAND IDENTITY</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
-                                        </Link>
-                                        <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                                            <button class="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirHeavy relative h-9 overflow-hidden text-xs tracking-widest text-overflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span class="relative z-10">LOGO DESIGN</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
-                                        </Link>
-                                        <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                                            <button class="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirHeavy relative h-9 overflow-hidden text-xs tracking-widest text-overflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span class="relative z-10">PRODUCT STRATEGY</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
-                                        </Link>
-                                        <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                                            <button class="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirHeavy relative h-9 overflow-hidden text-xs tracking-widest text-overflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span class="relative z-10">PITCH DECKS</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
+                    <LazyCardWrapper
+                        src={Images.trains}
+                        src2={false}
+                        src3={Images.isoDuo}
+                        fill="true"
+                        alt="a bluejay"
+                        content="Moment"
+                        NLEmotto="something is going to happen tomorrow"
+                        playbackId={false}
+                        playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
+                    />
+                    <LazyCardWrapper
+                        src={Images.trains}
+                        src2={false}
+                        src3={Images.isoDuo}
+                        fill="true"
+                        alt="a bluejay"
+                        content="Moment"
+                        NLEmotto="something is going to happen tomorrow"
+                        playbackId={false}
+                        playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
+                    />
+                    <LazyCardWrapper
+                        src={Images.trains}
+                        src2={false}
+                        src3={Images.isoDuo}
+                        fill="true"
+                        alt="a bluejay"
+                        content="Moment"
+                        NLEmotto="something is going to happen tomorrow"
+                        playbackId={false}
+                        playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
+                    />
 
 
 

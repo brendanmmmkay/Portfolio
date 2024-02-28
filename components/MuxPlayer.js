@@ -36,35 +36,6 @@
 
 // IT WORKS
 
-// import React, { useEffect, useRef } from 'react';
-
-// const MuxPlayerComponent = ({ playbackId, ...props }) => {
-//     const muxPlayerRef = useRef(null);
-
-//     useEffect(() => {
-//         if (muxPlayerRef.current) {
-//             muxPlayerRef.current.setAttribute('playback-id', playbackId);
-//         }
-//     }, [playbackId]);
-//     return (
-//         // <mux-player ref={muxPlayerRef} {...props}></mux-player>
-
-//         <div className="mux-player-wrapper">
-//         <mux-player ref={muxPlayerRef} className="mux-player" {...props}></mux-player>
-//         <style jsx>{`
-//             .mux-player {
-//                 --controls: none;
-//             }
-//         `}</style>
-//     </div>
-//     );
-// };
-
-// export default MuxPlayerComponent;
-
-
-
-
 
 import React, { useEffect, useRef } from 'react';
 
@@ -80,20 +51,24 @@ const MuxPlayerComponent = ({ playbackId, ...props }) => {
             // Set the playback ID attribute
             muxPlayer.setAttribute('playback-id', playbackId);
 
-            // Disable controls by setting the 'controls' attribute to 'false'
-            muxPlayer.setAttribute('controls', 'false');
+            // Disable controls using CSS custom properties
+            muxPlayer.style.setProperty('--controls', 'none');
+
+            // Mute the video
+            muxPlayer.setAttribute('muted', '');
+
+            // Enable autoplay
+            muxPlayer.setAttribute('autoplay', '');
+
+            // Enable looping
+            muxPlayer.setAttribute('loop', '');
+
         }
     }, [playbackId]);
 
     return (
         <div className="mux-player-wrapper">
             <mux-player ref={muxPlayerRef} className="mux-player" {...props}></mux-player>
-            {/* Additional styling for disabling controls */}
-            <style jsx>{`
-                .mux-player {
-                    --controls: none;
-                }
-            `}</style>
         </div>
     );
 };

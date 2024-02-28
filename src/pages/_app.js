@@ -12,9 +12,9 @@ function App({ Component, pageProps, router }) {
 return (
   <>
   <Navbar />
-  <AnimatePresence>
+  {/* <AnimatePresence> */}
     <Component key={router.pathname} {...pageProps} />
-  </AnimatePresence>
+  {/* </AnimatePresence> */}
   {/* <Footer/> */}
   </>
   
