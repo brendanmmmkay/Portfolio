@@ -25,7 +25,7 @@ import cursor from "../image/cursor.svg"
 import AnimatedTextWord from '../../components/AnimatedTextWord';
 import { Carousel } from 'flowbite-react';
 import Footer from '../../components/footer.js/Footer';
-import Card from '../../components/card';
+import Card from '../../components/Card.js';
 import Images from '@/image';
 import { images } from '../../next.config';
 import MuxPlayerComponent from '../../components/MuxPlayer';
