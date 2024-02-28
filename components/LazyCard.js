@@ -1,6 +1,5 @@
 import React, { Suspense } from 'react';
 import Card from './Card';
-import Card from '../../components/Card.js';
 
 // Lazy load your Card component
 const LazyCard = React.lazy(() => import('./Card'));
