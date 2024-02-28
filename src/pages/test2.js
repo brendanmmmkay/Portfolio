@@ -32,7 +32,6 @@ import MuxPlayerComponent from '../../components/MuxPlayer';
 import LazyCardWrapper from '../../components/LazyCard';
 // import { Container } from './components/styles/Container.styled';
 // const carousel = new Carousel(carouselElement, items, options, instanceOptions);
-
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
