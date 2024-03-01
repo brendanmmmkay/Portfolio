@@ -101,6 +101,8 @@ export default function Bosch() {
 
 
 
+
+
             <div class="lg:px-96 px-5 pb-10">
                 <div className="mt-20 md:mt-40">
                     <h1 className='text-3xl lg:text-5xl font-Garamond text-white tracking-wide'>How it began</h1>

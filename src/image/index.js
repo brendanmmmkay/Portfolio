@@ -7,7 +7,7 @@ const Images = {
     arcyDos:require('../image/ArcPanel2.png'),
     arcyTre:require('../image/ArcPanel3.png'),
     momentLogo:require('../image/momentLogoAlt1.png'),
-    shaneJeon:require('../image/arcyImg6.png')
+    shaneJeon:require('../image/ArcyImg6.png'),
 
   }
   
