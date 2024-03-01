@@ -7,10 +7,12 @@ export default function Navbar() {
     <nav className="relative z-50">
       <div className="py-2 bg-white outline-2"> {/* Add padding/margin for large screens */}
         <ul className="flex justify-between items-center">
-          {/* <Image className="w-11 h-11 pt-1" src={ArcyImg1} /> */}
-          <p className="md:pl-40 text-stone-800 text-sm font-NeueHaasRoman">Brendan McKay</p>
+          <div className="md:pl-40">
+          <Image className="w-10 h-10 pt-1" src={ArcyImg1} />
+          </div>
+          {/* <p className="md:pl-40 text-stone-800 text-sm font-NeueHaasRoman">Brendan McKay</p> */}
           {/* Additional text */}
-          <li className="text-sm font-Avenir text-stone-600">Product & Brand Design</li>
+          <li className="text-sm font-Avenir text-stone-600">Product & Brand Experience Design</li>
           {/* End of additional text */}
           <div className="justify-end pt-1">
             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>

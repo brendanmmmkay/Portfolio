@@ -1,8 +1,7 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import Link from "next/link";
-import Image from 'next/image'
+import Image from 'next/image';
 import MuxPlayerComponent from './MuxPlayer';
 
 const Card = ({
@@ -20,9 +19,9 @@ const Card = ({
 }) => {
     return (
         <motion.div 
-            initial={{ opacity: 0 }} // Initial animation state: fully transparent
-            animate={{ opacity: 1 }} // Animation to fade in the card
-            transition={{ duration: 0.5 }} // Animation duration
+            initial={{ opacity: 0, x: '20vw' }} // Initial animation state: fully transparent and off-screen to the right
+            animate={{ opacity: 1, x: 0 }} // Animation to fade in the card and bring it to the center
+            transition={{ duration: 0.2 }} // Animation duration
             className="md:overflow-x-scroll scroll-smooth no-scrollbar snap-x duration-1000 ease-in-out z-50 pt-3"
         >
             <div className="md:pl-40">
@@ -37,7 +36,6 @@ const Card = ({
                             {src2 && <Image {...props} src={src2} fill={fill} alt={alt} />}
                             <p className="text-chip-deep-gray absolute text-[0.6rem] tracking-[0.2rem] font-AvenirHeavy" style={{ top: '31.5rem' }}>MODUS</p>
                             <p className="absolute text-1xl font-Avenir" style={{ top: '33.3rem' }}>{subTitle}</p>
-                            {/* <p className="absolute z-60 pt-20 text-1xl font-Avenir">{subTitle}</p> */}
                         </div>
                         <div className="relative object-contain lg:col-span-1" style={{ aspectRatio: "16/9" }}>
                             {src3 && <Image {...props} src={src3} fill={fill} alt={alt} />}
@@ -72,3 +70,11 @@ const Card = ({
 }
 
 export default Card;
+
+
+
+
+
+
+
+

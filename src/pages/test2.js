@@ -57,8 +57,6 @@ export default function Home() {
 
                     </div>
 
-                    {/* <div class="body sticky top-0 z-[1000] flex h-20 flex-row items-center bg-gray-200">Nav content here</div> */}
-
                     {/* <div className='bg-hero-pattern4 bg-cover pt-6'>
                         <div className="flex justify-center items-center lg:px-48 px-4 pt-32">
 
@@ -69,10 +67,9 @@ export default function Home() {
                         </div>
                     </div> */}
 
-                    {/* <button class="group relative h-12 overflow-hidden overflow-x-hidden rounded-md bg-neutral-950 px-8 py-2 text-neutral-50"><span class="relative z-10">Hover Me</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full rounded-full bg-blue-500 transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
-
+                 
                     <div class="pl-40 py-1">
-                        <p class="pt-20 text-[0.7rem] tracking-widest text-stone-500 font-AvenirHeavy">PROJECTS</p>
+                        <p class="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">PROJECTS</p>
                     </div>
 
                     {/* <Card content="shootta flow"></Card> */}
@@ -99,114 +96,58 @@ export default function Home() {
 
 
 
-                    <Card
-                        src={false}
-                        src2={false}
-                        src3={Images.isoThumbDuo}
-                        fill="true"
-                        // alt="a bluejay"
-                        content="In Search Of"
-                        subTitle="A digital design directory."
-                        playbackId="dOM00pqI022lCLHtNFaLn6r2KZ1aI01OstRGpqleqGV6r00"
-                        playbackId2="oWqKBxCME02obOSNxtb01T801ew3tcgwwOp5502l7BihPyc"
-                    />
+                    <Link href={"/insearchof"}>
+                        <LazyCardWrapper
+                            src={false}
+                            src2={false}
+                            src3={Images.isoThumbDuo}
+                            fill="true"
+                            // alt="a bluejay"
+                            content="In Search Of"
+                            subTitle="A digital design directory."
+                            playbackId="dOM00pqI022lCLHtNFaLn6r2KZ1aI01OstRGpqleqGV6r00"
+                            playbackId2="oWqKBxCME02obOSNxtb01T801ew3tcgwwOp5502l7BihPyc"
+                        />
+                    </Link>
 
 
+                    <Link href={"/moment"}>
+                        <LazyCardWrapper
+                            src={Images.trains}
+                            src2={false}
+                            src3={Images.momentLogo}
+                            fill="true"
+                            // alt="a bluejay"
+                            content="Moment Energy"
+                            subTitle="A new brand and website to disrupt the energy industry."
+                            playbackId={false}
+                            playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
+                        />
+                    </Link>
+
+                    <Link href={"/arcteryx"}>
+                        <LazyCardWrapper
+                            src={Images.arcyUno}
+                            src2={Images.shaneJeon}
+                            src3={Images.arcyDos}
+                            fill="true"
+                            // alt="a bluejay"
+                            content="Arc'teryx x SFU"
+                            subTitle="A Product Care Campaign"
+                            playbackId={false}
+                            playbackId2={false}
+                        />
+</Link>
+                
 
 
-                    <Card
-                        src={Images.trains}
-                        src2={false}
-                        src3={Images.isoDuo}
-                        fill="true"
-                        // alt="a bluejay"
-                        content="Moment Energy"
-                        subTitle="A new brand and website to disrupt the energy industry."
-                        playbackId={false}
-                        playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
-                    />
-
-                    <Card
-                        src={Images.arcyUno}
-                        src2={Images.arcyDos}
-                        src3={Images.arcyTre}
-                        fill="true"
-                        // alt="a bluejay"
-                        content="Arc'teryx x SFU"
-                        subTitle="A Product Care Campaign"
-                        playbackId={false}
-                        playbackId2={false}
-                    />
-
-                    {/* 
-
-                    <LazyCardWrapper
-                        src={false}
-                        src2={false}
-                        src3={Images.isoDuo}
-                        fill="true"
-                        alt="a bluejay"
-                        content="In Search Of"
-                        NLEmotto="something is going to happen tomorrow"
-                        playbackId="dOM00pqI022lCLHtNFaLn6r2KZ1aI01OstRGpqleqGV6r00"
-                        playbackId2="oWqKBxCME02obOSNxtb01T801ew3tcgwwOp5502l7BihPyc"
-                    />
-
-                    <LazyCardWrapper
-                        src={Images.trains}
-                        src2={false}
-                        src3={Images.isoDuo}
-                        fill="true"
-                        alt="a bluejay"
-                        content="Moment"
-                        NLEmotto="something is going to happen tomorrow"
-                        playbackId={false}
-                        playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
-                    />
-
-                    <LazyCardWrapper
-                        src={Images.trains}
-                        src2={false}
-                        src3={Images.isoDuo}
-                        fill="true"
-                        alt="a bluejay"
-                        content="Moment"
-                        NLEmotto="something is going to happen tomorrow"
-                        playbackId={false}
-                        playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
-                    />
-                    <LazyCardWrapper
-                        src={Images.trains}
-                        src2={false}
-                        src3={Images.isoDuo}
-                        fill="true"
-                        alt="a bluejay"
-                        content="Moment"
-                        NLEmotto="something is going to happen tomorrow"
-                        playbackId={false}
-                        playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
-                    />
-                    <LazyCardWrapper
-                        src={Images.trains}
-                        src2={false}
-                        src3={Images.isoDuo}
-                        fill="true"
-                        alt="a bluejay"
-                        content="Moment"
-                        NLEmotto="something is going to happen tomorrow"
-                        playbackId={false}
-                        playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
-                    />
- */}
+                        {/* NEW FOOTER */}
 
 
-                    {/* NEW FOOTER */}
-
-
-                    {/* <!-- Pin to top right corner --> */}
-                    <div class="relative h-32 w-32 ...">
-                        <div class="absolute top-0 right-0 h-16 w-16 ...">03</div>
-                    </div>
+                        {/* <!-- Pin to top right corner --> */}
+                        <div class="relative h-32 w-32 ...">
+                            <div class="absolute top-0 right-0 h-16 w-16 ...">03</div>
+                        </div>
 
 
 
@@ -214,7 +155,7 @@ export default function Home() {
 
 
 
-                    {/* <div className='tracking-tighter drop-shadow-2xl text-white pb-3 text-3xl'>
+                        {/* <div className='tracking-tighter drop-shadow-2xl text-white pb-3 text-3xl'>
             <h4 className='font-Avenir'>Thanks for stopping by,</h4>
           </div> */}
 

@@ -5,7 +5,9 @@ const Images = {
     isoThumbDuo:require('../image/isoThumb2.png'),
     arcyUno:require('../image/ArcPanel1.png'),
     arcyDos:require('../image/ArcPanel2.png'),
-    arcyTre:require('../image/ArcPanel3.png')
+    arcyTre:require('../image/ArcPanel3.png'),
+    momentLogo:require('../image/momentLogoAlt1.png'),
+    shaneJeon:require('../image/arcyImg6.png')
 
   }
   

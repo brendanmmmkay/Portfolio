@@ -41,59 +41,17 @@ export default function Bosch() {
 
 
 
-                {/* <div className="border-y border-edge-white bg-off-white">
-                        <div className="">
-                            <div className="grid lg:grid-cols-5 grid-cols-1 gap-6 md:divide-x md:divide-edge-white">
-                                <div className="col-start-1 col-span-2 lg:px-48 px-5">
 
-                                    <h2 className="text-stone-500 text-sm font-NeueHaasRoman tracking-wide leading-relaxed pt-14">April — August
-                                        2021</h2>
-                                    <h2 className="text-stone-600 font-AvenirMedium text-[1.1rem] tracking-relaxed leading-relaxed gap-10 pt-3">Product design and brand refresh, <br></br> 4 month Internship</h2>
-
-                                </div>
-
-                                <div className="invisible md:visible">
-                                <div class=" grid grid-cols-1 gap-3">
-                                    <div className="font-NeueHaasRoman text-stone-600 tracking-wide text-sm pl-5 pt-14">
-                                        Roles
-                                    </div>
-                                    <div className="font-Avenir tracking-wide text-stone-500 text-sm pb-5 pl-5">
-                                        <div>Brand Strategy</div>
-                                        <div>Logo Design</div>
-                                        <div>Product Design</div>
-                                        <div>Pitch Deck Design</div>
-                                    </div>
-                                </div>
-                                </div>
-
-
-                                <div className="invisible md:visible">
-                                    <div class="text-stone-600 grid grid-cols-1 gap-3">
-                                        <div className="font-NeueHaasRoman tracking-wide text-sm pl-5 pt-14">
-                                            Tools
-                                        </div>
-                                        <div className="font-Avenir tracking-wide text-stone-500 text-sm pb-5 pl-5">
-                                            <div>Figma</div>
-                                            <div>Miro</div>
-                                            <div>Photoshop</div>
-                                            <div>Illustrator</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
 
 
 
 
 <div className="bg-white">
-                    <div className="px-5 lg:px-48 font-AvenirHeavy tracking-wider text-sm text-stone-400 pt-24">Moment Energy</div>
+                    <div className="px-5 lg:px-48 text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-24">MOMENT ENERGY</div>
+                    {/* <p class="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
 
                     <m.h1
-                        animate={{ y: 0 }}
-                        initial={{ y: "100%" }}
-                        transition={{ delay: 0.5, duration: 0.5 }}
+
                         className="text-[1.2rem] px-5 lg:text-[3rem] text-left tracking-loose font-Garamond text-stone-600 leading-relaxed  md:leading-tight pb-5 mt-5 lg:mt-8 lg:px-48">A new logo, visual identity, and web strategy <br></br> to disrupt the energy storage industry.
                     </m.h1>
 
