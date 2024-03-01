@@ -49,11 +49,11 @@ export default function Home() {
             animate={{ y: "0%" }}
             transition={{ duration: 0.75, ease: "easeOut" }}
             exit={{ opacity: 1 }}
-            className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default bg-off-white"
+            className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default bg-tahiti-400"
         >
             <main>
                 <div className=''>
-                    <div className='pl-5 lg:px-48 py-1 '>
+                    <div className='pl-5 py-1 '>
 
                     </div>
 
@@ -102,28 +102,43 @@ export default function Home() {
                     <Card
                         src={false}
                         src2={false}
-                        src3={Images.isoDuo}
+                        src3={Images.isoThumbDuo}
                         fill="true"
-                        alt="a bluejay"
+                        // alt="a bluejay"
                         content="In Search Of"
-                        NLEmotto="something is going to happen tomorrow"
+                        subTitle="A digital design directory."
                         playbackId="dOM00pqI022lCLHtNFaLn6r2KZ1aI01OstRGpqleqGV6r00"
                         playbackId2="oWqKBxCME02obOSNxtb01T801ew3tcgwwOp5502l7BihPyc"
                     />
+
+
+
 
                     <Card
                         src={Images.trains}
                         src2={false}
                         src3={Images.isoDuo}
                         fill="true"
-                        alt="a bluejay"
-                        content="Moment"
-                        NLEmotto="something is going to happen tomorrow"
+                        // alt="a bluejay"
+                        content="Moment Energy"
+                        subTitle="A new brand and website to disrupt the energy industry."
                         playbackId={false}
                         playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
                     />
 
-{/* 
+                    <Card
+                        src={Images.arcyUno}
+                        src2={Images.arcyDos}
+                        src3={Images.arcyTre}
+                        fill="true"
+                        // alt="a bluejay"
+                        content="Arc'teryx x SFU"
+                        subTitle="A Product Care Campaign"
+                        playbackId={false}
+                        playbackId2={false}
+                    />
+
+                    {/* 
 
                     <LazyCardWrapper
                         src={false}

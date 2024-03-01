@@ -88,9 +88,19 @@ module.exports = {
           100: '#2F2E2E',
           200: '#252424',
           300: '#192117',
-          400: 'F3F3F3',
+          400: '#F3F3F3',
           500: '#D4D4D4',
         },
+      },
+
+      borderWidth: {
+        DEFAULT: '1px',
+        '0': '0',
+        '2': '1px',
+        '3': '3px',
+        '4': '4px',
+        '6': '6px',
+        '8': '8px',
       },
 
       backgroundImage: {
@@ -104,6 +114,10 @@ module.exports = {
       lineHeight: {
         'extra-loose': '3.5',
         '12': '3rem',
+      },
+
+      padding: {
+        '48': '11rem',
       },
 
     },
