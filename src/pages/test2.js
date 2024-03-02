@@ -30,6 +30,7 @@ import Images from '@/image';
 import { images } from '../../next.config';
 import MuxPlayerComponent from '../../components/MuxPlayer';
 import LazyCardWrapper from '../../components/LazyCard';
+import Paragraph from '../../components/paragraph';
 // import { Container } from './components/styles/Container.styled';
 // const carousel = new Carousel(carouselElement, items, options, instanceOptions);
 // const inter = Inter({ subsets: ['latin'] })
@@ -67,7 +68,7 @@ export default function Home() {
                         </div>
                     </div> */}
 
-                 
+
                     <div class="pl-40 py-1">
                         <p class="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">PROJECTS</p>
                     </div>
@@ -91,6 +92,7 @@ export default function Home() {
                     {/* <Card src={Images.trains} alt="a bluejay" fill={false} content="NLEEEEE" /> */}
                     {/* <mux-player class="mux-player"></mux-player> */}
                     {/* <Card src={Images.isoDuo} fill="true" alt="a bluejay" content="In Search Of" NLEmotto="something is going to happen tomorrow" /> */}
+
 
 
 
@@ -137,25 +139,37 @@ export default function Home() {
                             playbackId={false}
                             playbackId2={false}
                         />
-</Link>
-                
+                    </Link>
+
+                    <Link href={"/bosch"}>
+                        <LazyCardWrapper
+                            src={Images.boschOne}
+                            src2={Images.boschTwo}
+                            src3={Images.boschThree}
+                            fill="true"
+                            // alt="a bluejay"
+                            content="Bosch Courier Connect"
+                            subTitle="A safety solution for E-bike couriers"
+                            playbackId={false}
+                            playbackId2={false}
+                        />
+                    </Link>
 
 
-                        {/* NEW FOOTER */}
 
 
-                        {/* <!-- Pin to top right corner --> */}
-                        <div class="relative h-32 w-32 ...">
-                            <div class="absolute top-0 right-0 h-16 w-16 ...">03</div>
-                        </div>
+                    {/* NEW FOOTER */}
+
+
+                    {/* <!-- Pin to top right corner --> */}
+                    <div class="relative h-32 w-32 ...">
+                        <div class="absolute top-0 right-0 h-16 w-16 ...">03</div>
+                    </div>
 
 
 
 
-
-
-
-                        {/* <div className='tracking-tighter drop-shadow-2xl text-white pb-3 text-3xl'>
+                    {/* <div className='tracking-tighter drop-shadow-2xl text-white pb-3 text-3xl'>
             <h4 className='font-Avenir'>Thanks for stopping by,</h4>
           </div> */}
 

@@ -8,7 +8,9 @@ const Images = {
     arcyTre:require('../image/ArcPanel3.png'),
     momentLogo:require('../image/momentLogoAlt1.png'),
     shaneJeon:require('../image/ArcyImg6.png'),
-
+    boschOne:require('../image/boschPanel1.png'),
+    boschTwo:require('../image/boschPanel2.png'),
+    boschThree:require('../image/BoschImg6.png'),
   }
   
   export default Images
