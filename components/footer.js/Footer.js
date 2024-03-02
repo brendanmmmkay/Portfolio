@@ -17,13 +17,11 @@ const Footer = () => {
 
     return (
         <motion.footer
-            ref={ref}
-            initial="hidden"
-            animate={inView ? "visible" : "hidden"}
-            variants={fadeInVariants}
-            transition={{ duration: 0.9 }}
-            className="fixed inset-x-0 bottom-0"
-        >
+        initial={{ opacity: 0, y: '100vh' }} // Initial state: fully transparent and off-screen at the bottom
+        animate={{ opacity: 1, y: 0 }} // Animate to: fully opaque and at its natural position
+        transition={{ duration: 0.9 }} // Animation duration
+        className="fixed inset-x-0 bottom-0"
+      >
 
 
 
