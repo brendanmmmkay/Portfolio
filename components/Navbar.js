@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from 'next/image'
-import ArcyImg1 from "../components/tempLogo2.png"
+// import ArcyImg1 from "../components/tempLogo2.png"
+import wordMark from "../components/wordMark.svg"
 
 export default function Navbar() {
   return (
@@ -8,7 +9,7 @@ export default function Navbar() {
       <div className="py-2 bg-white outline-2"> {/* Add padding/margin for large screens */}
         <ul className="flex justify-between items-center">
           <div className="md:pl-40">
-          <Image className="w-10 h-10 pt-1" src={ArcyImg1} />
+          <Image className="scale-125" src={wordMark} />
           </div>
           {/* <p className="md:pl-40 text-stone-800 text-sm font-NeueHaasRoman">Brendan McKay</p> */}
           {/* Additional text */}
