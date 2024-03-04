@@ -49,7 +49,7 @@ export default function Bosch() {
       </div>
 
 
-      <div className="h-96 object-cover lg:h-full lg:object-cover">
+      <div className="md:h-96 object-cover lg:h-full lg:object-cover">
         <MuxPlayer
           streamType="on-demand"
           playbackId="NeOKRNJnDyJN7pFcQ1vQN2p3rcTM2DcW5gs022JDksPw"
@@ -66,7 +66,7 @@ export default function Bosch() {
 
       <div className=" bg-tahiti-200">
         <div className="">
-          <div className="grid lg:grid-cols-5 grid-cols-1 gap-6 md:divide-x md:divide-tahiti-100 divide-x-6">
+          <div className="md:grid lg:grid-cols-5 grid-cols-1 gap-6 md:divide-x md:divide-tahiti-100 divide-x-6">
             <div className="col-start-1 col-span-2 lg:px-48 px-5">
 
               <h2 className="text-stone-400 text-sm font-NeueHaasRoman tracking-wide leading-relaxed pt-10">April — August

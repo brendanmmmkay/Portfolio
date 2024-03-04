@@ -54,10 +54,11 @@ export default function Home() {
         >
             <main>
                 <div className=''>
-                    <div className='pl-5 md:py-1 '>
+                    {/* <div className='pl-5 md:py-1 '>
 
-                    </div>
+                    </div> */}
 
+<div className="block md:hidden">
                     <div className='bg-hero-pattern4 bg-cover pt-6'>
                         <div className="flex justify-center items-center lg:px-48 px-4 pt-32">
 
@@ -67,10 +68,10 @@ export default function Home() {
 
                         </div>
                     </div>
+</div>
 
-
-                    <div class="pl-5 md:pl-40 py-1">
-                        <p class="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">PROJECTS</p>
+                    <div class="pl-5 md:pl-40 md:pt-24">
+                        <p class=" text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">PROJECTS</p>
                     </div>
 
 
