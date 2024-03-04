@@ -71,7 +71,7 @@ export default function Home() {
 </div>
 
                     <div class="pl-5 md:pl-40 md:pt-24">
-                        <p class=" text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">PROJECTS</p>
+                        <p class=" text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MY PROJECTS</p>
                     </div>
 
 
