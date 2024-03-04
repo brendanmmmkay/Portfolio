@@ -54,47 +54,24 @@ export default function Home() {
         >
             <main>
                 <div className=''>
-                    <div className='pl-5 py-1 '>
+                    <div className='pl-5 md:py-1 '>
 
                     </div>
 
-                    {/* <div className='bg-hero-pattern4 bg-cover pt-6'>
+                    <div className='bg-hero-pattern4 bg-cover pt-6'>
                         <div className="flex justify-center items-center lg:px-48 px-4 pt-32">
 
                             <h1
-                                className='text-left mr-1 text-[48px] lg:text-4xl leading-[3rem] lg:leading-15 tracking-relaxed drop-shadow-xl max-w-sm md:max-w-3xl pt-6 pb-20 font-Garamond text-stone-200'>Conscious and impactful user experience design through brand strategy and digital storytelling.
+                                className='text-left mr-1 text-[48px] lg:text-4xl leading-[3.5rem] lg:leading-15 tracking-relaxed drop-shadow-xl max-w-sm md:max-w-3xl pt-6 pb-20 font-Garamond text-stone-200'>Conscious and impactful user experience design through brand strategy and digital storytelling.
                             </h1>
 
                         </div>
-                    </div> */}
-
-
-                    <div class="pl-40 py-1">
-                        <p class="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">PROJECTS</p>
                     </div>
 
-                    {/* <Card content="shootta flow"></Card> */}
 
-                    {/* <Card content="NLE CHOPPA imageName=" >
-                    </Card> */}
-
-
-                    {/* <Card
-                        src={Images.trains} alt="a moment" height={1000} width={1000}
-                        content="Content for card 1"
-                        fill={true}
-                    /> */}
-
-
-                    {/* <mux-player class="mux-player"></mux-player> */}
-
-
-                    {/* <Card src={Images.trains} alt="a bluejay" fill={false} content="NLEEEEE" /> */}
-                    {/* <mux-player class="mux-player"></mux-player> */}
-                    {/* <Card src={Images.isoDuo} fill="true" alt="a bluejay" content="In Search Of" NLEmotto="something is going to happen tomorrow" /> */}
-
-
-
+                    <div class="pl-5 md:pl-40 py-1">
+                        <p class="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">PROJECTS</p>
+                    </div>
 
 
 
@@ -162,9 +139,9 @@ export default function Home() {
 
 
                     {/* <!-- Pin to top right corner --> */}
-                    <div class="relative h-32 w-32 ...">
-                        <div class="absolute top-0 right-0 h-16 w-16 ...">03</div>
-                    </div>
+                    {/* <div class="relative h-32 w-32 ...">
+                        <div class="absolute top-0 right-0 h-16 w-16 ...">03 greedo</div>
+                    </div> */}
 
 
 

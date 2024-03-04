@@ -139,3 +139,17 @@ body {
       scrollbar-width: none;  /* Firefox */
 }
 }
+
+.tooltip:hover:after {
+  content: 'Copy';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  white-space: nowrap;
+}

@@ -34,13 +34,13 @@ const Card = ({
                         <div className="relative object-contain lg:col-span-1" style={{ aspectRatio: "16/9" }}>
                             {playbackId2 && <MuxPlayerComponent playbackId={playbackId2} />}
                             {src2 && <Image {...props} src={src2} fill={fill} alt={alt} />}
-                            <p className="text-chip-deep-gray absolute text-[0.6rem] tracking-[0.2rem] font-AvenirHeavy" style={{ top: '31.5rem' }}>MODUS</p>
-                            <p className="absolute text-1xl font-Avenir" style={{ top: '33.3rem' }}>{subTitle}</p>
+                            <p className="invisible md:visible text-chip-deep-gray absolute text-[0.6rem] tracking-[0.2rem] font-AvenirHeavy" style={{ top: '31.5rem' }}>INFO</p>
+                            <p className="invisible md:visible absolute text-1xl font-Avenir" style={{ top: '33.3rem' }}>{subTitle}</p>
                         </div>
                         <div className="relative object-contain lg:col-span-1" style={{ aspectRatio: "16/9" }}>
                             {src3 && <Image {...props} src={src3} fill={fill} alt={alt} />}
                         </div>
-                        <h5 className="ml-1 md:ml-5 mt-11 text-4xl font-Avenir tracking-tight text-gray-900 p-5 lg:col-span-3">{content}</h5>
+                        <h5 className=" ml-1 md:ml-5 mt-11 text-4xl font-Avenir tracking-tight text-gray-900 p-5 lg:col-span-3">{content}</h5>
                         <div className='pt-1 pl-6 relative lg:col-span-3'>
                             <article className="md:invisible visible text-1xl font-Avenir mt-12 text-balance w-60 leading-6 relative">{subTitle}</article>
                         </div>
