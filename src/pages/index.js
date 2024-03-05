@@ -88,6 +88,12 @@ export default function Home() {
                             subTitle="A digital design directory."
                             playbackId="dOM00pqI022lCLHtNFaLn6r2KZ1aI01OstRGpqleqGV6r00"
                             playbackId2="oWqKBxCME02obOSNxtb01T801ew3tcgwwOp5502l7BihPyc"
+                            path="/insearchof"
+                            sectionId="isoProductDesign"
+                            chip1="PRODUCT DESIGN"
+                            chip2="LOGO DESIGN"
+                            chip3="INTERACTION DESIGN"
+                            chip4="SPRINT PROCESS"
                         />
                     </Link>
 
@@ -103,8 +109,15 @@ export default function Home() {
                             subTitle="A new brand and website to disrupt the energy industry."
                             playbackId={false}
                             playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
+                            path="/moment"
+                            chip1="BRAND STRATEGY"
+                            chip2="LOGO DESIGN"
+                            chip3="WEB DESIGN"
+                            chip4="PITCH DECKS"
                         />
                     </Link>
+
+
 
                     <Link href={"/arcteryx"}>
                         <LazyCardWrapper
@@ -117,8 +130,15 @@ export default function Home() {
                             subTitle="A Product Care Campaign"
                             playbackId={false}
                             playbackId2={false}
+                            path="/arcteryx"
+                            chip1="EXPERIENCE DESIGN"
+                            chip2="ETHNOGRAPHY"
+                            chip3="PHYSICAL PRODUCT DESIGN"
+                            chip4="SPRINT PROCESS"
                         />
                     </Link>
+
+
 
                     <Link href={"/bosch"}>
                         <LazyCardWrapper
@@ -131,6 +151,11 @@ export default function Home() {
                             subTitle="A safety solution for E-bike couriers"
                             playbackId={false}
                             playbackId2={false}
+                            path="/bosch"
+                            chip1="PRODUCT DESIGN"
+                            chip2="ART DIRECTION"
+                            chip3="USER RESEARCH"
+                            chip4="BUSINESS STRATEGY"
                         />
                     </Link>
 

@@ -28,7 +28,7 @@ const Paragraph = ({ header, subtitle, body1, body2, ...props }) => {
           <h1 className='text-1xl lg:text-2xl font-NeueHaasRoman tracking-widest text-stone-400 lg:pt-1'>{subtitle}</h1>
         </div>
 
-        <div class="divide-y divide-linear divide-stone-500 pt-5 max-w-screen-xl">
+        <div class="divide-y divide-linear divide-stone-600 pt-5 max-w-screen-xl">
           <div></div>
           <div></div>
         </div>

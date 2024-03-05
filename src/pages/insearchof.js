@@ -14,7 +14,7 @@ import isoTrio from "../image/isoMobileTrio.svg"
 import isoCardProcess from "../image/isoCardProcess.svg"
 import Footer from "../../components/footer.js";
 
-export default function Bosch() {
+export default function InSearchOf() {
   return (
     <m.main
       initial={{ y: "100%" }}
@@ -28,13 +28,13 @@ export default function Bosch() {
 
 
           <div className="bg-white">
-            <div className="px-5 lg:px-48 text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-24">IN SEARCH OF</div>
+            <div className="lg:px-48 text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-24">IN SEARCH OF</div>
             {/* <p class="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
 
 
 
             <div className='max-w-[90rem]'>
-              <m.h1 className="text-[1.2rem] px-5 lg:text-[3rem] text-left tracking-loose font-Garamond text-stone-700 leading-relaxed md:leading-tight pb-24 mt-5 lg:Pt-8 lg:px-48">
+              <m.h1 className="text-[1.2rem] lg:text-[3rem] text-left tracking-loose font-Garamond text-stone-700 leading-relaxed md:leading-tight pb-24 mt-5 lg:Pt-8 lg:px-48">
                 A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.
               </m.h1>
             </div>
@@ -71,11 +71,11 @@ export default function Bosch() {
 
               <h2 className="text-stone-400 text-sm font-NeueHaasRoman tracking-wide leading-relaxed pt-10">April — August
                 2021</h2>
-              <h2 className="text-stone-300 font-AvenirMedium text-[1.1rem] tracking-relaxed leading-relaxed gap-10 pt-3">Product design and brand refresh, <br></br> 4 month Internship</h2>
+              <h2 className="text-stone-300 font-AvenirMedium text-[1.1rem] tracking-relaxed leading-relaxed gap-10 pt-3 pb-20 md:pb-0">Product design and brand refresh, <br></br> 4 month Internship</h2>
 
             </div>
 
-            <div className="invisible md:visible">
+            <div className="hidden md:block">
               <div class=" grid grid-cols-1 gap-3">
                 <div className="font-NeueHaasRoman text-stone-400 tracking-wide text-sm pl-5 pt-10">
                   Roles
@@ -90,7 +90,7 @@ export default function Bosch() {
             </div>
 
 
-            <div className="invisible md:visible">
+            <div className="hidden md:block">
               <div class="text-stone-400 grid grid-cols-1 gap-3">
                 <div className="font-NeueHaasRoman tracking-wide text-sm pl-5 pt-10">
                   Tools
@@ -208,26 +208,11 @@ export default function Bosch() {
       </div>
 
 
-      <div className="lg:px-96 px-5 pb-10">
-        <div className="mt-40">
-          <h1 className='text-3xl lg:text-5xl font-Garamond text-white'>Mapping the landscape of design</h1>
-        </div>
+      <Paragraph
+        header="Mapping the landscape of design"
+        body1="On cards, I used the scrollable chip pattern to retain contextual design discovery and inform users search decisions. To map the landscape of design - chip categories include media type, type of design discipline, and type of organization."
+      ></Paragraph>
 
-        <div class="divide-y divide-linear divide-stone-600 pt-5 max-w-screen-xl">
-          <div></div>
-          <div>
-          </div>
-        </div>
-
-        {/* <div className="font-Avenir tracking-wider text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-[50rem]">
-                The chips work as tags in the backend, which allowed us to easily populate each resource with important context.
-                </div> */}
-
-        <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose pb-20">
-          On cards, I used the scrollable chip pattern to retain contextual design discovery and inform users search decisions. To map the landscape of design - chip categories include media type, type of design discipline, and type of organization.
-        </div>
-
-      </div>
 
 
       <div className="h-96 object-cover lg:h-full lg:object-cover ">

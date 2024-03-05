@@ -15,6 +15,10 @@ const Card = ({
     caption,
     playbackId,
     playbackId2,
+    chip1,
+    chip2,
+    chip3,
+    chip4,
     ...props
 }) => {
     return (
@@ -51,16 +55,16 @@ const Card = ({
                     </div>
                     <div className='py-4 md:p-4 flex flex-row text-nowrap overflow-x-scroll no-scrollbar gap-4 lg:col-span-3'>
                         <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                            <button className="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirMedium relative h-9 overflow-hidden text-xs tracking-widest text-overflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">PRODUCT DESIGN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
+                            <button className="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirMedium relative h-9 overflow-hidden text-xs tracking-widest text-overflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">{chip1}</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
                         </Link>
                         <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                            <button className="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirMedium relative h-9 overflow-hidden text-xs tracking-widest text-overflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LOGO DESIGN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
+                            <button className="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirMedium relative h-9 overflow-hidden text-xs tracking-widest text-overflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">{chip2}</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
                         </Link>
                         <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                            <button className="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirMedium relative h-9 overflow-hidden text-xs tracking-widest text-overflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">INTERACTION DESIGN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
+                            <button className="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirMedium relative h-9 overflow-hidden text-xs tracking-widest text-overflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">{chip3}</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
                         </Link>
                         <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                            <button className="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirMedium relative h-9 overflow-hidden text-xs tracking-widest text-overflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">ART DIRECTION</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
+                            <button className="group text-chip-deep-gray border-2 border-off-white whitespace-nowrap font-AvenirMedium relative h-9 overflow-hidden text-xs tracking-widest text-overflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">{chip4}</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-800 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
                         </Link>
                     </div>
                 </div>
