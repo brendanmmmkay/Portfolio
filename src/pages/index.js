@@ -31,6 +31,7 @@ import { images } from '../../next.config';
 import MuxPlayerComponent from '../../components/MuxPlayer';
 import LazyCardWrapper from '../../components/LazyCard';
 import Paragraph from '../../components/paragraph';
+import FooterDark from '../../components/FooterDark';
 // import { Container } from './components/styles/Container.styled';
 // const carousel = new Carousel(carouselElement, items, options, instanceOptions);
 // const inter = Inter({ subsets: ['latin'] })
@@ -159,7 +160,7 @@ export default function Home() {
                 {/* FOOTER */}
 
 
-
+<FooterDark></FooterDark>
 
             </main>
         </div>
