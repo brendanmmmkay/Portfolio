@@ -32,6 +32,8 @@ import MuxPlayerComponent from '../../components/MuxPlayer';
 import LazyCardWrapper from '../../components/LazyCard';
 import Paragraph from '../../components/paragraph';
 import FooterDark from '../../components/FooterDark';
+import wordMark from "../../components/wordMark.svg"
+import Clipboard from '../../components/Clipboard';
 // import { Container } from './components/styles/Container.styled';
 // const carousel = new Carousel(carouselElement, items, options, instanceOptions);
 // const inter = Inter({ subsets: ['latin'] })
@@ -59,20 +61,63 @@ export default function Home() {
 
                     </div> */}
 
-<div className="block md:hidden">
-                    <div className='bg-hero-pattern4 bg-cover pt-6'>
-                        <div className="flex justify-center items-center lg:px-48 px-4 pt-32">
+                    <div className="block md:hidden">
+                        <div className="flex justify-center items-center pt-4 pb-4 bg-white">
+                            <div className="transform">
+                                <Image width={80} src={wordMark} />
+                            </div>
+                        </div>
 
-                            <h1
-                                className='text-left mr-1 text-[48px] lg:text-4xl leading-[3.5rem] lg:leading-15 tracking-relaxed drop-shadow-xl max-w-sm md:max-w-3xl pt-6 pb-20 font-Garamond text-stone-200'>Conscious and impactful user experience design through brand strategy and digital storytelling.
-                            </h1>
+
+
+
+
+                        <div className="py-3 pl-3"> {/* Add padding/margin for large screens */}
+                            <div className='md:p-4 flex flex-row text-nowrap overflow-x-scroll no-scrollbar gap-4 lg:col-span-3'>
+                                <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer">
+                                    <button className="group text-chip-deep-gray borderColor-off-white shadow-sm font-AvenirMedium relative h-10 overflow-hidden text-xs tracking-wider text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">RESUME</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
+                                </Link>
+                                <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
+                                    <button className="group text-chip-deep-gray borderColor-off-white shadow-sm font-AvenirMedium relative h-10 overflow-hidden text-xs tracking-wider text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
+                                </Link>
+                                {/* <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer">
+              <button className="group text-chip-deep-gray borderColor-off-white font-AvenirMedium relative h-10 overflow-hidden text-xs tracking-wider text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">BPMCKAY@SFU.CA</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
+            </Link> */}
+                                <Clipboard className="shadow-sm" text="BPMCKAY@SFU.CA" />
+                            </div>
 
                         </div>
-                    </div>
-</div>
+                        <div className="divide-y divide-linear divide-stone-200 w-full">
+                            <div></div>
+                            <div></div>
+                        </div>
 
-                    <div className="pl-5 md:pl-40 md:pt-24">
-                        <p className=" text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MY PROJECTS</p>
+
+
+
+
+                        {/* <div className='bg-hero-pattern4 bg-cover pt-6'> */}
+                        <div className="flex justify-center items-center lg:px-48 px-4 pt-8">
+
+                            {/* <h1
+                                className='text-left mr-1 text-[48px] lg:text-4xl leading-[3.5rem] lg:leading-15 tracking-relaxed drop-shadow-xl max-w-sm md:max-w-3xl pt-6 pb-20 font-Garamond text-stone-200'>Conscious and impactful user experience design through brand strategy and digital storytelling.
+                            </h1> */}
+
+                            <h1
+                                className='text-left mr-1 text-[40px] lg:text-4xl leading-[3rem] lg:leading-15 tracking-relaxed drop-shadow-xl max-w-sm md:max-w-3xl pt-0 pb-20 font-Garamond text-stone-700'>Conscious and impactful user experience design through brand strategy and digital storytelling.
+                            </h1>
+
+
+
+                            {/* </div> */}
+                        </div>
+
+                    </div>
+
+
+
+                    <div className="pl-4 md:pl-40 md:pt-24">
+                        <p className=" text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">PROJECTS</p>
                     </div>
 
 
@@ -139,7 +184,6 @@ export default function Home() {
                     </Link>
 
 
-
                     <Link href={"/bosch"}>
                         <LazyCardWrapper
                             src={Images.boschOne}
@@ -185,7 +229,7 @@ export default function Home() {
                 {/* FOOTER */}
 
 
-<FooterDark></FooterDark>
+                <FooterDark></FooterDark>
 
             </main>
         </div>
