@@ -46,7 +46,7 @@ const FooterDark = () => {
                                                         {/* DIV 1 */}
                                                         <div className=' drop-shadow-2xl  pb-3 text-3xl'>
                                                             <h4 className="font-Garamond pt-3 text-4xl md:text-5xl text-stone-200 tracking-tighter">Let's get in touch!</h4>
-                                                            <h5 className="font-Avenir pt-2 text-stone-400 leading-snug md:leading-normal tracking-normal text-[1.1rem] md:text-[1.4rem]">Available March 2023 for design opportunities.</h5>
+                                                            <h5 className="font-Avenir pt-2 text-stone-400 leading-snug md:leading-normal tracking-normal text-[1.1rem] md:text-[1.4rem]">Available March 2024 for design opportunities.</h5>
                                                         </div>
                                                         {/* DIV 2 */}
 

@@ -200,6 +200,7 @@ export default function Bosch() {
                             src={BoschImg5}
                         />
                     </div>
+                    
 
                     
 

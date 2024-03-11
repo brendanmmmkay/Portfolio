@@ -62,7 +62,7 @@ export default function InSearchOf() {
         />
       </div>
 
-      
+
 
       <div className=" bg-tahiti-200">
         <div className="">
@@ -128,7 +128,7 @@ export default function InSearchOf() {
 
 
 
-<div className="h-96 object-cover lg:h-full lg:object-cover">
+      <div className="h-96 object-cover lg:h-full lg:object-cover">
         <MuxPlayer
           streamType="on-demand"
           playbackId="dOM00pqI022lCLHtNFaLn6r2KZ1aI01OstRGpqleqGV6r00"
@@ -185,11 +185,11 @@ export default function InSearchOf() {
 
 
       <div className="md:overflow-x-scroll md:w-full p-4">
-                <div className="flex flex-wrap md:flex-nowrap gap-4 md:space-x-4 ml-1 md:ml-40">
-                    <Image className="w-[60rem] md:flex-none" src={isoDummy3} />
-                    <Image className="w-[60rem] md:flex-none" src={isoDummy4} />
-                </div>
-            </div>
+        <div className="flex flex-wrap md:flex-nowrap gap-4 md:space-x-4 ml-1 md:ml-40">
+          <Image className="w-[60rem] md:flex-none" src={isoDummy3} />
+          <Image className="w-[60rem] md:flex-none" src={isoDummy4} />
+        </div>
+      </div>
 
 
 
@@ -230,27 +230,28 @@ export default function InSearchOf() {
 
 
 
+      <div className="relative h-screen w-screen m-0 p-0">
+        <Image
+          src={isoTrio}
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
+
 
       <Paragraph
-        header="Visual Language"
-        subTitle="Identifying a design opportunity"
-        body1="I wanted ISO to feel like a helpful librarian. Serif fonts and dutch design inspired simplicity helped me achieve a brand that exuded design sentiments - without overpowering the books on the shelves."
-        body2="I wanted people to experience a visually stimulating search for inspiration. To feel rich with great imagery and design, I leveraged a 6 column grid and made many cards to see images and type at different scales."
-      ></Paragraph>
+        header="Cards"
+        body1="I wanted people to experience a visually stimulating search for inspiration. To feel rich with great imagery and design, I leveraged a 6 column grid and made many cards to see images and type at different scales." />
 
 
-<div className="h-96 object-cover lg:h-full lg:object-cover ">
-        <Image className="h-96 object-cover lg:h-full lg:object-cover"
-          src={isoTrio}
-        />
-      </div>
 
-      <div className="h-96 object-cover lg:h-full lg:object-cover ">
-        <Image className=" h-96 object-cover lg:h-full lg:object-cover"
-          src={isoCardProcess}
-        />
-      </div>
-
+<div className="relative w-screen h-[100vh] m-0 p-0">
+  <Image
+    src={isoCardProcess}
+    layout="fill"
+    objectFit="cover"
+  />
+</div>
 
 
 
@@ -266,7 +267,7 @@ export default function InSearchOf() {
 
 
 
-<Footer></Footer>
+      <Footer className=""></Footer>
 
 
 

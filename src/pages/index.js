@@ -122,6 +122,21 @@ export default function Home() {
 
 
 
+
+                    {/* <div className="overflow-x-scroll">
+                        <div className="md:w-[140vw] h-8 bg-blue-500">
+
+                        </div>
+                    </div> */}
+
+
+                    {/* <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-blue-500 h-32"></div>
+                        <div class="bg-red-500 h-32"></div>
+                    </div> */}
+
+
+
                     <Link href={"/insearchof"}>
                         <LazyCardWrapper
                             src={false}
@@ -189,7 +204,7 @@ export default function Home() {
                             src={Images.boschOne}
                             src2={Images.boschTwo}
                             src3={Images.boschThree}
-                            fill="true"
+                            fill={true} // Changed from "true" to true
                             // alt="a bluejay"
                             content="Bosch Courier Connect"
                             subTitle="A safety solution for E-bike couriers"
