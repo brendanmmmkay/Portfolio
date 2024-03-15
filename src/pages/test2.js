@@ -94,7 +94,19 @@ export default function Home() {
                     {/* <Card src={Images.isoDuo} fill="true" alt="a bluejay" content="In Search Of" NLEmotto="something is going to happen tomorrow" /> */}
 
 
+                        <div className="overflow-x-scroll">
+                        <div className="md:w-[140vw] h-8 bg-blue-500">
 
+                        </div>
+                    </div>
+
+                    <div className="w-full h-64 overflow-auto bg-gray-700 p-4 scrollbar-thumb-red-600 scrollbar-track-blue-500 scrollbar-thin rounded-none">
+  {Array.from({ length: 20 }, (_, i) => (
+    <p key={i} className="mb-4">
+      Scrollable content line {i + 1}
+    </p>
+  ))}
+</div>
 
 
 

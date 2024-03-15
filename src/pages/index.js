@@ -56,7 +56,7 @@ export default function Home() {
             className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default bg-tahiti-400"
         >
             <main>
-                <div className=''>
+                <div className='scrollbar-thumb-sky-700 scrollbar-track-sky-300'>
                     {/* <div className='pl-5 md:py-1 '>
 
                     </div> */}
@@ -121,8 +121,6 @@ export default function Home() {
                     </div>
 
 
-
-
                     {/* <div className="overflow-x-scroll">
                         <div className="md:w-[140vw] h-8 bg-blue-500">
 
@@ -130,12 +128,8 @@ export default function Home() {
                     </div> */}
 
 
-                    {/* <div class="grid grid-cols-2 gap-4">
-                        <div class="bg-blue-500 h-32"></div>
-                        <div class="bg-red-500 h-32"></div>
-                    </div> */}
 
-
+{/* <div className='md:pl-40'> */}
 
                     <Link href={"/insearchof"}>
                         <LazyCardWrapper
@@ -219,7 +213,7 @@ export default function Home() {
                     </Link>
 
 
-
+                    {/* </div> */}
 
                     {/* NEW FOOTER */}
 

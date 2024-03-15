@@ -111,7 +111,7 @@ const Card = ({
                         </div>
 
                     </div>
-                    <div className="divide-y-2 divide-linear divide-red-600 pt-4  md:pt-8 lg:col-span-3">
+                    <div className="divide-y-2 divide-linear pt-4  md:pt-8 lg:col-span-3">
                         <div></div>
                         <div></div>
                     </div>
