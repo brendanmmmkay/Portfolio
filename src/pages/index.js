@@ -117,6 +117,18 @@ export default function Home() {
                         <p className=" text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">PROJECTS</p>
                     </div>
 
+{/* 
+                    <div className="divide-y divide-stone-600 ">
+                                                <div></div>
+                                                <div>
+                                                </div>
+                                            </div> */}
+
+{/* <div className="pt-20">
+                                                        <button className="bg-stone-200 hover:bg-regal-gray font-Avenir text-1xl text-stone-800 hover:text-stone-200 hover:border border-stone-200 py-4 px-4 w-60 h-15 right-0">
+                                                            Contact Me
+                                                        </button></div> */}
+
 
                     {/* <div className="overflow-x-scroll">
                         <div className="md:w-[140vw] h-8 bg-blue-500">

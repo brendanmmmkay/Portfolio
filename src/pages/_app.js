@@ -14,10 +14,7 @@ function App({ Component, pageProps, router }) {
 return (
   <>
   <Navbar />
-  {/* <AnimatePresence> */}
     <Component key={router.pathname} {...pageProps} />
-  {/* </AnimatePresence> */}
-  {/* <Footer/> */}
   </>
   
 );

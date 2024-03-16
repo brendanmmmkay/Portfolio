@@ -139,63 +139,7 @@ export default function Home() {
 
 
 
-                    <Link href={"/insearchof"}>
-                        <LazyCardWrapper
-                            src={false}
-                            src2={false}
-                            src3={Images.isoThumbDuo}
-                            fill="true"
-                            // alt="a bluejay"
-                            content="In Search Of"
-                            subTitle="A digital design directory."
-                            playbackId="dOM00pqI022lCLHtNFaLn6r2KZ1aI01OstRGpqleqGV6r00"
-                            playbackId2="oWqKBxCME02obOSNxtb01T801ew3tcgwwOp5502l7BihPyc"
-                        />
-                    </Link>
-
-
-                    <Link href={"/moment"}>
-                        <LazyCardWrapper
-                            src={Images.trains}
-                            src2={false}
-                            src3={Images.momentLogo}
-                            fill="true"
-                            // alt="a bluejay"
-                            content="Moment Energy"
-                            subTitle="A new brand and website to disrupt the energy industry."
-                            playbackId={false}
-                            playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
-                        />
-                    </Link>
-
-                    <Link href={"/arcteryx"}>
-                        <LazyCardWrapper
-                            src={Images.arcyUno}
-                            src2={Images.shaneJeon}
-                            src3={Images.arcyDos}
-                            fill="true"
-                            // alt="a bluejay"
-                            content="Arc'teryx x SFU"
-                            subTitle="A Product Care Campaign"
-                            playbackId={false}
-                            playbackId2={false}
-                        />
-                    </Link>
-
-                    <Link href={"/bosch"}>
-                        <LazyCardWrapper
-                            src={Images.boschOne}
-                            src2={Images.boschTwo}
-                            src3={Images.boschThree}
-                            fill="true"
-                            // alt="a bluejay"
-                            content="Bosch Courier Connect"
-                            subTitle="A safety solution for E-bike couriers"
-                            playbackId={false}
-                            playbackId2={false}
-                        />
-                    </Link>
-
+         
 
 
 
