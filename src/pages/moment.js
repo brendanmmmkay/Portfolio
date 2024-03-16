@@ -50,11 +50,11 @@ export default function Bosch() {
 
                     <div className="bg-white">
                         <div className="px-5 lg:px-48 text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-24">MOMENT ENERGY</div>
-                        {/* <p class="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
+                        {/* <p className="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
 
                         <m.h1
 
-                            className="text-[1.2rem] px-5 lg:text-[3rem] text-left tracking-loose font-Garamond text-stone-600 leading-relaxed  md:leading-tight pb-5 mt-5 lg:mt-8 lg:px-48">A new logo, visual identity, and web strategy <br></br> to disrupt the energy storage industry.
+                            className="text-[1.2rem] px-5 lg:text-[2.8rem] text-left tracking-loose font-Garamond text-stone-600 leading-relaxed  md:leading-tight pb-5 mt-5 lg:mt-8 lg:px-48">A new logo, visual identity, and web strategy <br></br> to disrupt the energy storage industry.
                         </m.h1>
 
                         <div className="px-5 lg:px-48 pt-20">
@@ -90,7 +90,7 @@ export default function Bosch() {
                         </div>
 
                         <div className="invisible md:visible">
-                            <div class=" grid grid-cols-1 gap-3">
+                            <div className=" grid grid-cols-1 gap-3">
                                 <div className="font-NeueHaasRoman text-stone-500 tracking-wide text-sm pl-5 pt-10">
                                     Roles
                                 </div>
@@ -105,7 +105,7 @@ export default function Bosch() {
 
 
                         <div className="invisible md:visible">
-                            <div class="text-stone-500 grid grid-cols-1 gap-3">
+                            <div className="text-stone-500 grid grid-cols-1 gap-3">
                                 <div className="font-NeueHaasRoman tracking-wide text-sm pl-5 pt-10">
                                     Tools
                                 </div>
@@ -246,8 +246,6 @@ export default function Bosch() {
 
             {/* <div className="pt-60"></div> */}
 
-
-            <div className="pb-[45rem]"></div>
 
 
 

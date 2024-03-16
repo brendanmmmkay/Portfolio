@@ -27,7 +27,7 @@ export default function Bosch() {
   
             <div className="bg-white">
               <div className="px-5 lg:px-48 text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-24">BOSCH COURIER CONNECT</div>
-              {/* <p class="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
+              {/* <p classname="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
   
   
   
@@ -62,41 +62,44 @@ export default function Bosch() {
             <div className="border-y border-tahiti-100 bg-tahiti-200">
                 <div className="">
                     <div className="grid lg:grid-cols-6 grid-cols-1 gap-6 md:divide-x md:divide-tahiti-100 divide-x-6">
-                        <div className="col-start-1 col-span-2 lg:px-48 px-5">
+                        <div className="col-start-1 col-span-3 lg:px-48 px-5">
 
                             <h2 className="text-stone-500 text-sm font-NeueHaasRoman tracking-wide leading-relaxed pt-10">September — December 2020</h2>
                             <h2 className="text-stone-400 font-AvenirMedium text-[1.1rem] tracking-relaxed leading-relaxed gap-10 pt-3">6 week Academic <br></br>Experience Design Project</h2>
 
                         </div>
 
-                        <div className="invisible md:visible">
-                            <div class=" grid grid-cols-1 gap-3">
-                                <div className="font-NeueHaasRoman text-stone-500 tracking-wide text-sm pl-5 pt-10">
-                                    Roles
-                                </div>
-                                <div className="font-Avenir tracking-wide text-stone-400 text-sm pb-10 pl-5">
-                                    <div>Art Direction</div>
-                                    <div>UX Design</div>
-                                    <div>User Research</div>
-                                    <div>Business Strategy</div>
-                                </div>
-                            </div>
-                        </div>
 
 
-                        <div className="invisible md:visible">
-                            <div class="text-stone-500 grid grid-cols-1 gap-3">
-                                <div className="font-NeueHaasRoman tracking-wide text-sm pl-5 pt-10">
-                                    Tools
-                                </div>
-                                <div className="font-Avenir tracking-wide text-stone-400 text-sm pb-5 pl-5">
-                                    <div>Figma</div>
-                                    <div>Miro</div>
-                                    <div>Photoshop</div>
-                                    <div>Illustrator</div>
-                                </div>
-                            </div>
-                        </div>
+
+                        <div className="hidden md:block">
+              <div className=" grid grid-cols-1 gap-3">
+                <div className="font-NeueHaasRoman text-stone-400 tracking-wide text-sm pl-5 pt-10">
+                  Roles
+                </div>
+                <div className="font-Avenir tracking-wide text-stone-300 text-sm pb-10 pl-5">
+                  <div>Art Direction</div>
+                  <div>UX Design</div>
+                  <div>User Research</div>
+                  <div>Business Strategy</div>
+                </div>
+              </div>
+            </div>
+
+
+                        <div className="hidden md:block">
+              <div className=" grid grid-cols-1 gap-3">
+                <div className="font-NeueHaasRoman text-stone-400 tracking-wide text-sm pl-5 pt-10">
+                  Tools
+                </div>
+                <div className="font-Avenir tracking-wide text-stone-300 text-sm pb-10 pl-5">
+                  <div>Figma</div>
+                  <div>Miro</div>
+                  <div>Photoshop</div>
+                  <div>Illustrator</div>
+                </div>
+              </div>
+            </div>
 
 
                     </div>
@@ -204,11 +207,6 @@ export default function Bosch() {
 
                     
 
-
-
-<div className="pt-60"></div>
-
-<div className="pb-[45rem]"></div>
 
 
 

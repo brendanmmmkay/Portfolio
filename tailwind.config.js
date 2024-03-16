@@ -120,11 +120,25 @@ module.exports = {
         '48': '11rem',
       },
 
+      animation: {
+        'slide-right': 'slide-right 2s forwards',
+      },
+
+      keyframes: {
+        'slide-right': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(100px)' },
+        },
+      },
+
     },
   },
-
+  variants: {
+    extend: {
+      animation: ['hover'],
+    },
+  },
     plugins: [
-        // ...
-        require('tailwind-scrollbar'),
+
     ],
 }

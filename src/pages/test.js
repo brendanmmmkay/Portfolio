@@ -48,7 +48,7 @@ export default function Home() {
 
           </div>
 
-          {/* <div class="body sticky top-0 z-[1000] flex h-20 flex-row items-center bg-gray-200">Nav content here</div> */}
+          {/* <div classname="body sticky top-0 z-[1000] flex h-20 flex-row items-center bg-gray-200">Nav content here</div> */}
 
           <div className="z-50 absolute lg:px-48 px-4 pt-20">
 
@@ -57,10 +57,10 @@ export default function Home() {
             </h1>
 
             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-              <button type="button" class=" focus:outline-none hover:bg-stone-300  hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-3 bg-stone-800 text-white font-NationalBook tracking-3 leading-1 cursor-pointer">RESUME</button>
+              <button type="button" classname=" focus:outline-none hover:bg-stone-300  hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 mr-2 mb-3 bg-stone-800 text-white font-NationalBook tracking-3 leading-1 cursor-pointer">RESUME</button>
             </Link>
             <Link href={"mailto:bpmckay@sfu.ca"}>
-              <button type="button" class=" focus:outline-none hover:bg-stone-300 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 bg-stone-800 text-white font-NationalBook tracking-3 cursor-pointer">BPMCKAY@SFU.CA</button>
+              <button type="button" classname=" focus:outline-none hover:bg-stone-300 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200  rounded-full text-sm px-5 py-2.5 bg-stone-800 text-white font-NationalBook tracking-3 cursor-pointer">BPMCKAY@SFU.CA</button>
             </Link>
           </div>
 
@@ -111,7 +111,7 @@ export default function Home() {
           </div> */}
 
           {/* This shit works!!! */}
-          <div class="bg-indigo-300 h-150 lg:h-128">
+          <div classname="bg-indigo-300 h-150 lg:h-128">
             <Carousel slideInterval={250000}>
               {/* <Image className="h-150 lg:h-128 object-cover lg:object-cover"
                 src={test2}
@@ -190,16 +190,16 @@ export default function Home() {
           {/* <div className="bg-white">
 
                     <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-          <button class="group hover:scale-110 border-2 hover:shadow hover:border-none hover:tracking-widest borderColor-off-white focus:borderColor-white text-xs tracking-wider py-2 px-4 rounded-full font-NationalHeavy text-chip-deep-gray cursor-pointer">
+          <button classname="group hover:scale-110 border-2 hover:shadow hover:border-none hover:tracking-widest borderColor-off-white focus:borderColor-white text-xs tracking-wider py-2 px-4 rounded-full font-NationalHeavy text-chip-deep-gray cursor-pointer">
             LINKEDIN
           </button>
           </Link>
 
           <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-          <button class="group text-chip-deep-gray borderColor-off-white relative h-12 overflow-hidden text-xs tracking-wider text-toverflow-x-hidden rounded-full bg-white px-8 py-2 cursor-pointer text-neutral-750"><span class="relative z-10">LINKEDIN</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
+          <button classname="group text-chip-deep-gray borderColor-off-white relative h-12 overflow-hidden text-xs tracking-wider text-toverflow-x-hidden rounded-full bg-white px-8 py-2 cursor-pointer text-neutral-750"><span classname="relative z-10">LINKEDIN</span><span classname="absolute inset-0 overflow-hidden rounded-md"><span classname="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
        </Link>
 
-       <button class="inline-block px-4 py-2 bg-blue-500 text-white border border-blue-500 rounded-md shadow-md hover:shadow-lg hover:border-transparent transition duration-300 ease-in-out">
+       <button classname="inline-block px-4 py-2 bg-blue-500 text-white border border-blue-500 rounded-md shadow-md hover:shadow-lg hover:border-transparent transition duration-300 ease-in-out">
   Hover Me
 </button>
 </div> */}
@@ -214,9 +214,9 @@ export default function Home() {
                 <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5 cursor-pointer'>In Search Of</h1>
               </Link>
             </div>
-            <div class="grid grid-cols-1 divide-y divide-linear-gray">
+            <div classname="grid grid-cols-1 divide-y divide-linear-gray">
               <div></div>
-              <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
+              <div classname="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
                 <div className="lg:pt-5">
                   <Link href={"/insearchof"}>
                     <Image
@@ -248,7 +248,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div class="flex flex-col-reverse">
+            <div classname="flex flex-col-reverse">
               <Link href={"/insearchof"}>
                 <div className="font-NeueHaasLight text-stone-500 pt-2 pb-5 tracking-wide cursor-pointer">Freelance product design and logo design</div>
               </Link>
@@ -264,9 +264,9 @@ export default function Home() {
               <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5 cursor-pointer'>Arc'teryx</h1>
             </Link>
           </div>
-          <div class="grid grid-cols-1 divide-y divide-linear-gray">
+          <div classname="grid grid-cols-1 divide-y divide-linear-gray">
             <div></div>
-            <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
+            <div classname="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
               <div className="lg:pt-5 cursor-pointer">
                 <Link href={"/arcteryx"}>
                   <Image
@@ -291,7 +291,7 @@ export default function Home() {
             </div>
 
           </div>
-          <div class="flex flex-col-reverse">
+          <div classname="flex flex-col-reverse">
             <div className="font-NeueHaasLight text-stone-500 pt-2 pb-5 tracking-wide cursor-pointer">Strategy, Copywriting, Prototyping, Service Design</div>
             <Link href={"/arcteryx"}>
               <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic cursor-pointer">A Product Care Campaign</div>
@@ -304,9 +304,9 @@ export default function Home() {
               <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5 cursor-pointer'>Bosch Courier Connect</h1>
             </Link>
           </div>
-          <div class="grid grid-cols-1 divide-y divide-linear-gray hover:font-ArgentItalic">
+          <div classname="grid grid-cols-1 divide-y divide-linear-gray hover:font-ArgentItalic">
             <div></div>
-            <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
+            <div classname="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
               <div className="lg:pt-5 cursor-pointer">
                 <Link href={"/bosch"}>
                   <Image
@@ -327,7 +327,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="flex flex-col-reverse">
+          <div classname="flex flex-col-reverse">
             <div className="font-NeueHaasLight text-stone-500 pt-2 pb-5 tracking-wide cursor-pointer">Product Design, Art Direction, Interaction Design</div>
             <Link href={"/Bosch"}>
               <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic cursor-pointer">A safety solution for E-bike couriers</div>
@@ -342,9 +342,9 @@ export default function Home() {
           <div className="mt-20">
             <h1 className='text-3xl lg:text-5xl font-ArgentItalic text-white pb-5'>Moment Energy - Coming Soon</h1>
           </div>
-          <div class="grid grid-cols-1 divide-y divide-linear-gray">
+          <div classname="grid grid-cols-1 divide-y divide-linear-gray">
             <div></div>
-            <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
+            <div classname="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
               <div className="lg:pt-5">
                 <Image
                   src={momentPanel1}
@@ -362,7 +362,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="flex flex-col-reverse">
+          <div classname="flex flex-col-reverse">
             <div className="font-NeueHaasLight text-stone-500 pt-2 pb-40 tracking-wide">Branding, Brand Strategy, UX Design</div>
             <Link href={"/contact"}>
               <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic">A new brand and website to disrupt the energy industry.</div>
@@ -383,7 +383,7 @@ export default function Home() {
           {/* 
 <div className="w-screen overflow-x-auto">
             <div>
-                <div class="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1 lg:ml-[20rem]">
+                <div classname="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1 lg:ml-[20rem]">
                     <div className="pt-5 xs={12}">
                         <Image
                             src={test1}
@@ -406,8 +406,8 @@ export default function Home() {
 
 
           {/* <!-- Pin to top right corner --> */}
-          <div class="relative h-32 w-32 ...">
-            <div class="absolute top-0 right-0 h-16 w-16 ...">03</div>
+          <div classname="relative h-32 w-32 ...">
+            <div classname="absolute top-0 right-0 h-16 w-16 ...">03</div>
           </div>
 
 
@@ -436,7 +436,7 @@ export default function Home() {
 
             <div className='lg:px-[4rem] px-5'>
 
-              {/* <div class="flex rounded-lg bg-tahiti-300 border-tahiti-100 dark:border-tahiti-100 shadow-xl shadow-black/5 dark:shadow-black/30 pl-10"> */}
+              {/* <div classname="flex rounded-lg bg-tahiti-300 border-tahiti-100 dark:border-tahiti-100 shadow-xl shadow-black/5 dark:shadow-black/30 pl-10"> */}
               <div>
                 <div className="grid lg:grid-cols-1 sm:grid-cols-1 content-end">
                   <div className="pt-3 gap-40">
@@ -448,8 +448,8 @@ export default function Home() {
 
                         {/* FUCK */}
 
-                        <div class="grid w-full items-center pb-5">
-                          <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
+                        <div classname="grid w-full items-center pb-5">
+                          <div classname="w-full justify-between flex space-x-2 flex-col md:flex-row">
                             {/* DIV 1 */}
                             <div className=' drop-shadow-2xl  pb-3 text-3xl'>
                               <h4 className="font-Garamond pt-3 text-5xl text-stone-800 tracking-tighter">Let's get in touch:</h4>
@@ -458,7 +458,7 @@ export default function Home() {
                             {/* DIV 2 */}
 
                             <div className="pt-20">
-                              <button class="bg-stone-900 hover:bg-white font-Avenir text-1xl text-white hover:text-stone-800 hover:border border-stone-800 py-4 px-4 w-60 h-15 right-0">
+                              <button classname="bg-stone-900 hover:bg-white font-Avenir text-1xl text-white hover:text-stone-800 hover:border border-stone-800 py-4 px-4 w-60 h-15 right-0">
                                 Contact Me
                               </button></div>
 
@@ -475,7 +475,7 @@ export default function Home() {
                           </div>
                         </div>
 
-                        {/* <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
+                        {/* <div classname="w-full justify-between flex space-x-2 flex-col md:flex-row">
                       <h6 className="pt-20 font-SFproBold text-[14px] text-stone-600 uppercase tracking-[.15em]">competencies</h6> */}
                         <h6 className="pt-20 font-SFproBold text-[15px] text-stone-600 uppercase tracking-[.2em]">competencies</h6>
                         {/* </div> */}
@@ -486,7 +486,7 @@ export default function Home() {
                           <div className='mt-20 mb-10 p-1'>
                             <div className="grid grid-cols-0 md:grid-cols-5 gap-0 md:gap-16">
 
-                              <div class="text-white">
+                              <div classname="text-white">
                                 {/* <div className="font-Avenir text-1xl">
                                 Contribution
                               </div> */}
@@ -499,7 +499,7 @@ export default function Home() {
                               </div>
 
 
-                              <div class="text-white divide-x">
+                              <div classname="text-white divide-x">
                                 {/* <div className="font-Avenir text-1xl">
                                 Tools
                               </div> */}
@@ -511,7 +511,7 @@ export default function Home() {
                                 </div>
                               </div>
 
-                              <div class="text-white divide-x">
+                              <div classname="text-white divide-x">
                                 {/* <div className="font-Avenir text-1xl pr-5">
                                 Tools
                               </div> */}
@@ -540,7 +540,7 @@ export default function Home() {
                               </div>
 
 
-                              {/* <div class="grid grid-cols-3 divide-x">
+                              {/* <div classname="grid grid-cols-3 divide-x">
   <div>01</div>
   <div>02</div>
 </div> */}
@@ -578,9 +578,9 @@ export default function Home() {
 
         <div className="w-screen overflow-x-scroll">
           <div className="ml-20"></div>
-          <div class=" rounded shadow-lg bg-white">
+          <div classname=" rounded shadow-lg bg-white">
             <a href="#">
-              <div class="grid container lg:grid-cols-3 gap-1 sm:grid-cols-1">
+              <div classname="grid container lg:grid-cols-3 gap-1 sm:grid-cols-1">
                 <Image
                   src={momentPanel3}
                 />                <Image
@@ -590,16 +590,16 @@ export default function Home() {
                 />
               </div>
             </a>
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-              <p class="text-gray-700 text-base">
+            <div classname="px-6 py-4">
+              <div classname="font-bold text-xl mb-2">The Coldest Sunset</div>
+              <p classname="text-gray-700 text-base">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
               </p>
             </div>
-            <div class="px-6 pt-4 pb-2">
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+            <div classname="px-6 pt-4 pb-2">
+              <span classname="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+              <span classname="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+              <span classname="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
             </div>
           </div>
         </div>
@@ -613,7 +613,7 @@ export default function Home() {
 
         <div className="w-screen overflow-x-scroll">
 
-          <div class="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1 lg:ml-[20rem]">
+          <div classname="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1 lg:ml-[20rem]">
             <div className="pt-5 xs={12}">
               <Image width={1000}
                 src={test1}
@@ -647,7 +647,7 @@ export default function Home() {
         <div className="md:overflow-x-scroll scroll-smooth no-scrollbar snap-x duration-1000 ease-in-out z-50">
           
           <div className="md:pl-40">
-            <div class=" bg-white border border-edge-white drop-shadow-2xl lg:w-[150rem] mb-16 mt-32">
+            <div classname=" bg-white border border-edge-white drop-shadow-2xl lg:w-[150rem] mb-16 mt-32">
               <a href="#">
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-1">
                   <Image className="md:scroll-ml-48 snap-start" width={1000}
@@ -667,14 +667,14 @@ export default function Home() {
                   />
                 </div>
               </a>
-              <div class="p-5 overflow-x-scroll">
+              <div classname="p-5 overflow-x-scroll">
                 <a href="#">
-                  <h5 class="mb-2 text-3xl font-Avenir tracking-tight text-gray-900">Moment Energy</h5>
+                  <h5 classname="mb-2 text-3xl font-Avenir tracking-tight text-gray-900">Moment Energy</h5>
                 </a>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                <a href="#" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <p classname="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                <a href="#" classname="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   Read more
-                  <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <svg classname="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                   </svg>
                 </a>
@@ -691,7 +691,7 @@ export default function Home() {
         <div className="md:overflow-x-scroll scroll-smooth no-scrollbar snap-x duration-1000 ease-in-out z-50">
           
           <div className="md:pl-40">
-            <div class=" bg-white border border-edge-white drop-shadow-2xl lg:w-[150rem] mb-16">
+            <div classname=" bg-white border border-edge-white drop-shadow-2xl lg:w-[150rem] mb-16">
               <a href="#">
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-1">
                   <Image className="md:scroll-ml-48 snap-start" width={1000}
@@ -716,16 +716,16 @@ export default function Home() {
                   />
                 </div>
               </a>
-              <div class="">
+              <div classname="">
                 <a href="#">
-                  <h5 class="mb-2 ml-1 md:ml-5 mt-11 text-4xl font-Avenir tracking-tight text-gray-900 p-5">Moment Energy</h5>
+                  <h5 classname="mb-2 ml-1 md:ml-5 mt-11 text-4xl font-Avenir tracking-tight text-gray-900 p-5">Moment Energy</h5>
                 </a>
 
                 <div className='pt-5 pl-6'>
                 <article className="md:invisible visible text-1xl font-Avenir text-balance w-60 leading-6">A new brand and website to disrupt the energy industry.</article>
                 </div>
                 
-                <div class="divide-y-2 divide-linear divide-edge-white pt-10 md:pt-0">
+                <div classname="divide-y-2 divide-linear divide-edge-white pt-10 md:pt-0">
                     <div></div>
                     <div>
                     </div>
@@ -734,19 +734,19 @@ export default function Home() {
                 </div>
                 <div className='py-4 md:p-4 flex flex-row text-nowrap overflow-x-scroll no-scrollbar'>
                 <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-              <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr:1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">BRAND IDENTITY</button>
+              <button type="button" classname="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr:1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">BRAND IDENTITY</button>
             </Link>
             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-              <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">LOGO DESIGN</button>
+              <button type="button" classname="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">LOGO DESIGN</button>
             </Link>
             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-              <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">PITCH DECKS</button>
+              <button type="button" classname="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">PITCH DECKS</button>
             </Link>
             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-              <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">PITCH DECKS</button>
+              <button type="button" classname="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">PITCH DECKS</button>
             </Link>
             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-              <button type="button" class="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">PITCH DECKS</button>
+              <button type="button" classname="ml-5 focus:outline-none hover:bg-stone-300 whitespace-nowrap border-edge-white hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-200 rounded-full border-2 text-[0.7rem] px-5 py-2 mr-1 bg-white text-chip-deep-gray font-AvenirHeavy tracking-widest leading-1 cursor-pointer">PITCH DECKS</button>
             </Link>
             </div>
               </div>
@@ -757,7 +757,7 @@ export default function Home() {
 
         <div className="w-screen overflow-x-scroll">
 
-          <div class="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1 lg:ml-[20rem]">
+          <div classname="grid container lg:grid-cols-2 gap-6 sm:grid-cols-1 lg:ml-[20rem]">
             <div className="pt-5 xs={12}">
               <Image width={1000}
                 src={test1}

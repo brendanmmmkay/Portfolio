@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Link from "next/link";
 import Image from 'next/image';
@@ -21,19 +21,32 @@ const Card = ({
     chip4,
     ...props
 }) => {
+    const [isRightSide, setIsRightSide] = useState(false);
+
+    useEffect(() => {
+        const checkMousePosition = (e) => {
+            setIsRightSide(e.clientX > window.innerWidth / 2);
+        };
+
+        window.addEventListener('mousemove', checkMousePosition);
+
+        return () => {
+            window.removeEventListener('mousemove', checkMousePosition);
+        };
+    }, []);
     return (
-        <motion.div
-            //     initial={{ opacity: 0, x: '20vw' }} // Initial animation state: fully transparent and off-screen to the right
-            //     animate={{ opacity: 1, x: 0 }} // Animation to fade in the card and bring it to the center
-            //     transition={{ duration: 0.2 }} // Animation duration
-            //     className="md:overflow-x-scroll scroll-smooth no-scrollbar snap-x duration-1000 ease-in-out z-50 pt-3"
-            // >
-            initial={{ opacity: 0, x: '20vw' }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.2 }}
-            className="md:overflow-x-scroll scroll-smooth no-scrollbar duration-1000 ease-in-out z-50 pt-3"
-        >
+        <div className="md:overflow-x-scroll scroll-smooth no-scrollbar duration-100 ease-in-out z-50 pt-3">
             <div className="md:pl-40">
+            <motion.div
+    initial={{ opacity: 0, x: '40vw' }}
+    animate={{ opacity: 1, x: 0 }}
+    whileHover={{ x: isRightSide ? '-50vw' : 0, transition: { duration: 4.5 } }}
+    transition={{
+        opacity: { duration: 1 }, // adjust this value to make the fade in faster
+        x: { duration: 2.1 }, // adjust this value to make the initial load faster
+    }}
+>
+            
                 <div className="bg-white border border-off-white drop-shadow-2xl md:w-[140vw] mb-16">
                     {/* <div className="bg-white border border-off-white drop-shadow-2xl lg:w-[150rem] mb-16"> */}
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-1">
@@ -88,22 +101,28 @@ const Card = ({
 
 
 
-                        {/* <div class="grid grid-cols-2 gap-4">
-                            <div class="bg-blue-500 h-32">
+                        {/* <div className="grid grid-cols-2 gap-4">
+                            <div className="bg-blue-500 h-32">
                                 <p className="relative hidden md:block text-chip-deep-gray text-[0.6rem] tracking-[0.2rem] z-80 font-AvenirHeavy">INFO</p>
                             </div>
-                            <div class="bg-red-500 h-32">
+                            <div className="bg-red-500 h-32">
                                 <p className="hidden md:block text-1xl z-80 font-Avenir">{subTitle}</p>
                             </div>
                         </div> */}
 
 
 
-                        <div class="grid grid-cols-1">
+                        <div className="grid grid-cols-1">
                                 <p className="hidden md:block text-chip-deep-gray text-[0.6rem] tracking-[0.2rem] z-80 font-AvenirHeavy mt-10">INFO</p>
                                 <p className="hidden md:block text-1xl z-80 font-Avenir">{subTitle}</p>
                         </div>
 
+
+                        <div className="md:flex flex-col justify-end">
+    <button className="hidden md:block bg-white hover:bg-regal-gray font-Avenir text-1xl text-stone-800 hover:text-stone-200 border border-edge-white py-4 px-4 w-60 h-16 right-0">
+        View Case Study
+    </button>
+</div>
 
 
                         <div className='pt-1 pl-6 relative lg:col-span-3'>
@@ -130,8 +149,10 @@ const Card = ({
                         </Link>
                     </div>
                 </div>
-            </div>
+           
         </motion.div>
+        </div>
+        </div>
     );
 }
 

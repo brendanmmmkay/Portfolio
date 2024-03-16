@@ -19,29 +19,31 @@ const Paragraph = ({ header, subtitle, body1, body2, ...props }) => {
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       variants={fadeInVariants}
-      transition={{ duration: 0.9 }}
+      transition={{ duration: 1.5 }}
       {...props}
     >
-      <div class="lg:px-96 px-5 pb-10">
-        <div className="mt-20 md:mt-40">
-          <h1 className='text-3xl lg:text-5xl font-Garamond text-white tracking-wide'>{header}</h1>
-          <h1 className='text-1xl lg:text-2xl font-NeueHaasRoman tracking-widest text-stone-400 lg:pt-1'>{subtitle}</h1>
+      <div className="mx-auto pt-20 pb-20 max-w-prose">
+        <div className="mt-20 md:mt-96">
+          <h1 className='text-3xl lg:text-5xl whitespace-nowrap font-Garamond text-white tracking-wide'>{header}</h1>
+          <h1 className='text-1xl lg:text-2xl whitespace-nowrap font-NeueHaasRoman tracking-widest text-stone-400 lg:pt-1'>{subtitle}</h1>
         </div>
 
-        <div class="divide-y divide-linear divide-stone-600 pt-5 max-w-screen-xl">
-          <div></div>
-          <div></div>
+        <div className="pt-5">
+          <div className="divide-y divide-linear divide-stone-600">
+            <div></div>
+            <div></div>
+          </div>
         </div>
 
-        <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
+        <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl">
          {body1}
         </div>
-        <div className="font-Avenir tracking-wide text-white pt-20 pb-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
+        <div className="font-Avenir tracking-wide text-white pt-20 pb-20 leading-10 md:leading-loose md:text-2xl">
          {body2}
         </div>
       </div>
     </motion.p>
-  );
+);
 };
 
 export default Paragraph;

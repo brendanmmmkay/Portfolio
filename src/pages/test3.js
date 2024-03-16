@@ -47,10 +47,10 @@ export default function Home() {
             </h1>
 
             <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-              <button type="button" class=" focus:outline-none hover:bg-stone-300  hover:text-tahiti-300 focus:ring-4 focus:ring-black  rounded-full text-sm px-5 py-2.5 mr-2 mb-3 bg-stone-800 text-white font-NeueHaasBold tracking-3 leading-1 cursor-pointer">RESUME</button>
+              <button type="button" classname=" focus:outline-none hover:bg-stone-300  hover:text-tahiti-300 focus:ring-4 focus:ring-black  rounded-full text-sm px-5 py-2.5 mr-2 mb-3 bg-stone-800 text-white font-NeueHaasBold tracking-3 leading-1 cursor-pointer">RESUME</button>
             </Link>
             <Link href={"mailto:bpmckay@sfu.ca"}>
-              <button type="button" class=" focus:outline-none hover:bg-stone-300 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-black  rounded-full text-sm px-5 py-2.5 bg-stone-800 text-white font-NeueHaasBold tracking-3 cursor-pointer">BPMCKAY@SFU.CA</button>
+              <button type="button" classname=" focus:outline-none hover:bg-stone-300 hover:text-tahiti-300 focus:ring-4 focus:ring-tahiti-black  rounded-full text-sm px-5 py-2.5 bg-stone-800 text-white font-NeueHaasBold tracking-3 cursor-pointer">BPMCKAY@SFU.CA</button>
             </Link>
           </div>
 
@@ -83,9 +83,9 @@ export default function Home() {
                 <h1 className='text-3xl lg:text-5xl font-Garamond text-white pb-5 cursor-pointer'>In Search Of</h1>
               </Link>
             </div>
-            <div class="grid grid-cols-1 divide-y divide-linear-gray">
+            <div classname="grid grid-cols-1 divide-y divide-linear-gray">
               <div></div>
-              <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
+              <div classname="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
                 <div className="lg:pt-5">
                   <Link href={"/insearchof"}>
                     <Image
@@ -117,7 +117,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div class="flex flex-col-reverse">
+            <div classname="flex flex-col-reverse">
               <Link href={"/insearchof"}>
                 <div className="font-NeueHaasLight text-stone-500 pt-2 pb-5 tracking-wide cursor-pointer">Freelance product design and logo design</div>
               </Link>
@@ -133,9 +133,9 @@ export default function Home() {
               <h1 className='text-3xl lg:text-5xl font-Garamond text-white pb-5 cursor-pointer'>Arc'teryx</h1>
             </Link>
           </div>
-          <div class="grid grid-cols-1 divide-y divide-linear-gray">
+          <div classname="grid grid-cols-1 divide-y divide-linear-gray">
             <div></div>
-            <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
+            <div classname="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
               <div className="lg:pt-5 cursor-pointer">
                 <Link href={"/arcteryx"}>
                   <Image
@@ -160,7 +160,7 @@ export default function Home() {
             </div>
 
           </div>
-          <div class="flex flex-col-reverse">
+          <div classname="flex flex-col-reverse">
             <div className="font-NeueHaasLight text-stone-500 pt-2 pb-5 tracking-wide cursor-pointer">Strategy, Copywriting, Prototyping, Service Design</div>
             <Link href={"/arcteryx"}>
               <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic cursor-pointer">A Product Care Campaign</div>
@@ -173,9 +173,9 @@ export default function Home() {
               <h1 className='text-3xl lg:text-5xl font-Garamond text-white pb-5 cursor-pointer'>Bosch Courier Connect</h1>
             </Link>
           </div>
-          <div class="grid grid-cols-1 divide-y divide-linear-gray hover:font-ArgentItalic">
+          <div classname="grid grid-cols-1 divide-y divide-linear-gray hover:font-ArgentItalic">
             <div></div>
-            <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
+            <div classname="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
               <div className="lg:pt-5 cursor-pointer">
                 <Link href={"/bosch"}>
                   <Image
@@ -196,7 +196,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="flex flex-col-reverse">
+          <div classname="flex flex-col-reverse">
             <div className="font-NeueHaasLight text-stone-500 pt-2 pb-5 tracking-wide cursor-pointer">Product Design, Art Direction, Interaction Design</div>
             <Link href={"/Bosch"}>
               <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic cursor-pointer">A safety solution for E-bike couriers</div>
@@ -210,9 +210,9 @@ export default function Home() {
           <div className="mt-20">
             <h1 className='text-3xl lg:text-5xl font-Garamond text-white pb-5'>Moment Energy - Coming Soon</h1>
           </div>
-          <div class="grid grid-cols-1 divide-y divide-linear-gray">
+          <div classname="grid grid-cols-1 divide-y divide-linear-gray">
             <div></div>
-            <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
+            <div classname="grid lg:grid-cols-3 sm:grid-cols-1 gap-6">
               <div className="lg:pt-5">
                 <Image
                   src={momentPanel1}
@@ -230,7 +230,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="flex flex-col-reverse">
+          <div classname="flex flex-col-reverse">
             <div className="font-NeueHaasLight text-stone-500 pt-2 pb-40 tracking-wide">Branding, Brand Strategy, UX Design</div>
             <Link href={"/contact"}>
               <div className="font-NeueHaasRoman text-white pt-5 tracking-wide hover:font-ArgentItalic">A new brand and website to disrupt the energy industry.</div>
@@ -267,7 +267,7 @@ export default function Home() {
 
             <div className='lg:px-[4rem] px-5'>
 
-              {/* <div class="flex rounded-lg bg-tahiti-300 border-tahiti-100 dark:border-tahiti-100 shadow-xl shadow-black/5 dark:shadow-black/30 pl-10"> */}
+              {/* <div classname="flex rounded-lg bg-tahiti-300 border-tahiti-100 dark:border-tahiti-100 shadow-xl shadow-black/5 dark:shadow-black/30 pl-10"> */}
               <div>
                 <div className="grid lg:grid-cols-1 sm:grid-cols-1 content-end">
                   <div className="pt-3 gap-40">
@@ -279,8 +279,8 @@ export default function Home() {
 
                       {/* FUCK */}
 
-                      <div class="grid w-full items-center pb-5">
-                        <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
+                      <div classname="grid w-full items-center pb-5">
+                        <div classname="w-full justify-between flex space-x-2 flex-col md:flex-row">
                           {/* DIV 1 */}
                           <div className=' drop-shadow-2xl  pb-3 text-3xl'>
                             <h4 className="font-Garamond pt-3 text-5xl text-stone-800 tracking-tighter">Let's get in touch:</h4>
@@ -289,7 +289,7 @@ export default function Home() {
                           {/* DIV 2 */}
 
                           <div className="pt-20">
-                            <button class="bg-stone-900 hover:bg-white font-Avenir text-1xl text-white hover:text-stone-800 hover:border border-stone-800 py-4 px-4 w-60 h-15 right-0">
+                            <button classname="bg-stone-900 hover:bg-white font-Avenir text-1xl text-white hover:text-stone-800 hover:border border-stone-800 py-4 px-4 w-60 h-15 right-0">
                               Contact Me
                             </button></div>
 
@@ -306,7 +306,7 @@ export default function Home() {
                         </div>
                       </div>
 
-                      {/* <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
+                      {/* <div classname="w-full justify-between flex space-x-2 flex-col md:flex-row">
                       <h6 className="pt-20 font-SFproBold text-[14px] text-stone-600 uppercase tracking-[.15em]">competencies</h6> */}
                       <h6 className="pt-20 font-SFproBold text-[15px] text-stone-600 uppercase tracking-[.2em]">competencies</h6>
                      {/* </div> */}
@@ -317,7 +317,7 @@ export default function Home() {
                         <div className='mt-20 mb-10 p-1'>
                           <div className="grid grid-cols-0 md:grid-cols-5 gap-0 md:gap-16">
 
-                            <div class="text-white">
+                            <div classname="text-white">
                               {/* <div className="font-Avenir text-1xl">
                                 Contribution
                               </div> */}
@@ -330,7 +330,7 @@ export default function Home() {
                             </div>
 
 
-                            <div class="text-white divide-x">
+                            <div classname="text-white divide-x">
                               {/* <div className="font-Avenir text-1xl">
                                 Tools
                               </div> */}
@@ -342,7 +342,7 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <div class="text-white divide-x">
+                            <div classname="text-white divide-x">
                               {/* <div className="font-Avenir text-1xl pr-5">
                                 Tools
                               </div> */}
@@ -371,7 +371,7 @@ export default function Home() {
                             </div>
 
 
-                            {/* <div class="grid grid-cols-3 divide-x">
+                            {/* <div classname="grid grid-cols-3 divide-x">
   <div>01</div>
   <div>02</div>
 </div> */}

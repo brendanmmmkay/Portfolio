@@ -34,12 +34,12 @@ export default function Bosch() {
 
                     <div className="bg-white">
                         <div className="px-5 lg:px-48 text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-24">ARC'TERYX X SFU</div>
-                        {/* <p class="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
+                        {/* <p classname="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
 
 
 
                         <div className='max-w-[90rem]'>
-                            <m.h1 className="text-[1.2rem] px-5 lg:text-[3rem] text-left tracking-loose font-Garamond text-stone-700 leading-relaxed md:leading-tight pb-24 mt-5 lg:Pt-8 lg:px-48">
+                            <m.h1 className="text-[1.2rem] px-5 lg:text-[2.4rem] text-left tracking-loose font-Garamond text-stone-700 leading-relaxed md:leading-tight pb-24 mt-5 lg:Pt-8 lg:px-48 max-w-prose">
                                 A two product solution renewing trust in Arc’teryx’s lasting quality, helping the brand achieve sustainable goals.
                             </m.h1>
                         </div>
@@ -77,49 +77,55 @@ export default function Bosch() {
 
                         </div>
 
-                        <div className="invisible md:visible">
-                            <div class=" grid grid-cols-1 gap-3">
-                                <div className="font-NeueHaasRoman text-stone-500 tracking-wide text-sm pl-5 pt-10">
-                                    Roles
-                                </div>
-                                <div className="font-Avenir tracking-wide text-stone-400 text-sm pb-10 pl-5">
-                                    <div>Design Strategy</div>
-                                    <div>Ethnography</div>
-                                    <div>Physical Product Design</div>
-                                    <div>Business Strategy</div>
-                                </div>
-                            </div>
-                        </div>
 
 
-                        <div className="invisible md:visible">
-                            <div class="text-stone-500 grid grid-cols-1 gap-3">
-                                <div className="font-NeueHaasRoman tracking-wide text-sm pl-5 pt-10">
-                                    Tools
-                                </div>
-                                <div className="font-Avenir tracking-wide text-stone-400 text-sm pb-5 pl-5">
-                                    <div>Figma</div>
-                                    <div>Miro</div>
-                                    <div>Photoshop</div>
-                                    <div>Illustrator</div>
-                                </div>
-                            </div>
-                        </div>
+
+                        <div className="hidden md:block">
+              <div className=" grid grid-cols-1 gap-3">
+                <div className="font-NeueHaasRoman text-stone-400 tracking-wide text-sm pl-5 pt-10">
+                  Roles
+                </div>
+                <div className="font-Avenir tracking-wide text-stone-300 text-sm pb-10 pl-5">
+                  <div>Design Strategy</div>
+                  <div>Ethnography</div>
+                  <div>Physical Product Design</div>
+                  <div>Business Strategy</div>
+                </div>
+              </div>
+            </div>
 
 
-                        <div className="invisible md:visible">
-                            <div class="text-stone-500 grid grid-cols-1 gap-3">
-                                <div className="font-NeueHaasRoman tracking-wide text-sm pl-5 pt-10">
-                                    Team
-                                </div>
-                                <div className="font-Avenir tracking-wide text-stone-400 text-sm pb-5 pl-5">
-                                    <div>Aliasger Rasheed</div>
-                                    <div>Tracy Chen</div>
-                                    <div>Yan Tymoshenko</div>
-                                    <div>Brendan McKay</div>
-                                </div>
-                            </div>
-                        </div>
+
+                        <div className="hidden md:block">
+              <div className=" grid grid-cols-1 gap-3">
+                <div className="font-NeueHaasRoman text-stone-400 tracking-wide text-sm pl-5 pt-10">
+                  Tools
+                </div>
+                <div className="font-Avenir tracking-wide text-stone-300 text-sm pb-10 pl-5">
+                  <div>Figma</div>
+                  <div>Miro</div>
+                  <div>Photoshop</div>
+                  <div>Illustrator</div>
+                </div>
+              </div>
+            </div>
+
+
+
+                        <div className="hidden md:block">
+              <div className=" grid grid-cols-1 gap-3">
+                <div className="font-NeueHaasRoman text-stone-400 tracking-wide text-sm pl-5 pt-10">
+                  Team
+                </div>
+                <div className="font-Avenir tracking-wide text-stone-300 text-sm pb-10 pl-5">
+                  <div>Aliasger Rasheed</div>
+                  <div>Tracy Chen</div>
+                  <div>Yan Tymoshenko</div>
+                  <div>Brendan McKay</div>
+                </div>
+              </div>
+            </div>
+
                     </div>
                 </div>
             </div>
@@ -152,7 +158,7 @@ export default function Bosch() {
             ></Paragraph>
 
 
-            {/* <div class="lg:px-96 px-5 pb-10">
+            {/* <div classname="lg:px-96 px-5 pb-10">
                 <div className="">
                 <p className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl max-w-prose">
                         "To minimize our impact as much as possible and make sure that we build products to last a really, really long time”

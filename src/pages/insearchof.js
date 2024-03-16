@@ -29,12 +29,12 @@ export default function InSearchOf() {
 
           <div className="bg-white">
             <div className="lg:px-48 text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-24">IN SEARCH OF</div>
-            {/* <p class="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
+            {/* <p className="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
 
 
 
-            <div className='max-w-[90rem]'>
-              <m.h1 className="text-[1.2rem] lg:text-[3rem] text-left tracking-loose font-Garamond text-stone-700 leading-relaxed md:leading-tight pb-24 mt-5 lg:Pt-8 lg:px-48">
+            <div className='max-w-[80rem]'>
+              <m.h1 className="text-[1.2rem] lg:text-[2.6rem] text-left tracking-loose font-Garamond text-stone-700 leading-relaxed md:leading-tight pb-24 mt-5 lg:Pt-8 lg:px-48">
                 A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.
               </m.h1>
             </div>
@@ -76,7 +76,7 @@ export default function InSearchOf() {
             </div>
 
             <div className="hidden md:block">
-              <div class=" grid grid-cols-1 gap-3">
+              <div className=" grid grid-cols-1 gap-3">
                 <div className="font-NeueHaasRoman text-stone-400 tracking-wide text-sm pl-5 pt-10">
                   Roles
                 </div>
@@ -91,11 +91,11 @@ export default function InSearchOf() {
 
 
             <div className="hidden md:block">
-              <div class="text-stone-400 grid grid-cols-1 gap-3">
-                <div className="font-NeueHaasRoman tracking-wide text-sm pl-5 pt-10">
+              <div className=" grid grid-cols-1 gap-3">
+                <div className="font-NeueHaasRoman text-stone-400 tracking-wide text-sm pl-5 pt-10">
                   Tools
                 </div>
-                <div className="font-Avenir tracking-wide text-stone-300 text-sm pb-5 pl-5">
+                <div className="font-Avenir tracking-wide text-stone-300 text-sm pb-10 pl-5">
                   <div>Figma</div>
                   <div>Miro</div>
                   <div>Photoshop</div>
@@ -103,7 +103,9 @@ export default function InSearchOf() {
                 </div>
               </div>
             </div>
-          </div>
+
+            
+          </div> 
         </div>
       </div>
 
@@ -263,7 +265,7 @@ export default function InSearchOf() {
 
 
 
-      <div className="pb-[45rem]"></div>
+
 
 
 

@@ -20,7 +20,7 @@ const Footer = () => {
         initial={{ opacity: 0, y: '100vh' }} // Initial state: fully transparent and off-screen at the bottom
         animate={{ opacity: 1, y: 0 }} // Animate to: fully opaque and at its natural position
         transition={{ duration: 0.9 }} // Animation duration
-        className="fixed inset-x-0 bottom-0 w-full" // Add a top padding
+        className="inset-x-0 bottom-0 w-full" // Add a top padding
       >
 
 
@@ -47,8 +47,8 @@ const Footer = () => {
 
                                             {/* FUCK */}
 
-                                            <div class="grid w-full items-center pb-5">
-                                                <div class="w-full justify-between flex space-x-2 flex-col md:flex-row">
+                                            <div className="grid w-full items-center pb-5">
+                                                <div className="w-full justify-between flex space-x-2 flex-col md:flex-row">
                                                     {/* DIV 1 */}
                                                     <div className=' drop-shadow-2xl  pb-3 text-3xl'>
                                                         <h4 className="font-Garamond pt-3 text-5xl text-stone-800 tracking-tighter">Let's get in touch:</h4>
@@ -57,7 +57,7 @@ const Footer = () => {
                                                     {/* DIV 2 */}
 
                                                     <div className="pt-20">
-                                                        <button class="bg-stone-900 hover:bg-white font-Avenir text-1xl text-white hover:text-stone-800 hover:border border-stone-800 py-4 px-4 w-60 h-15 right-0">
+                                                        <button className="bg-stone-900 hover:bg-white font-Avenir text-1xl text-white hover:text-stone-800 hover:border border-stone-800 py-4 px-4 w-60 h-15 right-0">
                                                             Contact Me
                                                         </button></div>
 
@@ -85,7 +85,7 @@ const Footer = () => {
                                                 <div className='mt-20 mb-10 p-1'>
                                                     <div className="grid grid-cols-0 md:grid-cols-5 gap-0 md:gap-16">
 
-                                                        <div class="text-white">
+                                                        <div className="text-white">
                                                             {/* <div className="font-Avenir text-1xl">
                                 Contribution
                               </div> */}
