@@ -25,7 +25,7 @@ const Card = ({
 
     useEffect(() => {
         const checkMousePosition = (e) => {
-            setIsRightSide(e.clientX > window.innerWidth / 2);
+            setIsRightSide(e.clientX > window.innerWidth / 1.3);
         };
 
         window.addEventListener('mousemove', checkMousePosition);
@@ -40,7 +40,7 @@ const Card = ({
             <motion.div
     initial={{ opacity: 0, x: '40vw' }}
     animate={{ opacity: 1, x: 0 }}
-    whileHover={{ x: isRightSide ? '-50vw' : 0, transition: { duration: 4.5 } }}
+    whileHover={{ x: isRightSide ? '-50vw' : 0, transition: { duration: 5.5 } }}
     transition={{
         opacity: { duration: 1 }, // adjust this value to make the fade in faster
         x: { duration: 2.1 }, // adjust this value to make the initial load faster
