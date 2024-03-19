@@ -57,7 +57,7 @@ const FooterDark = () => {
                                                     {/* DIV 2 */}
 
                                                     <div className="pt-20">
-                                                        <Link>
+                                                    <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
                                                         <button className="bg-stone-200 hover:bg-regal-gray font-Avenir text-1xl text-stone-800 hover:text-stone-200 hover:border border-stone-200 py-4 px-4 w-60 h-15 right-0">
                                                             Contact Me
                                                         </button></Link></div>

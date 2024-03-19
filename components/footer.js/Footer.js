@@ -57,9 +57,12 @@ const Footer = () => {
                                                     {/* DIV 2 */}
 
                                                     <div className="pt-20">
+                                                    <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
                                                         <button className="bg-stone-900 hover:bg-white font-Avenir text-1xl text-white hover:text-stone-800 hover:border border-stone-800 py-4 px-4 w-60 h-15 right-0">
                                                             Contact Me
-                                                        </button></div>
+                                                        </button>
+                                                        </Link>
+                                                        </div>
 
                                                 </div>
                                             </div>

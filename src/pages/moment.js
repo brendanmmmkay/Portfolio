@@ -125,7 +125,7 @@ export default function Bosch() {
             <Paragraph
                 header="Context"
                 body1="In a design internship with Moment Energy, I was responsible for a brand refresh and website launch as the sole designer for the clean tech start-up."
-                body2="Moment Energy is a cleantech company that is helping to build a sustainable economy through battery energy storage systems made from repurposed electric vehicle batteries, with a mission to provide worldwide access to clean, reliable and affordable power."
+                body2="Moment Energy is helping to build a sustainable economy through battery energy storage systems made from repurposed electric vehicle batteries, with a mission to provide worldwide access to clean, reliable and affordable power."
             ></Paragraph>
 
 
@@ -152,7 +152,7 @@ export default function Bosch() {
             <Paragraph
                 header="Approach"
                 body1="I Facilitated design sprint activities with company founders on brand strategy to create language that communicates their mission, vision, and positioning. I built brand strategy pillars to guide the founders toward making value real for customers."
-                body2=" I then created a new brand direction imbued with the aforementioned principles, and developed design standards to ensure the new brand could be consistently applied in any outward materials."
+                body2="I then created a new brand direction imbued with the aforementioned principles, and developed design standards to ensure the new brand could be consistently applied in any outward materials."
             ></Paragraph>
 
 
