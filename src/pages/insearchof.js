@@ -148,7 +148,7 @@ export default function InSearchOf() {
       <Paragraph
         header="Creating the Logo"
         body1="  I used a pen and sketchbook to create 8 logo iterations in 8 minutes as a warmup exercise each day. The initial form for this iteration of the logo began with a location pin, inspired by our brand pillar to ‘map the landscape of design’."
-        body2="  By scaling and reflecting the pin, I created a head and body that represents our individual seeker. Together, they create a flower-like form where the seeds are waypoints, representing the connections our seeker gains as they explore In Search Of."
+        body2="  By scaling and reflecting the pin, I created a head and body that represents our individual seeker. Together, they create a flower-like form where the petals are waypoints, representing the connections our seeker gains as they explore the directory."
       ></Paragraph>
 
 
@@ -178,8 +178,8 @@ export default function InSearchOf() {
 
       <Paragraph
         header="Design Sprint Process"
-        subTitle=" I hosted sprint activities with JP and our developer, Bryant, where we asked questions and attempted to paint a picture of our persona. Next, I created an online questionnaire seeking to confirm and test our assumptions with potential users to develop a persona with real user data."
-        body1="Next, I quickly created a set of potential journey frameworks complete with quotes pulled from our user interviews to understand what kind of experience would solve our users problems best."
+        body1="I hosted sprint activities with JP and our developer, Bryant, where we asked questions and attempted to paint a picture of our persona. Next, I created an online questionnaire seeking to confirm and test our assumptions with potential users to develop a persona with real user data."
+        body2="Next, I quickly created a set of potential journey frameworks complete with quotes pulled from our user interviews to understand what kind of experience would aid our personas frictions best."
       ></Paragraph>
 
 
@@ -198,8 +198,7 @@ export default function InSearchOf() {
 
       <Paragraph
         header="Determining Value for Seekers"
-        body1="Leveraging data I gained from the google poll, I created a journey frameworks to understand how people would get to our website, and how their experience would develop as they used our directory over time."
-        body2=" People I interviewed said that they connected strongly and best with resources that were highly regarded or recommended by mentors and peers. To promote strong connections between our readers and our resources, every entry in the design directory is accompanied by copy that holds each resource in high regards."
+        body2="People I interviewed said that they connected strongly and best with resources that were highly regarded or recommended by mentors and peers. To promote strong connections between our readers and our resources, each entry in the design directory is accompanied by copy that tells the importance of each resource and why it is regarded so highly."
       ></Paragraph>
 
 
@@ -212,7 +211,7 @@ export default function InSearchOf() {
 
       <Paragraph
         header="Mapping the landscape of design"
-        body1="On cards, I used the scrollable chip pattern to retain contextual design discovery and inform users search decisions. To map the landscape of design - chip categories include media type, type of design discipline, and type of organization."
+        body1="On cards, I used the scrollable chip pattern to retain contextual design discovery and inform search decisions. To map the landscape of design - chip categories include media type, type of design discipline, and type of organization."
       ></Paragraph>
 
 
@@ -243,7 +242,7 @@ export default function InSearchOf() {
 
       <Paragraph
         header="Cards"
-        body1="I wanted people to experience a visually stimulating search for inspiration. To feel rich with great imagery and design, I leveraged a 6 column grid and made many cards to see images and type at different scales." />
+        body1="I wanted people to experience a visually stimulating search for inspiration. To feel rich with great imagery and design, I leveraged a 6 column grid and made many card iterations to see the images and type at different scales." />
 
 
 
