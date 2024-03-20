@@ -24,8 +24,8 @@ const Paragraph = ({ header, subtitle, body1, body2, ...props }) => {
     >
       <div className="mx-auto pt-20 pb-20 max-w-prose">
         <div className="mt-20 md:mt-96">
-          <h1 className='text-3xl lg:text-5xl whitespace-nowrap font-Garamond text-white tracking-wide'>{header}</h1>
-          <h1 className='text-1xl lg:text-2xl whitespace-nowrap font-NeueHaasRoman tracking-widest text-stone-400 lg:pt-1'>{subtitle}</h1>
+          <h1 className='text-3xl lg:text-5xl font-Garamond text-white tracking-wide'>{header}</h1>
+          <h1 className='text-1xl lg:text-2xl font-NeueHaasRoman tracking-widest text-stone-400 lg:pt-1'>{subtitle}</h1>
         </div>
 
         <div className="pt-5">
