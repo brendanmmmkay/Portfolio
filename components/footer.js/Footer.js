@@ -25,6 +25,7 @@ const Footer = () => {
 
 
 
+
             {/* FOOTER */}
 
             <div className='bg-hero-pattern2 bg-cover pt-6'>
