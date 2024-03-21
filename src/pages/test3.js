@@ -56,11 +56,9 @@ export default function Home() {
 
                     <div className="block md:hidden">
                         <div className="flex justify-center items-center pt-4 pb-4 bg-white">
-                            <div className="transform">
-                                <Image width={80} src={wordMark} />
-                            </div>
+                           
                         
-
+030303030
 
 
 
@@ -75,7 +73,7 @@ export default function Home() {
                                 {/* <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer">
               <button className="group text-chip-deep-gray borderColor-off-white font-AvenirMedium relative h-10 overflow-hidden text-xs tracking-wider text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">BPMCKAY@SFU.CA</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
             </Link> */}
-                                <Clipboard className="shadow-sm" text="BPMCKAY@SFU.CA" />
+                                {/* <Clipboard className="shadow-sm" text="BPMCKAY@SFU.CA" /> */}
                             </div>
 
                         </div>
@@ -108,9 +106,7 @@ export default function Home() {
 
 
 
-                    <div className="pl-4 md:pl-40 md:pt-24">
-                        <p className=" text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">PROJECTS</p>
-                    </div>
+             
 
 {/* 
                     <div className="divide-y divide-stone-600 ">
