@@ -38,7 +38,13 @@ const Card = ({
         <div className="md:overflow-x-scroll scroll-smooth no-scrollbar duration-100 ease-in-out z-50 pt-3">
             <div className="md:pl-40">
                 <motion.div
-
+                    // initial={{ opacity: 0, x: '40vw' }}
+                    // animate={{ opacity: 1, x: 0 }}
+                    // whileHover={{ x: isRightSide ? '-50vw' : 0, transition: { duration: 5.5 } }}
+                    // transition={{
+                    //     opacity: { duration: 1 }, // adjust this value to make the fade in faster
+                    //     x: { duration: 2.1 }, // adjust this value to make the initial load faster
+                    // }}
                 >
 
                     <div className="bg-white border border-off-white drop-shadow-2xl md:w-[140vw] mb-16">

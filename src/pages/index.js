@@ -53,9 +53,9 @@ export default function Home() {
             // animate={{ y: "0%" }}
             // transition={{ duration: 0.75, ease: "easeOut" }}
             // exit={{ opacity: 1 }}
-            className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default bg-tahiti-400"
+            className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default"
         >
-            <main>
+            <main className="bg-tahiti-400">
                 <div className='scrollbar-thumb-sky-700 scrollbar-track-sky-300'>
 
                     <div className="block md:hidden">
@@ -143,6 +143,12 @@ export default function Home() {
 
 
                     {/* <div className='md:pl-40'> */}
+
+
+
+               
+
+
 
                     <Link href={"/insearchof"}>
                         <LazyCardWrapper
