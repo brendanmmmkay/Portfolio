@@ -5,21 +5,21 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 const FooterDark = () => {
-    const fadeInVariants = {
-        hidden: { opacity: 0 },
-        visible: { opacity: 1 },
-    };
+    // const fadeInVariants = {
+    //     hidden: { opacity: 0 },
+    //     visible: { opacity: 1 },
+    // };
 
-    const [ref, inView] = useInView({
-        triggerOnce: true,
-        threshold: 0.1,
-    });
+    // const [ref, inView] = useInView({
+    //     triggerOnce: true,
+    //     threshold: 0.1,
+    // });
 
     return (
         <motion.footer
 
-        className="inset-x-0 bottom-0 w-full" // Add a top padding
-      >
+        className="inset-x-0 bottom-0 w-full bg-regal-gray" // Add a top padding
+>
 
 
 
