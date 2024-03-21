@@ -49,34 +49,29 @@ export default function Home() {
             </head>
         </div>,
         <div
-            initial={{ y: "100%" }}
-            animate={{ y: "0%" }}
-            transition={{ duration: 0.75, ease: "easeOut" }}
-            exit={{ opacity: 1 }}
-            className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default bg-tahiti-400"
+
         >
             <main>
-                <div className='scrollbar-thumb-sky-700 scrollbar-track-sky-300'>
+     
 
                     <div className="block md:hidden">
                         <div className="flex justify-center items-center pt-4 pb-4 bg-white">
                             <div className="transform">
                                 <Image width={80} src={wordMark} />
                             </div>
-                        </div>
+                        
 
 
 
 
-
-                        <div className="py-3 pl-3"> {/* Add padding/margin for large screens */}
-                            <div className='md:p-4 flex flex-row  overflow-x-scroll no-scrollbar gap-4 lg:col-span-3'>
-                                <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer">
+                        <div className=""> {/* Add padding/margin for large screens */}
+                            <div className=''>
+                                {/* <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer">
                                     <button className="group text-chip-deep-gray borderColor-off-white shadow-sm font-AvenirMedium relative h-10 overflow-hidden text-xs tracking-wider text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">RESUME</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
-                                </Link>
-                                <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
+                                </Link> */}
+                                {/* <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
                                     <button className="group text-chip-deep-gray borderColor-off-white shadow-sm font-AvenirMedium relative h-10 overflow-hidden text-xs tracking-wider text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
-                                </Link>
+                                </Link> */}
                                 {/* <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer">
               <button className="group text-chip-deep-gray borderColor-off-white font-AvenirMedium relative h-10 overflow-hidden text-xs tracking-wider text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">BPMCKAY@SFU.CA</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
             </Link> */}
@@ -84,17 +79,17 @@ export default function Home() {
                             </div>
 
                         </div>
-                        <div className="divide-y divide-linear divide-stone-200 w-full">
+                        {/* <div className="divide-y divide-linear divide-stone-200 w-full">
                             <div></div>
                             <div></div>
-                        </div>
+                        </div> */}
 
 
 
 
 
                         {/* <div className='bg-hero-pattern4 bg-cover pt-6'> */}
-                        <div className="flex justify-center items-center lg:px-48 px-4 pt-8">
+                        <div className="">
 
                             {/* <h1
                                 className='text-left mr-1 text-[48px] lg:text-4xl leading-[3.5rem] lg:leading-15 tracking-relaxed drop-shadow-xl max-w-sm md:max-w-3xl pt-6 pb-20 font-Garamond text-stone-200'>Conscious and impactful user experience design through brand strategy and digital storytelling.
@@ -255,7 +250,7 @@ export default function Home() {
 
              
             </main>
-            <FooterDark />
+            {/* <FooterDark /> */}
         </div>
     )
 }
