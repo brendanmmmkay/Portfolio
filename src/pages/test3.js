@@ -54,7 +54,7 @@ export default function Home() {
             <main>
      
 
-                    <div className="block md:hidden">
+                    
                         <div className="flex justify-center items-center pt-4 pb-4 bg-white">
                            
                         
@@ -62,191 +62,14 @@ export default function Home() {
 
 
 
-                        <div className=""> {/* Add padding/margin for large screens */}
-                            <div className=''>
-                                {/* <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer">
-                                    <button className="group text-chip-deep-gray borderColor-off-white shadow-sm font-AvenirMedium relative h-10 overflow-hidden text-xs tracking-wider text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">RESUME</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
-                                </Link> */}
-                                {/* <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                                    <button className="group text-chip-deep-gray borderColor-off-white shadow-sm font-AvenirMedium relative h-10 overflow-hidden text-xs tracking-wider text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
-                                </Link> */}
-                                {/* <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer">
-              <button className="group text-chip-deep-gray borderColor-off-white font-AvenirMedium relative h-10 overflow-hidden text-xs tracking-wider text-toverflow-x-hidden rounded-full bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">BPMCKAY@SFU.CA</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
-            </Link> */}
-                                {/* <Clipboard className="shadow-sm" text="BPMCKAY@SFU.CA" /> */}
-                            </div>
-
-                        </div>
-                        {/* <div className="divide-y divide-linear divide-stone-200 w-full">
-                            <div></div>
-                            <div></div>
-                        </div> */}
+</div>
 
 
-
-
-
-                        {/* <div className='bg-hero-pattern4 bg-cover pt-6'> */}
-                        <div className="">
-
-                            {/* <h1
-                                className='text-left mr-1 text-[48px] lg:text-4xl leading-[3.5rem] lg:leading-15 tracking-relaxed drop-shadow-xl max-w-sm md:max-w-3xl pt-6 pb-20 font-Garamond text-stone-200'>Conscious and impactful user experience design through brand strategy and digital storytelling.
-                            </h1> */}
-
-                            {/* <h1
-                                className='text-left mr-1 text-[40px] lg:text-4xl leading-[3rem] lg:leading-15 tracking-relaxed drop-shadow-xl max-w-sm md:max-w-3xl pt-0 pb-20 font-Garamond text-stone-700'>Conscious and impactful user experience design through brand strategy and digital storytelling.
-                            </h1> */}
-
-
-
-                            {/* </div> */}
-                        </div>
-
-                    </div>
-
-
-
-             
-
-{/* 
-                    <div className="divide-y divide-stone-600 ">
-                                                <div></div>
-                                                <div>
-                                                </div>
-                                            </div> */}
-
-{/* <div className="pt-20">
-                                                        <button className="bg-stone-200 hover:bg-regal-gray font-Avenir text-1xl text-stone-800 hover:text-stone-200 hover:border border-stone-200 py-4 px-4 w-60 h-15 right-0">
-                                                            Contact Me
-                                                        </button></div> */}
-
-
-                    {/* <div className="overflow-x-scroll">
-                        <div className="md:w-[140vw] h-8 bg-blue-500">
-
-                        </div>
-                    </div> */}
-
-                    {/* <div className="md:pl-6">
-                        <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer">
-                            <button class="group relative inline-flex h-12 md:w-12 items-center justify-center overflow-hidden rounded-full bg-neutral-150"><div class="transition duration-300 group-hover:rotate-[360deg]"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-200"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fillRule="evenodd" clipRule="evenodd"></path></svg></div></button>
-                        </Link>
-                    </div> */}
-
-
-                    {/* <div className='md:pl-40'> */}
-
-                    <Link href={"/insearchof"}>
-                        <LazyCardWrapper
-                            src={false}
-                            src2={false}
-                            src3={Images.isoThumbDuo}
-                            fill="true"
-                            // alt="a bluejay"
-                            content="In Search Of"
-                            subTitle="A digital design directory."
-                            playbackId="dOM00pqI022lCLHtNFaLn6r2KZ1aI01OstRGpqleqGV6r00"
-                            playbackId2="oWqKBxCME02obOSNxtb01T801ew3tcgwwOp5502l7BihPyc"
-                            path="/insearchof"
-                            sectionid="isoProductDesign"
-                            chip1="PRODUCT DESIGN"
-                            chip2="LOGO DESIGN"
-                            chip3="INTERACTION DESIGN"
-                            chip4="SPRINT PROCESS"
-                        />
-                    </Link>
-
-
-                    <Link href={"/moment"}>
-                        <LazyCardWrapper
-                            src={Images.trains}
-                            src2={false}
-                            src3={Images.momentLogo}
-                            fill="true"
-                            // alt="a bluejay"
-                            content="Moment Energy"
-                            subTitle="A new brand and website to disrupt the energy industry."
-                            playbackId={false}
-                            playbackId2="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
-                            path="/moment"
-                            chip1="BRAND STRATEGY"
-                            chip2="LOGO DESIGN"
-                            chip3="WEB DESIGN"
-                            chip4="PITCH DECKS"
-                        />
-                    </Link>
-
-
-
-                    <Link href={"/arcteryx"}>
-                        <LazyCardWrapper
-                            src={Images.arcyUno}
-                            src2={Images.shaneJeon}
-                            src3={Images.arcyDos}
-                            fill="true"
-                            // alt="a bluejay"
-                            content="Arc'teryx x SFU"
-                            subTitle="A Product Care Campaign"
-                            playbackId={false}
-                            playbackId2={false}
-                            path="/arcteryx"
-                            chip1="EXPERIENCE DESIGN"
-                            chip2="ETHNOGRAPHY"
-                            chip3="PHYSICAL PRODUCT DESIGN"
-                            chip4="SPRINT PROCESS"
-                        />
-                    </Link>
-
-
-                    <Link href={"/bosch"}>
-                        <LazyCardWrapper
-                            src={Images.boschOne}
-                            src2={Images.boschTwo}
-                            src3={Images.boschThree}
-                            fill={true} // Changed from "true" to true
-                            // alt="a bluejay"
-                            content="Bosch Courier Connect"
-                            subTitle="A safety solution for E-bike couriers"
-                            playbackId={false}
-                            playbackId2={false}
-                            path="/bosch"
-                            chip1="PRODUCT DESIGN"
-                            chip2="ART DIRECTION"
-                            chip3="USER RESEARCH"
-                            chip4="BUSINESS STRATEGY"
-                        />
-                    </Link>
-
-
-                    {/* </div> */}
-
-                    {/* NEW FOOTER */}
-
-
-                    {/* <!-- Pin to top right corner --> */}
-                    {/* <div className="relative h-32 w-32 ...">
-                        <div className="absolute top-0 right-0 h-16 w-16 ...">03 greedo</div>
-                    </div> */}
-
-
-
-
-                    {/* <div className='tracking-tighter drop-shadow-2xl text-white pb-3 text-3xl'>
-            <h4 className='font-Avenir'>Thanks for stopping by,</h4>
-          </div> */}
-
-                </div>
-
-
-
-
-                {/* FOOTER */}
 
 
 
              
             </main>
-            {/* <FooterDark /> */}
         </div>
     )
 }
