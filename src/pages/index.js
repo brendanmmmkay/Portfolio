@@ -49,10 +49,10 @@ export default function Home() {
             </head>
         </div>,
         <div
-            initial={{ y: "100%" }}
-            animate={{ y: "0%" }}
-            transition={{ duration: 0.75, ease: "easeOut" }}
-            exit={{ opacity: 1 }}
+            // initial={{ y: "100%" }}
+            // animate={{ y: "0%" }}
+            // transition={{ duration: 0.75, ease: "easeOut" }}
+            // exit={{ opacity: 1 }}
             className="absolute z-1 text-gray-900 top-0 left-0 w-full cursor-default bg-tahiti-400"
         >
             <main>
@@ -64,7 +64,6 @@ export default function Home() {
                                 <Image width={80} src={wordMark} />
                             </div>
                         </div>
-
 
 
 
