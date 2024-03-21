@@ -260,7 +260,9 @@ export default function Home() {
 
              
             </main>
+            
             <FooterDark />
+            
         </div>
     )
 }

@@ -59,7 +59,7 @@ export default function Bosch() {
 
 
 
-            <div className="h-96 object-cover lg:h-full lg:object-cover">
+            <div className="object-cover md:h-full">
                 <Image
                     src={ArcyImg1}
                 />
@@ -73,7 +73,7 @@ export default function Bosch() {
 
                             <h2 className="text-stone-500 text-sm font-NeueHaasRoman tracking-wide leading-relaxed pt-10">January — May 2020
                                 2021</h2>
-                            <h2 className="text-stone-400 font-AvenirMedium text-[1.1rem] tracking-relaxed leading-relaxed gap-10 pt-3">Senior SFU experience design collaboration with Arc'teryx</h2>
+                            <h2 className="text-stone-400 font-AvenirMedium text-[1.1rem] tracking-relaxed leading-relaxed gap-10 pt-3 pb-20 md:pb-0">Senior SFU experience design collaboration with Arc'teryx</h2>
 
                         </div>
 
@@ -142,7 +142,7 @@ export default function Bosch() {
 
 
 
-            <div className="h-96 object-cover lg:h-full lg:object-cover border-y border-stone-600">
+            <div className="object-cover lg:h-full lg:object-cover border-y border-stone-600">
                 <Image
                     src={ArcyImg4}
                 />
@@ -167,7 +167,7 @@ export default function Bosch() {
                     </div> */}
 
 
-            <div className="h-96 object-cover lg:h-full lg:object-cover border-y border-stone-600">
+            <div className="object-cover md:h-full  border-y border-stone-600">
                 <Image
                     src={ArcyImg8}
                 />

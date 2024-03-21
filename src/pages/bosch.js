@@ -65,7 +65,7 @@ export default function Bosch() {
                         <div className="col-start-1 col-span-3 lg:px-48 px-5">
 
                             <h2 className="text-stone-500 text-sm font-NeueHaasRoman tracking-wide leading-relaxed pt-10">September — December 2020</h2>
-                            <h2 className="text-stone-400 font-AvenirMedium text-[1.1rem] tracking-relaxed leading-relaxed gap-10 pt-3">6 week Academic <br></br>Experience Design Project</h2>
+                            <h2 className="text-stone-400 font-AvenirMedium text-[1.1rem] tracking-relaxed leading-relaxed gap-10 pt-3 pb-20 md:pb-0">6 week Academic <br></br>Experience Design Project</h2>
 
                         </div>
 

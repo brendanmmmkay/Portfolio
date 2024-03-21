@@ -85,11 +85,11 @@ export default function Bosch() {
 
                             <h2 className="text-stone-500 text-sm font-NeueHaasRoman tracking-wide leading-relaxed pt-10">April — August
                                 2021</h2>
-                            <h2 className="text-stone-400 font-AvenirMedium text-[1.1rem] tracking-relaxed leading-relaxed gap-10 pt-3">Product design and brand refresh, <br></br> 4 month Internship</h2>
+                            <h2 className="text-stone-400 font-AvenirMedium text-[1.1rem] tracking-relaxed leading-relaxed gap-10 pt-3 pb-20 md:pb-0">Product design and brand refresh, <br></br> 4 month Internship</h2>
 
                         </div>
 
-                        <div className="invisible md:visible">
+                        <div className="hidden md:block">
                             <div className=" grid grid-cols-1 gap-3">
                                 <div className="font-NeueHaasRoman text-stone-500 tracking-wide text-sm pl-5 pt-10">
                                     Roles
@@ -104,7 +104,7 @@ export default function Bosch() {
                         </div>
 
 
-                        <div className="invisible md:visible">
+                        <div className="hidden md:block">
                             <div className="text-stone-500 grid grid-cols-1 gap-3">
                                 <div className="font-NeueHaasRoman tracking-wide text-sm pl-5 pt-10">
                                     Tools

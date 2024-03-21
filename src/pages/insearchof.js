@@ -27,7 +27,7 @@ export default function InSearchOf() {
         <div className=''>
 
 
-          <div className="bg-white">
+          <div className="bg-white px-4">
             <div className="lg:px-48 text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-24">IN SEARCH OF</div>
             {/* <p className="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
 
@@ -130,7 +130,7 @@ export default function InSearchOf() {
 
 
 
-      <div className="h-96 object-cover lg:h-full lg:object-cover">
+      <div className="md:h-full object-cover">
         <MuxPlayer
           streamType="on-demand"
           playbackId="dOM00pqI022lCLHtNFaLn6r2KZ1aI01OstRGpqleqGV6r00"
@@ -153,7 +153,7 @@ export default function InSearchOf() {
 
 
 
-      <div className="h-96 object-cover lg:h-full lg:object-cover ">
+      <div className="object-cover md:h-full">
         <MuxPlayer
           streamType="on-demand"
           playbackId="oWqKBxCME02obOSNxtb01T801ew3tcgwwOp5502l7BihPyc"
@@ -167,7 +167,7 @@ export default function InSearchOf() {
       </div>
 
 
-      <div className="h-96 object-cover lg:h-full lg:object-cover ">
+      <div className="object-cover md:h-full">
         <Image className="border-y border-stone-600 h-96 object-cover lg:h-full lg:object-cover"
           src={isoLogoMark}
         />
@@ -202,7 +202,7 @@ export default function InSearchOf() {
       ></Paragraph>
 
 
-      <div className="h-96 object-cover lg:h-full lg:object-cover ">
+      <div className="object-cover md:h-full">
         <Image className="border-y border-stone-600 h-96 object-cover lg:h-full lg:object-cover"
           src={isoDummy5}
         />
@@ -216,7 +216,7 @@ export default function InSearchOf() {
 
 
 
-      <div className="h-96 object-cover lg:h-full lg:object-cover ">
+      <div className="object-cover md:h-full">
         <MuxPlayer className=""
           streamType="on-demand"
           playbackId="oJylykWgGQrDEj1MrGo3ELsnDGn01pjdlWyw8vT01uW6o"
