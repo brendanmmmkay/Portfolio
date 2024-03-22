@@ -118,7 +118,13 @@ export default function Home() {
 
 
                     {/* <div className='bg-regal-gray pt-6'>
-                        </div> */}
+                        </div>
+
+                        <div className="divide-y divide-stone-600 ">
+                                                <div></div>
+                                                <div>
+                                                </div>
+                                            </div> */}
 
 
                     <Link href={"/insearchof"}>
