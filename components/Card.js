@@ -22,28 +22,34 @@ const Card = ({
     ...props
 }) => {
     const [isRightSide, setIsRightSide] = useState(false);
+    const [windowWidth, setWindowWidth] = useState(
+        typeof window !== 'undefined' ? window.innerWidth : 0
+    );
 
     useEffect(() => {
-        const checkMousePosition = (e) => {
-            setIsRightSide(e.clientX > window.innerWidth / 1.3);
-        };
-
-        window.addEventListener('mousemove', checkMousePosition);
-
-        return () => {
-            window.removeEventListener('mousemove', checkMousePosition);
-        };
+        const handleResize = () => setWindowWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
     }, []);
+
+    useEffect(() => {
+        const handleMouseMove = (e) => setIsRightSide(e.clientX > window.innerWidth / 1.2);
+        window.addEventListener('mousemove', handleMouseMove);
+        return () => window.removeEventListener('mousemove', handleMouseMove);
+    }, []);
+
     return (
         <div className="md:overflow-x-scroll scroll-smooth no-scrollbar duration-100 ease-in-out z-50 pt-3">
             <div className="md:pl-40">
                 <motion.div
-                    initial={{ opacity: 0, x: '40vw' }}
-                    animate={{ opacity: 1, x: 0 }}
-                    whileHover={{ x: isRightSide ? '-50vw' : 0, transition: { duration: 5.5 } }}
-                    transition={{
+                    initial={windowWidth > 568 ? { opacity: 0, x: '40vw' } : { opacity: 0 }}
+                    animate={windowWidth > 568 ? { opacity: 1, x: 0 } : { opacity: 1 }}
+                    whileHover={windowWidth > 568 && isRightSide ? { x: '-50vw', transition: { duration: 5.5 } } : {}}
+                    transition={windowWidth > 568 ? {
                         opacity: { duration: 1 }, // adjust this value to make the fade in faster
                         x: { duration: 2.1 }, // adjust this value to make the initial load faster
+                    } : {
+                        opacity: { duration: 1 },
                     }}
                 >
 
