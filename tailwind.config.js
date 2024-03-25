@@ -74,7 +74,10 @@ module.exports = {
         AvenirHeavy:"AvenirHeavy",
         SFproBold: "SFproBold",
         SFpro:"SFpro",
-        AvenirMedium:"AvenirMedium"
+        AvenirMedium:"AvenirMedium",
+        Rosart: "Rosart",
+        FoundersGrotesk: "FoundersGrotesk",
+        FoundersGroteskLight: "FoundersGroteskLight",
       },
 
       colors: {

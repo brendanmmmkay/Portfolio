@@ -129,7 +129,7 @@ const Footer = () => {
 
 
                                                         <div className="col-span-2 md:border-l  border-stone-300">
-                                                            <Link href={"https://github.com/brendanmmmkay/Portfolio/blob/main/brendanmckayresume.pdf"}>
+                                                        <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer">
                                                                 <h2 className="text-stone-700 font-SFpro leading-relaxed pt-20 md:pt-0 md:pl-10">Resume
                                                                 </h2>
                                                             </Link>

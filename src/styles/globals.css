@@ -110,6 +110,21 @@ body {
   src: url(../fonts/Avenir-Heavy.otf);
 }
 
+@font-face {
+  font-family: Rosart;
+  src: url(../fonts/RosartTRIAL-Regular.otf);
+}
+
+@font-face {
+  font-family: FoundersGrotesk;
+  src: url(../fonts/TestFoundersGroteskMono-Light.otf);
+}
+
+@font-face {
+  font-family: FoundersGrotesk;
+  src: url(../fonts/TestFoundersGroteskMono-Regular.otf);
+}
+
 
 .progress-bar {
   position: fixed;
