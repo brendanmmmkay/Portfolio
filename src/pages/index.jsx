@@ -102,7 +102,7 @@ export default function Home() {
                                     EPOCH
                                 </div>
                                 <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                    <div>SUMMER 2021</div>
+                                    <div>MARCH 2024</div>
                                 </div>
                             </div>
 
@@ -147,7 +147,7 @@ export default function Home() {
                                     EPOCH
                                 </div>
                                 <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                    <div>UHHHH  </div>
+                                    <div>DECEMBER 2022 - ONGOING</div>
                                 </div>
                             </div>
 
@@ -164,7 +164,9 @@ export default function Home() {
 
                 </div>
                 <div className='mt-10 px-4 py-4'>
+                <div className='bg-hero-pattern4 bg-cover'>
                     <Footer />
+                    </div>
                 </div>
 
             </main>

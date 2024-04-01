@@ -74,9 +74,20 @@ export default function Bosch() {
             </div>
 
 
-<div className="px-4 pt-4">
+{/* <div className="px-4 pt-4">
             <MuxPlayerComponent playbackId="UNyuj9ShWAzZHTleYGbMy02Xy902mMXl5K00Z5rJPkQoG00" />
-            </div>
+            </div> */}
+
+
+
+<div className="px-4">
+      <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
+                            <div className="h-[45rem]">
+        <MuxPlayerComponent playbackId="UNyuj9ShWAzZHTleYGbMy02Xy902mMXl5K00Z5rJPkQoG00" />
+      </div>
+      </div>
+      </div>
+
 
 
             <div className=" bg-white">
@@ -170,11 +181,12 @@ export default function Bosch() {
             </div>
 </div>
 
-
-            <div className="h-96 object-cover lg:h-full lg:object-cover pt-4">
+<div className="px-4">
+            <div className=" object-cover lg:h-full lg:object-cover">
                 <Image className=" h-full"
                     src={momentNewVD}
                 />
+            </div>
             </div>
 
 
@@ -203,13 +215,13 @@ export default function Bosch() {
             </div> */}
 
 
-
-            <div className="h-96 object-cover lg:h-full lg:object-cover ">
+<div className="px-4">
+            <div className=" object-cover lg:h-full lg:object-cover ">
                 <Image className=" h-full object-cover lg:w-full  lg:object-cover"
                     src={momentNewTeam}
                 />
             </div>
-
+            </div>
             
 
 

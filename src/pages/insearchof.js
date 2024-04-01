@@ -233,7 +233,7 @@ body2="We are creating a digital tool for design professionals who seek to enhan
       </div> */}
 
 
-<div className="px-4">
+<div className="px-4 pt-10">
       <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
                             <div className="h-[55rem]">
         <MuxPlayerComponent playbackId="oJylykWgGQrDEj1MrGo3ELsnDGn01pjdlWyw8vT01uW6o" />
