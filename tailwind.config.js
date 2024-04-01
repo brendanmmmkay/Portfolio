@@ -35,12 +35,24 @@ module.exports = {
       // },
 
       fontSize: {
+        xxs: '0.625rem',
+          xs: '0.8rem',
+          '4xl': ['2.8rem', { 
+            lineHeight: '3.1rem',
+            letterSpacing: '-0.05em',
+           }],        
         '5xl': ['3.5rem', {
           lineHeight: '4rem',
           letterSpacing: '-0.01em',
           fontWeight: '500',
         }],
+        '6xl': ['5.5rem', {
+          lineHeight: '4rem',
+          letterSpacing: '-0.01em',
+          fontWeight: '500',
+        }],
       },
+
 
       lineHeight: {
         'extra-tight': '0.5',
@@ -75,7 +87,7 @@ module.exports = {
         SFproBold: "SFproBold",
         SFpro:"SFpro",
         AvenirMedium:"AvenirMedium",
-        Rosart: "Rosart",
+        rosart:"rosart",
         FoundersGrotesk: "FoundersGrotesk",
         FoundersGroteskLight: "FoundersGroteskLight",
       },
@@ -87,6 +99,7 @@ module.exports = {
         'off-white': '#F5F5F5',
         'edge-white': '#D9D9D9',
         'chip-deep-gray': '#9B9A9A',
+        'arkansas': '#3C3C3C',
         'tahiti': {
           100: '#2F2E2E',
           200: '#252424',
@@ -121,6 +134,15 @@ module.exports = {
 
       padding: {
         '48': '11rem',
+      },
+
+      width: {
+        '20': '6rem',
+      },
+
+      maxWidth: {
+        'prose': '46ch',
+        'xs': '30ch',
       },
 
       animation: {

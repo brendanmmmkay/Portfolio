@@ -40,7 +40,7 @@ const Card = ({
 
     return (
         <div className="md:overflow-x-scroll scroll-smooth no-scrollbar duration-100 ease-in-out z-50 pt-3">
-            <div className="md:pl-40">
+            <div className="">
                 <motion.div
                     initial={windowWidth > 568 ? { opacity: 0, x: '40vw' } : { opacity: 0 }}
                     animate={windowWidth > 568 ? { opacity: 1, x: 0 } : { opacity: 1 }}

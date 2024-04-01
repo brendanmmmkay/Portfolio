@@ -87,7 +87,7 @@ body {
 
 @font-face {
   font-family: Avenir;
-  src: url(../fonts/Avenir.ttc);
+  src: url(../fonts/RosartTRIAL-Regular.otf);
 }
 
 @font-face {
@@ -102,12 +102,12 @@ body {
 
 @font-face {
   font-family: SFpro;
-  src: url(../fonts/SF-Pro-Text-Semibold.otf);
+  src: url(../fonts/TestFoundersGroteskMono-Light.otf);
 }
 
 @font-face {
   font-family: AvenirHeavy;
-  src: url(../fonts/Avenir-Heavy.otf);
+  src: url(../fonts/TestFoundersGroteskMono-Regular.otf);
 }
 
 @font-face {

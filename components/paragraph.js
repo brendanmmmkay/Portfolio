@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import MuxPlayer from "@mux/mux-player-react";
+import Modal from './Modal';
 
 const Paragraph = ({ header, subtitle, body1, body2, ...props }) => {
   const [ref, inView] = useInView({
@@ -14,7 +16,7 @@ const Paragraph = ({ header, subtitle, body1, body2, ...props }) => {
   };
 
   return (
-    <motion.p
+    <motion.div
       ref={ref}
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
@@ -22,97 +24,32 @@ const Paragraph = ({ header, subtitle, body1, body2, ...props }) => {
       transition={{ duration: 1.5 }}
       {...props}
     >
-      <div className="px-4 mx-auto pt-20 pb-20 max-w-prose">
-        <div className="mt-10 md:mt-96">
-          <h1 className='text-3xl lg:text-5xl font-Garamond text-white tracking-wide'>{header}</h1>
-          <h1 className='text-1xl lg:text-2xl font-NeueHaasRoman tracking-widest text-stone-400 lg:pt-1'>{subtitle}</h1>
-        </div>
 
-        <div className="pt-5">
-          <div className="divide-y divide-linear divide-stone-600">
-            <div></div>
-            <div></div>
-          </div>
-        </div>
 
-        <div className="font-Avenir tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl">
-         {body1}
-        </div>
-        <div className="font-Avenir tracking-wide text-white pt-20 pb-20 leading-10 md:leading-loose md:text-2xl">
-         {body2}
-        </div>
-      </div>
-    </motion.p>
+<div className="grid grid-cols-2">
+  <div className="px-4 pt-20 pb-5 max-w-prose">
+    <div className="mt-10 md:mt-96">
+      <h1 className='text-xxs font-SFpro text-stone-600 tracking-wide'>{header}</h1>
+      <h1 className='text-xxs font-SFpro tracking-widest text-stone-400 lg:pt-1'>{subtitle}</h1>
+    </div>
+
+    <div className="font-Avenir text-stone-600 leading-relaxed pt-20 text-xs">
+     {body1}
+    </div>
+    <div className="font-Avenir text-stone-600 leading-relaxed pt-5 text-xs">
+     {body2}
+    </div>
+  </div>  
+
+  {/* <div className="bg-green-500 h-32 w-32">
+   
+  </div> */}
+</div>
+
+
+
+    </motion.div>
 );
 };
 
 export default Paragraph;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react';
-// import { motion } from 'framer-motion';
-// import { useInView } from 'react-intersection-observer';
-
-// const Paragraph = ({ header, subtitle, body1, body2, ...props }) => {
-//   const [ref, inView] = useInView({
-//     triggerOnce: true,
-//     threshold: 0.1,
-//   });
-
-//   const fadeInVariants = {
-//     hidden: { opacity: 0 },
-//     visible: { opacity: 1 },
-//   };
-
-//   return (
-//     <motion.p
-//       ref={ref}
-//       initial="hidden"
-//       animate={inView ? "visible" : "hidden"}
-//       variants={fadeInVariants}
-//       transition={{ duration: 1.5 }}
-//       {...props}
-//     >
-//       <div className="px-4 mx-auto pt-20 pb-20 max-w-prose">
-//         <div className="mt-10 md:mt-96">
-//           <h1 className='text-3xl lg:text-5xl font-FoundersGroteskLight text-white tracking-wide'>{header}</h1>
-//           <h1 className='text-1xl lg:text-2xl font-FoundersGrotesk tracking-widest text-stone-400 lg:pt-1'>{subtitle}</h1>
-//         </div>
-
-//         <div className="pt-5">
-//           <div className="divide-y divide-linear divide-stone-600">
-//             <div></div>
-//             <div></div>
-//           </div>
-//         </div>
-
-//         <div className="font-Rosart tracking-wide text-white pt-20 leading-10 md:leading-loose md:text-2xl">
-//          {body1}
-//         </div>
-//         <div className="font-Rosart text-white pt-20 pb-20 text-xs">
-//          {body2}
-//         </div>
-//       </div>
-//     </motion.p>
-// );
-// };
-
-// export default Paragraph;
