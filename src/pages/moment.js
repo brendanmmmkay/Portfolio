@@ -54,12 +54,12 @@ export default function Bosch() {
 
 
                     <div className="w-1/2">
-                        <div className="px-4 text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-48">MOMENT ENERGY</div>
+                        <div className="px-4 text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-64">MOMENT ENERGY</div>
                         {/* <p className="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
 
                         <m.h1
 
-                            className="px-4 text-[1.2rem] md:text-4xl text-left tracking-loose font-Avenir text-stone-700 leading-relaxed md:leading-tight mt-5 lg:Pt-8">A new logo, visual identity, and web strategy <br></br> to disrupt the energy storage industry.
+                            className="px-4 text-[1.2rem] md:text-3xl text-left tracking-loose font-Avenir text-stone-700 leading-relaxed md:leading-tight mt-5 pb-5 lg:Pt-8">A new logo, visual identity, and web strategy <br></br> to disrupt the energy storage industry.
                         </m.h1>
 
                         {/* <div className="">
@@ -171,7 +171,7 @@ export default function Bosch() {
 <div className="grid grid-cols-2 pt-4">
             <Paragraph
                 header="APPROACH"
-                body1="I Facilitated design sprint activities with company founders on brand strategy to create language that communicates their mission, vision, and positioning. I built brand strategy pillars to guide the founders toward making value real for customers."
+                body1="I facilitated design sprint activities with company founders on brand strategy to create language that communicates their mission, vision, and positioning. I built brand strategy pillars to guide the founders toward making value real for customers."
                 body2="I then created a new brand direction imbued with the aforementioned principles, and developed design standards to ensure the new brand could be consistently applied in any outward materials."
             ></Paragraph>
                         <div>

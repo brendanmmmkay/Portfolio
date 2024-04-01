@@ -111,11 +111,11 @@ export default function Home() {
 
 
 
-                    <div className="pt-20">
+                    <div className="pt-10">
                         <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
                             <div className=" h-96">
                                 <MyModal Component={InSearchOf}>
-                                    <MuxPlayerComponent playbackId="h8Uax3VLbvKOsL9o028GTjat8LVuxfjzHprznRNiulZk" />
+                                    <MuxPlayerComponent playbackId="qsbvW5V44mhboekAB4CAKYyzeTycM7KCokPVbYZO02iE" />
                                 </MyModal>
                             </div>
                         </div>
