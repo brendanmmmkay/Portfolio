@@ -68,7 +68,7 @@ export default function Home() {
 
                     <div className="">
                         <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                            <div className="h-96">
+                            <div className="h-96 xl:h-[32rem]">
                                 <MyModal Component={Moment} className="px-0">                      
                                     <MuxPlayerComponent playbackId="OrtKMk2dEzaj02iJRdo00uMXdohEkMznl29vQAf2JmFz4" />           
                                 </MyModal>
