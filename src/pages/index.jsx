@@ -113,7 +113,7 @@ export default function Home() {
 
                     <div className="pt-10">
                         <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                            <div className=" h-96">
+                            <div className="h-96 xl:h-[32rem]">
                                 <MyModal Component={InSearchOf}>
                                     <MuxPlayerComponent playbackId="qsbvW5V44mhboekAB4CAKYyzeTycM7KCokPVbYZO02iE" />
                                 </MyModal>
@@ -154,6 +154,12 @@ export default function Home() {
                         </div>
                     </div>
 
+
+{/* <div className="grid grid-cols-3">
+<Image className="px-4 pt-4 object-cover rounded-8 pb-10" src={arcPanel1}></Image>
+<Image className="px-4 pt-4 object-cover rounded-8 pb-10" src={arcPanel1}></Image>
+<Image className="px-4 pt-4 object-cover rounded-8 pb-10" src={arcPanel1}></Image>
+    </div> */}
 
 
                     <div className="divide-y divide-stone-100 opacity-50 pt-40">

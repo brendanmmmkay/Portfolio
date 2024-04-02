@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="hidden md:block fixed z-50 w-full">
       <div className="py-1 bg-white"> {/* Add padding/margin for large screens */}
-        <ul className="flex justify-between items-center">
+        <ul className="grid grid-cols-3">
           <div className="px-4">
           <Link href="/">
           {/* <Image className="invisible md:visible scale-125" src={wordMark} /> */}
