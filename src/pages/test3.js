@@ -35,6 +35,7 @@ import Paragraph from '../../components/paragraph';
 import FooterDark from '../../components/FooterDark';
 import wordMark from "../../components/wordMark.svg"
 import Clipboard from '../../components/Clipboard';
+import brendanPS2 from "../image/brendanPS2.png"
 
 
 
@@ -65,7 +66,25 @@ export default function Home() {
 </div>
 
 
+<div className="relative group">
+                            <div className="rounded-lg overflow-hidden relative">
+                                <Image
+                                    src={brendanPS2}
 
+                                />
+                                <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg">
+                                    <span className="text-white text-lg opacity-0 group-hover:opacity-100 font-SFpro text-xxs transition-opacity duration-500">HELLO!</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                  
+                                </div>
+                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
 
 
              
