@@ -36,6 +36,11 @@ export default function InSearchOf() {
 
 
 
+
+
+
+
+
             <div className="w-1/2">
               <m.h1 className="px-4 text-[1.2rem] md:text-3xl text-left  font-Avenir text-stone-700  pb-10 mt-5 lg:Pt-8">
                 A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.

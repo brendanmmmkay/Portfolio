@@ -1,4 +1,5 @@
-import InSearchOf from '@/pages/insearchof';
+
+
 import { useState, useEffect } from 'react';
 
 const MyModal = ({ Component, children }) => {

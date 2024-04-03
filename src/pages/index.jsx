@@ -1,6 +1,7 @@
 'use client';
 import React, { useState, useRef } from 'react';
 import Image from 'next/image'
+
 // import { Inter } from 'next/font/google'
 import Head from 'next/head';
 import { motion } from "framer-motion";
@@ -27,7 +28,7 @@ import AnimatedTextWord from '../../components/AnimatedTextWord';
 import { Carousel } from 'flowbite-react';
 import Footer from '../../components/footer.js/Footer';
 import Card from '../../components/Card.js';
-import Images from '@/image';
+// import Images from '@/image';
 import { images } from '../../next.config';
 import MuxPlayerComponent from '../../components/MuxPlayer';
 import LazyCardWrapper from '../../components/LazyCard';
@@ -38,6 +39,8 @@ import Clipboard from '../../components/Clipboard';
 import MyModal from '../../components/Modal';
 import InSearchOf from './insearchof';
 import Moment from './moment';
+import GradientTrail from './GradientTrail';
+import brendanPS2 from "../image/brendanPS2.png"
 
 
 
@@ -65,12 +68,11 @@ export default function Home() {
                 <div className="pt-40 px-4">
 
 
-
                     <div className="">
                         <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                            <div className="h-96 xl:h-[32rem]">
-                                <MyModal Component={Moment} className="px-0">                      
-                                    <MuxPlayerComponent playbackId="OrtKMk2dEzaj02iJRdo00uMXdohEkMznl29vQAf2JmFz4" />           
+                            <div className="h-96">
+                                <MyModal Component={Moment} className="px-0">
+                                    <MuxPlayerComponent playbackId="OrtKMk2dEzaj02iJRdo00uMXdohEkMznl29vQAf2JmFz4" />
                                 </MyModal>
                             </div>
                         </div>
@@ -88,7 +90,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div>
+                            <div >
                                 <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                     CONTEXT
                                 </div>
@@ -97,7 +99,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div>
+                            <div >
                                 <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                     EPOCH
                                 </div>
@@ -109,11 +111,15 @@ export default function Home() {
                         </div>
                     </div>
 
+                    {/* <GradientTrail></GradientTrail> */}
+
+
+
 
 
                     <div className="pt-10">
                         <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                            <div className="h-96 xl:h-[32rem]">
+                            <div className="h-96">
                                 <MyModal Component={InSearchOf}>
                                     <MuxPlayerComponent playbackId="qsbvW5V44mhboekAB4CAKYyzeTycM7KCokPVbYZO02iE" />
                                 </MyModal>
@@ -122,7 +128,7 @@ export default function Home() {
                     </div>
 
 
-                    <div className="hidden md:block pb-40">
+                    <div className="hidden md:block pb-10">
                         <div className="flex justify-between">
                             <div>
                                 <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
@@ -133,7 +139,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div>
+                            <div className="">
                                 <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                     CONTEXT
                                 </div>
@@ -142,7 +148,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div>
+                            <div >
                                 <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                     EPOCH
                                 </div>
@@ -155,11 +161,130 @@ export default function Home() {
                     </div>
 
 
-{/* <div className="grid grid-cols-3">
-<Image className="px-4 pt-4 object-cover rounded-8 pb-10" src={arcPanel1}></Image>
-<Image className="px-4 pt-4 object-cover rounded-8 pb-10" src={arcPanel1}></Image>
-<Image className="px-4 pt-4 object-cover rounded-8 pb-10" src={arcPanel1}></Image>
-    </div> */}
+                    <div className="grid grid-cols-3 gap-4">
+
+                        <div className="relative group">
+                            <div className="rounded-lg overflow-hidden relative">
+                                <Image
+                                    src={arcPanel1}
+
+                                />
+                                <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg">
+                                    <span className="text-white text-lg opacity-0 group-hover:opacity-100 font-SFpro text-xxs transition-opacity duration-500">COMING SOON</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                    ARCTERYX SFU
+                                </div>
+                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                    <div>ACADEMIC</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        {/* <div>
+                            <div className="rounded-lg overflow-hidden">
+                                <Image
+                                    src={boschPanel1}
+                                    
+                                />
+                            </div>
+                            <div>
+                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                    BOSCH COURIER CONNECT
+                                </div>
+                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                    <div>ACADEMIC</div>
+                                </div>
+                            </div>
+                        </div> */}
+
+
+                        <div className="relative group">
+                            <div className="rounded-lg overflow-hidden relative">
+                                <Image
+                                    src={boschPanel1}
+
+                                />
+                                <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg">
+                                    <span className="text-white text-lg opacity-0 group-hover:opacity-100 font-SFpro text-xxs transition-opacity duration-500">COMING SOON</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                    BOSCH COURIER CONNECT
+                                </div>
+                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                    <div>ACADEMIC</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        {/* <div>
+                            <div className="rounded-lg overflow-hidden">
+                                <Image
+                                    src={brendanPS2}
+
+                                />
+                            </div>
+                            <div>
+                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+
+                                </div>
+                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div> */}
+
+                        <div className="relative group">
+                            <div className="rounded-lg overflow-hidden relative">
+                                <Image
+                                    src={brendanPS2}
+
+                                />
+                                <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg">
+                                    <span className="text-white text-lg opacity-0 group-hover:opacity-100 font-SFpro text-xxs transition-opacity duration-500">HELLO!</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                  
+                                </div>
+                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+
+
+
+                    {/* <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
+                        <div style={{ width: '100px', height: '100px', background: 'lightblue' }}></div>
+                        <div style={{ width: '100px', height: '100px', background: 'lightgreen', marginLeft: '10rem' }}></div>
+                        <div style={{ width: '100px', height: '100px', background: 'lightpink' }}></div>
+                    </div>
+
+                    <div className="flex justify-start">
+                        <div className="w-32 h-32 bg-blue-200 text-stone-500">yay</div>
+                        <div className="w-32 h-32 bg-green-200 text-stone-500 ml-[40rem]">yay</div>
+                        <div className="w-32 h-32 bg-pink-200 text-stone-500">yay</div>
+                    </div> */}
 
 
                     <div className="divide-y divide-stone-100 opacity-50 pt-40">
@@ -170,8 +295,8 @@ export default function Home() {
 
                 </div>
                 <div className='mt-10 px-4 py-4'>
-                <div className='bg-hero-pattern4 bg-cover'>
-                    <Footer />
+                    <div className='bg-hero-pattern4 bg-cover'>
+                        <Footer />
                     </div>
                 </div>
 
