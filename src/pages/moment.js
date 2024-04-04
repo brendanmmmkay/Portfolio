@@ -48,11 +48,6 @@ export default function Bosch() {
 
 
 
-
-
-
-
-
                     <div className="w-1/2">
                         <div className="px-4 text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-64">MOMENT ENERGY</div>
                         {/* <p className="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
@@ -74,65 +69,65 @@ export default function Bosch() {
             </div>
 
 
-{/* <div className="px-4 pt-4">
+            {/* <div className="px-4 pt-4">
             <MuxPlayerComponent playbackId="UNyuj9ShWAzZHTleYGbMy02Xy902mMXl5K00Z5rJPkQoG00" />
             </div> */}
 
 
 
-<div className="px-4">
-      <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                            <div className="h-[45rem]">
-        <MuxPlayerComponent playbackId="UNyuj9ShWAzZHTleYGbMy02Xy902mMXl5K00Z5rJPkQoG00" />
-      </div>
-      </div>
-      </div>
+            <div className="px-4">
+                <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
+                    <div className="h-[45rem]">
+                        <MuxPlayerComponent playbackId="UNyuj9ShWAzZHTleYGbMy02Xy902mMXl5K00Z5rJPkQoG00" />
+                    </div>
+                </div>
+            </div>
 
 
 
             <div className=" bg-white">
-        <div className="">
-          <div className="md:grid lg:grid-cols-5 grid-cols-1 gap-6 ">
-            <div className="col-start-1 col-span-2 px-5">
+                <div className="">
+                    <div className="md:grid lg:grid-cols-5 grid-cols-1 gap-6 ">
+                        <div className="col-start-1 col-span-2 px-5">
 
-              <h2 className="text-stone-800 text-xxs font-SFpro pt-2">APRIL — AUGUST 2021</h2>
-              <h2 className="text-stone-300 font-SFpro text-xxs gap-10 pt-0 pb-20 md:pb-0"> PRODUCT DESIGN AND BRAND REFRESH <br></br> 4 MONTH INTERNSHIP</h2>
+                            <h2 className="text-stone-800 text-xxs font-SFpro pt-2">APRIL — AUGUST 2021</h2>
+                            <h2 className="text-stone-300 font-SFpro text-xxs gap-10 pt-0 pb-20 md:pb-0"> PRODUCT DESIGN AND BRAND REFRESH <br></br> 4 MONTH INTERNSHIP</h2>
 
+                        </div>
+
+                        <div className="hidden md:block">
+                            <div className=" grid grid-cols-1">
+                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                    ROLES
+                                </div>
+                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                    <div>BRAND STRATEGY</div>
+                                    <div>LOGO DESIGN</div>
+                                    <div>BUSINESS STRATEGY</div>
+                                    <div>PITCH DECK DESIGN</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="hidden md:block">
+                            <div className=" grid grid-cols-1">
+                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                    TOOLS
+                                </div>
+                                <div className="font-SFpro text-stone-300 text-xxs">
+                                    <div>FIGMA</div>
+                                    <div>MIRO</div>
+                                    <div>PHOTOSHOP</div>
+                                    <div>ILLUSTRATOR</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
-
-            <div className="hidden md:block">
-              <div className=" grid grid-cols-1">
-                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                  ROLES
-                </div>
-                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                  <div>BRAND STRATEGY</div>
-                  <div>LOGO DESIGN</div>
-                  <div>BUSINESS STRATEGY</div>
-                  <div>PITCH DECK DESIGN</div>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="hidden md:block">
-              <div className=" grid grid-cols-1">
-                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                  TOOLS
-                </div>
-                <div className="font-SFpro text-stone-300 text-xxs">
-                  <div>FIGMA</div>
-                  <div>MIRO</div>
-                  <div>PHOTOSHOP</div>
-                  <div>ILLUSTRATOR</div>
-                </div>
-              </div>
-            </div>
-
-            
-          </div> 
-        </div>
-      </div>
 
 
 
@@ -146,9 +141,9 @@ export default function Bosch() {
 
 
 
-                <Image className="px-4"
-                            src={momentTable}
-                        />
+            <Image className="px-4"
+                src={momentTable}
+            />
 
 
 
@@ -168,40 +163,40 @@ export default function Bosch() {
             </div> */}
 
 
-<div className="grid grid-cols-2 pt-4">
-            <Paragraph
-                header="APPROACH"
-                body1="I facilitated design sprint activities with company founders on brand strategy to create language that communicates their mission, vision, and positioning. I built brand strategy pillars to guide the founders toward making value real for customers."
-                body2="I then created a new brand direction imbued with the aforementioned principles, and developed design standards to ensure the new brand could be consistently applied in any outward materials."
-            ></Paragraph>
-                        <div>
-            <Image className=""
-                    src={momentNewFonts}
-                />
+            <div className="grid grid-cols-2 pt-4">
+                <Paragraph
+                    header="APPROACH"
+                    body1="I facilitated design sprint activities with company founders on brand strategy to create language that communicates their mission, vision, and positioning. I built brand strategy pillars to guide the founders toward making value real for customers."
+                    body2="I then created a new brand direction imbued with the aforementioned principles, and developed design standards to ensure the new brand could be consistently applied in any outward materials."
+                ></Paragraph>
+                <div>
+                    <Image className=""
+                        src={momentNewFonts}
+                    />
+                </div>
             </div>
-</div>
 
-<div className="px-4">
-            <div className=" object-cover lg:h-full lg:object-cover">
-                <Image className=" h-full"
-                    src={momentNewVD}
-                />
-            </div>
+            <div className="px-4">
+                <div className=" object-cover lg:h-full lg:object-cover">
+                    <Image className=" h-full"
+                        src={momentNewVD}
+                    />
+                </div>
             </div>
 
 
             <div className="grid grid-cols-2 pt-4">
-            <Paragraph
-                header="LOGO DESIGN"
-                body1="The new logo leverages the same basic elements as the original logo - a circle and the letter ‘m’. Inspired by Saul Bass, I sought to leverage negative space to abstract the form, toward a more scalable and memorable mark."
-                body2="To imbue the logo with our brand pillars I considered the idea of energy storage. How could I contain the organic and flowing curves of the ‘M’,  in a more rigid, trustworthy container? The repeating arches of the ‘m’ are also reminiscent of the rounded edges of stacked batteries in Moment’s energy solutions."
-            ></Paragraph>
-            <div>
-            <Image className=""
-                    src={momentLogoProg}
-                />
+                <Paragraph
+                    header="LOGO DESIGN"
+                    body1="The new logo leverages the same basic elements as the original logo - a circle and the letter ‘m’. Inspired by Saul Bass, I sought to leverage negative space to abstract the form, toward a more scalable and memorable mark."
+                    body2="To imbue the logo with our brand pillars I considered the idea of energy storage. How could I contain the organic and flowing curves of the ‘M’,  in a more rigid, trustworthy container? The repeating arches of the ‘m’ are also reminiscent of the rounded edges of stacked batteries in Moment’s energy solutions."
+                ></Paragraph>
+                <div>
+                    <Image className=""
+                        src={momentLogoProg}
+                    />
+                </div>
             </div>
-</div>
 
 
 
@@ -215,26 +210,26 @@ export default function Bosch() {
             </div> */}
 
 
-<div className="px-4">
-            <div className=" object-cover lg:h-full lg:object-cover ">
-                <Image className=" h-full object-cover lg:w-full  lg:object-cover"
-                    src={momentNewTeam}
-                />
+            <div className="px-4">
+                <div className=" object-cover lg:h-full lg:object-cover ">
+                    <Image className=" h-full object-cover lg:w-full  lg:object-cover"
+                        src={momentNewTeam}
+                    />
+                </div>
             </div>
-            </div>
-            
+
 
 
             <div className="grid grid-cols-2 pt-4">
-            <Paragraph
-                header="PRODUCT STRATEGY - IMBUING TRUST"
-                body1="Moment had trouble with customers placing trust in them. The young and recently graduated founders hid their faces to masquerade as an older team in an industry that trusts tenure and decades of experience."
-                body2="I created a web experience that champions the founders youth as disruptors in the field, while exuding reliability by leveraging photography of real and successful product deployments."
-            ></Paragraph>
-                        <Image className="pb-4"
+                <Paragraph
+                    header="PRODUCT STRATEGY - IMBUING TRUST"
+                    body1="Moment had trouble with customers placing trust in them. The young and recently graduated founders hid their faces to masquerade as an older team in an industry that trusts tenure and decades of experience."
+                    body2="I created a web experience that champions the founders youth as disruptors in the field, while exuding reliability by leveraging photography of real and successful product deployments."
+                ></Paragraph>
+                <Image className="pb-4"
                     src={momentNewDeployment}
                 />
-   </div>
+            </div>
 
 
 
@@ -255,7 +250,7 @@ export default function Bosch() {
                 </div>
             </div> */}
 
-{/* 
+            {/* 
             <Paragraph
                 header="Impact"
                 body1="I created data visualizations and content design for slide decks presented at national pitch competitions, helping secure over $200,000 in investments during my internship."
@@ -286,7 +281,7 @@ export default function Bosch() {
 
 
 
-            
+
 
         </m.main>
 

@@ -141,6 +141,10 @@ module.exports = {
         '20': '6rem',
       },
 
+      height: {
+
+      },
+
       maxWidth: {
         'prose': '46ch',
         'xs': '30ch',

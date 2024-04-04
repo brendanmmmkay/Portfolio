@@ -29,7 +29,7 @@ import { Carousel } from 'flowbite-react';
 import Footer from '../../components/footer.js/Footer';
 import Card from '../../components/Card.js';
 // import Images from '@/image';
-import { images } from '../../next.config';
+// import { images } from '../../next.config';
 import MuxPlayerComponent from '../../components/MuxPlayer';
 import LazyCardWrapper from '../../components/LazyCard';
 import Paragraph from '../../components/paragraph';
@@ -68,48 +68,179 @@ export default function Home() {
                 <div className="pt-40 px-4">
 
 
-                    <div className="">
-                        <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                            <div className="h-96">
-                                <MyModal Component={Moment} className="px-0">
-                                    <MuxPlayerComponent playbackId="OrtKMk2dEzaj02iJRdo00uMXdohEkMznl29vQAf2JmFz4" />
-                                </MyModal>
+
+
+
+                    <div className="grid grid-cols-3 gap-y-4">
+                        <div className="col-span-3">
+
+
+                            <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
+                                <div className="h-96">
+                                    <MyModal Component={Moment} className="px-0">
+                                        <MuxPlayerComponent playbackId="OrtKMk2dEzaj02iJRdo00uMXdohEkMznl29vQAf2JmFz4" />
+                                    </MyModal>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div className=" text-stone-500">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                MOMENT ENERGY
                             </div>
                         </div>
-                    </div>
-
-
-                    <div className="hidden md:block">
-                        <div className="flex justify-between">
-                            <div>
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                    MOMENT ENERGY
-                                </div>
-                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                    <div>INTERNSHIP</div>
-                                </div>
-                            </div>
-
-                            <div >
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                        <div className="ml-4 text-stone-500">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                <div>
                                     CONTEXT
+                                    <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                        <div>A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</div>
+                                    </div>
                                 </div>
-                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                    <div>A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</div>
+                            </div>
+                        </div>
+                        <div className=" text-stone-500">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                EPOCH
+                            </div>
+                            <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                <div>DECEMBER 2022 - ONGOING</div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div className="col-span-3 pt-10">
+
+                            <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
+                                <div className="h-96">
+                                    <MyModal Component={InSearchOf}>
+                                        <MuxPlayerComponent playbackId="qsbvW5V44mhboekAB4CAKYyzeTycM7KCokPVbYZO02iE" />
+                                    </MyModal>
                                 </div>
                             </div>
 
-                            <div >
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                    EPOCH
+
+                        </div>
+
+
+
+
+
+                        <div className="">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                <div>
+                                    MOMENT ENERGY
+                                    <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                        <div>INTERNSHIP</div>
+                                    </div>
                                 </div>
-                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                    <div>MARCH 2024</div>
+                            </div>
+                        </div>
+                        <div className="">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                CONTEXT
+                            </div>
+                            <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                <div>A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</div>
+                            </div>
+                        </div>
+                        <div className="">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                EPOCH
+                            </div>
+                            <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                <div>DECEMBER 2022 - ONGOING</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <div className="grid grid-cols-3 gap-4 pt-10">
+                        <div className="">
+
+                            <div className="relative group">
+                                <div className="rounded-lg overflow-hidden relative">
+                                    <Image
+                                        src={arcPanel1}
+
+                                    />
+                                    <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg">
+                                        <span className="text-white text-lg opacity-0 group-hover:opacity-100 font-SFpro text-xxs transition-opacity duration-500">COMING SOON</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                        ARCTERYX SFU
+                                    </div>
+                                    <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                        <div>ACADEMIC</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="bg-gray-200 h-20">
+
+                            <div className="relative group">
+                                <div className="rounded-lg overflow-hidden relative">
+                                    <Image
+                                        src={boschPanel1}
+
+                                    />
+                                    <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg">
+                                        <span className="text-white text-lg opacity-0 group-hover:opacity-100 font-SFpro text-xxs transition-opacity duration-500">COMING SOON</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                        BOSCH COURIER CONNECT
+                                    </div>
+                                    <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                        <div>ACADEMIC</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="bg-gray-200 h-20">
+
+                            <div className="relative group">
+                                <div className="rounded-lg overflow-hidden relative">
+                                    <Image
+                                        src={brendanPS2}
+
+                                    />
+                                    <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg">
+                                        <span className="text-white text-lg opacity-0 group-hover:opacity-100 font-SFpro text-xxs transition-opacity duration-500">HELLO!</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+
+                                    </div>
+                                    <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                        <div></div>
+                                    </div>
                                 </div>
                             </div>
 
                         </div>
                     </div>
+
+
+
+
+
 
                     {/* <GradientTrail></GradientTrail> */}
 
@@ -117,153 +248,17 @@ export default function Home() {
 
 
 
-                    <div className="pt-10">
-                        <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                            <div className="h-96">
-                                <MyModal Component={InSearchOf}>
-                                    <MuxPlayerComponent playbackId="qsbvW5V44mhboekAB4CAKYyzeTycM7KCokPVbYZO02iE" />
-                                </MyModal>
-                            </div>
-                        </div>
-                    </div>
 
 
-                    <div className="hidden md:block pb-10">
-                        <div className="flex justify-between">
-                            <div>
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                    IN SEARCH OF
-                                </div>
-                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                    <div>FREELANCE</div>
-                                </div>
-                            </div>
 
-                            <div className="">
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                    CONTEXT
-                                </div>
-                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                    <div>A CURATED DIRECTORY FOR CURIOUS DESIGNERS</div>
-                                </div>
-                            </div>
 
-                            <div >
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                    EPOCH
-                                </div>
-                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                    <div>DECEMBER 2022 - ONGOING</div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
 
 
                     <div className="grid grid-cols-3 gap-4">
 
-                        <div className="relative group">
-                            <div className="rounded-lg overflow-hidden relative">
-                                <Image
-                                    src={arcPanel1}
-
-                                />
-                                <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg">
-                                    <span className="text-white text-lg opacity-0 group-hover:opacity-100 font-SFpro text-xxs transition-opacity duration-500">COMING SOON</span>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                    ARCTERYX SFU
-                                </div>
-                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                    <div>ACADEMIC</div>
-                                </div>
-                            </div>
-                        </div>
+                        yo
 
 
-
-                        {/* <div>
-                            <div className="rounded-lg overflow-hidden">
-                                <Image
-                                    src={boschPanel1}
-                                    
-                                />
-                            </div>
-                            <div>
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                    BOSCH COURIER CONNECT
-                                </div>
-                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                    <div>ACADEMIC</div>
-                                </div>
-                            </div>
-                        </div> */}
-
-
-                        <div className="relative group">
-                            <div className="rounded-lg overflow-hidden relative">
-                                <Image
-                                    src={boschPanel1}
-
-                                />
-                                <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg">
-                                    <span className="text-white text-lg opacity-0 group-hover:opacity-100 font-SFpro text-xxs transition-opacity duration-500">COMING SOON</span>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                    BOSCH COURIER CONNECT
-                                </div>
-                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                    <div>ACADEMIC</div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-
-
-                        {/* <div>
-                            <div className="rounded-lg overflow-hidden">
-                                <Image
-                                    src={brendanPS2}
-
-                                />
-                            </div>
-                            <div>
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-
-                                </div>
-                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                    <div></div>
-                                </div>
-                            </div>
-                        </div> */}
-
-                        <div className="relative group">
-                            <div className="rounded-lg overflow-hidden relative">
-                                <Image
-                                    src={brendanPS2}
-
-                                />
-                                <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg">
-                                    <span className="text-white text-lg opacity-0 group-hover:opacity-100 font-SFpro text-xxs transition-opacity duration-500">HELLO!</span>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                  
-                                </div>
-                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                    <div></div>
-                                </div>
-                            </div>
-                        </div>
 
 
 
@@ -272,19 +267,6 @@ export default function Home() {
 
                     </div>
 
-
-
-                    {/* <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
-                        <div style={{ width: '100px', height: '100px', background: 'lightblue' }}></div>
-                        <div style={{ width: '100px', height: '100px', background: 'lightgreen', marginLeft: '10rem' }}></div>
-                        <div style={{ width: '100px', height: '100px', background: 'lightpink' }}></div>
-                    </div>
-
-                    <div className="flex justify-start">
-                        <div className="w-32 h-32 bg-blue-200 text-stone-500">yay</div>
-                        <div className="w-32 h-32 bg-green-200 text-stone-500 ml-[40rem]">yay</div>
-                        <div className="w-32 h-32 bg-pink-200 text-stone-500">yay</div>
-                    </div> */}
 
 
                     <div className="divide-y divide-stone-100 opacity-50 pt-40">
