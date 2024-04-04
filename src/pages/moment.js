@@ -40,7 +40,7 @@ export default function Bosch() {
     return (
         <m.main
 
-            className="top-0 left-0 w-full h-full bg-white">
+            className="top-0 px-4 w-full h-full bg-white">
             <div className=""></div>
             <div className="">
                 <div className=''>
@@ -49,12 +49,12 @@ export default function Bosch() {
 
 
                     <div className="w-1/2">
-                        <div className="px-4 text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-64">MOMENT ENERGY</div>
+                        <div className=" text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-64">MOMENT ENERGY</div>
                         {/* <p className="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
 
                         <m.h1
 
-                            className="px-4 text-[1.2rem] md:text-3xl text-left tracking-loose font-Avenir text-stone-700 leading-relaxed md:leading-tight mt-5 pb-5 lg:Pt-8">A new logo, visual identity, and web strategy <br></br> to disrupt the energy storage industry.
+                            className="text-[1.2rem] md:text-3xl text-left tracking-loose font-Avenir text-stone-700 leading-relaxed md:leading-tight mt-5 pb-5 lg:Pt-8">A new logo, visual identity, and web strategy <br></br> to disrupt the energy storage industry.
                         </m.h1>
 
                         {/* <div className="">
@@ -75,7 +75,7 @@ export default function Bosch() {
 
 
 
-            <div className="px-4">
+            <div className="">
                 <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
                     <div className="h-[45rem]">
                         <MuxPlayerComponent playbackId="UNyuj9ShWAzZHTleYGbMy02Xy902mMXl5K00Z5rJPkQoG00" />
@@ -141,7 +141,7 @@ export default function Bosch() {
 
 
 
-            <Image className="px-4"
+            <Image className=""
                 src={momentTable}
             />
 
@@ -176,7 +176,7 @@ export default function Bosch() {
                 </div>
             </div>
 
-            <div className="px-4">
+            <div className="">
                 <div className=" object-cover lg:h-full lg:object-cover">
                     <Image className=" h-full"
                         src={momentNewVD}
@@ -210,7 +210,7 @@ export default function Bosch() {
             </div> */}
 
 
-            <div className="px-4">
+            <div className="">
                 <div className=" object-cover lg:h-full lg:object-cover ">
                     <Image className=" h-full object-cover lg:w-full  lg:object-cover"
                         src={momentNewTeam}

@@ -91,7 +91,7 @@ export default function Home() {
                                 MOMENT ENERGY
                             </div>
                         </div>
-                        <div className="ml-4 text-stone-500">
+                        <div className="bg-stone-500  ml-4 text-stone-500">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                 <div>
                                     CONTEXT
@@ -106,7 +106,7 @@ export default function Home() {
                                 EPOCH
                             </div>
                             <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                <div>DECEMBER 2022 - ONGOING</div>
+                                <div>MARCH 2024</div>
                             </div>
                         </div>
 
@@ -134,9 +134,9 @@ export default function Home() {
                         <div className="">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                 <div>
-                                    MOMENT ENERGY
+                                    IN SEARCH OF
                                     <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                        <div>INTERNSHIP</div>
+                                        <div>FREELANCE</div>
                                     </div>
                                 </div>
                             </div>

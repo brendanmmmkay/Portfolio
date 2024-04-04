@@ -16,7 +16,7 @@ const Clipboard = ({ text }) => {
         onClick={copyToClipboard} 
         onMouseEnter={() => setShowTooltip(true)}
         onMouseLeave={() => setShowTooltip(false)}
-        className={`relative z-10 group text-chip-deep-gray borderColor-off-white font-SFpro overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-full bg-white cursor-pointer text-neutral-750 ${copied ? 'text-stone-600' : ''}`}
+        className={`relative z-10 group text-stone-600 borderColor-off-white font-SFpro overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-full bg-white cursor-pointer text-neutral-750 ${copied ? 'text-stone-600' : ''}`}
       >
         <span className="relative z-10">{copied ? 'COPIED!' : text}</span>
         {/* <span className="absolute inset-0 overflow-hidden rounded-md"> */}
