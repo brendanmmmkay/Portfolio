@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="hidden md:block fixed z-50 w-full">
       <div className=" bg-white"> 
-        <ul className="grid grid-cols-3">
+        <ul className="grid grid-cols-3 gap-4">
 
           <div className="px-4">
           <Link href="/">

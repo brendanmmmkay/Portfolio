@@ -169,6 +169,25 @@ body {
   white-space: nowrap;
 }
 
+.rounder {
+  
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  aspect-ratio: 16/9;
+  display: block;
+  overflow: hidden;
+}
+
+.rounderFlat {
+  
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: block;
+  overflow: hidden;
+}
+
 ::selection {
   color: white; 
   background: blue;

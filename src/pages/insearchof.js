@@ -17,6 +17,7 @@ import MuxPlayerComponent from "../../components/MuxPlayer";
 import isoProductEntry from "../image/isoProductEntry.png";
 import isoBrandPillars from "../image/isoBrandPillars.png";
 import isoNewCardDuo from "../image/isoNewCardDuo.png";
+import isoMotto1 from "../image/isoMotto1.png";
 
 export default function InSearchOf() {
   return (
@@ -36,12 +37,7 @@ export default function InSearchOf() {
 
 
 
-
-
-
-
-
-            <div className="w-1/2">
+            <div className="md:w-1/2">
               <m.h1 className="px-4 text-[1.2rem] md:text-3xl text-left  font-Avenir text-stone-700  pb-10 mt-5 lg:Pt-8">
                 A curated and educational library of excellent resources for design professionals who seek to enhance their knowledge of the visual design industry.
               </m.h1>
@@ -56,28 +52,12 @@ export default function InSearchOf() {
         </div>
       </div>
 
+
       <div className="px-4">
-      <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                            <div className="h-[55rem]">
-        <MuxPlayerComponent playbackId="dOM00pqI022lCLHtNFaLn6r2KZ1aI01OstRGpqleqGV6r00" />
+      <div className="rounder">
+        <MuxPlayerComponent className="rounder" playbackId="5G6l6JWfc49fnjFJ01qBkbrw02HUfG7MzrFtSJvsZvD0200" />
       </div>
-      </div>
-      </div>
-
-
-
-      {/* <div className="">
-        <MuxPlayer
-          streamType="on-demand"
-          playbackId="NeOKRNJnDyJN7pFcQ1vQN2p3rcTM2DcW5gs022JDksPw"
-          metadataVideoTitle="Placeholder (optional)"
-          metadataViewerUserId="Placeholder (optional)"
-          primaryColor="#FFFFFF"
-          secondaryColor="#000000"
-          autoplay="muted"
-          loop
-        />
-      </div> */}
+</div>
 
 
 
@@ -145,23 +125,20 @@ export default function InSearchOf() {
       ></mux-player> */}
 
 
-      <div className="px-4">
-      <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                            <div className="h-[55rem]">
-        <MuxPlayerComponent playbackId="JUpA9lbmmasHMu8kPb7dV7bjyhFHxMyxtKhgX2bvq7c" />
+<div className="px-4">
+      <div className="rounder">
+        <MuxPlayerComponent className="rounder" playbackId="u3HkTv7HlZ6OCyp00qaYCWUZS4RedoFup02uCQQpy4Rpo" />
       </div>
-      </div>
-      </div>
+</div>
 
-
-      <div className="grid grid-cols-2">
+      <div className="grid md:grid-cols-2">
         <div>
 
-<Paragraph 
-header="PRODUCT DESIGN APPROACH"
-body1="I began by facilitating exercises with our team to create brand pillars and determine our value proposition."
-body2="We are creating a digital tool for design professionals who seek to enhance their connection with, and knowledge of, the visual design industry. We support them by providing a curated, educational, inspiring, and exploratory library of excellent resources. We are unlike competitors who focus on ephemeral updates to niche fields of the visual design industry."
-></Paragraph>
+          <Paragraph
+            header="PRODUCT DESIGN APPROACH"
+            body1="I began by facilitating exercises with our team to create brand pillars and determine our value proposition."
+            body2="We are creating a digital tool for design professionals who seek to enhance their connection with, and knowledge of, the visual design industry. We support them by providing a curated, educational, inspiring, and exploratory library of excellent resources. We are unlike competitors who focus on ephemeral updates to niche fields of the visual design industry."
+          ></Paragraph>
 
           {/* <Paragraph
             header="Creating the Logo"
@@ -171,14 +148,28 @@ body2="We are creating a digital tool for design professionals who seek to enhan
         </div>
 
         <div>
-        <div className="px-4 pt-4 object-cover rounded-8">
-        <Image className=""
-          src={isoBrandPillars}
-        />
-      </div>
+          <div className="px-4 pt-4 object-cover rounded-8">
+            <Image className=""
+              src={isoMotto1}
+            />
+          </div>
         </div>
       </div>
 
+      <div className="px-4 py-4">
+      <div className="rounder">
+        <MuxPlayerComponent className="rounder" playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
+      </div>
+</div>
+
+      <div className="grid md:grid-cols-2">
+
+
+        <Paragraph
+          header="DETERMINING VALUE FOR SEEKERS"
+          body1="People I interviewed said that they connected strongly and best with resources that were highly regarded or recommended by mentors and peers."
+          body2="To promote strong connections between our readers and our resources, each entry in the design directory is accompanied by copy that tells the importance of each resource and why it is regarded so highly."
+        ></Paragraph>
 
 <div className="px-4 object-cover pt-4 pb-10 rounded-8">
         <Image className=""
@@ -186,29 +177,12 @@ body2="We are creating a digital tool for design professionals who seek to enhan
         />
       </div>
 
-      <div className="grid grid-cols-2">
 
-
-      <Paragraph
-        header="DETERMINING VALUE FOR SEEKERS"
-        body1="People I interviewed said that they connected strongly and best with resources that were highly regarded or recommended by mentors and peers."
-        body2="To promote strong connections between our readers and our resources, each entry in the design directory is accompanied by copy that tells the importance of each resource and why it is regarded so highly."
-      ></Paragraph>
-
-
-<div className="px-4">
-      <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                            <div className="h-[25rem]">
-        <MuxPlayerComponent playbackId="NeOKRNJnDyJN7pFcQ1vQN2p3rcTM2DcW5gs022JDksPw" />
-      </div>
-      </div>
       </div>
 
 
-</div>
 
-
-
+      
 
       {/* <Paragraph
         header="Design Sprint Process"
@@ -237,28 +211,25 @@ body2="We are creating a digital tool for design professionals who seek to enhan
         />
       </div> */}
 
-
-<div className="px-4 pt-10">
-      <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                            <div className="h-[55rem]">
-        <MuxPlayerComponent playbackId="oJylykWgGQrDEj1MrGo3ELsnDGn01pjdlWyw8vT01uW6o" />
-      </div>
+<div className="px-4">
+<div className="rounder">
+        <MuxPlayerComponent className="rounder" playbackId="dQr02SV34UZCXs66W01Yphq8UY7swGrevRrpnVfIwQzxs" />
       </div>
       </div>
 
 
-<div className="grid grid-cols-2">
+      <div className="grid md:grid-cols-2">
 
-<Paragraph
-        header="MAPPING THE LANDSCAPE OF DESIGN"
-        body1="On cards, I used the scrollable chip pattern to retain contextual design discovery and inform search decisions. To map the landscape of design - chip categories include media type, type of design discipline, and type of organization."
-      ></Paragraph>
-
-
-      <Image className="px-4 pt-4 object-cover rounded-8 pb-10" src={isoNewCardDuo}></Image>
+        <Paragraph
+          header="MAPPING THE LANDSCAPE OF DESIGN"
+          body1="On cards, I used the scrollable chip pattern to retain contextual design discovery and inform search decisions. To map the landscape of design - chip categories include media type, type of design discipline, and type of organization."
+        ></Paragraph>
 
 
-</div>
+        <Image className="px-4 pt-4 object-cover rounded-8 pb-10" src={isoNewCardDuo}></Image>
+
+
+      </div>
 
 
 
@@ -276,7 +247,7 @@ body2="We are creating a digital tool for design professionals who seek to enhan
         />
       </div> */}
 
-{/* 
+      {/* 
 
       <div className="relative h-screen w-screen m-0 p-0">
         <Image

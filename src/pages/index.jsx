@@ -60,75 +60,46 @@ export default function Home() {
                 <title>Hello</title>
                 <link rel="icon" href="/favicon.ico" />
 
-
             </head>
         </div>,
         <div>
-            <main className="bg-white pt-40">
+            <main className="bg-white">
+
+
+
+
+            <div className="grid grid-cols-2 justify-between md:hidden">
+  <div className="px-4">
+    <Link href="/">
+      <li className="text-xxs font-AvenirHeavy text-stone-600 py-2">BRENDAN MCKAY — [03.24.24] <br></br>BRAND DESIGNER AND PRODUCT STRATEGIST</li>
+    </Link>
+  </div>
+  <div className="justify-self-end pt-1">
+    <div className="text-stone-600"></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
                 <div className="pt-40 px-4">
-
-
-
-
-
-                    <div className="grid grid-cols-3 gap-y-4">
+                    <div className="grid grid-cols-3 gap-y-4 pt-40">
                         <div className="col-span-3">
 
 
-                            <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                                <div className="h-96">
-                                    <MyModal Component={Moment} className="px-0">
-                                        <MuxPlayerComponent playbackId="OrtKMk2dEzaj02iJRdo00uMXdohEkMznl29vQAf2JmFz4" />
-                                    </MyModal>
-                                </div>
+                            <div className="rounder">
+                            <MyModal Component={InSearchOf} className="px-0">
+                                <MuxPlayerComponent className="rounder" playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
+                           </MyModal>
                             </div>
 
-                        </div>
-
-
-                        <div className=" text-stone-500">
-                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                MOMENT ENERGY
-                            </div>
-                        </div>
-                        <div className="bg-stone-500  ml-4 text-stone-500">
-                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                <div>
-                                    CONTEXT
-                                    <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                        <div>A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className=" text-stone-500">
-                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                EPOCH
-                            </div>
-                            <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                <div>MARCH 2024</div>
-                            </div>
-                        </div>
-
-
-
-
-
-                        <div className="col-span-3 pt-10">
-
-                            <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                                <div className="h-96">
-                                    <MyModal Component={InSearchOf}>
-                                        <MuxPlayerComponent playbackId="qsbvW5V44mhboekAB4CAKYyzeTycM7KCokPVbYZO02iE" />
-                                    </MyModal>
-                                </div>
-                            </div>
 
 
                         </div>
-
-
-
 
 
                         <div className="">
@@ -149,7 +120,7 @@ export default function Home() {
                                 <div>A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</div>
                             </div>
                         </div>
-                        <div className="">
+                        <div className="hidden md:block">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                 EPOCH
                             </div>
@@ -157,6 +128,49 @@ export default function Home() {
                                 <div>DECEMBER 2022 - ONGOING</div>
                             </div>
                         </div>
+
+
+
+
+                        <div className="col-span-3 pt-10">
+
+                            <div className="rounder">
+                            <MyModal Component={InSearchOf} className="px-0">
+                                <MuxPlayerComponent className="rounder" playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
+                          </MyModal>
+                            </div>
+
+
+                        </div>
+
+
+                        <div className=" text-stone-500">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                MOMENT ENERGY
+                            </div>
+                        </div>
+                        <div className=" text-stone-500">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                <div>
+                                    CONTEXT
+                                    <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                        <div>A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="hidden md:block text-stone-500">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                EPOCH
+                            </div>
+                            <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                <div>MARCH 2024</div>
+                            </div>
+                        </div>
+
+
+
+
                     </div>
 
 
@@ -189,7 +203,7 @@ export default function Home() {
                             </div>
 
                         </div>
-                        <div className="bg-gray-200 h-20">
+                        <div className=" h-20">
 
                             <div className="relative group">
                                 <div className="rounded-lg overflow-hidden relative">
@@ -212,7 +226,7 @@ export default function Home() {
                             </div>
 
                         </div>
-                        <div className="bg-gray-200 h-20">
+                        <div className=" h-20">
 
                             <div className="relative group">
                                 <div className="rounded-lg overflow-hidden relative">
@@ -249,27 +263,31 @@ export default function Home() {
 
 
 
+<div className="hidden md:block pt-40">
+
+    </div>
 
 
 
 
+                    <div className="grid md:hidden grid-cols-3 gap-4 pt-40">
 
-                    <div className="grid grid-cols-3 gap-4">
-
-                        yo
-
-
-
-
-
-
-
-
+                    <div>
+                <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer">
+                    {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">RESUME</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
+                    <button className="text-xxs font-SFpro text-stone-600 pr-10">RESUME</button>
+                </Link>
+                <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
+                    {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
+                    <button className="text-xxs font-SFpro text-stone-600 pr-10">LINKEDIN</button>
+                </Link>
+                <Clipboard text="BPMCKAY@SFU.CA" />
+                </div>
                     </div>
 
 
 
-                    <div className="divide-y divide-stone-100 opacity-50 pt-40">
+                    <div className="divide-y divide-stone-100 opacity-50 pt-10 md:pt-40">
                         <div></div>
                         <div>
                         </div>

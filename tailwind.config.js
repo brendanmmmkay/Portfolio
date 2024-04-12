@@ -142,9 +142,9 @@ module.exports = {
       },
 
       height: {
-
+        '3/4': '75%',
       },
-
+      
       maxWidth: {
         'prose': '46ch',
         'xs': '30ch',

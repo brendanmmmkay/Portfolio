@@ -48,7 +48,7 @@ export default function Bosch() {
 
 
 
-                    <div className="w-1/2">
+                    <div className="max-w-2xl">
                         <div className=" text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-64">MOMENT ENERGY</div>
                         {/* <p className="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
 
@@ -163,7 +163,7 @@ export default function Bosch() {
             </div> */}
 
 
-            <div className="grid grid-cols-2 pt-4">
+            <div className="grid md:grid-cols-2 pt-4">
                 <Paragraph
                     header="APPROACH"
                     body1="I facilitated design sprint activities with company founders on brand strategy to create language that communicates their mission, vision, and positioning. I built brand strategy pillars to guide the founders toward making value real for customers."
@@ -185,7 +185,7 @@ export default function Bosch() {
             </div>
 
 
-            <div className="grid grid-cols-2 pt-4">
+            <div className="grid md:grid-cols-2 pt-4">
                 <Paragraph
                     header="LOGO DESIGN"
                     body1="The new logo leverages the same basic elements as the original logo - a circle and the letter ‘m’. Inspired by Saul Bass, I sought to leverage negative space to abstract the form, toward a more scalable and memorable mark."
@@ -220,7 +220,7 @@ export default function Bosch() {
 
 
 
-            <div className="grid grid-cols-2 pt-4">
+            <div className="grid md:grid-cols-2 pt-4">
                 <Paragraph
                     header="PRODUCT STRATEGY - IMBUING TRUST"
                     body1="Moment had trouble with customers placing trust in them. The young and recently graduated founders hid their faces to masquerade as an older team in an industry that trusts tenure and decades of experience."

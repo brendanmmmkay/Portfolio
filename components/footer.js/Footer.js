@@ -24,15 +24,15 @@ const Footer = () => {
             <div></div>
 
             <h2 className="text-stone-800 text-xxs font-SFpro pt-2">ETHOS</h2>
-            <div className="grid grid-cols-3 w-1/2 gap-2">
+            <div className="grid grid-cols-3 gap-2 md:max-w-2xl">
 
                 <div className="text-xxs font-SFpro text-stone-300 max-w-xs">I BELIEVE CANDID CONVERSATION AND EMPATHY ARE KEY TO UNDERSTAND THE TRUE NEEDS OF PEOPLE WE DESIGN FOR.</div>
                 <div className="text-xxs font-SFpro text-stone-300 max-w-xs">I WEAVE BUSINESS VALUE WITH DIGITAL STORYTELLING TO CREATE DESIGN THAT SOLVES REAL PROBLEMS FOR PEOPLE.</div>
                 <div className="text-xxs font-SFpro text-stone-300 max-w-xs">I SEEK TO CHALLENGE MYSELF AND LEARN FROM NEW PERSPECTIVES TO MAKE IMPACTFUL CHANGE THROUGH DESIGN.</div>
             </div>
 
-            <div className="w-1/2">
-                <h1 className="text-[1.2rem] md:text-4xl text-left tracking-loose font-Avenir text-stone-700 leading-relaxed md:leading-tighter pt-10 pb-40">
+            <div className="">
+                <h1 className="text-4xl md:text-[1.2rem] md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter pt-10 pb-40">
                 I employ strategic frameworks toward <br></br> actionable plans that make aspirational <br></br> value real through an end-to-end, human <br></br> centred perspective of brand engagement.
                 </h1>
 

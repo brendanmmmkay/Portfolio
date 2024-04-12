@@ -26,7 +26,7 @@ const Paragraph = ({ header, subtitle, body1, body2, ...props }) => {
     >
 
 
-<div className="grid grid-cols-2">
+<div className="grid md:grid-cols-2">
   <div className="px-4 pt-20 pb-5 max-w-prose">
     <div className="mt-10 md:mt-96">
       <h1 className='text-xxs font-SFpro text-stone-600 tracking-wide'>{header}</h1>
