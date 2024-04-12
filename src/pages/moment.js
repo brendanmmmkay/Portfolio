@@ -40,11 +40,19 @@ export default function Bosch() {
     return (
         <m.main
 
-            className="top-0 px-4 w-full h-full bg-white">
+            className="top-0 w-full h-full bg-white">
             <div className=""></div>
             <div className="">
-                <div className=''>
+                <div className="px-4">
 
+
+                    <div className="block md:hidden px-4">
+                        <div className="">
+                            <Link href="/">
+                                <li className="text-xxs font-AvenirHeavy text-stone-600 py-2">BRENDAN MCKAY — [03.24.24] <br></br>BRAND DESIGNER AND PRODUCT STRATEGIST</li>
+                            </Link>
+                        </div>
+                    </div>
 
 
 
@@ -54,7 +62,7 @@ export default function Bosch() {
 
                         <m.h1
 
-                            className="text-[1.2rem] md:text-3xl text-left tracking-loose font-Avenir text-stone-700 leading-relaxed md:leading-tight mt-5 pb-5 lg:Pt-8">A new logo, visual identity, and web strategy <br></br> to disrupt the energy storage industry.
+                            className="text-[1.2rem] md:text-3xl text-left tracking-loose font-Avenir text-stone-700 leading-relaxed md:leading-tight mt-5 pb-5 lg:Pt-8">A new logo, visual identity, and web strategy to disrupt the energy storage industry.
                         </m.h1>
 
                         {/* <div className="">
@@ -74,21 +82,18 @@ export default function Bosch() {
             </div> */}
 
 
-
-            <div className="">
-                <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                    <div className="h-[45rem]">
-                        <MuxPlayerComponent playbackId="UNyuj9ShWAzZHTleYGbMy02Xy902mMXl5K00Z5rJPkQoG00" />
-                    </div>
+            <div className="px-4">
+                <div className="rounderMoment">
+                    <MuxPlayerComponent className="rounder" playbackId="UNyuj9ShWAzZHTleYGbMy02Xy902mMXl5K00Z5rJPkQoG00" />
                 </div>
             </div>
 
 
 
-            <div className=" bg-white">
+            <div className="px-4 bg-white">
                 <div className="">
                     <div className="md:grid lg:grid-cols-5 grid-cols-1 gap-6 ">
-                        <div className="col-start-1 col-span-2 px-5">
+                        <div className="col-start-1 col-span-2">
 
                             <h2 className="text-stone-800 text-xxs font-SFpro pt-2">APRIL — AUGUST 2021</h2>
                             <h2 className="text-stone-300 font-SFpro text-xxs gap-10 pt-0 pb-20 md:pb-0"> PRODUCT DESIGN AND BRAND REFRESH <br></br> 4 MONTH INTERNSHIP</h2>
@@ -141,7 +146,7 @@ export default function Bosch() {
 
 
 
-            <Image className=""
+            <Image className="px-4"
                 src={momentTable}
             />
 
@@ -170,13 +175,13 @@ export default function Bosch() {
                     body2="I then created a new brand direction imbued with the aforementioned principles, and developed design standards to ensure the new brand could be consistently applied in any outward materials."
                 ></Paragraph>
                 <div>
-                    <Image className=""
+                    <Image className="px-4"
                         src={momentNewFonts}
                     />
                 </div>
             </div>
 
-            <div className="">
+            <div className="px-4 py-4 rounded-xl">
                 <div className=" object-cover lg:h-full lg:object-cover">
                     <Image className=" h-full"
                         src={momentNewVD}
@@ -192,7 +197,7 @@ export default function Bosch() {
                     body2="To imbue the logo with our brand pillars I considered the idea of energy storage. How could I contain the organic and flowing curves of the ‘M’,  in a more rigid, trustworthy container? The repeating arches of the ‘m’ are also reminiscent of the rounded edges of stacked batteries in Moment’s energy solutions."
                 ></Paragraph>
                 <div>
-                    <Image className=""
+                    <Image className="px-4"
                         src={momentLogoProg}
                     />
                 </div>
@@ -210,7 +215,7 @@ export default function Bosch() {
             </div> */}
 
 
-            <div className="">
+            <div className="px-4">
                 <div className=" object-cover lg:h-full lg:object-cover ">
                     <Image className=" h-full object-cover lg:w-full  lg:object-cover"
                         src={momentNewTeam}
@@ -226,7 +231,7 @@ export default function Bosch() {
                     body1="Moment had trouble with customers placing trust in them. The young and recently graduated founders hid their faces to masquerade as an older team in an industry that trusts tenure and decades of experience."
                     body2="I created a web experience that champions the founders youth as disruptors in the field, while exuding reliability by leveraging photography of real and successful product deployments."
                 ></Paragraph>
-                <Image className="pb-4"
+                <Image className="pb-4 px-4"
                     src={momentNewDeployment}
                 />
             </div>

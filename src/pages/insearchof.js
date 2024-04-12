@@ -30,6 +30,14 @@ export default function InSearchOf() {
       <div className="">
         <div className=''>
 
+        <div className="block md:hidden">
+                    <div className="px-4">
+                        <Link href="/">
+                            <li className="text-xxs font-AvenirHeavy text-stone-600 py-2">BRENDAN MCKAY — [03.24.24] <br></br>BRAND DESIGNER AND PRODUCT STRATEGIST</li>
+                        </Link>
+                    </div>
+                </div>
+
 
           <div className="">
             <div className="px-4 text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-64">IN SEARCH OF</div>

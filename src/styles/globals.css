@@ -186,6 +186,17 @@ body {
   border-radius: 10px;
   display: block;
   overflow: hidden;
+  aspect-ratio: 1/1.16;
+}
+
+.rounderMoment {
+  
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 2.2/1;
 }
 
 ::selection {

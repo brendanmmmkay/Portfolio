@@ -68,16 +68,13 @@ export default function Home() {
 
 
 
-            <div className="grid grid-cols-2 justify-between md:hidden">
-  <div className="px-4">
-    <Link href="/">
-      <li className="text-xxs font-AvenirHeavy text-stone-600 py-2">BRENDAN MCKAY — [03.24.24] <br></br>BRAND DESIGNER AND PRODUCT STRATEGIST</li>
-    </Link>
-  </div>
-  <div className="justify-self-end pt-1">
-    <div className="text-stone-600"></div>
-  </div>
-</div>
+                <div className="block md:hidden">
+                    <div className="px-4">
+                        <Link href="/">
+                            <li className="text-xxs font-AvenirHeavy text-stone-600 py-2">BRENDAN MCKAY — [03.24.24] <br></br>BRAND DESIGNER AND PRODUCT STRATEGIST</li>
+                        </Link>
+                    </div>
+                </div>
 
 
 
@@ -88,18 +85,36 @@ export default function Home() {
 
                 <div className="pt-40 px-4">
                     <div className="grid grid-cols-3 gap-y-4 pt-40">
-                        <div className="col-span-3">
 
+
+
+
+
+
+
+
+
+                        <div className="hidden md:block col-span-3 pt-10">
 
                             <div className="rounder">
-                            <MyModal Component={InSearchOf} className="px-0">
-                                <MuxPlayerComponent className="rounder" playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
-                           </MyModal>
+                                <MyModal Component={InSearchOf} className="px-0">
+                                    <MuxPlayerComponent className="rounder" playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
+                                </MyModal>
                             </div>
 
 
-
                         </div>
+
+                        <div className="contents md:hidden col-span-3 pt-10">
+                            <div className="rounderFlat">
+                                <Link href="/insearchof">
+                                    <MuxPlayerComponent className="rounderFlat" playbackId="019702D00dSt00J82rNhLOnHZQxx9MVCyAZHJgCvXyjz3R8" />
+                                </Link>
+                            </div>
+                        </div>
+
+
+
 
 
                         <div className="">
@@ -132,15 +147,24 @@ export default function Home() {
 
 
 
-                        <div className="col-span-3 pt-10">
+
+                        <div className="hidden md:block col-span-3 pt-10">
 
                             <div className="rounder">
-                            <MyModal Component={InSearchOf} className="px-0">
-                                <MuxPlayerComponent className="rounder" playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
-                          </MyModal>
+                                <MyModal Component={Moment} className="px-0">
+                                    <MuxPlayerComponent className="rounder" playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
+                                </MyModal>
                             </div>
 
 
+                        </div>
+
+                        <div className="contents md:hidden col-span-3 pt-10">
+                            <div className="rounderFlat">
+                                <Link href="/moment">
+                                    <MuxPlayerComponent className="rounderFlat" playbackId="zlM8Mryy00bGsUzAFj6OrGcOgH5uNbbbNHQStMtGiaIY" />
+                                </Link>
+                            </div>
                         </div>
 
 
@@ -263,26 +287,26 @@ export default function Home() {
 
 
 
-<div className="hidden md:block pt-40">
+                    <div className="hidden md:block pt-40">
 
-    </div>
+                    </div>
 
 
 
 
                     <div className="grid md:hidden grid-cols-3 gap-4 pt-40">
 
-                    <div>
-                <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer">
-                    {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">RESUME</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
-                    <button className="text-xxs font-SFpro text-stone-600 pr-10">RESUME</button>
-                </Link>
-                <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
-                    {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
-                    <button className="text-xxs font-SFpro text-stone-600 pr-10">LINKEDIN</button>
-                </Link>
-                <Clipboard text="BPMCKAY@SFU.CA" />
-                </div>
+                        <div>
+                            <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer">
+                                {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">RESUME</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
+                                <button className="text-xxs font-SFpro text-stone-600 pr-10">RESUME</button>
+                            </Link>
+                            <Link href={"https://www.linkedin.com/in/brendan-mckay/"}>
+                                {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
+                                <button className="text-xxs font-SFpro text-stone-600 pr-10">LINKEDIN</button>
+                            </Link>
+                            <Clipboard text="BPMCKAY@SFU.CA" />
+                        </div>
                     </div>
 
 

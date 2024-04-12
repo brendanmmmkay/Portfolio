@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
 
             <div className="">
-                <h1 className="text-4xl md:text-[1.2rem] md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter pt-10 pb-40">
+                <h1 className="text-3xl max-w-footer md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter pt-10 pb-40">
                 I employ strategic frameworks toward <br></br> actionable plans that make aspirational <br></br> value real through an end-to-end, human <br></br> centred perspective of brand engagement.
                 </h1>
 

@@ -34,6 +34,10 @@ module.exports = {
       //   '12': '3rem',
       // },
 
+      maxWidth: {
+        'footer': '5rem', // Add your custom max-width here
+      },
+
       fontSize: {
         xxs: '0.625rem',
           xs: '0.8rem',
@@ -41,6 +45,12 @@ module.exports = {
             lineHeight: '3.1rem',
             letterSpacing: '-0.05em',
            }],        
+           '3xl': ['2.3rem', {
+            lineHeight: '2.65rem',
+            letterSpacing: '-0.04em',
+            
+            // fontWeight: '700',
+          }],
         '5xl': ['3.5rem', {
           lineHeight: '4rem',
           letterSpacing: '-0.01em',
@@ -144,7 +154,7 @@ module.exports = {
       height: {
         '3/4': '75%',
       },
-      
+
       maxWidth: {
         'prose': '46ch',
         'xs': '30ch',
