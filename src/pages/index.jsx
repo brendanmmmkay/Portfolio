@@ -79,7 +79,18 @@ export default function Home() {
 
 
 
+                {/* <MuxPlayer
+  style={{borderRadius: "8px", overflow: "hidden", aspectRatio: "9/16", objectFit: "cover"}}
+  playbackId="019702D00dSt00J82rNhLOnHZQxx9MVCyAZHJgCvXyjz3R8"
+/> */}
 
+{/* <div class="container">
+      <mux-player
+        playback-id="019702D00dSt00J82rNhLOnHZQxx9MVCyAZHJgCvXyjz3R8"
+        metadata-video-title="Test VOD"
+        metadata-viewer-user-id="user-id-007"
+      ></mux-player>
+      </div> */}
 
 
 
@@ -108,7 +119,7 @@ export default function Home() {
                         <div className="contents md:hidden col-span-3 pt-10">
                             <div className="rounderFlat">
                                 <Link href="/insearchof">
-                                    <MuxPlayerComponent className="rounderFlat" playbackId="019702D00dSt00J82rNhLOnHZQxx9MVCyAZHJgCvXyjz3R8" />
+                                    <MuxPlayerComponent className="" playbackId="019702D00dSt00J82rNhLOnHZQxx9MVCyAZHJgCvXyjz3R8" />
                                 </Link>
                             </div>
                         </div>
@@ -159,10 +170,10 @@ export default function Home() {
 
                         </div>
 
-                        <div className="contents md:hidden col-span-3 pt-10">
-                            <div className="rounderFlat">
+                        <div className="rounderMoment contents md:hidden col-span-3 pt-10">
+                            <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
                                 <Link href="/moment">
-                                    <MuxPlayerComponent className="rounderFlat" playbackId="zlM8Mryy00bGsUzAFj6OrGcOgH5uNbbbNHQStMtGiaIY" />
+                                    <MuxPlayerComponent className="" playbackId="zlM8Mryy00bGsUzAFj6OrGcOgH5uNbbbNHQStMtGiaIY" />
                                 </Link>
                             </div>
                         </div>

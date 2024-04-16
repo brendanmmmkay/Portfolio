@@ -83,8 +83,8 @@ export default function Bosch() {
 
 
             <div className="px-4">
-                <div className="rounderMoment">
-                    <MuxPlayerComponent className="rounder" playbackId="UNyuj9ShWAzZHTleYGbMy02Xy902mMXl5K00Z5rJPkQoG00" />
+                <div className="rounderMoment2">
+                    <MuxPlayerComponent className="" playbackId="XO6omvmtlqUNQCa28gtR01muUqkNe401VukzFMAcHi8fY" />
                 </div>
             </div>
 
