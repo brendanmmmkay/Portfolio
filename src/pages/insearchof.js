@@ -179,7 +179,7 @@ export default function InSearchOf() {
           body2="To promote strong connections between our readers and our resources, each entry in the design directory is accompanied by copy that tells the importance of each resource and why it is regarded so highly."
         ></Paragraph>
 
-<div className="px-4 object-cover pt-4 pb-10 rounded-8">
+<div className="px-4 object-cover pb-4 rounded-8">
         <Image className=""
           src={isoProductEntry}
         />

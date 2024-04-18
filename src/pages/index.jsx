@@ -148,10 +148,10 @@ export default function Home() {
                         </div>
                         <div className="hidden md:block">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                EPOCH
+                               
                             </div>
                             <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                <div>DECEMBER 2022 - ONGOING</div>
+                                <div></div>
                             </div>
                         </div>
 
@@ -196,10 +196,10 @@ export default function Home() {
                         </div>
                         <div className="hidden md:block text-stone-500">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                EPOCH
+                                
                             </div>
                             <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
-                                <div>MARCH 2024</div>
+                                <div></div>
                             </div>
                         </div>
 
