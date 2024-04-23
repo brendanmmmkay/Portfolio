@@ -140,7 +140,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="">
-                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2 pl-2">
                                 CONTEXT
                             </div>
                             <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
