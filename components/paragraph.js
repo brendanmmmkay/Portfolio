@@ -6,7 +6,7 @@ import Modal from './Modal';
 
 const Paragraph = ({ header, subtitle, body1, body2, ...props }) => {
   const [ref, inView] = useInView({
-    triggerOnce: true,
+    triggerOnce: false,
     threshold: 0.1,
   });
 

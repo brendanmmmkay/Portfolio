@@ -1,5 +1,4 @@
-
-
+import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 
 const MyModal = ({ Component, children }) => {
@@ -21,6 +20,16 @@ const MyModal = ({ Component, children }) => {
     };
   }, []);
 
+  const modalVariants = {
+    hidden: { opacity: 0, x: "-100vw" },
+    visible: { opacity: 1, x: 0 },
+  };
+
+  const backdropVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 0.7 },
+  };
+
   return (
     <div>
       <div onClick={handleOpen}>
@@ -28,11 +37,27 @@ const MyModal = ({ Component, children }) => {
       </div>
 
       {isOpen && (
-    <div className="fixed top-0 bottom-0 bg-white opacity-10 h-screen w-auto ml-20  overflow-auto z-40">
-    <div className="fixed inset-y-0 left-0 w-20 bg-stone-800 opacity-50 z-30" onClick={handleClose}></div>
-    <Component />
-</div>
-      )}
+  <>
+<motion.div
+  className="fixed top-0 bottom-0 left-0 right-0 bg-stone-800 z-20"
+  style={{ opacity: '0.3 !important' }}
+  initial="hidden"
+  animate="visible"
+  variants={backdropVariants}
+  transition={{ ease: "easeOut", duration: 0.5 }}
+  onClick={handleClose}
+/>
+    <motion.div
+      className="fixed top-0 bottom-0 h-screen w-auto ml-20 overflow-auto z-30 bg-white"
+      initial="hidden"
+      animate="visible"
+      variants={modalVariants}
+      transition={{ type: 'spring', stiffness: 20 }}
+    >
+      <Component />
+    </motion.div>
+  </>
+)}
     </div>
   );
 };

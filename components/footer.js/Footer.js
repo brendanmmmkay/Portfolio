@@ -5,18 +5,23 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 const Footer = () => {
-    const fadeInVariants = {
-        hidden: { opacity: 0 },
-        visible: { opacity: 1 },
-    };
+  const [ref, inView] = useInView({
+    triggerOnce: false,
+    threshold: 0.1,
+  });
 
-    const [ref, inView] = useInView({
-        triggerOnce: true,
-        threshold: 0.1,
-    });
+  const fadeInVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+  };
 
     return (
         <motion.footer
+        ref={ref}
+        initial="hidden"
+        animate={inView ? "visible" : "hidden"}
+        variants={fadeInVariants}
+        transition={{ duration: 1 }}
         >
 
 

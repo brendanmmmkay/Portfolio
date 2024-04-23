@@ -40,7 +40,7 @@ export default function InSearchOf() {
 
 
           <div className="">
-            <div className="px-4 text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-64">IN SEARCH OF</div>
+            <div className="px-4 text-[0.6rem] text-stone-400 font-AvenirHeavy pt-64">IN SEARCH OF</div>
             {/* <p className="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
 
 
@@ -72,7 +72,7 @@ export default function InSearchOf() {
       <div className=" bg-white">
         <div className="">
           <div className="md:grid lg:grid-cols-5 grid-cols-1 gap-6 ">
-            <div className="col-start-1 col-span-2 px-5">
+            <div className="col-start-1 px-5">
 
               <h2 className="text-stone-800 text-xxs font-SFpro pt-2">DECEMBER 2022 — ONGOING</h2>
               <h2 className="text-stone-300 font-SFpro text-xxs gap-10 pt-0 pb-20 md:pb-0"> FREELANCE CONTRACTING <br></br> LOGO AND PRODUCT DESIGN</h2>

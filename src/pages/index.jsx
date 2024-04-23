@@ -95,9 +95,10 @@ export default function Home() {
 
 
                 <div className="pt-40 px-4">
+
+
+
                     <div className="grid grid-cols-3 gap-y-4 pt-40">
-
-
 
 
 
