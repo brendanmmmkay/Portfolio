@@ -57,7 +57,7 @@ export default function Bosch() {
 
 
                     <div className="max-w-2xl">
-                        <div className=" text-[0.6rem] tracking-widest text-stone-400 font-AvenirHeavy pt-64">MOMENT ENERGY</div>
+                        <div className=" text-[0.6rem] text-stone-400 font-AvenirHeavy pt-64">MOMENT ENERGY</div>
                         {/* <p className="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
 
                         <m.h1
@@ -87,6 +87,7 @@ export default function Bosch() {
                     <MuxPlayerComponent className="" playbackId="XO6omvmtlqUNQCa28gtR01muUqkNe401VukzFMAcHi8fY" />
                 </div>
             </div>
+
 
 
 
@@ -153,21 +154,6 @@ export default function Bosch() {
 
 
 
-            {/* <div className="h-96 object-cover lg:h-full lg:object-cover pt-20">
-                <MuxPlayer muted no-controls
-                    streamType="on-demand"
-                    playbackId="02PYj9uQZu021zfxYQurnOBIhBn02x9YRHWXnW8iOzRPXg"
-                    metadataVideoTitle="Placeholder (optional)"
-                    metadataViewerUserId="Placeholder (optional)"
-                    primaryColor="#FFFFFF"
-                    secondaryColor="#000000"
-                    thumbnailTime="22"
-                    autoplay="any"
-
-                />
-            </div> */}
-
-
             <div className="grid md:grid-cols-2 pt-4">
                 <Paragraph
                     header="APPROACH"
@@ -181,9 +167,9 @@ export default function Bosch() {
                 </div>
             </div>
 
-            <div className="px-4 py-4 rounded-xl">
-                <div className=" object-cover lg:h-full lg:object-cover">
-                    <Image className=" h-full"
+            <div className="px-4 rounded-xl">
+                <div className="">
+                    <Image className=""
                         src={momentNewVD}
                     />
                 </div>
@@ -238,6 +224,16 @@ export default function Bosch() {
 
 
 
+            <div className="px-4">
+                <div className="rounderMoment3">
+                    <MuxPlayerComponent className="" playbackId="U02mo00dYkyPxFoRZu2ZpdR6sPV9ijqgAZEnIav3sGIY00" />
+                </div>
+            </div>
+
+
+
+
+
             {/* <Paragraph
                 header="Moodboarding"
                 body1="I began by showing the moment team competitors in their industry and discussing their design decisions. This was to determine where moment could be unique. Next, I quickly compiled examples of different brands and drew attention to how they leveraged colour, typography, and expressive elements. I then asked the founders to determine which mode of expression they preferred most."
@@ -274,12 +270,13 @@ export default function Bosch() {
             </div> */}
 
 
-
-            {/* <Paragraph
-                header="Conclusion"
-                body1="Thanks for stopping by! I have so much more to share about my process and approach to this project. I would love to get in touch and share my excitement for this project with you."
+<div className='bg-hero-pattern2 bg-cover'>
+            <Paragraph
+                header="ADDENDUM"
+                body1="Thanks for stopping by — I have so much more to share about my process and approach to this project. Send me a message and let's make impactful design together."
             ></Paragraph>
- */}
+
+</div>
 
             {/* <div className="pt-60"></div> */}
 

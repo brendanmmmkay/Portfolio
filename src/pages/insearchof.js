@@ -72,7 +72,7 @@ export default function InSearchOf() {
       <div className=" bg-white">
         <div className="">
           <div className="md:grid lg:grid-cols-5 grid-cols-1 gap-6 ">
-            <div className="col-start-1 px-5">
+            <div className="col-start-1 col-span-2 px-5">
 
               <h2 className="text-stone-800 text-xxs font-SFpro pt-2">DECEMBER 2022 — ONGOING</h2>
               <h2 className="text-stone-300 font-SFpro text-xxs gap-10 pt-0 pb-20 md:pb-0"> FREELANCE CONTRACTING <br></br> LOGO AND PRODUCT DESIGN</h2>
@@ -240,6 +240,12 @@ export default function InSearchOf() {
       </div>
 
 
+      <div className='bg-hero-pattern2 bg-cover'>
+            <Paragraph
+                header="ADDENDUM"
+                body1="Thanks for stopping by! I have so much more to share about my process and approach to this project. I would love to get in touch and share my excitement for this project with you."
+            ></Paragraph>
+</div>
 
 
       {/* <div className="object-cover md:h-full">

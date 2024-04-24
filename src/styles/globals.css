@@ -177,6 +177,7 @@ body {
   aspect-ratio: 16/9;
   display: block;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .container {
@@ -216,6 +217,16 @@ body {
   display: block;
   overflow: hidden;
   aspect-ratio: 16/8;
+}
+
+.rounderMoment3 {
+  
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 16/7;
 }
 
 ::selection {

@@ -106,7 +106,7 @@ export default function Home() {
 
 
 
-                        <div className="hidden md:block col-span-3 pt-10">
+                        <div className="hidden md:block col-span-3 pt-10 ">
 
                             <div className="rounder">
                                 <MyModal Component={InSearchOf} className="px-0">
@@ -139,8 +139,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="">
-                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2 pl-2">
+                        <div className="pl-2">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                 CONTEXT
                             </div>
                             <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
@@ -159,7 +159,6 @@ export default function Home() {
 
 
 
-
                         <div className="hidden md:block col-span-3 pt-10">
 
                             <div className="rounder">
@@ -171,7 +170,7 @@ export default function Home() {
 
                         </div>
 
-                        <div className="rounderMoment contents md:hidden col-span-3 pt-10">
+                        <div className="rounderMoment contents md:hidden col-span-3 pt-10 ">
                             <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
                                 <Link href="/moment">
                                     <MuxPlayerComponent className="" playbackId="zlM8Mryy00bGsUzAFj6OrGcOgH5uNbbbNHQStMtGiaIY" />
@@ -185,7 +184,7 @@ export default function Home() {
                                 MOMENT ENERGY
                             </div>
                         </div>
-                        <div className=" text-stone-500">
+                        <div className="pl-2 text-stone-500">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                 <div>
                                     CONTEXT
@@ -224,7 +223,7 @@ export default function Home() {
                                         src={arcPanel1}
 
                                     />
-                                    <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg">
+                                    <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg cursor-pointer">
                                         <span className="text-white text-lg opacity-0 group-hover:opacity-100 font-SFpro text-xxs transition-opacity duration-500">COMING SOON</span>
                                     </div>
                                 </div>
@@ -247,7 +246,7 @@ export default function Home() {
                                         src={boschPanel1}
 
                                     />
-                                    <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg">
+                                    <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg cursor-pointer">
                                         <span className="text-white text-lg opacity-0 group-hover:opacity-100 font-SFpro text-xxs transition-opacity duration-500">COMING SOON</span>
                                     </div>
                                 </div>

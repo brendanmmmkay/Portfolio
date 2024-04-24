@@ -35,7 +35,7 @@ const MuxPlayerComponent = ({ playbackId, ...props }) => {
 
     return (
         <div className="" >
-            <mux-player ref={muxPlayerRef} className="mux-player"  {...props}></mux-player>
+            <mux-player ref={muxPlayerRef} className="mux-player "  {...props}></mux-player>
         </div>
     );
 };

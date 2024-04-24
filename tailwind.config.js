@@ -69,10 +69,10 @@ module.exports = {
         '12': '3rem',
       },
 
-        cursor: {
-          default: 'url(../image/cursor.svg), default',
-          pointer: 'url(../image/cursor2.svg), pointer',
-      },
+      //   cursor: {
+      //     default: 'url(../image/cursor.svg), default',
+      //     pointer: 'url(../image/cursor2.svg), pointer',
+      // },
 
       spacing: {
         '32': '18rem',
@@ -145,6 +145,7 @@ module.exports = {
 
       padding: {
         '48': '11rem',
+        'aline':'0.4rem',
       },
 
       width: {
