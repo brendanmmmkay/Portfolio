@@ -51,7 +51,7 @@ const MyModal = ({ Component, children }) => {
         onClick={handleClose}
       />
       <motion.div
-        className="fixed top-0 bottom-0 h-screen w-auto ml-20 overflow-auto z-30 bg-white"
+        className="fixed top-0 bottom-0 h-screen w-auto ml-20 mt-10 overflow-auto z-30 bg-white"
         initial="hidden"
         animate="visible"
         exit="exit"

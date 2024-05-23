@@ -6,7 +6,7 @@ import Clipboard from "./Clipboard";
 export default function Navbar() {
   return (
     <nav className="hidden md:block fixed z-50 w-full">
-      <div className="px-4 bg-white"> 
+      <div className="mt-4 ml-4 px-4 bg-white border border-off-white rounded-l-lg"> 
         <ul className="grid grid-cols-3 gap-4">
 
       

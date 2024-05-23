@@ -38,6 +38,7 @@ export default function InSearchOf() {
                     </div>
                 </div>
 
+<div className="border-off-white rounded-full"></div>
 
           <div className="">
             <div className="px-4 text-[0.6rem] text-stone-400 font-AvenirHeavy pt-64">IN SEARCH OF</div>

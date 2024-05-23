@@ -4,6 +4,7 @@ import cursor from "../image/cursor.png"
 
 
 module.exports = {
+  mode: 'jit',
   content: [
     './src/pages/**/*.{html,js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{html,js,ts,jsx,tsx,mdx}',
@@ -91,6 +92,7 @@ module.exports = {
         NationalBook: "NationalBook",
         NationalMedium: "NationalMedium",
         NationalExtraBold: "NationalExtraBold",
+
         PPNeueMachina: "PPNeueMachina",
         Garamond: "Garamond",
         Avenir: "Avenir",
@@ -101,6 +103,10 @@ module.exports = {
         rosart:"rosart",
         FoundersGrotesk: "FoundersGrotesk",
         FoundersGroteskLight: "FoundersGroteskLight",
+
+        AnotherTag: "AnotherTag",
+
+       
       },
 
       colors: {
@@ -111,6 +117,7 @@ module.exports = {
         'edge-white': '#D9D9D9',
         'chip-deep-gray': '#9B9A9A',
         'arkansas': '#3C3C3C',
+        'kenya-hara': '#FCFCFC',
         'tahiti': {
           100: '#2F2E2E',
           200: '#252424',

@@ -1,7 +1,9 @@
 'use client';
 import React, { useState, useRef } from 'react';
 import Image from 'next/image'
-
+import Video from 'next-video';
+import getStarted from '/videos/get-started.mp4';
+import VideoComponent from '../../components/VideoComponent';
 // import { Inter } from 'next/font/google'
 import Head from 'next/head';
 import { motion } from "framer-motion";
@@ -41,6 +43,9 @@ import InSearchOf from './insearchof';
 import Moment from './moment';
 import GradientTrail from './GradientTrail';
 import brendanPS2 from "../image/brendanPS2.png"
+import cityLights from '/videos/citylights.mp4';
+import vesperFine from '/videos/vesperfine.mp4';
+import isoScroll from '/videos/isoScroll.mp4';
 
 
 
@@ -63,7 +68,7 @@ export default function Home() {
             </head>
         </div>,
         <div>
-            <main className="bg-white">
+            <main className=" bg-kenya-hara">
 
 
 
@@ -75,45 +80,34 @@ export default function Home() {
                         </Link>
                     </div>
                 </div>
+                <h2 className="text-stone-300 font-SFpro text-xxs gap-10 pt-[4rem] pl-5"> 
+                I am looking for exciting new projects and opportunities to <br></br>make impactful design. reach out for collaboration!
+                </h2>
 
-
-
-
-                {/* <MuxPlayer
-  style={{borderRadius: "8px", overflow: "hidden", aspectRatio: "9/16", objectFit: "cover"}}
-  playbackId="019702D00dSt00J82rNhLOnHZQxx9MVCyAZHJgCvXyjz3R8"
-/> */}
-
-{/* <div class="container">
-      <mux-player
-        playback-id="019702D00dSt00J82rNhLOnHZQxx9MVCyAZHJgCvXyjz3R8"
-        metadata-video-title="Test VOD"
-        metadata-viewer-user-id="user-id-007"
-      ></mux-player>
-      </div> */}
 
 
 
                 <div className="pt-40 px-4">
 
+                <h1 className="text-3xl max-w-footer md:text-3xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter pt-10 ">
+                I make aspirational value real through <br></br> brand strategy and precision with pixels. 
+                </h1>
+
+                    <div className="grid grid-cols-3 gap-y-4 ">
 
 
-                    <div className="grid grid-cols-3 gap-y-4 pt-40">
 
 
+             
 
 
-
-
-
-                        <div className="hidden md:block col-span-3 pt-10 ">
+                        <div className="hidden md:block col-span-3 pt-5">
 
                             <div className="rounder">
                                 <MyModal Component={InSearchOf} className="px-0">
                                     <MuxPlayerComponent className="rounder" playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
                                 </MyModal>
                             </div>
-
 
                         </div>
 
@@ -149,7 +143,7 @@ export default function Home() {
                         </div>
                         <div className="hidden md:block">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                               
+
                             </div>
                             <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
                                 <div></div>
@@ -196,7 +190,7 @@ export default function Home() {
                         </div>
                         <div className="hidden md:block text-stone-500">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                
+
                             </div>
                             <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
                                 <div></div>
@@ -329,11 +323,31 @@ export default function Home() {
                     </div>
 
                 </div>
+
+
+
                 <div className='mt-10 px-4 py-4'>
                     <div className='bg-hero-pattern4 bg-cover'>
                         <Footer />
                     </div>
                 </div>
+
+
+
+
+  <div className="flex pb-200">
+  <div className="w-1/3">
+    <VideoComponent src={cityLights} delay={0} />
+  </div>
+  <div className="w-1/3">
+    <VideoComponent src={isoScroll} delay={0.2} />
+  </div>
+  <div className="w-1/3">
+    <VideoComponent src={vesperFine} delay={0.4} />
+  </div>
+</div>
+
+<div className="mt-10"></div>
 
             </main>
         </div>

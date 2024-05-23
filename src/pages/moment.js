@@ -40,8 +40,8 @@ export default function Bosch() {
     return (
         <m.main
 
-            className="top-0 w-full h-full bg-white">
-            <div className=""></div>
+            className="w-full h-full bg-kenya-hara">
+            
             <div className="">
                 <div className="px-4">
 
@@ -56,8 +56,54 @@ export default function Bosch() {
 
 
 
+
+
+
+
+
+
+
+{/* 
+                    <div className=" h-20">
+
+<div className="relative group">
+    <div className="rounded-lg overflow-hidden relative">
+        <Image
+            src={brendanPS2}
+
+        />
+        <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg">
+            <span className="text-white text-lg opacity-0 group-hover:opacity-100 font-SFpro text-xxs transition-opacity duration-500">HELLO!</span>
+        </div>
+    </div>
+    <div>
+        <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+
+        </div>
+        <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+            <div></div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+
+<h2 className="text-stone-300 font-SFpro text-xxs gap-10 pt-[4rem] pl-5"> 
+                I am looking for exciting new projects and opportunities to <br></br>make impactful design. reach out for collaboration!
+                </h2>
+
+ */}
+
+
+
+
+
+
                     <div className="max-w-2xl">
                         <div className=" text-[0.6rem] text-stone-400 font-AvenirHeavy pt-64">MOMENT ENERGY</div>
+                       
                         {/* <p className="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
 
                         <m.h1

@@ -20,15 +20,7 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+
 
 @font-face {
   font-family: ArgentItalic;
@@ -72,7 +64,7 @@ body {
 
 @font-face {
   font-family: NationalExtraBold;
-  src: url(../fonts/TestNational-Extrabold.otf)
+  src: url(../fonts/aAnotherTag.otf)
 }
 
 @font-face {
@@ -123,6 +115,21 @@ body {
 @font-face {
   font-family: FoundersGrotesk;
   src: url(../fonts/TestFoundersGroteskMono-Regular.otf);
+}
+
+@font-face {
+  font-family: AnotherTag;
+  src: url(../fonts/aAnotherTag.otf);
+}
+
+@font-face {
+  font-family: AnotherTag;
+  src: url(../fonts/TestNational-Extrabold.otf)
+}
+
+@font-face {
+  font-family: 'AnotherTag';
+  src: url('../fonts/aAnotherTag.otf') format('opentype');
 }
 
 
