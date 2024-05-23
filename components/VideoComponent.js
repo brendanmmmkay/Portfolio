@@ -25,7 +25,7 @@ const VideoComponent = ({ src, delay }) => {
         initial="hidden"
         animate={inView ? 'show' : 'hidden'}
       >
-        <Video src={src} controls={false} autoPlay />
+        <Video src={src} controls={false} autoPlay muted loop/>
       </motion.div>
     </div>
   );
