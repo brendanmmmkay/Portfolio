@@ -76,7 +76,7 @@ export default function InSearchOf() {
             <div className="col-start-1 col-span-2 px-5">
 
               <h2 className="text-stone-800 text-xxs font-SFpro pt-2">DECEMBER 2022 — ONGOING</h2>
-              <h2 className="text-stone-300 font-SFpro text-xxs gap-10 pt-0 pb-20 md:pb-0"> FREELANCE CONTRACTING <br></br> LOGO AND PRODUCT DESIGN</h2>
+              <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pt-0 pb-20 md:pb-0"> FREELANCE CONTRACTING <br></br> LOGO AND PRODUCT DESIGN</h2>
 
             </div>
 
@@ -85,7 +85,7 @@ export default function InSearchOf() {
                 <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                   ROLES
                 </div>
-                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
                   <div>PRODUCT DESIGN</div>
                   <div>LOGO DESIGN</div>
                   <div>BUSINESS STRATEGY</div>
@@ -100,7 +100,7 @@ export default function InSearchOf() {
                 <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                   TOOLS
                 </div>
-                <div className="font-SFpro text-stone-300 text-xxs">
+                <div className="font-SFpro text-stone-400 text-xxs">
                   <div>FIGMA</div>
                   <div>MIRO</div>
                   <div>PHOTOSHOP</div>

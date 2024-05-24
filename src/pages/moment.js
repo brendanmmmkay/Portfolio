@@ -90,7 +90,7 @@ export default function Bosch() {
         <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
 
         </div>
-        <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+        <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
             <div></div>
         </div>
     </div>
@@ -100,7 +100,7 @@ export default function Bosch() {
 
 
 
-<h2 className="text-stone-300 font-SFpro text-xxs gap-10 pt-[4rem] pl-5"> 
+<h2 className="text-stone-400 font-SFpro text-xxs gap-10 pt-[4rem] pl-5"> 
                 I am looking for exciting new projects and opportunities to <br></br>make impactful design. reach out for collaboration!
                 </h2>
 
@@ -153,7 +153,7 @@ export default function Bosch() {
                         <div className="col-start-1 col-span-2">
 
                             <h2 className="text-stone-800 text-xxs font-SFpro pt-2">APRIL — AUGUST 2021</h2>
-                            <h2 className="text-stone-300 font-SFpro text-xxs gap-10 pt-0 pb-20 md:pb-0"> PRODUCT DESIGN AND BRAND REFRESH <br></br> 4 MONTH INTERNSHIP</h2>
+                            <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pt-0 pb-20 md:pb-0"> PRODUCT DESIGN AND BRAND REFRESH <br></br> 4 MONTH INTERNSHIP</h2>
 
                         </div>
 
@@ -162,7 +162,7 @@ export default function Bosch() {
                                 <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                     ROLES
                                 </div>
-                                <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
                                     <div>BRAND STRATEGY</div>
                                     <div>LOGO DESIGN</div>
                                     <div>BUSINESS STRATEGY</div>
@@ -177,7 +177,7 @@ export default function Bosch() {
                                 <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                     TOOLS
                                 </div>
-                                <div className="font-SFpro text-stone-300 text-xxs">
+                                <div className="font-SFpro text-stone-400 text-xxs">
                                     <div>FIGMA</div>
                                     <div>MIRO</div>
                                     <div>PHOTOSHOP</div>

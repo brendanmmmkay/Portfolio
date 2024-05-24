@@ -83,7 +83,7 @@ export default function Home() {
                         </Link>
                     </div>
                 </div>
-                <h2 className="text-stone-300 font-SFpro text-xxs gap-10 pt-[4rem] pl-5">
+                <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pt-[4rem] pl-5">
                     I am looking for exciting new projects and opportunities to <br></br>make impactful design. reach out for collaboration!
                 </h2>
 
@@ -130,7 +130,7 @@ export default function Home() {
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                 <div>
                                     IN SEARCH OF
-                                    <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                    <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
                                         <div>FREELANCE</div>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@ export default function Home() {
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                 CONTEXT
                             </div>
-                            <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
                                 <div>A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</div>
                             </div>
                         </div>
@@ -148,7 +148,7 @@ export default function Home() {
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
 
                             </div>
-                            <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
                                 <div></div>
                             </div>
                         </div>
@@ -185,7 +185,7 @@ export default function Home() {
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                 <div>
                                     CONTEXT
-                                    <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                    <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
                                         <div>A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</div>
                                     </div>
                                 </div>
@@ -195,7 +195,7 @@ export default function Home() {
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
 
                             </div>
-                            <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
                                 <div></div>
                             </div>
                         </div>
@@ -228,7 +228,7 @@ export default function Home() {
                                     <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                         ARCTERYX SFU
                                     </div>
-                                    <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                    <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
                                         <div>ACADEMIC</div>
                                     </div>
                                 </div>
@@ -251,7 +251,7 @@ export default function Home() {
                                     <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                         BOSCH COURIER CONNECT
                                     </div>
-                                    <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                    <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
                                         <div>ACADEMIC</div>
                                     </div>
                                 </div>
@@ -274,7 +274,7 @@ export default function Home() {
                                     <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
 
                                     </div>
-                                    <div className="tracking-wide font-SFpro text-stone-300 text-xxs">
+                                    <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
                                         <div></div>
                                     </div>
                                 </div>
