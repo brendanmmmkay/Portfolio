@@ -59,8 +59,18 @@ export default function Bosch() {
 
 
 
-
-
+                    {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-200 min-w-full">
+                    <div>
+                        <VideoComponent src={cityLights} delay={0} />
+                    </div>
+                    <div>
+                        <VideoComponent src={isoScroll} delay={0.2} />
+                    </div>
+                    <div>
+                        <VideoComponent src={vesperFine} delay={0.4} />
+                    </div>
+                </div>
+ */}
 
 
 {/* 

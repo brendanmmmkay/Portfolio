@@ -46,6 +46,9 @@ import brendanPS2 from "../image/brendanPS2.png"
 import cityLights from '/videos/citylights.mp4';
 import vesperFine from '/videos/vesperfine.mp4';
 import isoScroll from '/videos/isoScroll.mp4';
+import orangeTerrain from '/videos/orangeterrain.mp4';
+import vesperGreen from '../image/vesperGreen.png';
+import businessCard from '../image/businessCard.png';
 
 
 
@@ -80,8 +83,8 @@ export default function Home() {
                         </Link>
                     </div>
                 </div>
-                <h2 className="text-stone-300 font-SFpro text-xxs gap-10 pt-[4rem] pl-5"> 
-                I am looking for exciting new projects and opportunities to <br></br>make impactful design. reach out for collaboration!
+                <h2 className="text-stone-300 font-SFpro text-xxs gap-10 pt-[4rem] pl-5">
+                    I am looking for exciting new projects and opportunities to <br></br>make impactful design. reach out for collaboration!
                 </h2>
 
 
@@ -89,16 +92,16 @@ export default function Home() {
 
                 <div className="pt-40 px-4">
 
-                <h1 className="text-3xl max-w-footer md:text-3xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter pt-10 ">
-                I make aspirational value real through <br></br> brand strategy and precision with pixels. 
-                </h1>
+                    <h1 className="text-3xl max-w-footer md:text-3xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter pt-10 ">
+                        I make aspirational value real through <br></br> brand strategy and precision with pixels.
+                    </h1>
 
                     <div className="grid grid-cols-3 gap-y-4 ">
 
 
 
 
-             
+
 
 
                         <div className="hidden md:block col-span-3 pt-5">
@@ -335,19 +338,32 @@ export default function Home() {
 
 
 
-  <div className="flex pb-200">
-  <div className="w-1/3">
-    <VideoComponent src={cityLights} delay={0} />
-  </div>
-  <div className="w-1/3">
-    <VideoComponent src={isoScroll} delay={0.2} />
-  </div>
-  <div className="w-1/3">
-    <VideoComponent src={vesperFine} delay={0.4} />
-  </div>
-</div>
+                <div className="grid grid-cols-1 md:grid-cols-3 pb-2 min-w-full gap-2 px-2">
+                    <div>
+                        <VideoComponent src={cityLights} delay={0} />
+                    </div>
+                    <div>
+                        <VideoComponent src={isoScroll} delay={0.2} />
+                    </div>
+                    <div>
+                        <Image className="rounded-lg overflow-hidden" src={businessCard}/>
+                    </div>
+                </div>
 
-<div className="mt-10"></div>
+                <div className="grid grid-cols-1 md:grid-cols-3  pb-200 min-w-full gap-2 px-2">
+                    <div>
+                        <VideoComponent src={orangeTerrain} delay={0.6} />
+                    </div>
+                    <div>
+                    <Image className="rounded-lg" src={vesperGreen}/>
+                    </div>
+                    <div>
+                        <VideoComponent src={vesperFine} delay={1} />
+                    </div>
+                </div>
+
+
+                <div className="mt-10"></div>
 
             </main>
         </div>

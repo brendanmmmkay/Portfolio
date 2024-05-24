@@ -18,7 +18,7 @@ const VideoComponent = ({ src, delay }) => {
   };
 
   return (
-    <div ref={ref} className="w-1/3 px-2">
+    <div ref={ref} className="">
       <motion.div
         className="rounded-lg overflow-hidden"
         variants={variants}
