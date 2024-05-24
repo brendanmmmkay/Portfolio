@@ -84,7 +84,7 @@ export default function Home() {
                     </div>
                 </div>
                 <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pt-[4rem] pl-5">
-                    I am looking for exciting new projects and opportunities to <br></br>make impactful design. reach out for collaboration!
+                    I am looking for exciting new projects and opportunities to <br></br>make impactful design. Reach out for collaboration!
                 </h2>
 
 
@@ -302,7 +302,7 @@ export default function Home() {
 
 
 
-                    <div className="grid md:hidden grid-cols-3 gap-4 pt-40">
+                    <div className="grid md:hidden grid-cols-3 gap-4 pt-20">
 
                         <div>
                             <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer">
@@ -363,8 +363,10 @@ export default function Home() {
                 </div>
 
 
-                <div className="mt-10"></div>
-
+                <div className="mt-4"></div>
+                <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pl-5 pb-4">
+                   2024 BRENDAN MCKAY
+                </h2>
             </main>
         </div>
 
