@@ -25,7 +25,7 @@ import arcPanel2 from "../image/ArcPanel2.png"
 import arcPanel3 from "../image/ArcPanel3.png"
 import grassLand from "../image/grassLand.png"
 import arrow from "../image/arrow.svg"
-import cursor from "../image/cursor.svg"
+// import cursor from "../image/cursor.svg"
 import AnimatedTextWord from '../../components/AnimatedTextWord';
 import { Carousel } from 'flowbite-react';
 import Footer from '../../components/footer.js/Footer';
@@ -49,7 +49,7 @@ import isoScroll from '/videos/isoScroll.mp4';
 import orangeTerrain from '/videos/orangeterrain.mp4';
 import vesperGreen from '../image/vesperGreen.png';
 import businessCard from '../image/businessCard.png';
-
+import UnderlineButton from '../../components/button.js';
 
 
 
@@ -83,9 +83,11 @@ export default function Home() {
                         </Link>
                     </div>
                 </div>
-                <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pt-[4rem] pl-5">
+                <h2 className="hidden md:block text-stone-400 font-SFpro text-xxs gap-10 pt-[4rem] pl-5">
                     I am looking for exciting new projects and opportunities to <br></br>make impactful design. Reach out for collaboration!
                 </h2>
+
+
 
 
 
@@ -96,7 +98,7 @@ export default function Home() {
                         I make aspirational value real through <br></br> brand strategy and precision with pixels.
                     </h1>
 
-                    <div className="grid grid-cols-3 gap-y-4 ">
+                    <div className="grid grid-cols-3 gap-y-4 cursor-pointer">
 
 
 
@@ -104,9 +106,9 @@ export default function Home() {
 
 
 
-                        <div className="hidden md:block col-span-3 pt-5">
+                        <div className="hidden md:block col-span-3 pt-5 ">
 
-                            <div className="rounder">
+                            <div className="rounder cursor-pointer ">
                                 <MyModal Component={InSearchOf} className="px-0">
                                     <MuxPlayerComponent className="rounder" playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
                                 </MyModal>
@@ -346,7 +348,7 @@ export default function Home() {
                         <VideoComponent src={isoScroll} delay={0.2} />
                     </div>
                     <div>
-                        <Image className="rounded-lg overflow-hidden" src={businessCard}/>
+                        <Image className="rounded-lg overflow-hidden" src={businessCard} />
                     </div>
                 </div>
 
@@ -355,7 +357,7 @@ export default function Home() {
                         <VideoComponent src={orangeTerrain} delay={0.6} />
                     </div>
                     <div>
-                    <Image className="rounded-lg" src={vesperGreen}/>
+                        <Image className="rounded-lg" src={vesperGreen} />
                     </div>
                     <div>
                         <VideoComponent src={vesperFine} delay={1} />
@@ -365,7 +367,7 @@ export default function Home() {
 
                 <div className="mt-4"></div>
                 <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pl-5 pb-4">
-                   2024 BRENDAN MCKAY
+                    2024 BRENDAN MCKAY
                 </h2>
             </main>
         </div>

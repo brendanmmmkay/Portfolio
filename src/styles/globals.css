@@ -144,11 +144,11 @@
 }
 
 
-*,
+/* *,
 *:before,
 *:after {
   @apply cursor-default;
-}
+} */
 
 @layer utilities {
   /* Hide scrollbar for Chrome, Safari and Opera */
