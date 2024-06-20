@@ -24,7 +24,7 @@ const Clipboard = ({ text }) => {
         {/* </span> */}
       </button>
       {showTooltip && (
-        <div className="absolute font-SFpro text-xxs bg-gray-900 text-white px-2 rounded bottom-12 left-1/2 transform -translate-x-1/2 z-20">
+        <div className="absolute font-SFpro text-xxs bg-blue-700 text-white px-2 rounded bottom-12 left-1/2 transform -translate-x-1/2 z-20">
           COPY
         </div>
       )}

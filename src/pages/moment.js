@@ -41,7 +41,7 @@ export default function Bosch() {
         <m.main
 
             className="w-full h-full bg-kenya-hara">
-            
+
             <div className="">
                 <div className="px-4">
 
@@ -73,7 +73,7 @@ export default function Bosch() {
  */}
 
 
-{/* 
+                    {/* 
                     <div className=" h-20">
 
 <div className="relative group">
@@ -113,7 +113,7 @@ export default function Bosch() {
 
                     <div className="max-w-2xl">
                         <div className=" text-[0.6rem] text-stone-400 font-AvenirHeavy pt-64">MOMENT ENERGY</div>
-                       
+
                         {/* <p className="pt-20 text-[0.6rem] tracking-widest text-stone-500 font-AvenirHeavy">MOMENT ENERGY</p> */}
 
                         <m.h1
@@ -191,6 +191,19 @@ export default function Bosch() {
                 </div>
             </div>
 
+
+
+            <div className='mt-10 px-4 py-4'>
+                    <div className='bg-hero-pattern5 bg-cover'>
+                        <Footer />
+                    </div>
+                </div>
+
+                <div className="bg-hero-pattern4 bg-cover bg-center h-64">
+  {/* Content goes here */}
+</div>
+
+            <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">Hover me</button>
 
 
 
@@ -326,13 +339,13 @@ export default function Bosch() {
             </div> */}
 
 
-<div className='bg-hero-pattern2 bg-cover'>
-            <Paragraph
-                header="ADDENDUM"
-                body1="Thanks for stopping by — I have so much more to share about my process and approach to this project. Send me a message and let's make impactful design together."
-            ></Paragraph>
+            <div className='bg-hero-pattern2 bg-cover'>
+                <Paragraph
+                    header="ADDENDUM"
+                    body1="Thanks for stopping by — I have so much more to share about my process and approach to this project. Send me a message and let's make impactful design together."
+                ></Paragraph>
 
-</div>
+            </div>
 
             {/* <div className="pt-60"></div> */}
 

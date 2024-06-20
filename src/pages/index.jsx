@@ -50,7 +50,7 @@ import orangeTerrain from '/videos/orangeterrain.mp4';
 import vesperGreen from '../image/vesperGreen.png';
 import businessCard from '../image/businessCard.png';
 import UnderlineButton from '../../components/button.js';
-
+import RainDrop from '../../components/rain.js';
 
 
 
@@ -92,6 +92,16 @@ export default function Home() {
 
 
 
+
+
+
+
+
+
+
+
+
+
                 <div className="pt-40 px-4">
 
                     <h1 className="text-3xl max-w-footer md:text-3xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter pt-10 ">
@@ -106,9 +116,9 @@ export default function Home() {
 
 
 
-                        <div className="hidden md:block col-span-3 pt-5 ">
+                        <div className="hidden md:block col-span-3 pt-5">
 
-                            <div className="rounder cursor-pointer ">
+                            <div className="rounder cursor-pointer hover:shadow-2xl transition-shadow duration-500">
                                 <MyModal Component={InSearchOf} className="px-0">
                                     <MuxPlayerComponent className="rounder" playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
                                 </MyModal>
@@ -131,14 +141,15 @@ export default function Home() {
                         <div className="">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                 <div>
-                                    IN SEARCH OF
+                                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">IN SEARCH OF</button>
+                                    
                                     <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
                                         <div>FREELANCE</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="pl-2">
+                        <div className="pl-2 ">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                 CONTEXT
                             </div>
@@ -160,7 +171,7 @@ export default function Home() {
 
                         <div className="hidden md:block col-span-3 pt-10">
 
-                            <div className="rounder">
+                            <div className="rounder hover:shadow-2xl transition-shadow duration-500">
                                 <MyModal Component={Moment} className="px-0">
                                     <MuxPlayerComponent className="rounder" playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
                                 </MyModal>
@@ -180,7 +191,10 @@ export default function Home() {
 
                         <div className=" text-stone-500">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                MOMENT ENERGY
+                            <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">MOMENT ENERGY</button>
+                            </div>
+                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+                                <div>INTERNSHIP</div>
                             </div>
                         </div>
                         <div className="pl-2 text-stone-500">
@@ -331,12 +345,11 @@ export default function Home() {
 
 
 
-                <div className='mt-10 px-4 py-4'>
-                    <div className='bg-hero-pattern4 bg-cover'>
-                        <Footer />
-                    </div>
-                </div>
-
+                <div className='mt-10 px-4 py-4 max-w-full'>
+    <div className='bg-hero-pattern4 bg-cover'>
+        <Footer />
+    </div>
+</div>
 
 
 
@@ -352,7 +365,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3  pb-200 min-w-full gap-2 px-2">
+                <div className="grid grid-cols-1 md:grid-cols-3  pb-0 min-w-full gap-2 px-2">
                     <div>
                         <VideoComponent src={orangeTerrain} delay={0.6} />
                     </div>
@@ -365,10 +378,23 @@ export default function Home() {
                 </div>
 
 
-                <div className="mt-4"></div>
-                <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pl-5 pb-4">
+                <div className="mt-1"></div>
+
+                <div className="divide-y divide-stone-100 opacity-50 pt-10 md:pt-40">
+                        <div></div>
+                        <div>
+                        </div>
+                    </div>
+
+                
+                <div>
+    {/* <div className="z-5 absolute pt-40">yoooooo</div> */}
+    <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pl-5 pb-4 absolute z-5 ">
                     2024 BRENDAN MCKAY
                 </h2>
+<RainDrop className="z-0 absolute"></RainDrop>
+
+</div>
             </main>
         </div>
 
