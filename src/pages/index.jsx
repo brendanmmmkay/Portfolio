@@ -399,15 +399,16 @@ export default function Home() {
                         {/* <h1 className="text-3xl max-w-footer md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
                         
                         </h1> */}
-                        <h2 className="text-stone-400 font-SFpro text-xxs  mt-[25rem] absolute z-5">
+                        <h2 className="text-stone-400 font-SFpro text-xxs  mt-[30rem] absolute z-5">
                            LET'S CONNECT ON MY SOCIALS!
                         </h2>
+
 
                         <div className="flex gap-24 pt-10">
                             <Link href={"https://www.instagram.com/brandstratagem/"}>
                                 {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
                                
-                                <div className="absolute text-xxs font-SFpro mt-[26rem] text-stone-600">
+                                <div className="absolute text-xxs font-SFpro mt-[32rem] text-stone-600">
                                 <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">INSTAGRAM</button>
                                 </div>
                             </Link>
@@ -415,13 +416,13 @@ export default function Home() {
                             <Link href={"https://read.cv/brendanmckay"}>
                                 {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
                                
-                                <div className="absolute text-xxs font-SFpro mt-[26rem] text-stone-600">
+                                <div className="absolute text-xxs font-SFpro mt-[32rem] text-stone-600">
                                 <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">READ.CV</button>
                                 </div>
                             </Link>
                             <Link href={"https://openprocessing.org/user/439705/"}>
                                 {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
-                                <div className="absolute text-xxs font-SFpro mt-[26rem] text-stone-600">
+                                <div className="absolute text-xxs font-SFpro mt-[32rem] text-stone-600">
                                 <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">OPENPROCESSING</button>
                                 </div>
                             </Link>
@@ -430,8 +431,15 @@ export default function Home() {
 
                         <h1 className="text-3xl max-w-footer md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter  ">
                          <br></br>
-                            Reach out to chat and discuss how <br></br>
-                            I can help realize your aspirations!
+                            Reach out to connect and discuss how<br></br>
+                            I can help realize your aspirations!<br></br>
+                            {/* I begin with business strategy <br></br>
+                            and user research to identify the <br></br>
+                            best methods to support people in <br></br>
+                            unique scenarios. I create from<br></br>
+                            moodboards to prototypes <br></br>
+                            to articulate how brand strategy<br></br>
+                            can be leveraged visually.<br></br> */}
                         </h1>
                     </div>
                     <div className="z-10"></div>
