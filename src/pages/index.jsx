@@ -12,7 +12,7 @@ import MuxPlayer from "@mux/mux-player-react";
 import test1 from "../image/TWimgTest.png"
 import test2 from "../image/isoCardDuo.png"
 import boschPanel1 from "../image/boschPanel1.png"
-import boschPanelP from "../image/boschPanelP.png"
+
 import boschPanel2 from "../image/boschPanel2.png"
 import boschPanel3 from "../image/boschPanel3.png"
 import momentPanel1 from "../image/momentPanel1.png"
