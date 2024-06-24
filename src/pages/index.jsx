@@ -12,6 +12,7 @@ import MuxPlayer from "@mux/mux-player-react";
 import test1 from "../image/TWimgTest.png"
 import test2 from "../image/isoCardDuo.png"
 import boschPanel1 from "../image/boschPanel1.png"
+import boschPanelP from "../image/boschPanelP.png"
 import boschPanel2 from "../image/boschPanel2.png"
 import boschPanel3 from "../image/boschPanel3.png"
 import momentPanel1 from "../image/momentPanel1.png"
@@ -51,6 +52,9 @@ import vesperGreen from '../image/vesperGreen.png';
 import businessCard from '../image/businessCard.png';
 import UnderlineButton from '../../components/button.js';
 import RainDrop from '../../components/rain.js';
+import MovingRectangles from '../../components/cloud.js';
+import moon from '../image/moon.png';
+import house from '../image/house.svg';
 
 
 
@@ -141,8 +145,8 @@ export default function Home() {
                         <div className="">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                 <div>
-                                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">IN SEARCH OF</button>
-                                    
+                                    <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">IN SEARCH OF</button>
+
                                     <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
                                         <div>FREELANCE</div>
                                     </div>
@@ -151,10 +155,10 @@ export default function Home() {
                         </div>
                         <div className="pl-2 ">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                CONTEXT
+                                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
                             </div>
                             <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-                                <div>A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</div>
+                                <div>A CURATED AND EDUCATIONAL DESIGN DIRECTORY</div>
                             </div>
                         </div>
                         <div className="hidden md:block">
@@ -191,7 +195,7 @@ export default function Home() {
 
                         <div className=" text-stone-500">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                            <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">MOMENT ENERGY</button>
+                                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">MOMENT ENERGY</button>
                             </div>
                             <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
                                 <div>INTERNSHIP</div>
@@ -200,9 +204,10 @@ export default function Home() {
                         <div className="pl-2 text-stone-500">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                 <div>
-                                    CONTEXT
+                                    <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
                                     <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-                                        <div>A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</div>
+
+                                        <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-stone-400 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</button>
                                     </div>
                                 </div>
                             </div>
@@ -346,10 +351,10 @@ export default function Home() {
 
 
                 <div className='mt-10 px-4 py-4 max-w-full'>
-    <div className='bg-hero-pattern4 bg-cover'>
-        <Footer />
-    </div>
-</div>
+                    <div className='bg-hero-pattern4 bg-cover'>
+                        <Footer />
+                    </div>
+                </div>
 
 
 
@@ -381,20 +386,70 @@ export default function Home() {
                 <div className="mt-1"></div>
 
                 <div className="divide-y divide-stone-100 opacity-50 pt-10 md:pt-40">
-                        <div></div>
-                        <div>
-                        </div>
+                    <div></div>
+                    <div>
                     </div>
+                </div>
 
-                
-                <div>
-    {/* <div className="z-5 absolute pt-40">yoooooo</div> */}
-    <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pl-5 pb-4 absolute z-5 ">
-                    2024 BRENDAN MCKAY
-                </h2>
-<RainDrop className="z-0 absolute"></RainDrop>
 
-</div>
+                <div className="relative h-full">
+
+
+                    <div className="pt-30 mt-10 pl-5 absolute z-0">
+                        {/* <h1 className="text-3xl max-w-footer md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
+                        
+                        </h1> */}
+                        <h2 className="text-stone-400 font-SFpro text-xxs  mt-[25rem] absolute z-5">
+                           LET'S CONNECT ON MY SOCIALS!
+                        </h2>
+
+                        <div className="flex gap-24 pt-10">
+                            <Link href={"https://www.instagram.com/brandstratagem/"}>
+                                {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
+                               
+                                <div className="absolute text-xxs font-SFpro mt-[26rem] text-stone-600">
+                                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">INSTAGRAM</button>
+                                </div>
+                            </Link>
+
+                            <Link href={"https://read.cv/brendanmckay"}>
+                                {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
+                               
+                                <div className="absolute text-xxs font-SFpro mt-[26rem] text-stone-600">
+                                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">READ.CV</button>
+                                </div>
+                            </Link>
+                            <Link href={"https://openprocessing.org/user/439705/"}>
+                                {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
+                                <div className="absolute text-xxs font-SFpro mt-[26rem] text-stone-600">
+                                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">OPENPROCESSING</button>
+                                </div>
+                            </Link>
+                        </div>
+
+
+                        <h1 className="text-3xl max-w-footer md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter  ">
+                         <br></br>
+                            Reach out to chat and discuss how <br></br>
+                            I can help realize your aspirations!
+                        </h1>
+                    </div>
+                    <div className="z-10"></div>
+                    <Image className="z-0 absolute right-32 pt-20" src={moon} />
+                    <MovingRectangles ></MovingRectangles>
+
+                    <Image className="z-0 absolute right-1/3  bottom-5" src={house} />
+                    {/* <div className="z-5 absolute pt-40">yoooooo</div> */}
+                    <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pl-5 pb-4 absolute bottom-0 z-5">
+                        2024 BRENDAN MCKAY
+                    </h2>
+                    <RainDrop className="z-4 absolute"></RainDrop>
+
+                </div>
+
+
+
+
             </main>
         </div>
 

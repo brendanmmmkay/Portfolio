@@ -34,6 +34,7 @@ import momentNewTeam from "../image/momentNewTeam.png"
 import momentNewDeployment from "../image/momentNewDeployment.png"
 import momentNewFonts from "../image/momentNewFonts.png"
 import momentLogoProg from "../image/momentLogoProg.png"
+import boschPanel1 from "../image/boschPanel1.png"
 
 
 export default function Bosch() {
@@ -56,7 +57,7 @@ export default function Bosch() {
 
 
 
-
+<div className="backdrop-blur-md"></div>
 
 
                     {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-200 min-w-full">
@@ -205,6 +206,7 @@ export default function Bosch() {
             <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">Hover me</button>
  */}
 
+{/* <div className="bg-hero-pattern4 bg-cover bg-center h-40 backdrop-blur-xl absolute"></div> */}
 
 
             <Paragraph
@@ -347,6 +349,28 @@ export default function Bosch() {
             </div>
 
             {/* <div className="pt-60"></div> */}
+
+
+
+
+
+
+
+
+            <div className="relative">
+      {/* Background content to demonstrate the blur effect */}
+      <Image className="w-full h-full object-cover" src={boschPanel1}/>
+   
+      
+      {/* Rectangle with backdrop blur */}
+      <p className="text-red-500 gap-24 bg-stone-400 max-w-48 right-1/3 font-bold mt-[25rem] z-0">This is a simple rectangle with backdrop blur</p>
+      <div className="absolute inset-0 bg-white bg-opacity-30 mt-[26rem] right-32 rounded-full backdrop-blur-sm bottom-20 flex justify-center items-center z-10">
+        
+      </div>
+    </div>
+
+
+
 
 
 

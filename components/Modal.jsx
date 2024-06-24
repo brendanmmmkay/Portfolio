@@ -42,7 +42,7 @@ const MyModal = ({ Component, children }) => {
   {isOpen && (
     <>
       <motion.div
-        className="fixed top-0 bottom-0 left-0 right-0 bg-stone-800 z-20"
+        className="fixed top-0 bottom-0 left-0 right-0 backdrop-blur-md bg-stone-800 z-20"
         initial="hidden"
         animate="visible"
         exit="exit"
