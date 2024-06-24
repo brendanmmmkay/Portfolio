@@ -57,7 +57,7 @@ export default function Bosch() {
 
 
 
-<div className="backdrop-blur-md"></div>
+{/* <div className="backdrop-blur-md"></div> */}
 
 
                     {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-200 min-w-full">
@@ -354,20 +354,6 @@ export default function Bosch() {
 
 
 
-
-
-
-            <div className="relative">
-      {/* Background content to demonstrate the blur effect */}
-      <Image className="w-full h-full object-cover" src={boschPanel1}/>
-   
-      
-      {/* Rectangle with backdrop blur */}
-      <p className="text-red-500 gap-24 bg-stone-400 max-w-48 right-1/3 font-bold mt-[25rem] z-0">This is a simple rectangle with backdrop blur</p>
-      <div className="absolute inset-0 bg-white bg-opacity-30 mt-[26rem] right-32 rounded-full backdrop-blur-sm bottom-20 flex justify-center items-center z-10">
-        
-      </div>
-    </div>
 
 
 
