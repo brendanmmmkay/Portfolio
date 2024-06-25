@@ -55,6 +55,7 @@ import RainDrop from '../../components/rain.js';
 import MovingRectangles from '../../components/cloud.js';
 import moon from '../image/moon.png';
 import house from '../image/house.svg';
+import sky from '../image/sky.svg';
 
 
 
@@ -393,6 +394,7 @@ export default function Home() {
 
 
                 <div className="relative h-full">
+                <Image className="z-0 absolute w-full" src={sky} />
 
 
                     <div className="pt-30 mt-10 pl-5 absolute z-0">
@@ -429,17 +431,13 @@ export default function Home() {
                         </div>
 
 
-                        <h1 className="text-3xl max-w-footer md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter  ">
-                         <br></br>
-                            Reach out to connect and discuss how<br></br>
-                            I can help realize your aspirations!<br></br>
-                            {/* I begin with business strategy <br></br>
-                            and user research to identify the <br></br>
-                            best methods to support people in <br></br>
-                            unique scenarios. I create from<br></br>
-                            moodboards to prototypes <br></br>
-                            to articulate how brand strategy<br></br>
-                            can be leveraged visually.<br></br> */}
+                        <h1 className="text-3xl pt-20 max-w-footer md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter  ">
+
+                            {/* Practicing on the west coast of Canada.<br></br>
+                            Creating design solutions internationally. */}
+                            Reach out for a chat, <br></br>
+                            and let me determine how <br></br>
+                            I can help realize your dreams.
                         </h1>
                     </div>
                     <div className="z-10"></div>
