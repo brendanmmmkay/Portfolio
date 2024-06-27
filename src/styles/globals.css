@@ -237,6 +237,22 @@
 }
 
 
+@keyframes gradientFadeIn {
+  from {
+    background-color: #FFFFFF; /* White */
+  }
+  to {
+    background-color: #A6F0F7; /* Light blue */
+  }
+}
+
+
+.animated-div.visible {
+  width: 100%; /* Adjust based on your needs */
+  height: 100vh; /* Adjust based on your needs */
+  animation: gradientFadeIn 3s ease forwards;
+}
+
 ::selection {
   color: white; 
   background: blue;

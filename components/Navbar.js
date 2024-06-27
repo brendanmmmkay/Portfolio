@@ -6,13 +6,13 @@ import Clipboard from "./Clipboard";
 export default function Navbar() {
   return (
     <nav className="hidden md:block fixed z-50 w-full">
-      <div className="mt-4 ml-4 px-4 bg-white border border-off-white rounded-l-lg"> 
+      <div className="mt-4 ml-20 px-4 bg-white border border-off-white rounded-l-lg"> 
         <ul className="grid grid-cols-3 gap-4">
 
       
           <div className="flex justify-start">
           <Link href="/">
-          <li className="text-xxs font-AvenirHeavy text-stone-600 py-2">BRENDAN MCKAY — [03.24.24]</li>
+          <li className="text-xxs font-AvenirHeavy text-stone-600 py-2 ">BRENDAN MCKAY</li>
           </Link>
           </div>
 

@@ -56,7 +56,9 @@ import MovingRectangles from '../../components/cloud.js';
 import moon from '../image/moon.png';
 import house from '../image/house.svg';
 import sky from '../image/sky.svg';
-
+import Eyeball from '../../components/eye.jsx';
+import FadeInOnScroll from '../../components/sunset.jsx';
+import FadeInRectangle from '../../components/waningsky.jsx';
 
 
 export default function Home() {
@@ -88,18 +90,18 @@ export default function Home() {
                         </Link>
                     </div>
                 </div>
-                <h2 className="hidden md:block text-stone-400 font-SFpro text-xxs gap-10 pt-[4rem] pl-5">
+                {/* <h2 className="hidden md:block text-stone-400 font-SFpro text-xxs gap-10 pt-[4rem] pl-5">
                     I am looking for exciting new projects and opportunities to <br></br>make impactful design. Reach out for collaboration!
-                </h2>
+                </h2> */}
 
 
 
 
 
 
-
-
-
+<div className="ml-2 pt-5">
+<Eyeball></Eyeball>
+</div>
 
 
 
@@ -114,11 +116,6 @@ export default function Home() {
                     </h1>
 
                     <div className="grid grid-cols-3 gap-y-4 cursor-pointer">
-
-
-
-
-
 
 
                         <div className="hidden md:block col-span-3 pt-5">
@@ -392,10 +389,14 @@ export default function Home() {
                     </div>
                 </div>
 
+                {/* <div class="animated-div"></div> */}
+                {/* <FadeInOnScroll></FadeInOnScroll> */}
 
                 <div className="relative h-full">
+                    
                 <Image className="z-0 absolute w-full" src={sky} />
 
+{/* <FadeInRectangle></FadeInRectangle> */}
 
                     <div className="pt-30 mt-10 pl-5 absolute z-0">
                         {/* <h1 className="text-3xl max-w-footer md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">

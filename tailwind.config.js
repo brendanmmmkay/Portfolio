@@ -177,13 +177,18 @@ module.exports = {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(100px)' },
         },
+        gradientFadeIn: {
+          '0%': { backgroundColor: '#FFFFFF' }, // White
+          '100%': { backgroundColor: '#A6F0F7' }, // Light blue
+        },
       },
 
     },
   },
   variants: {
     extend: {
-      animation: ['hover'],
+      animation: ['hover'],         
+      'gradient-fade-in': 'gradientFadeIn 3s ease forwards',
     },
   },
     plugins: [

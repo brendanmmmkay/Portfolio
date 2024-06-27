@@ -37,6 +37,7 @@ import momentLogoProg from "../image/momentLogoProg.png"
 import boschPanel1 from "../image/boschPanel1.png"
 
 
+
 export default function Bosch() {
     return (
         <m.main
@@ -57,7 +58,7 @@ export default function Bosch() {
 
 
 
-<div className="backdrop-blur-md"></div>
+<div className="backdrop-blur-3xl ml-[4rem]"></div>
 
 
                     {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-200 min-w-full">
@@ -171,6 +172,8 @@ export default function Bosch() {
                                 </div>
                             </div>
                         </div>
+                     
+
 
 
                         <div className="hidden md:block">

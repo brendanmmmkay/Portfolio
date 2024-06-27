@@ -42,7 +42,7 @@ const MyModal = ({ Component, children }) => {
   {isOpen && (
     <>
       <motion.div
-        className="fixed top-0 bottom-0 left-0 right-0 backdrop-blur-md bg-stone-800 z-20"
+        className="fixed top-0 bottom-0 left-0 right-0 bg-stone-800 z-20"
         initial="hidden"
         animate="visible"
         exit="exit"
@@ -51,7 +51,7 @@ const MyModal = ({ Component, children }) => {
         onClick={handleClose}
       />
       <motion.div
-        className="fixed top-0 bottom-0 h-screen w-auto ml-20 mt-10 overflow-auto z-30 bg-white"
+        className="fixed top-0 bottom-0 h-screen w-auto ml-[4rem] mt-10 overflow-auto z-30 bg-white shadow-2xl"
         initial="hidden"
         animate="visible"
         exit="exit"
