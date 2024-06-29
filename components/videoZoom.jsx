@@ -3,7 +3,7 @@ import InSearchOf from '../src/pages/insearchof';
 import MyModal from './modal';
 import MuxPlayerComponent from './MuxPlayer.js';
 
-const MyComponent = ({ playbackId }) => {
+const MyComponent = ({ playbackId, project }) => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = useState(false);
 
@@ -29,7 +29,7 @@ const MyComponent = ({ playbackId }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={handleMouseLeave} // Use the new handler here
     >
-      <MyModal Component={InSearchOf} className="px-0">
+      <MyModal Component={project} className="px-0">
         <div style={{ transform: `translate(${mousePosition.x}px, ${mousePosition.y}px)` }}>
           <MuxPlayerComponent 
             className="rounder video-zoom" 

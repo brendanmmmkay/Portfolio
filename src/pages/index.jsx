@@ -129,7 +129,7 @@ export default function Home() {
 
                         <div className="hidden md:block col-span-3 pt-5">
 
-                <VideoZoom playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
+                <VideoZoom project={InSearchOf} playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
                             {/* <div className="rounder cursor-pointer hover:shadow-2xl transition-shadow duration-500">
                                 <MyModal Component={InSearchOf} className="px-0">
                                     <MuxPlayerComponent className="rounder" playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
@@ -185,7 +185,7 @@ export default function Home() {
 
                         <div className="hidden md:block col-span-3 pt-10">
 
-                        <VideoZoom playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
+                        <VideoZoom project={Moment} playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
                             {/* <div className="rounder hover:shadow-2xl transition-shadow duration-500">
                                 <MyModal Component={Moment} className="px-0">
                                     <MuxPlayerComponent className="rounder" playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
