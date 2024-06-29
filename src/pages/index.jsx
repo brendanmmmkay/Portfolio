@@ -39,7 +39,7 @@ import Paragraph from '../../components/paragraph';
 import FooterDark from '../../components/FooterDark';
 import wordMark from "../../components/wordMark.svg"
 import Clipboard from '../../components/Clipboard';
-import MyModal from '../../components/modal';
+// import MyModal from '../../components/Modal.jsx';
 import InSearchOf from './insearchof';
 import Moment from './moment';
 import GradientTrail from './GradientTrail';
@@ -100,9 +100,9 @@ export default function Home() {
 
 
 
-<div className="ml-2 pt-5">
-<Eyeball></Eyeball>
-</div>
+                <div className="ml-2 pt-5">
+                    <Eyeball></Eyeball>
+                </div>
 
 
 
@@ -114,8 +114,8 @@ export default function Home() {
 
 
 
-                {/* <VideoZoom></VideoZoom> */}
-                <div id="modal-root"></div>
+                    {/* <VideoZoom></VideoZoom> */}
+                    <div id="modal-root"></div>
 
 
 
@@ -129,7 +129,7 @@ export default function Home() {
 
                         <div className="hidden md:block col-span-3 pt-5">
 
-                <VideoZoom project={InSearchOf} playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
+                            <VideoZoom project={InSearchOf} playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
                             {/* <div className="rounder cursor-pointer hover:shadow-2xl transition-shadow duration-500">
                                 <MyModal Component={InSearchOf} className="px-0">
                                     <MuxPlayerComponent className="rounder" playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
@@ -185,7 +185,7 @@ export default function Home() {
 
                         <div className="hidden md:block col-span-3 pt-10">
 
-                        <VideoZoom project={Moment} playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
+                            <VideoZoom project={Moment} playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
                             {/* <div className="rounder hover:shadow-2xl transition-shadow duration-500">
                                 <MyModal Component={Moment} className="px-0">
                                     <MuxPlayerComponent className="rounder" playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
@@ -406,40 +406,40 @@ export default function Home() {
                 {/* <FadeInOnScroll></FadeInOnScroll> */}
 
                 <div className="relative h-full">
-                    
-                <Image className="z-0 absolute w-full" src={sky} />
 
-{/* <FadeInRectangle></FadeInRectangle> */}
+                    <Image className="z-0 absolute w-full" src={sky} />
+
+                    {/* <FadeInRectangle></FadeInRectangle> */}
 
                     <div className="pt-30 mt-10 pl-5 absolute z-0">
                         {/* <h1 className="text-3xl max-w-footer md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
                         
                         </h1> */}
                         <h2 className="text-stone-400 font-SFpro text-xxs  mt-[30rem] absolute z-5">
-                           LET'S CONNECT ON MY SOCIALS!
+                            LET'S CONNECT ON MY SOCIALS!
                         </h2>
 
 
                         <div className="flex gap-24 pt-10">
                             <Link href={"https://www.instagram.com/brandstratagem/"}>
                                 {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
-                               
+
                                 <div className="absolute text-xxs font-SFpro mt-[32rem] text-stone-600">
-                                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">INSTAGRAM</button>
+                                    <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">INSTAGRAM</button>
                                 </div>
                             </Link>
 
                             <Link href={"https://read.cv/brendanmckay"}>
                                 {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
-                               
+
                                 <div className="absolute text-xxs font-SFpro mt-[32rem] text-stone-600">
-                                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">READ.CV</button>
+                                    <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">READ.CV</button>
                                 </div>
                             </Link>
                             <Link href={"https://openprocessing.org/user/439705/"}>
                                 {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
                                 <div className="absolute text-xxs font-SFpro mt-[32rem] text-stone-600">
-                                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">OPENPROCESSING</button>
+                                    <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">OPENPROCESSING</button>
                                 </div>
                             </Link>
                         </div>

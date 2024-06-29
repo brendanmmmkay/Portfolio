@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import InSearchOf from '../src/pages/insearchof';
-import MyModal from './modal';
+import MyModal from './Modal'; // Fix the file name casing
 import MuxPlayerComponent from './MuxPlayer.js';
 
 const MyComponent = ({ playbackId, project }) => {
