@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import MuxPlayer from "@mux/mux-player-react";
-import Modal from './Modal';
+import Modal from './modal';
 
 const Paragraph = ({ header, subtitle, body1, body2, ...props }) => {
   const [ref, inView] = useInView({
