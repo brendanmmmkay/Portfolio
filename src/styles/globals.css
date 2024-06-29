@@ -253,6 +253,16 @@
   animation: gradientFadeIn 3s ease forwards;
 }
 
+.zoomer {
+  transition: transform 0.5s ease, margin-bottom 0.5s ease;
+}
+
+.zoomer:hover {
+  transform: scale(1.05);
+  margin-bottom: 20px; /* Adjust this value based on your layout */
+  margin-top: 10px; /* Adjust this value based on your layout */
+}
+
 ::selection {
   color: white; 
   background: blue;

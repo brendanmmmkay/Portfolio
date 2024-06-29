@@ -39,7 +39,7 @@ import Paragraph from '../../components/paragraph';
 import FooterDark from '../../components/FooterDark';
 import wordMark from "../../components/wordMark.svg"
 import Clipboard from '../../components/Clipboard';
-import MyModal from '../../components/Modal';
+import MyModal from '../../components/modal';
 import InSearchOf from './insearchof';
 import Moment from './moment';
 import GradientTrail from './GradientTrail';
@@ -59,6 +59,7 @@ import sky from '../image/sky.svg';
 import Eyeball from '../../components/eye.jsx';
 import FadeInOnScroll from '../../components/sunset.jsx';
 import FadeInRectangle from '../../components/waningsky.jsx';
+import VideoZoom from '../../components/videoZoom.jsx';
 
 
 export default function Home() {
@@ -70,7 +71,7 @@ export default function Home() {
     };
 
     return (
-        <div>
+        <div id="root">
             <head>
                 <title>Hello</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -111,6 +112,14 @@ export default function Home() {
 
                 <div className="pt-40 px-4">
 
+
+
+                {/* <VideoZoom></VideoZoom> */}
+                <div id="modal-root"></div>
+
+
+
+
                     <h1 className="text-3xl max-w-footer md:text-3xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter pt-10 ">
                         I make aspirational value real through <br></br> brand strategy and precision with pixels.
                     </h1>
@@ -120,11 +129,12 @@ export default function Home() {
 
                         <div className="hidden md:block col-span-3 pt-5">
 
-                            <div className="rounder cursor-pointer hover:shadow-2xl transition-shadow duration-500">
+                <VideoZoom playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
+                            {/* <div className="rounder cursor-pointer hover:shadow-2xl transition-shadow duration-500">
                                 <MyModal Component={InSearchOf} className="px-0">
                                     <MuxPlayerComponent className="rounder" playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
                                 </MyModal>
-                            </div>
+                            </div> */}
 
                         </div>
 
@@ -135,6 +145,8 @@ export default function Home() {
                                 </Link>
                             </div>
                         </div>
+
+
 
 
 
@@ -173,11 +185,12 @@ export default function Home() {
 
                         <div className="hidden md:block col-span-3 pt-10">
 
-                            <div className="rounder hover:shadow-2xl transition-shadow duration-500">
+                        <VideoZoom playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
+                            {/* <div className="rounder hover:shadow-2xl transition-shadow duration-500">
                                 <MyModal Component={Moment} className="px-0">
                                     <MuxPlayerComponent className="rounder" playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
                                 </MyModal>
-                            </div>
+                            </div> */}
 
 
                         </div>
