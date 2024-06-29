@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import InSearchOf from '../src/pages/insearchof';
-import MyModal from './modal.jsx';
+import MyModal from './modal';
 import MuxPlayerComponent from './MuxPlayer.js';
 
 const MyComponent = ({ playbackId }) => {

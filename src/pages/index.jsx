@@ -39,7 +39,7 @@ import Paragraph from '../../components/paragraph';
 import FooterDark from '../../components/FooterDark';
 import wordMark from "../../components/wordMark.svg"
 import Clipboard from '../../components/Clipboard';
-import MyModal from '../../components/modal.jsx';
+import MyModal from '../../components/modal';
 import InSearchOf from './insearchof';
 import Moment from './moment';
 import GradientTrail from './GradientTrail';
