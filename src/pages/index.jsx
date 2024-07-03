@@ -422,34 +422,33 @@ export default function Home() {
                         </h1> */}
 
 
-  <h2 className="text-stone-400 mt-[40rem] absolute font-SFpro text-xxs bottom-10 z-5">
+  {/* <h2 className="text-stone-400 mt-[40rem] absolute font-SFpro text-xxs bottom-10 z-5">
     LET'S CONNECT ON MY SOCIALS!
   </h2>
 
 
                         <div className="flex gap-24 pt-10  ">
                             <Link href={"https://www.instagram.com/brandstratagem/"}>
-                                {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
-
+                              
                                 <div className="absolute text-xxs font-SFpro mt-[40rem] text-stone-600">
                                     <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">INSTAGRAM</button>
                                 </div>
                             </Link>
 
                             <Link href={"https://read.cv/brendanmckay"}>
-                                {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
-
+                               
                                 <div className="absolute text-xxs font-SFpro mt-[40rem] text-stone-600">
                                     <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">READ.CV</button>
                                 </div>
                             </Link>
                             <Link href={"https://openprocessing.org/user/439705/"}>
-                                {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
+                               
                                 <div className="absolute text-xxs font-SFpro mt-[40rem] text-stone-600">
-                                    <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">OPENPROCESSING</button>
+                                   <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">OPENPROCESSING</button>
+                              
                                 </div>
                             </Link>
-                        </div>
+                        </div> */}
 
                     </div>
                     <div className="z-10"></div>
