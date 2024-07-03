@@ -1,42 +1,25 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import { useInView } from 'react-intersection-observer';
 
-function debounce(func, wait) {
-  let timeout;
-  return function executedFunction(...args) {
-    const later = () => {
-      clearTimeout(timeout);
-      func(...args);
-    };
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
+const FadeInOnScroll = ({ src }) => {
+  const [ref, inView] = useInView({
+    triggerOnce: false,
+    threshold: 0.1,
+  });
+
+  const fadeInVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: inView ? 1 : 0 },
   };
-}
-
-const FadeInOnScroll = () => {
-  const [bgColor, setBgColor] = useState('from-white to-white'); // Default background color
-  const [lastScrollTop, setLastScrollTop] = useState(0); // Track the last scroll position
-
-  useEffect(() => {
-    const handleScroll = debounce(() => {
-      const scrollPosition = window.scrollY;
-      const isScrollingDown = scrollPosition > lastScrollTop;
-
-      // Determine the background color based on scroll direction and position
-      const newBgColor = isScrollingDown && scrollPosition > 100 ? 'bg-blue-500' : 'from-white to-white';
-
-      setBgColor(newBgColor);
-      setLastScrollTop(scrollPosition <= 0 ? 0 : scrollPosition); // Update last scroll position, but never below 0
-    }, 100);
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [lastScrollTop]);
 
   return (
-    <div
-      className={`w-full h-screen overflow-hidden ${bgColor} transition-all duration-500 ease-in-out`}
-    >
-      {/* Content goes here */}
+    <div ref={ref} className="absolute w-full transition-all duration-2000 ease-in-out">
+      <img
+        src="/image/sky.svg"
+        style={{ opacity: fadeInVariants.visible.opacity, transition: 'opacity 10s cubic-bezier(0.23, 1, 0.32, 1)' }}
+        alt="Sky"
+      />
+      {/* Additional content can go here */}
     </div>
   );
 };

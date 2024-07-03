@@ -125,6 +125,11 @@ module.exports = {
           400: '#F3F3F3',
           500: '#D4D4D4',
         },
+        'azure': {
+          100: '#69C6AA',
+          200: '#32DEBF',
+          300: '#08BBE3',
+        },
       },
 
       borderWidth: {

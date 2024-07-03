@@ -26,7 +26,8 @@ export default function InSearchOf() {
       // animate={{ y: "0%" }}
       // transition={{ duration: 0.75, ease: "easeOut" }}
       // exit={{ opacity: 1 }}
-      className="top-0 left-0 w-full h-full bg-white">
+      className="top-0 left-0 w-full h-full bg-white bg-opacity-40">
+        <div className="bg-white">
       <div className="">
         <div className=''>
 
@@ -304,7 +305,7 @@ export default function InSearchOf() {
 
 
 
-
+</div>
     </m.main>
 
 

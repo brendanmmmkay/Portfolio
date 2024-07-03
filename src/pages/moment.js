@@ -35,15 +35,14 @@ import momentNewDeployment from "../image/momentNewDeployment.png"
 import momentNewFonts from "../image/momentNewFonts.png"
 import momentLogoProg from "../image/momentLogoProg.png"
 import boschPanel1 from "../image/boschPanel1.png"
+import momentMoodboard from "../image/momentMoodboards.png"
 
 
 
 export default function Bosch() {
     return (
-        <m.main
-
-            className="w-full h-full bg-kenya-hara">
-
+        <m.main className="w-full h-full">
+<div className="bg-kenya-hara rounded-md">
             <div className="">
                 <div className="px-4">
 
@@ -58,7 +57,22 @@ export default function Bosch() {
 
 
 
-<div className="backdrop-blur-3xl ml-[4rem]"></div>
+{/* <div className="backdrop-blur-3xl ml-[4rem]"></div> */}
+
+
+
+
+
+{/* <div className="absolute inset-0 flex items-center justify-center mt-[38rem]">
+                        <h1 className="text-3xl pt-10 max-w-footer md:text-4xl text-center tracking-loose font-Avenir leading-tighter md:leading-tighter bg-gradient-to-r from-azure-100 via-azure-200 to-azure-300 text-transparent bg-clip-text bg-300% animate-gradient">
+                            Practicing on the west coast of Canada.<br></br>
+        Creating design solutions internationally.
+                            Reach out for a chat, <br></br>
+                            and let me determine how <br></br>
+                            I can help realize your dreams.
+                        </h1>
+                    </div> */}
+
 
 
                     {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-200 min-w-full">
@@ -343,13 +357,7 @@ export default function Bosch() {
             </div> */}
 
 
-            <div className='bg-hero-pattern2 bg-cover'>
-                <Paragraph
-                    header="ADDENDUM"
-                    body1="Thanks for stopping by — I have so much more to share about my process and approach to this project. Send me a message and let's make impactful design together."
-                ></Paragraph>
-
-            </div>
+            <div className="pt-10"></div>
 
             {/* <div className="pt-60"></div> */}
 
@@ -376,10 +384,29 @@ export default function Bosch() {
 
 
 
+</div>
+<div className="pt-10 mt-10 bg-kenya-hara w-full rounded-md">
+
+<div className='bg-hero-pattern2 bg-cover'>
+                <Paragraph
+                    header="ADDENDUM"
+                    body1="Thanks for stopping by — I have so much more to share about my process and approach to this project. Send me a message and let's make impactful design together."
+                ></Paragraph>
+
+            </div>
+
+            <div className="rounded-md overflow-hidden">
+  <Image
+    src={momentMoodboard}
+    className="pb-20 px-5 object-cover"
+    // Make sure to apply width and height or layout="fill" for Next.js Image component
+  />
+</div>
 
 
+    </div>
 
-
+    {/* <div className="mt-10 pt-10"></div> */}
         </m.main>
 
 

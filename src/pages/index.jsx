@@ -60,6 +60,8 @@ import Eyeball from '../../components/eye.jsx';
 import FadeInOnScroll from '../../components/sunset.jsx';
 import FadeInRectangle from '../../components/waningsky.jsx';
 import VideoZoom from '../../components/videoZoom.jsx';
+import SunSet from '../../components/waningsky.jsx';
+import FadeInOnScrollBackground from '../../components/sunset.jsx';
 
 
 export default function Home() {
@@ -405,26 +407,29 @@ export default function Home() {
                 {/* <div class="animated-div"></div> */}
                 {/* <FadeInOnScroll></FadeInOnScroll> */}
 
-                <div className="relative h-full">
+                <FadeInOnScrollBackground src="/image/sky.svg">
+                </FadeInOnScrollBackground>
+                <div className="z-10 relative h-full">
 
-                    <Image className="z-0 absolute w-full" src={sky} />
+                    {/* <Image className="z-0 absolute w-full" src={sky} /> */}
+
 
                     {/* <FadeInRectangle></FadeInRectangle> */}
 
-                    <div className="pt-30 mt-10 pl-5 absolute z-0">
+                    <div className=" mt-10 pl-5 absolute z-0">
                         {/* <h1 className="text-3xl max-w-footer md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
                         
                         </h1> */}
-                        <h2 className="text-stone-400 font-SFpro text-xxs  mt-[30rem] absolute z-5">
+                        <h2 className="text-stone-400 font-SFpro text-xxs  mt-[38rem] absolute z-5">
                             LET'S CONNECT ON MY SOCIALS!
                         </h2>
 
 
-                        <div className="flex gap-24 pt-10">
+                        <div className="flex gap-24 pt-4  ">
                             <Link href={"https://www.instagram.com/brandstratagem/"}>
                                 {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
 
-                                <div className="absolute text-xxs font-SFpro mt-[32rem] text-stone-600">
+                                <div className="absolute text-xxs font-SFpro mt-[40rem] text-stone-600">
                                     <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">INSTAGRAM</button>
                                 </div>
                             </Link>
@@ -432,30 +437,35 @@ export default function Home() {
                             <Link href={"https://read.cv/brendanmckay"}>
                                 {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
 
-                                <div className="absolute text-xxs font-SFpro mt-[32rem] text-stone-600">
+                                <div className="absolute text-xxs font-SFpro mt-[40rem] text-stone-600">
                                     <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">READ.CV</button>
                                 </div>
                             </Link>
                             <Link href={"https://openprocessing.org/user/439705/"}>
                                 {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
-                                <div className="absolute text-xxs font-SFpro mt-[32rem] text-stone-600">
+                                <div className="absolute text-xxs font-SFpro mt-[40rem] text-stone-600">
                                     <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">OPENPROCESSING</button>
                                 </div>
                             </Link>
                         </div>
 
+                    </div>
+                    <div className="z-10"></div>
 
-                        <h1 className="text-3xl pt-20 max-w-footer md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter  ">
 
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <h1 className="text-3xl pt-10 max-w-footer md:text-4xl text-center tracking-loose font-Avenir leading-tighter md:leading-tighter bg-gradient-to-r from-azure-100 via-azure-200 to-azure-300 text-transparent bg-clip-text bg-300% animate-gradient">
                             {/* Practicing on the west coast of Canada.<br></br>
-                            Creating design solutions internationally. */}
+        Creating design solutions internationally. */}
                             Reach out for a chat, <br></br>
                             and let me determine how <br></br>
                             I can help realize your dreams.
                         </h1>
                     </div>
-                    <div className="z-10"></div>
+
+
                     <Image className="z-0 absolute right-32 pt-20" src={moon} />
+
                     <MovingRectangles ></MovingRectangles>
 
                     <Image className="z-0 absolute right-1/3  bottom-5" src={house} />
@@ -464,6 +474,8 @@ export default function Home() {
                         2024 BRENDAN MCKAY
                     </h2>
                     <RainDrop className="z-4 absolute"></RainDrop>
+                    {/* <ScrollAnimatedImage className="absolute" src={sky} /> */}
+
 
                 </div>
 

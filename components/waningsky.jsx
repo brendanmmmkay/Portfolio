@@ -1,40 +1,37 @@
-// React component that fades in a blue rectangle when it appears in the viewport and fades out upon leaving the viewport.
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
+import Image from 'next/image'; // Assuming you're using Next.js's Image component
 
-import React, { useEffect, useRef, useState } from 'react';
-
-const FadeInRectangle = () => {
+const SunSet = ({ src }) => {
   const [isVisible, setIsVisible] = useState(false);
-  const ref = useRef(null);
-
-  const callbackFunction = (entries) => {
-    const [entry] = entries;
-    setIsVisible(entry.isIntersecting);
-  };
 
   useEffect(() => {
-    const observer = new IntersectionObserver(callbackFunction, {
-      threshold: 0.1 // Adjust threshold based on requirement
-    });
-    if (ref.current) observer.observe(ref.current);
-
-    return () => {
-      if (ref.current) observer.unobserve(ref.current);
+    const checkIfVisible = () => {
+      const imgElement = document.getElementById('animatedImage');
+      if (imgElement) {
+        const rect = imgElement.getBoundingClientRect();
+        const isInViewport = rect.top <= window.innerHeight && rect.bottom >= 0;
+        setIsVisible(isInViewport);
+      }
     };
-  }, [ref]);
+
+    window.addEventListener('scroll', checkIfVisible);
+    checkIfVisible(); // Initial check on component mount
+
+    return () => window.removeEventListener('scroll', checkIfVisible);
+  }, []);
 
   return (
-    <div
-      ref={ref}
-      style={{
-        width: '100px',
-        height: '100px',
-        backgroundColor: 'blue',
-        opacity: isVisible ? 1 : 0,
-        transition: 'opacity 0.5s ease-in-out',
-      }}
+    <motion.div
+      id="animatedImage"
+      initial={{ opacity: 0, y: 50 }} // Start from slightly below and faded out
+      animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 50 }} // Animate to fully visible and in position
+      transition={{ duration: 0.5, ease: 'easeOut' }} // Smooth transition
+      className="z-0 absolute w-full"
     >
-    </div>
+      <Image src={src} layout="fill" objectFit="cover" />
+    </motion.div>
   );
 };
 
-export default FadeInRectangle;
+export default SunSet;

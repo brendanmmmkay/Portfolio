@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const generateInitialClouds = () => {
     const clouds = [];
-    const numberOfClouds = 5; // Adjust the number of initial clouds
+    const numberOfClouds = 8; // Adjust the number of initial clouds
     const windowWidth = window.innerWidth;
     const spacing = windowWidth / numberOfClouds;
 
@@ -30,13 +30,13 @@ const MovingRectangles = () => {
     // Spawn rectangles less frequently and only in the top quarter
     useEffect(() => {
         const interval = setInterval(() => {
-            if (rectangles.length < 5) {
+            if (rectangles.length < 10) {
                 setRectangles(rectangles => [
                     ...rectangles,
-                    { id: Math.random(), left: 0, top: Math.random() * (window.innerHeight / 34) },
+                    { id: Math.random(), left: 0, top: Math.random() * (window.innerHeight / 3.5) },
                 ]);
             }
-        }, 7000); // Increase interval to make clouds more spread out
+        }, 3000); // Increase interval to make clouds more spread out
 
         return () => clearInterval(interval);
     }, [rectangles.length]);
