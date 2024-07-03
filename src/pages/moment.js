@@ -42,7 +42,7 @@ import momentMoodboard from "../image/momentMoodboards.png"
 export default function Bosch() {
     return (
         <m.main className="w-full h-full">
-<div className="bg-kenya-hara rounded-md">
+<div className="bg-white rounded-md">
             <div className="">
                 <div className="px-4">
 
@@ -57,9 +57,9 @@ export default function Bosch() {
 
 
 
-{/* <div className="backdrop-blur-3xl ml-[4rem]"></div> */}
-
-
+{/* <div className="backdrop-blur-3xl ml-[4rem] mt-[0rem]"></div>
+<div className="backdrop-blur-3xl ml-[4rem] mt-[40rem]"></div>
+ */}
 
 
 
@@ -163,7 +163,7 @@ export default function Bosch() {
 
 
 
-            <div className="px-4 bg-white">
+            <div className="px-4 ">
                 <div className="">
                     <div className="md:grid lg:grid-cols-5 grid-cols-1 gap-6 ">
                         <div className="col-start-1 col-span-2">
@@ -385,7 +385,7 @@ export default function Bosch() {
 
 
 </div>
-<div className="pt-10 mt-10 bg-kenya-hara w-full rounded-md">
+<div className="pt-10 mt-10 bg-white w-full rounded-md">
 
 <div className='bg-hero-pattern2 bg-cover'>
                 <Paragraph
