@@ -14,11 +14,15 @@ const FadeInOnScroll = ({ src }) => {
 
   return (
     <div ref={ref} className="absolute w-full transition-all duration-2000 ease-in-out">
-      <img
-        src="/image/sky.svg"
-        style={{ opacity: fadeInVariants.visible.opacity, transition: 'opacity 10s cubic-bezier(0.23, 1, 0.32, 1)' }}
-        alt="Sky"
-      />
+<img
+  src="/image/sky.svg"
+  style={{
+    width: '100%', // This line ensures the image takes the full width
+    opacity: fadeInVariants.visible.opacity,
+    transition: 'opacity 10s cubic-bezier(0.23, 1, 0.32, 1)'
+  }}
+  alt="Sky"
+/>
       {/* Additional content can go here */}
     </div>
   );

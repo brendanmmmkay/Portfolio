@@ -58,7 +58,7 @@ export default function Bosch() {
 
 
 {/* <div className="backdrop-blur-3xl ml-[4rem] mt-[0rem]"></div>
-<div className="backdrop-blur-3xl ml-[4rem] mt-[40rem]"></div>
+<div className="backdrop-blur-3xl ml-[4rem] mt-[40rem] bottom-20"></div>
  */}
 
 

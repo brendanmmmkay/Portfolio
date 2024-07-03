@@ -416,16 +416,18 @@ export default function Home() {
 
                     {/* <FadeInRectangle></FadeInRectangle> */}
 
-                    <div className=" mt-10 pl-5 absolute z-0">
+                    <div className=" mt-40 pl-5 absolute z-0">
                         {/* <h1 className="text-3xl max-w-footer md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
                         
                         </h1> */}
-                        <h2 className="text-stone-400 font-SFpro text-xxs  mt-[38rem] absolute z-5">
-                            LET'S CONNECT ON MY SOCIALS!
-                        </h2>
 
 
-                        <div className="flex gap-24 pt-4  ">
+  <h2 className="text-stone-400 mt-[40rem] absolute font-SFpro text-xxs bottom-10 z-5">
+    LET'S CONNECT ON MY SOCIALS!
+  </h2>
+
+
+                        <div className="flex gap-24 pt-10  ">
                             <Link href={"https://www.instagram.com/brandstratagem/"}>
                                 {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
 
