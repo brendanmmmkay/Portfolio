@@ -116,7 +116,6 @@ export default function Bosch() {
 
 
 
-
 <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pt-[4rem] pl-5"> 
                 I am looking for exciting new projects and opportunities to <br></br>make impactful design. reach out for collaboration!
                 </h2>
@@ -125,6 +124,20 @@ export default function Bosch() {
 
 
 {/* <button role="link" class="relative mt-[2.4rem] after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">INSTAGRAM</button> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

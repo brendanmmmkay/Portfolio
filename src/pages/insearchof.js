@@ -248,6 +248,7 @@ export default function InSearchOf() {
                 body1="Thanks for stopping by! I have so much more to share about my process and approach to this project. I would love to get in touch and share my excitement for this project with you."
             ></Paragraph>
 </div>
+<div className="pb-20">  </div>
 
 
       {/* <div className="object-cover md:h-full">

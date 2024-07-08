@@ -19,7 +19,7 @@ export default function Bosch() {
         // animate={{ y: "0%" }}
         // transition={{ duration: 0.75, ease: "easeOut" }}
         // exit={{ opacity: 1 }}
-        className="text-gray-900 absolute z-2 top-0 left-0 w-full h-ful  bg-tahiti-100">
+        className="text-gray-900 absolute z-2 top-0 left-0 w-full h-ful  bg-white">
         <div className="bg-tahiti-200 pt-10"></div>
         <div className="">
           <div className=''>
