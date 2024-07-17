@@ -39,7 +39,7 @@ export default function Bosch() {
 
 
                         <div className='max-w-[90rem]'>
-                            <m.h1 className="text-[1.2rem] lg:text-[2.4rem] text-left tracking-loose font-Garamond text-stone-700 leading-relaxed md:leading-tight pb-24 mt-5 lg:Pt-8 lg:px-48 max-w-prose">
+                            <m.h1 className="text-[1.2rem] px-5 lg:text-[2.4rem] text-left tracking-loose font-Garamond text-stone-700 leading-relaxed md:leading-tight pb-24 mt-5 lg:Pt-8 lg:px-48 max-w-prose">
                                 A two product solution renewing trust in Arc’teryx’s lasting quality, helping the brand achieve sustainable goals.
                             </m.h1>
                         </div>
@@ -225,8 +225,8 @@ export default function Bosch() {
 
             <div className="md:overflow-x-scroll md:w-full p-4">
                 <div className="flex flex-wrap md:flex-nowrap gap-4 md:space-x-4 ml-1 md:ml-40">
-                    <Image className="w-[60rem] md:flex-none rounder" src={ArcyImg2} />
-                    <Image className="w-[60rem] md:flex-none rounder" src={ArcyImg3} />
+                    <Image className="w-[60rem] md:flex-none rounded-xl" src={ArcyImg2} />
+                    <Image className="w-[60rem] md:flex-none rounded-xl" src={ArcyImg3} />
                 </div>
             </div>
 
@@ -244,8 +244,8 @@ export default function Bosch() {
 
             <div className="md:overflow-x-scroll md:w-full p-4">
                 <div className="flex flex-wrap md:flex-nowrap gap-4 md:space-x-4 ml-1 md:ml-40">
-                    <Image className="w-[60rem] md:flex-none rounder" src={ArcyImg5} />
-                    <Image className="w-[60rem] md:flex-none rounder" src={ArcyImg6} />
+                    <Image className="w-[60rem] md:flex-none rounded-xl" src={ArcyImg5} />
+                    <Image className="w-[60rem] md:flex-none rounded-xl" src={ArcyImg6} />
                 </div>
             </div>
 
