@@ -42,6 +42,7 @@ import Clipboard from '../../components/Clipboard';
 // import MyModal from '../../components/Modal.jsx';
 import InSearchOf from './insearchof';
 import Moment from './moment';
+import Arcteryx from './arcteryx';
 import GradientTrail from './GradientTrail';
 import brendanPS2 from "../image/brendanPS2.png"
 import cityLights from '/videos/citylights.mp4';
@@ -62,7 +63,7 @@ import FadeInRectangle from '../../components/waningsky.jsx';
 import VideoZoom from '../../components/videoZoom.jsx';
 import SunSet from '../../components/waningsky.jsx';
 import FadeInOnScrollBackground from '../../components/sunset.jsx';
-
+import TwilightFade from '../../components/twilight.jsx'
 
 export default function Home() {
 
@@ -250,13 +251,20 @@ export default function Home() {
 
                             <div className="relative group">
                                 <div className="rounded-lg overflow-hidden relative">
+                                <Link href="/arcteryx">
                                     <Image
                                         src={arcPanel1}
 
                                     />
-                                    <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg cursor-pointer">
+                                    </Link>
+
+
+
+
+
+                                    {/* <div className="absolute inset-0 bg-blue-500 bg-opacity-0 group-hover:bg-opacity-50 flex items-center justify-center transition-opacity duration-500 rounded-lg cursor-pointer">
                                         <span className="text-white text-lg opacity-0 group-hover:opacity-100 font-SFpro text-xxs transition-opacity duration-500">COMING SOON</span>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div>
                                     <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
@@ -403,6 +411,15 @@ export default function Home() {
                     <div>
                     </div>
                 </div>
+
+
+
+{/* <TwilightFade className="pt-40 text-stone-800 text-2xl">
+    yooo im twilight fade
+</TwilightFade>
+
+<div className="pt-40  text-stone-800 text-2xl">yooooo im a div wit text</div>
+ */}
 
                 {/* <div class="animated-div"></div> */}
                 {/* <FadeInOnScroll></FadeInOnScroll> */}
