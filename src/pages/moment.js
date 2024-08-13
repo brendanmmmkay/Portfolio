@@ -134,10 +134,21 @@ export default function Bosch() {
 
 
 
+{/* <span className="text-xxs font-AvenirHeavy text-stone-600 py-2 ml-[10rem]">BRAND DESIGNER AND PRODUCT STRATEGIST</span>
 
 
+<div className="grid grid-cols-2 gap-4 p-4">
+  <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
+    I make aspirational value real through brand strategy and precision with pixels.
+  </h1>
 
-
+  <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+    <p>
+      MY CRAFT IS DEFINED BY MY APPROACH; METICULOUSLY DETAILED, SOCIALLY CONSCIOUS, AND VALUE BASED. MEANINGFUL WORK FOR ME IS WHEN I CAN ELIMINATE FRICTIONS FOR PEOPLE IN NEED. I FEEL FULFILLED WHEN I CREATE A VALUABLE SOLUTION THAT INCORPORATES PLAY AND SPARKS JOY. I ENJOY WEAVING PUNCHY AND POWERFUL VISUAL LANGUAGE WITH ELEGANT AND THOUGHTFUL EXPERIENCES. I CARRY MY PASSION FOR PROBLEM SOLVING ACROSS INDUSTRIES AND DISCIPLINES, UNDERSTANDING THAT CREATING VALUE FOR PEOPLE IS THE PURPOSE OF DESIGN.
+    </p>
+  </div>
+</div>
+ */}
 
 
 
@@ -411,11 +422,11 @@ export default function Bosch() {
             </div>
 
             <div className="rounded-md overflow-hidden">
-  <Image
+  {/* <Image
     src={momentMoodboard}
     className="pb-20 px-5 object-cover"
     // Make sure to apply width and height or layout="fill" for Next.js Image component
-  />
+  /> */}
 </div>
 
 

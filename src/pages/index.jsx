@@ -64,6 +64,8 @@ import VideoZoom from '../../components/videoZoom.jsx';
 import SunSet from '../../components/waningsky.jsx';
 import FadeInOnScrollBackground from '../../components/sunset.jsx';
 import TwilightFade from '../../components/twilight.jsx'
+import MaskedCursor from '../../components/MaskedCursor.jsx';
+import Aria from './aria.js';
 
 export default function Home() {
 
@@ -85,7 +87,7 @@ export default function Home() {
             <main className=" bg-kenya-hara">
 
 
-
+            {/* <MaskedCursor></MaskedCursor> */}
 
                 <div className="block md:hidden">
                     <div className="px-4">
@@ -121,11 +123,29 @@ export default function Home() {
                     <div id="modal-root"></div>
 
 
+                    <div className="grid grid-cols-2 gap-4">
+  <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
+    I make aspirational value real through<br></br> user experience design & product strategy.
+  </h1>
+
+  <div className="tracking-wide font-SFpro text-stone-400 text-xxs max-w-lg">
+
+  <p className="pb-5">
+     HELLO! 
+    </p>
+
+    <p>
+      MY CRAFT IS DEFINED BY MY APPROACH; METICULOUSLY DETAILED, SOCIALLY CONSCIOUS, AND VALUE BASED. MEANINGFUL WORK FOR ME IS WHEN I CAN ELIMINATE FRICTIONS FOR PEOPLE IN NEED. I FEEL FULFILLED WHEN I CREATE A VALUABLE SOLUTION THAT INCORPORATES PLAY AND SPARKS JOY. I ENJOY WEAVING PUNCHY AND POWERFUL VISUAL LANGUAGE WITH ELEGANT AND THOUGHTFUL EXPERIENCES. I CARRY MY PASSION FOR PROBLEM SOLVING ACROSS INDUSTRIES AND DISCIPLINES, UNDERSTANDING THAT CREATING VALUE FOR PEOPLE IS THE PURPOSE OF DESIGN.
+    </p>
+  </div>
+</div>
 
 
-                    <h1 className="text-3xl max-w-footer md:text-3xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter pt-10 ">
-                        I make aspirational value real through <br></br> brand strategy and precision with pixels.
-                    </h1>
+
+
+                    <div className="tracking-wide font-SFpro text-stone-400 text-xxs pt-10">
+                                        <div>[FEATURED PROJECTS]</div>
+                                    </div>
 
                     <div className="grid grid-cols-3 gap-y-4 cursor-pointer">
 
@@ -182,6 +202,26 @@ export default function Home() {
                                 <div></div>
                             </div>
                         </div>
+
+
+
+
+
+
+
+                        <div className="hidden md:block col-span-3 pt-5">
+
+                            <VideoZoom project={Aria} playbackId="o16WJY01Nf4h34usYkCnkR8GLD1wL76n6BXzS5F4h2lI" />
+                            {/* <div className="rounder cursor-pointer hover:shadow-2xl transition-shadow duration-500">
+                                <MyModal Component={InSearchOf} className="px-0">
+                                    <MuxPlayerComponent className="rounder" playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
+                                </MyModal>
+                            </div> */}
+
+                        </div>
+
+
+
 
 
 
@@ -414,11 +454,11 @@ export default function Home() {
 
 
 
-{/* <TwilightFade className="pt-40 text-stone-800 text-2xl">
+<TwilightFade >
     yooo im twilight fade
 </TwilightFade>
 
-<div className="pt-40  text-stone-800 text-2xl">yooooo im a div wit text</div>
+{/* <div className="pt-40  text-stone-800 text-2xl">yooooo im a div wit text</div>
  */}
 
                 {/* <div class="animated-div"></div> */}

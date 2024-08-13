@@ -1,43 +1,45 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 const ScrollColorComponent = () => {
-  const tStart = 0; // Start transition this many pixels from the top
-  const tEnd = 200; // End transition
-  const cStart = [255, 255, 255, 1.0]; // Start color (white)
-  const cEnd = [59, 130, 246, 1.0]; // End color (Tailwind's blue-500)
-  const cDiff = [
-    cEnd[0] - cStart[0],
-    cEnd[1] - cStart[1],
-    cEnd[2] - cStart[2],
-    cEnd[3] - cStart[3],
-  ];
-
+  const elementRef = useRef(null);
   const [backgroundColor, setBackgroundColor] = useState('rgba(255, 255, 255, 1.0)');
 
-  const scrollColor = () => {
-    const p = (window.scrollY - tStart) / (tEnd - tStart); // % of transition
-    const clampedP = Math.min(1, Math.max(0, p)); // Clamp to [0, 1]
-    const cBg = [
-      Math.round(cStart[0] + cDiff[0] * clampedP),
-      Math.round(cStart[1] + cDiff[1] * clampedP),
-      Math.round(cStart[2] + cDiff[2] * clampedP),
-      (cStart[3] + cDiff[3] * clampedP).toFixed(2),
-    ];
-    setBackgroundColor(`rgba(${cBg.join(',')})`);
-  };
-
   useEffect(() => {
-    window.addEventListener('scroll', scrollColor);
+    const handleScroll = () => {
+      if (!elementRef.current) return;
 
-    return () => {
-      window.removeEventListener('scroll', scrollColor);
+      const { top, height } = elementRef.current.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
+
+      // Adjust the transition to be more gradual
+      // Extend the transition range to start earlier and end later than the middle of the viewport
+      let p = Math.max(0, Math.min(1, (windowHeight / 2 - top) / (height * 0.4)));
+
+      // Calculate the new background color based on progress
+      const cStart = [255, 255, 255, 1.0]; // Start color (white)
+      const cEnd = [182, 241, 248, 1.0]; // End color (blue-500)
+      const cDiff = [
+        cEnd[0] - cStart[0],
+        cEnd[1] - cStart[1],
+        cEnd[2] - cStart[2],
+        cEnd[3] - cStart[3],
+      ];
+
+      const cBg = [
+        Math.round(cStart[0] + cDiff[0] * p),
+        Math.round(cStart[1] + cDiff[1] * p),
+        Math.round(cStart[2] + cDiff[2] * p),
+        (cStart[3] + cDiff[3] * p).toFixed(2),
+      ];
+      setBackgroundColor(`rgba(${cBg.join(',')})`);
     };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
-    <div id="hello" style={{ backgroundColor }}>
-      {/* Content here */}
-      heyyyyyy
+    <div ref={elementRef} style={{ backgroundColor, height: '150vh', overflow: 'auto' }}>
     </div>
   );
 };
