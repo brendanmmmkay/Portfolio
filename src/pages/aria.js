@@ -138,15 +138,17 @@ export default function Aria() {
 
 
             <Paragraph
-                header="UNDER CONSTRUTION"
-                body1="To be released Sept 2024"
+                header="CONTEXT"
+                body1="Aria is your go-to app for discovering and purchasing tickets to underground music events. The app is designed for underground music lovers to tap into events they may have missed, purchase tickets, and share new acts with friends. Whether it be a secret warehouse party in Paris or a basement show in New York, Aria is the medium where upcoming artists get all the shine."
             ></Paragraph>
 
 
 
-            <Image className="px-4 w-full pb-10"
-                src={aliceGlass}
-            />
+<div className="px-4 pb-10">
+                <div className="rounder">
+                    <MuxPlayerComponent className="" playbackId="yh758Ag7SIVho492FoSlPoUBKFTek9XP61yuMpcifeA" />
+                </div>
+            </div>
 
 
 
@@ -163,11 +165,10 @@ export default function Aria() {
             </div>
 
             <div className="rounded-md overflow-hidden">
-  <Image
-    src={momentMoodboard}
-    className="pb-20 px-5 object-cover"
-    // Make sure to apply width and height or layout="fill" for Next.js Image component
-  />
+
+            <Image className="px-4 w-full pb-10"
+                src={aliceGlass}
+            />
 </div>
 
 

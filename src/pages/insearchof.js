@@ -18,6 +18,8 @@ import isoProductEntry from "../image/isoProductEntry.png";
 import isoBrandPillars from "../image/isoBrandPillars.png";
 import isoNewCardDuo from "../image/isoNewCardDuo.png";
 import isoMotto1 from "../image/isoMotto1.png";
+import TextBox from "../../components/TextBox.jsx";
+import isoPersona from "../image/isoPersona.png";
 
 export default function InSearchOf() {
   return (
@@ -27,7 +29,7 @@ export default function InSearchOf() {
       // transition={{ duration: 0.75, ease: "easeOut" }}
       // exit={{ opacity: 1 }}
       className="top-0 left-0 w-full h-full bg-white bg-opacity-40">
-        <div className="bg-white">
+        <div className="bg-white rounded-md">
       <div className="">
         <div className=''>
 
@@ -116,8 +118,12 @@ export default function InSearchOf() {
       </div>
 
 
+<div className="flex flew-grow gap-4 px-4">
 
+<TextBox header="PROBLEM" subtitle="Budding design professionals struggle to find reputable, professional grade design inspiration with enough context and supporting artifacts." body2="Budding design professionals struggle to find reputable, professional grade design inspiration with enough context and supporting artifacts." />
+<TextBox header="FRAMING" subtitle="How might we map the landscape of design companies for inspiration seekers who need to build upon their knowledge and connections to the design industry." />
 
+</div>
 
       <Paragraph
         header="HOW IT BEGAN"
@@ -144,6 +150,11 @@ export default function InSearchOf() {
       <div className="grid md:grid-cols-2">
         <div>
 
+
+
+
+
+
           <Paragraph
             header="PRODUCT DESIGN APPROACH"
             body1="I began by facilitating exercises with our team to create brand pillars and determine our value proposition."
@@ -165,6 +176,17 @@ export default function InSearchOf() {
           </div>
         </div>
       </div>
+
+      <h2 className="text-stone-800 text-xxs font-SFpro pt-20 px-4">BRAND PILLARS</h2>
+
+      <div className="flex flew-grow gap-4 px-4">
+
+<TextBox header="MAP" subtitle=" It’s important for designers to have all their resources in one place. We seek to curate a broad map of resources, across many disciplines, to provide a sense of the breadth and depth of the visual design industry, and connect people with valuable resources." />
+<TextBox header="INSPIRE" subtitle="Excellent designers habitually seek inspiration constantly. We curate beautiful design and resources from the first impression to the last. We aim to provide that inspiring moment when you find something thoughtfully—and unexpectedly—curated that you never would have found on your own." />
+<TextBox header="BUILD TASTE" subtitle="Excellent designers cherish insightful discourse. We provide deep connection with the design industry by contributing insightful commentary and education in every resource. We’re the helpful librarian you’ve been waiting for to give you the meaning behind the recommendation, and guide you to build your taste." />
+
+</div>
+
 
       <div className="px-4 py-4">
       <div className="rounder">
@@ -191,7 +213,15 @@ export default function InSearchOf() {
       </div>
 
 
+      <h2 className="text-stone-800 text-xxs font-SFpro pt-20 px-4">VALUE</h2>
 
+      <div className="flex flew-grow gap-4 px-4">
+
+<TextBox header="FOR SEEKERS" subtitle="Seekers have a curated list of professional resources to learn the landscape of design and reference professional grade case studies." />
+<TextBox header="FOR ISO" subtitle="The directory gains a user base of seekers who support the development of our list via ad revenue, shares, and donations." />
+<TextBox header="FOR COMPANIES" subtitle="The directory connects future talent with companies across the world, and lesser known boutique companies gain new fans." />
+
+</div>
       
 
       {/* <Paragraph
@@ -221,11 +251,17 @@ export default function InSearchOf() {
         />
       </div> */}
 
-<div className="px-4">
+<div className="px-4 pt-20">
 <div className="rounder">
         <MuxPlayerComponent className="rounder" playbackId="dQr02SV34UZCXs66W01Yphq8UY7swGrevRrpnVfIwQzxs" />
       </div>
       </div>
+
+
+
+
+
+
 
 
       <div className="grid md:grid-cols-2">
@@ -244,8 +280,8 @@ export default function InSearchOf() {
 
       <div className='bg-hero-pattern2 bg-cover'>
             <Paragraph
-                header="ADDENDUM"
-                body1="Thanks for stopping by! I have so much more to share about my process and approach to this project. I would love to get in touch and share my excitement for this project with you."
+                header="- PROCESS -"
+                // body1="Thanks for stopping by! I have so much more to share about my process and approach to this project. I would love to get in touch and share my excitement for this project with you."
             ></Paragraph>
 </div>
 <div className="pb-20">  </div>
@@ -301,12 +337,54 @@ export default function InSearchOf() {
 
 
 
+<div className="grid md:grid-cols-2">
+
+
+<Paragraph
+  header="USER RESEARCH AND PERSONAS"
+  body1="I hosted sprint activities with JP and our developer, Bryant, where we asked questions and attempted to paint a picture of our persona. Next, I created an online questionnaire seeking to confirm and test our assumptions with potential users to develop a persona with real user data."
+  body2="After synthesizing the results of the questionnaire and polls, I reproached the persona of assumptions and replaced all of the assumptions with real insights from our research results.
+
+Next, I presented the persona to some of the people we interviewed to see if they agreed that we were painting an accurate picture, and that the frictions and needs of the persona reflected their actual needs. A persona becomes valuable when both user and client can agree that solving the frictions will aid their most pressing needs."
+></Paragraph>
+
+<div className="px-4 object-cover pb-4 rounded-8">
+<Image className=""
+  src={isoPersona}
+/>
+</div>
+
+
+</div>
 
 
 
 
 
 </div>
+
+<div className="pt-10 mt-10 bg-white w-full rounded-md">
+
+<div className='bg-hero-pattern2 bg-cover'>
+                <Paragraph
+                    header="ADDENDUM"
+                    body1="Thanks for stopping by — I have so much more to share about my process and approach to this project. Send me a message and let's make impactful design together."
+                ></Paragraph>
+
+            </div>
+
+            <div className="rounded-md overflow-hidden">
+  {/* <Image
+    src={momentMoodboard}
+    className="pb-20 px-5 object-cover"
+    // Make sure to apply width and height or layout="fill" for Next.js Image component
+  /> */}
+</div>
+
+
+    </div>
+
+
     </m.main>
 
 

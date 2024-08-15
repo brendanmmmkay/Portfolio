@@ -66,6 +66,7 @@ import FadeInOnScrollBackground from '../../components/sunset.jsx';
 import TwilightFade from '../../components/twilight.jsx'
 import MaskedCursor from '../../components/MaskedCursor.jsx';
 import Aria from './aria.js';
+import TextBox from '../../components/TextBox.jsx';
 
 export default function Home() {
 
@@ -122,11 +123,18 @@ export default function Home() {
                     {/* <VideoZoom></VideoZoom> */}
                     <div id="modal-root"></div>
 
+                    <div className="block md:hidden">
+                    <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
+    I make aspirational value real through<br></br> user experience design & product strategy.
+  </h1>
+  </div>
 
+  <div className="hidden md:block">
                     <div className="grid grid-cols-2 gap-4">
   <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
     I make aspirational value real through<br></br> user experience design & product strategy.
   </h1>
+
 
   <div className="tracking-wide font-SFpro text-stone-400 text-xxs max-w-lg">
 
@@ -138,6 +146,7 @@ export default function Home() {
       MY CRAFT IS DEFINED BY MY APPROACH; METICULOUSLY DETAILED, SOCIALLY CONSCIOUS, AND VALUE BASED. MEANINGFUL WORK FOR ME IS WHEN I CAN ELIMINATE FRICTIONS FOR PEOPLE IN NEED. I FEEL FULFILLED WHEN I CREATE A VALUABLE SOLUTION THAT INCORPORATES PLAY AND SPARKS JOY. I ENJOY WEAVING PUNCHY AND POWERFUL VISUAL LANGUAGE WITH ELEGANT AND THOUGHTFUL EXPERIENCES. I CARRY MY PASSION FOR PROBLEM SOLVING ACROSS INDUSTRIES AND DISCIPLINES, UNDERSTANDING THAT CREATING VALUE FOR PEOPLE IS THE PURPOSE OF DESIGN.
     </p>
   </div>
+</div>
 </div>
 
 
@@ -220,6 +229,33 @@ export default function Home() {
 
                         </div>
 
+                        <div className=" text-stone-500">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">ARIA</button>
+                            </div>
+                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+                                <div>JUST FOR FUN</div>
+                            </div>
+                        </div>
+                        <div className="pl-2 text-stone-500">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                <div>
+                                    <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
+                                    <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+
+                                        <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-stone-400 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">AN UNDERGROUND MUSIC EVENT TRICKET PLATFORM</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="hidden md:block text-stone-500">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+
+                            </div>
+                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+                                <div></div>
+                            </div>
+                        </div>
 
 
 
@@ -286,7 +322,7 @@ export default function Home() {
 
 
 
-                    <div className="grid grid-cols-3 gap-4 pt-10">
+                    <div className="grid grid-cols-2 gap-4 pt-10">
                         <div className="">
 
                             <div className="relative group">
@@ -340,7 +376,7 @@ export default function Home() {
                             </div>
 
                         </div>
-                        <div className=" h-20">
+                        {/* <div className=" h-20">
 
                             <div className="relative group">
                                 <div className="rounded-lg overflow-hidden relative">
@@ -362,7 +398,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                        </div>
+                        </div> */}
                     </div>
 
 
