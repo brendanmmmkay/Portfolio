@@ -37,6 +37,9 @@ import momentLogoProg from "../image/momentLogoProg.png"
 import boschPanel1 from "../image/boschPanel1.png"
 import momentMoodboard from "../image/momentMoodboards.png"
 import aliceGlass from "../image/aliceGlass.png"
+import ariaSearchBar from "../image/ariaSearchBar.png"
+import ariaThaiboyBio from "../image/ariaThaiboyBio.png"
+import ariaPalm from "../image/ariaPalm.png"
 
 
 
@@ -144,17 +147,44 @@ export default function Aria() {
 
 
 
-<div className="px-4 pb-10">
+<div className="px-4 pb-4">
+<div className="grid md:grid-cols-2 gap-4 py-2">
+    
+<Image className=" w-full"
+                src={aliceGlass}
+            />
+
+<Image className=" w-full"
+                src={ariaSearchBar}
+            />
+
+
+</div>
+
+<div className="grid md:grid-cols-2 gap-4 py-2">
+    
+<Image className=" w-full"
+                src={ariaThaiboyBio}
+            />
+
+<Image className="w-full"
+                src={ariaPalm}
+            />
+
+
+</div>
+</div>
+{/* <div className="px-4 pb-10">
                 <div className="rounder">
                     <MuxPlayerComponent className="" playbackId="yh758Ag7SIVho492FoSlPoUBKFTek9XP61yuMpcifeA" />
                 </div>
-            </div>
+            </div> */}
 
 
 
 
 </div>
-<div className="pt-10 mt-10 bg-white w-full rounded-md">
+<div className="pt-10 mt-10 bg-white w-full rounded-md pb-10">
 
 <div className='bg-hero-pattern2 bg-cover'>
                 <Paragraph
@@ -166,9 +196,9 @@ export default function Aria() {
 
             <div className="rounded-md overflow-hidden">
 
-            <Image className="px-4 w-full pb-10"
+            {/* <Image className="px-4 w-full pb-10"
                 src={aliceGlass}
-            />
+            /> */}
 </div>
 
 

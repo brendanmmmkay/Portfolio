@@ -24,14 +24,20 @@ export default function Navbar() {
           </li>
 
           {/* Links and Clipboard */}
-          <li className="inline-flex justify-end items-center gap-10 ">
+          <li className="inline-flex justify-end items-center gap-10 pb-2">
+            <div>
             <Link href="/Brendan_McKay_Resume_2024.pdf" target="_blank" rel="noopener noreferrer" className="text-xxs font-SFpro text-stone-600 pt-1">
               RESUME
             </Link>
+            </div>
+            <div>
             <Link href="https://www.linkedin.com/in/brendan-mckay/" className="text-xxs font-SFpro text-stone-600 ">
               LINKEDIN
             </Link>
-            {/* <Clipboard text="BPMCKAY@SFU.CA" /> */}
+            </div>
+            <div>
+            <Clipboard text="BPMCKAY@SFU.CA" />
+            </div>
           </li>
 
         </ul>
