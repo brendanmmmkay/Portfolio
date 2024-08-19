@@ -40,7 +40,11 @@ import aliceGlass from "../image/aliceGlass.png"
 import ariaSearchBar from "../image/ariaSearchBar.png"
 import ariaThaiboyBio from "../image/ariaThaiboyBio.png"
 import ariaPalm from "../image/ariaPalm.png"
-
+import TextBox from "../../components/TextBox.jsx";
+import ariaProfile from "../image/ariaProfile.png"
+import ariaHost from "../image/ariaHost.png"
+import ariaHands from "../image/ariaHands.png"
+import ariaCalendar from "../image/ariaCalendar.png"
 
 
 export default function Aria() {
@@ -140,15 +144,24 @@ export default function Aria() {
 
 
 
-            <Paragraph
+            {/* <Paragraph
                 header="CONTEXT"
                 body1="Aria is your go-to app for discovering and purchasing tickets to underground music events. The app is designed for underground music lovers to tap into events they may have missed, purchase tickets, and share new acts with friends. Whether it be a secret warehouse party in Paris or a basement show in New York, Aria is the medium where upcoming artists get all the shine."
-            ></Paragraph>
+            ></Paragraph> */}
+
+<Paragraph header="CONTEXT" body1="Aria is a platform for connecting people interested in underground music with artists across all kinds of experimental and alternative music genres. For listeners, Aria is a tool for discovering and keeping up with the world of live underground music. "></Paragraph>
+
+
+<div className="px-4">
+                <div className="rounderMoment2">
+                    <MuxPlayerComponent className="" playbackId="vkO8iSvSn5oJ5fYCwenuxO4PKSj8ZG59bk9SJwjDJ24" />
+                </div>
+            </div>
 
 
 
 <div className="px-4 pb-4">
-<div className="grid md:grid-cols-2 gap-4 py-2">
+<div className="grid md:grid-cols-2 gap-4 py-4">
     
 <Image className=" w-full"
                 src={aliceGlass}
@@ -161,7 +174,70 @@ export default function Aria() {
 
 </div>
 
-<div className="grid md:grid-cols-2 gap-4 py-2">
+</div>
+
+<Paragraph header="VALUE" body1="Aria seeks to bring value for both listeners and performers, creating a method for people to attend experimental live music events wherever they are in the world. "
+body2="Musicians can share their events and sell tickets on Aria. Joining the feed gives artists access to listeners who enjoy alternative genres that are similar. "></Paragraph>
+
+
+
+<h2 className="text-stone-800 text-xxs font-SFpro pt-20 px-4">VALUE PROPOSAL</h2>
+
+<div className="flex flew-grow gap-4 px-4">
+
+<TextBox header="FOR LISTENERS" subtitle="Listeners learn about more music events, connect with the greater community of experimental music fans, and have more novel going-out music experiences." />
+<TextBox header="FOR MUSICIANS" subtitle="Musicians sell more tickets to a wider audience of listeners and pack out venues." />
+<TextBox header="FOR VENUES" subtitle="Venues that regularly host underground artists see a greater return of one time customers." />
+
+</div>
+
+
+
+
+
+<div className="grid md:grid-cols-2 gap-4 py-2 px-4">
+    
+<Image className=" w-full"
+                src={ariaProfile}
+            />
+
+<Image className="w-full"
+                src={ariaHost}
+            />
+
+
+</div>
+
+
+
+
+<Paragraph header="AN ALTERNATIVE OPTION FOR ALTERNATIVE MUSICIANS" body1="Musicians can share their events and sell tickets on Aria. Joining the feed gives artists access to listeners who enjoy alternative genres that are similar. "
+body2="Aria eliminates cognitive overhead and gives SoundCloud and BandCamp artists a similarly simple and alternative ticket sales platform. Aria gives artists a modern and simpler alternative to creating facebook events, with a focus on clearer shareability."></Paragraph>
+
+
+
+
+<div className="grid md:grid-cols-2 gap-4 py-2 px-4">
+    
+<Image className=" w-full"
+                src={ariaHands}
+            />
+
+<Image className="w-full"
+                src={ariaCalendar}
+            />
+
+
+</div>
+
+
+
+
+<Paragraph header="CONNECTING FANS" body1="Keeping up with underground events is difficult at home, and an even harder task abroad. Aria allows music streaming listeners to keep up with the tour dates of their artists without relying on twitter or facebook."
+body2="Aria gives people more ways to connect in seemingly boring cities. Travellers who are visiting Paris or New York can see an event thrown by authentic culture in the cities."></Paragraph>
+
+
+<div className="grid md:grid-cols-2 gap-4 py-4 px-4">
     
 <Image className=" w-full"
                 src={ariaThaiboyBio}
@@ -173,17 +249,12 @@ export default function Aria() {
 
 
 </div>
-</div>
-{/* <div className="px-4 pb-10">
-                <div className="rounder">
-                    <MuxPlayerComponent className="" playbackId="yh758Ag7SIVho492FoSlPoUBKFTek9XP61yuMpcifeA" />
-                </div>
-            </div> */}
-
-
 
 
 </div>
+
+
+
 <div className="pt-10 mt-10 bg-white w-full rounded-md pb-10">
 
 <div className='bg-hero-pattern2 bg-cover'>
