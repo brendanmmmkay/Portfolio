@@ -2,8 +2,14 @@ import Link from "next/link";
 import Image from 'next/image'
 import wordMark from "../components/wordMark.svg"
 import Clipboard from "./Clipboard";
+import React, { useState } from 'react';
 
 export default function Navbar() {
+
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const toggleModal = () => setIsModalOpen(!isModalOpen);
+
   return (
     <nav className="hidden md:block fixed z-50 w-full">
       <div className="mt-4 ml-20 px-4 bg-white border border-off-white rounded-l-lg"> 
@@ -17,7 +23,7 @@ export default function Navbar() {
           </li>
 
           {/* Position */}
-          <li className="flex justify-center">
+          <li className={`flex justify-center ${isModalOpen ? 'mr-4' : ''}`}>
           <div className="flex justify-center w-full">
             <span className="text-xxs font-AvenirHeavy text-stone-600 py-2 ml-[10rem]">BRAND DESIGNER AND PRODUCT STRATEGIST</span>
           </div>

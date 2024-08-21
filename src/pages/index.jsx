@@ -88,7 +88,7 @@ export default function Home() {
             <main className=" bg-kenya-hara">
 
 
-            {/* <MaskedCursor></MaskedCursor> */}
+                {/* <MaskedCursor></MaskedCursor> */}
 
                 <div className="block md:hidden">
                     <div className="px-4">
@@ -124,37 +124,37 @@ export default function Home() {
                     <div id="modal-root"></div>
 
                     <div className="block md:hidden">
-                    <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
-    I make aspirational value real through<br></br> user experience design & product strategy.
-  </h1>
-  </div>
+                        <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
+                            I make aspirational value real through<br></br> user experience design & product strategy.
+                        </h1>
+                    </div>
 
-  <div className="hidden md:block">
-                    <div className="grid grid-cols-2 gap-4">
-  <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
-    I make aspirational value real through<br></br> user experience design & product strategy.
-  </h1>
+                    <div className="hidden md:block">
+                        <div className="grid grid-cols-2 gap-4">
+                            <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
+                                I make aspirational value real through<br></br> user experience design & product strategy.
+                            </h1>
 
 
-  <div className="tracking-wide font-SFpro text-stone-400 text-xxs max-w-lg">
+                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs max-w-lg">
 
-  <p className="pb-5">
-     HELLO! 
-    </p>
+                                <p className="pb-5">
+                                    HELLO!
+                                </p>
 
-    <p>
-      MY CRAFT IS DEFINED BY MY APPROACH; METICULOUSLY DETAILED, SOCIALLY CONSCIOUS, AND VALUE BASED. MEANINGFUL WORK FOR ME IS WHEN I CAN ELIMINATE FRICTIONS FOR PEOPLE IN NEED. I FEEL FULFILLED WHEN I CREATE A VALUABLE SOLUTION THAT INCORPORATES PLAY AND SPARKS JOY. I ENJOY WEAVING PUNCHY AND POWERFUL VISUAL LANGUAGE WITH ELEGANT AND THOUGHTFUL EXPERIENCES. I CARRY MY PASSION FOR PROBLEM SOLVING ACROSS INDUSTRIES AND DISCIPLINES, UNDERSTANDING THAT CREATING VALUE FOR PEOPLE IS THE PURPOSE OF DESIGN.
-    </p>
-  </div>
-</div>
-</div>
+                                <p>
+                                    MY CRAFT IS DEFINED BY MY APPROACH; METICULOUSLY DETAILED, SOCIALLY CONSCIOUS, AND VALUE BASED. MEANINGFUL WORK FOR ME IS WHEN I CAN ELIMINATE FRICTIONS FOR PEOPLE IN NEED. I FEEL FULFILLED WHEN I CREATE A VALUABLE SOLUTION THAT INCORPORATES PLAY AND SPARKS JOY. I ENJOY WEAVING PUNCHY AND POWERFUL VISUAL LANGUAGE WITH ELEGANT AND THOUGHTFUL EXPERIENCES. I CARRY MY PASSION FOR PROBLEM SOLVING ACROSS INDUSTRIES AND DISCIPLINES, UNDERSTANDING THAT CREATING VALUE FOR PEOPLE IS THE PURPOSE OF DESIGN.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
 
 
 
                     <div className="tracking-wide font-SFpro text-stone-400 text-xxs pt-10">
-                                        <div>[FEATURED PROJECTS]</div>
-                                    </div>
+                        <div>[FEATURED PROJECTS]</div>
+                    </div>
 
                     <div className="grid grid-cols-3 gap-y-4 cursor-pointer">
 
@@ -180,41 +180,34 @@ export default function Home() {
 
 
 
+                        </div>
+                    
+                        <div className="grid grid-cols-2 w-full">
+                            <div className="">
+                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                    <div>
+                                        <button role="link" className="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150 after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">IN SEARCH OF</button>
 
-
-
-
-                        <div className="">
-                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                <div>
-                                    <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">IN SEARCH OF</button>
-
-                                    <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-                                        <div>FREELANCE</div>
+                                        <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+                                            <div>FREELANCE</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="pl-2 ">
-                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
+
+                            <div className="pl-2">
+                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                    <button role="link" className="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150 after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
+                                </div>
+                                <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+                                    <div>A CURATED AND EDUCATIONAL DESIGN DIRECTORY</div>
+                                </div>
                             </div>
-                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-                                <div>A CURATED AND EDUCATIONAL DESIGN DIRECTORY</div>
-                            </div>
-                        </div>
-                        <div className="hidden md:block">
-                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+</div>
+                      
 
-                            </div>
-                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-                                <div></div>
-                            </div>
-                        </div>
-
-
-
-
+                     
+                        
 
 
 
@@ -229,6 +222,18 @@ export default function Home() {
 
                         </div>
 
+                        <div className="contents md:hidden col-span-3 pt-10">
+                            <div className="rounderFlat">
+                                <Link href="/aria">
+                                    <MuxPlayerComponent className="" playbackId="nGIXclfTrpmOqcFM019SlkeOTTHQJznmH3UAttTuxxOQ" />
+                                </Link>
+                            </div>
+                        </div>
+
+
+
+
+                        <div className="grid grid-cols-2 w-full">
                         <div className=" text-stone-500">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                 <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">ARIA</button>
@@ -256,7 +261,7 @@ export default function Home() {
                                 <div></div>
                             </div>
                         </div>
-
+</div>
 
 
 
@@ -270,11 +275,10 @@ export default function Home() {
                                     <MuxPlayerComponent className="rounder" playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
                                 </MyModal>
                             </div> */}
-
-
                         </div>
 
-                        <div className="rounderMoment contents md:hidden col-span-3 pt-10 ">
+
+                        <div className="rounderFlat contents md:hidden col-span-3 pt-10 ">
                             <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
                                 <Link href="/moment">
                                     <MuxPlayerComponent className="" playbackId="zlM8Mryy00bGsUzAFj6OrGcOgH5uNbbbNHQStMtGiaIY" />
@@ -283,41 +287,43 @@ export default function Home() {
                         </div>
 
 
-                        <div className=" text-stone-500">
-                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">MOMENT ENERGY</button>
-                            </div>
-                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-                                <div>INTERNSHIP</div>
-                            </div>
-                        </div>
-                        <div className="pl-2 text-stone-500">
-                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                <div>
-                                    <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
-                                    <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
 
-                                        <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-stone-400 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</button>
+
+
+
+              
+
+
+                        <div className="grid grid-cols-2 w-full">
+                            <div className=" text-stone-500">
+                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                    <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">MOMENT ENERGY</button>
+                                </div>
+                                <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+                                    <div>INTERNSHIP</div>
+                                </div>
+                            </div>
+
+                            <div className="pl-2 text-stone-500">
+                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                    <div>
+                                        <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
+                                        <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+
+                                            <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-stone-400 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="hidden md:block text-stone-500">
-                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                            <div className="hidden md:block text-stone-500">
+                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
 
+                                </div>
+                                <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+                                    <div></div>
+                                </div>
                             </div>
-                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-                                <div></div>
-                            </div>
                         </div>
-
-
-
-
-                    </div>
-
-
-
 
 
 
@@ -327,11 +333,11 @@ export default function Home() {
 
                             <div className="relative group">
                                 <div className="rounded-lg overflow-hidden relative">
-                                <Link href="/arcteryx">
-                                    <Image
-                                        src={arcPanel1}
+                                    <Link href="/arcteryx">
+                                        <Image
+                                            src={arcPanel1}
 
-                                    />
+                                        />
                                     </Link>
 
 
@@ -490,11 +496,11 @@ export default function Home() {
 
 
 
-<TwilightFade >
-    yooo im twilight fade
-</TwilightFade>
+                <TwilightFade >
+                    
+                </TwilightFade>
 
-{/* <div className="pt-40  text-stone-800 text-2xl">yooooo im a div wit text</div>
+                {/* <div className="pt-40  text-stone-800 text-2xl">yooooo im a div wit text</div>
  */}
 
                 {/* <div class="animated-div"></div> */}
@@ -515,7 +521,7 @@ export default function Home() {
                         </h1> */}
 
 
-  {/* <h2 className="text-stone-400 mt-[40rem] absolute font-SFpro text-xxs bottom-10 z-5">
+                        {/* <h2 className="text-stone-400 mt-[40rem] absolute font-SFpro text-xxs bottom-10 z-5">
     LET'S CONNECT ON MY SOCIALS!
   </h2>
 
