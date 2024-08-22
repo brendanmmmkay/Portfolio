@@ -19,7 +19,18 @@ const MyComponent = ({ playbackId, project }) => {
   };
 
   // Adjusted style for pushing content
-  const videoStyle = isHovered ? { width: '110%', height: '110%', transition: 'width 0.5s ease, height 0.5s ease' } : {};
+  const containerStyle = isHovered ? { 
+    margin: '40px', // Apply margin to push surrounding content
+    transition: 'margin 0.5s ease' // Smooth transition for the margin change
+  } : { 
+    margin: '0' // Reset margin when not hovered
+  };
+
+  const videoStyle = isHovered ? { 
+    width: '110%', 
+    height: '110%', 
+    transition: 'width 0.5s ease, height 0.5s ease' 
+  } : {};
 
   return (
     <div 
@@ -27,13 +38,14 @@ const MyComponent = ({ playbackId, project }) => {
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={handleMouseLeave}
+      style={containerStyle} // Apply the dynamic style here for the container
     >
       <MyModal Component={project} className="px-0">
         <div style={{ transform: `translate(${mousePosition.x}px, ${mousePosition.y}px)` }}>
           <MuxPlayerComponent 
             className="rounder video-zoom" 
             playbackId={playbackId}
-            style={{ ...videoStyle, ...{ transform: `translate(${mousePosition.x}px, ${mousePosition.y}px)` } }}
+            style={{ ...videoStyle, transform: `translate(${mousePosition.x}px, ${mousePosition.y}px)` }}
           />
         </div>
       </MyModal>
