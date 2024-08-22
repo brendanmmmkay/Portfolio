@@ -376,13 +376,6 @@ export default function InSearchOf() {
 
 
 
-
-
-
-
-
-
-
         <div className="grid md:grid-cols-2">
           <Paragraph
             header="JOURNEY FRAMEWORKS"

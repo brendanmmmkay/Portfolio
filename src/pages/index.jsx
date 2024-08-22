@@ -67,6 +67,7 @@ import TwilightFade from '../../components/twilight.jsx'
 import MaskedCursor from '../../components/MaskedCursor.jsx';
 import Aria from './aria.js';
 import TextBox from '../../components/TextBox.jsx';
+import Navbar from '../../components/Navbar';
 
 export default function Home() {
 
@@ -74,6 +75,9 @@ export default function Home() {
 
     const handleOpen = () => {
         setIsOpen(true);
+
+
+
     };
 
     return (
@@ -100,7 +104,6 @@ export default function Home() {
                 {/* <h2 className="hidden md:block text-stone-400 font-SFpro text-xxs gap-10 pt-[4rem] pl-5">
                     I am looking for exciting new projects and opportunities to <br></br>make impactful design. Reach out for collaboration!
                 </h2> */}
-
 
 
 
@@ -211,9 +214,79 @@ export default function Home() {
 
 
 
+
+
+<div className="hidden md:block col-span-3 pt-10">
+
+<VideoZoom project={Moment} playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
+{/* <div className="rounder hover:shadow-2xl transition-shadow duration-500">
+    <MyModal Component={Moment} className="px-0">
+        <MuxPlayerComponent className="rounder" playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
+    </MyModal>
+</div> */}
+</div>
+
+
+<div className="rounderFlat contents md:hidden col-span-3 pt-10 ">
+<div style={{ borderRadius: '8px', overflow: 'hidden' }}>
+    <Link href="/moment">
+        <MuxPlayerComponent className="" playbackId="zlM8Mryy00bGsUzAFj6OrGcOgH5uNbbbNHQStMtGiaIY" />
+    </Link>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div className="grid grid-cols-2 w-full">
+<div className=" text-stone-500">
+    <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+        <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">MOMENT ENERGY</button>
+    </div>
+    <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+        <div>INTERNSHIP</div>
+    </div>
+</div>
+
+<div className="pl-2 text-stone-500">
+    <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+        <div>
+            <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
+            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+
+                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-stone-400 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div className="hidden md:block text-stone-500">
+    <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+
+    </div>
+    <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+        <div></div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
                         <div className="hidden md:block col-span-3 pt-5">
 
-                            <VideoZoom project={Aria} playbackId="o16WJY01Nf4h34usYkCnkR8GLD1wL76n6BXzS5F4h2lI" />
+                            <VideoZoom project={Aria} playbackId="D4GHIo5JY2jYtubriqhE01VbXv027KjpoWxY6tRPlhKeo" />
                             {/* <div className="rounder cursor-pointer hover:shadow-2xl transition-shadow duration-500">
                                 <MyModal Component={InSearchOf} className="px-0">
                                     <MuxPlayerComponent className="rounder" playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
@@ -267,63 +340,6 @@ export default function Home() {
 
 
 
-                        <div className="hidden md:block col-span-3 pt-10">
-
-                            <VideoZoom project={Moment} playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
-                            {/* <div className="rounder hover:shadow-2xl transition-shadow duration-500">
-                                <MyModal Component={Moment} className="px-0">
-                                    <MuxPlayerComponent className="rounder" playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
-                                </MyModal>
-                            </div> */}
-                        </div>
-
-
-                        <div className="rounderFlat contents md:hidden col-span-3 pt-10 ">
-                            <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-                                <Link href="/moment">
-                                    <MuxPlayerComponent className="" playbackId="zlM8Mryy00bGsUzAFj6OrGcOgH5uNbbbNHQStMtGiaIY" />
-                                </Link>
-                            </div>
-                        </div>
-
-
-
-
-
-
-              
-
-
-                        <div className="grid grid-cols-2 w-full">
-                            <div className=" text-stone-500">
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                    <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">MOMENT ENERGY</button>
-                                </div>
-                                <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-                                    <div>INTERNSHIP</div>
-                                </div>
-                            </div>
-
-                            <div className="pl-2 text-stone-500">
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                    <div>
-                                        <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
-                                        <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-
-                                            <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-stone-400 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="hidden md:block text-stone-500">
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-
-                                </div>
-                                <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-                                    <div></div>
-                                </div>
-                            </div>
-                        </div>
 
 
 
@@ -454,7 +470,7 @@ export default function Home() {
 
 
                 <div className='mt-10 px-4 py-4 max-w-full'>
-                    <div className='bg-hero-pattern4 bg-cover'>
+                    <div className='bg-hero-pattern4 bg-cover max-w-full'>
                         <Footer />
                     </div>
                 </div>

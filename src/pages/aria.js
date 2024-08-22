@@ -67,6 +67,7 @@ export default function Aria() {
 
 
 
+                    <TextBox header="NOTICE" subtitle="This is a recent project that I have been working on - just for fun. For rigorous design process, please check out In Search Of or Moment Energy!" />
 
 
 
@@ -102,7 +103,7 @@ export default function Aria() {
 
             <div className="px-4">
                 <div className="rounderMoment2">
-                    <MuxPlayerComponent className="" playbackId="o16WJY01Nf4h34usYkCnkR8GLD1wL76n6BXzS5F4h2lI" />
+                    <MuxPlayerComponent className="" playbackId="D4GHIo5JY2jYtubriqhE01VbXv027KjpoWxY6tRPlhKeo" />
                 </div>
             </div>
 
