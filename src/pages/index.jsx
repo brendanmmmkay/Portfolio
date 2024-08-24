@@ -348,7 +348,7 @@ export default function Home() {
                         <div className="">
 
                             <div className="relative group">
-                                <div className="rounded-lg overflow-hidden relative">
+                                <div className="rounded-lg overflow-hidden relative transition ease-in-out delay-150 hover:shadow-md">
                                     <Link href="/arcteryx">
                                         <Image
                                             src={arcPanel1}

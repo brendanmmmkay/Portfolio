@@ -254,7 +254,7 @@ export default function Bosch() {
 
 
 
-                {/* <div className='mt-10 px-4 py-4'>
+                {/* <div className='mt-10 px-4 py-4 transition ease-in-out delay-150 hover:shadow-xl'>
                     <div className='bg-hero-pattern5 bg-cover'>
                         <Footer />
                     </div>
@@ -309,7 +309,7 @@ export default function Bosch() {
                     </div>
                 </div>
 
-                <div className="px-4 rounded-xl">
+                <div className="px-4 rounded-xl pt-4">
                     <div className="">
                         <Image className=""
                             src={momentNewVD}
@@ -474,7 +474,7 @@ export default function Bosch() {
                     <Paragraph
                         header="PITCH COMPETITIONS"
                         body1="During the first half of my internship, my role was focused on storytelling and information design for a series of venture pitch competitions. I spoke with marketing leaders, operation experts, and stakeholders to understand what information mattered most for everyone involved."
-                        body2=" I began with the context of how diesel engines and used EV batteries negatively effect the environment, before telling the story of a successful Moment deployment with its cost savings and environmental benefits."
+                        body2="I began with the context of how diesel engines and used EV batteries negatively effect the environment, before telling the story of a successful Moment deployment with its cost savings and environmental benefits."
                     ></Paragraph>
 
                     <div className="px-4 object-cover pb-4 rounded-8 items-end py-20">

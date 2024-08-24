@@ -20,15 +20,16 @@ const MyComponent = ({ playbackId, project }) => {
 
   // Adjusted style for pushing content
   const containerStyle = isHovered ? { 
-    margin: '40px', // Apply margin to push surrounding content
+    marginBottom: '40px', // Apply margin to push surrounding content
+    marginTop: '40px', // Apply negative margin to prevent content from moving
     transition: 'margin 0.5s ease' // Smooth transition for the margin change
   } : { 
     margin: '0' // Reset margin when not hovered
   };
 
   const videoStyle = isHovered ? { 
-    width: '110%', 
-    height: '110%', 
+    width: '120%', 
+    height: '120%', 
     transition: 'width 0.5s ease, height 0.5s ease' 
   } : {};
 
