@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import MyModal from './Modal'; // Fix the file name casing
 import MuxPlayerComponent from './MuxPlayer.js';
 
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+
 const MyComponent = ({ playbackId, project }) => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = useState(false);
@@ -16,6 +19,16 @@ const MyComponent = ({ playbackId, project }) => {
   const handleMouseLeave = () => {
     setIsHovered(false);
     setMousePosition({ x: 0, y: 0 });
+  };
+
+  const [ref, inView] = useInView({
+    triggerOnce: false,
+    threshold: 0.1,
+  });
+
+  const fadeInVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
   };
 
   // Adjusted style for pushing content
@@ -34,7 +47,13 @@ const MyComponent = ({ playbackId, project }) => {
   } : {};
 
   return (
-    <div 
+
+       <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={fadeInVariants}
+      transition={{ duration: 0.5 }}
       className="rounder zoomer cursor-pointer hover:shadow-2xl transition-shadow duration-500" 
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovered(true)}
@@ -50,7 +69,7 @@ const MyComponent = ({ playbackId, project }) => {
           />
         </div>
       </MyModal>
-    </div>
+    </motion.div>
   );
 };
 
