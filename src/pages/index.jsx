@@ -68,6 +68,7 @@ import MaskedCursor from '../../components/MaskedCursor.jsx';
 import Aria from './aria.js';
 import TextBox from '../../components/TextBox.jsx';
 import Navbar from '../../components/Navbar';
+import TextRevealTW from '../../components/TextReveal.tsx';
 
 export default function Home() {
 
@@ -121,7 +122,7 @@ export default function Home() {
 
                 <div className="pt-40 px-4">
 
-
+          
 
                     {/* <VideoZoom></VideoZoom> */}
                     <div id="modal-root"></div>
@@ -134,10 +135,11 @@ export default function Home() {
 
                     <div className="hidden md:block">
                         <div className="grid grid-cols-2 gap-4">
-                            <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
+                            {/* <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
                                 I make aspirational value real through<br></br> user experience design & product strategy.
-                            </h1>
-
+                            </h1> */}
+      <TextRevealTW />
+                           
 
                             <div className="tracking-wide font-SFpro text-stone-400 text-xxs max-w-lg">
 
