@@ -161,10 +161,10 @@ export default function Home() {
                         <div>[FEATURED PROJECTS]</div>
                     </div>
 
-                    <div className="grid grid-cols-3 gap-y-4 cursor-pointer">
+                    <div className=" gap-y-4 cursor-pointer">
 
 
-                        <div className="hidden md:block col-span-3 pt-5">
+                        <div className="hidden md:block  pt-5">
 
                             <VideoZoom project={InSearchOf} playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
                             {/* <div className="rounder cursor-pointer hover:shadow-2xl transition-shadow duration-500">
@@ -175,7 +175,7 @@ export default function Home() {
 
                         </div>
 
-                        <div className="contents md:hidden col-span-3 pt-10">
+                        <div className="contents md:hidden  pt-10">
                             <div className="rounderFlat">
                                 <Link href="/insearchof">
                                     <MuxPlayerComponent className="" playbackId="019702D00dSt00J82rNhLOnHZQxx9MVCyAZHJgCvXyjz3R8" />
