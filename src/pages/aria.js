@@ -198,7 +198,7 @@ export default function Aria() {
 
                 <h2 className="text-stone-800 text-xxs font-SFpro pt-20 px-4">VALUE PROPOSAL</h2>
 
-                <div className="flex flew-grow gap-4 px-4">
+                <div className="flex flex-col md:flex-row gap-4 px-4">
 
                     <TextBox header="FOR LISTENERS" subtitle="Listeners learn about more music events, connect with the greater community of experimental music fans, and have more novel going-out music experiences." />
                     <TextBox header="FOR MUSICIANS" subtitle="Musicians sell more tickets to a wider audience of listeners and pack out venues." />

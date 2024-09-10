@@ -280,7 +280,7 @@ export default function Bosch() {
 
                 <h2 className="text-stone-800 text-xxs font-SFpro pt-20 px-4">IMPACT</h2>
 
-                <div className="flex flew-grow gap-4 px-4 pb-10">
+                <div className="flex flex-col md:flex-row gap-4 px-4 pb-10">
 
                     <TextBox header="PITCH" subtitle=" Helped secure $300, 000 in investments though pitch deck storytelling for national pitch competitions." />
                     <TextBox header="SOCIAL" subtitle="Managed and helped grow the Moment Energy LinkedIn up to 8,000 followers." />
@@ -368,7 +368,7 @@ export default function Bosch() {
 
                 <h2 className="text-stone-800 text-xxs font-SFpro pt-20 px-4">BRAND PILLARS</h2>
 
-                <div className="flex flew-grow gap-4 px-4 pb-10">
+                <div className="flex flex-col md:flex-row gap-4 px-4 pb-10">
 
                     <TextBox header="TRUST" subtitle="We are a team of dedicated young professionals. “Professionalism” is built on trust. Moment manifests professionalism in our partnerships through reliable support, every step of the way." />
                     <TextBox header="FORWARD THINKING" subtitle="A Future facing company makes responsible decisions in the present. Our solutions support a circular economy and enable lasting change." />
@@ -481,7 +481,7 @@ export default function Bosch() {
                         <Image className=""
                             src={momentPitch2}
                         />
-                        <div className="flex flew-grow gap-4">
+                        <div className="flex flex-col md:flex-row gap-4">
                             <TextBox subtitle="Awarded the grand prize of $100,000 as the winner of Spring Activator’s first-ever National Impact Investor Challenge." />
                             <TextBox subtitle="Parsed complex renewable energy concepts toward a holistic view of the business, eliminating cognitive overhead  and elevating aspirational value to resonate strongly with potential stakeholders." />
                             {/* <TextBox header="BUILD TASTE" subtitle="Excellent designers cherish insightful discourse. We provide deep connection with the design industry by contributing insightful commentary and education in every resource. We’re the helpful librarian you’ve been waiting for to give you the meaning behind the recommendation, and guide you to build your taste." /> */}

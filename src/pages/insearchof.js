@@ -133,7 +133,7 @@ export default function InSearchOf() {
 
 
 
-<div className="flex flew-grow gap-4 px-4">
+<div className="flex flex-col md:flex-row gap-4 px-4">
 
 <TextBox header="PROBLEM" subtitle="Budding design professionals struggle to find reputable, professional grade design inspiration with enough context and supporting artifacts." body2="Budding design professionals struggle to find reputable, professional grade design inspiration with enough context and supporting artifacts." />
 <TextBox header="FRAMING" subtitle="How might we map the landscape of design companies for inspiration seekers who need to build upon their knowledge and connections to the design industry." />
@@ -187,7 +187,7 @@ export default function InSearchOf() {
 
         <h2 className="text-stone-800 text-xxs font-SFpro pt-20 px-4">BRAND PILLARS</h2>
 
-        <div className="flex flew-grow gap-4 px-4">
+        <div className="flex flex-col md:flex-row gap-4 px-4">
 
           <TextBox header="MAP" subtitle=" It’s important for designers to have all their resources in one place. We seek to curate a broad map of resources, across many disciplines, to provide a sense of the breadth and depth of the visual design industry, and connect people with valuable resources." />
           <TextBox header="INSPIRE" subtitle="Excellent designers habitually seek inspiration constantly. We curate beautiful design and resources from the first impression to the last. We aim to provide that inspiring moment when you find something thoughtfully—and unexpectedly—curated that you never would have found on your own." />
@@ -223,7 +223,7 @@ export default function InSearchOf() {
 
         <h2 className="text-stone-800 text-xxs font-SFpro pt-20 px-4">VALUE</h2>
 
-        <div className="flex flew-grow gap-4 px-4">
+        <div className="flex flex-col md:flex-row gap-4 px-4">
 
           <TextBox header="FOR SEEKERS" subtitle="Seekers have a curated list of professional resources to learn the landscape of design and reference professional grade case studies." />
           <TextBox header="FOR ISO" subtitle="The directory gains a user base of seekers who support the development of our list via ad revenue, shares, and donations." />
@@ -343,7 +343,7 @@ export default function InSearchOf() {
       <div className=" bg-white rounded-md mt-20">
 
         <div className="md:w-1/2">
-          <m.h1 className="px-4 text-[1.2rem] md:text-3xl text-left  font-Avenir text-stone-700   mt-5 lg:pt-10 ">
+          <m.h1 className="px-4 text-3xl text-left  font-Avenir text-stone-700   mt-5 lg:pt-10 ">
             Case Study
           </m.h1>
         </div>
@@ -363,7 +363,7 @@ export default function InSearchOf() {
             <Image className=""
               src={isoPersona}
             />
-                    <div className="flex flew-grow gap-4">
+                    <div className="flex flex-col md:flex-row gap-4 ">
           <TextBox  subtitle="We learned that designers often find a single good artifact, but are unable to find the supporting artifacts and context necessary to use it as a precedent." />
           <TextBox  subtitle="We learned that people struggle less with seeking inspiration, and more with knowing what to seek." />
           {/* <TextBox header="BUILD TASTE" subtitle="Excellent designers cherish insightful discourse. We provide deep connection with the design industry by contributing insightful commentary and education in every resource. We’re the helpful librarian you’ve been waiting for to give you the meaning behind the recommendation, and guide you to build your taste." /> */}
@@ -403,7 +403,7 @@ export default function InSearchOf() {
             <Image className=""
               src={isoQualitative}
             />
-                    <div className="flex flew-grow gap-4">
+                    <div className="flex flex-col md:flex-row gap-4">
           <TextBox  subtitle="We learned that users needed more than one image to tell if it is worth it to visit the companies site." />
           <TextBox  subtitle="We learned that users were less interested in gamifying their design learning experience." />
           {/* <TextBox header="BUILD TASTE" subtitle="Excellent designers cherish insightful discourse. We provide deep connection with the design industry by contributing insightful commentary and education in every resource. We’re the helpful librarian you’ve been waiting for to give you the meaning behind the recommendation, and guide you to build your taste." /> */}
