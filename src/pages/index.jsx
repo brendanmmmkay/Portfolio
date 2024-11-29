@@ -110,7 +110,7 @@ export default function Home() {
 
 
 
-                <div className="ml-2 pt-5">
+                <div className="ml-2 pt-5 hidden md:block">
                     <Eyeball></Eyeball>
                 </div>
 
@@ -120,26 +120,28 @@ export default function Home() {
 
 
 
-                <div className="pt-40 px-4">
+                <div className="pt-5 px-4">
 
-          
+
 
                     {/* <VideoZoom></VideoZoom> */}
                     <div id="modal-root"></div>
 
                     <div className="block md:hidden">
                         <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
-                            I make aspirational value real through<br></br> user experience design & product strategy.
+                         I bring aspirational value to reality through<br></br> user experience design and product strategy.
                         </h1>
                     </div>
 
-                    <div className="hidden md:block">
+
+
+                    <div className="hidden md:block pt-40">
                         <div className="grid grid-cols-2 gap-4">
                             {/* <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
                                 I make aspirational value real through<br></br> user experience design & product strategy.
                             </h1> */}
-      <TextRevealTW />
-                           
+                            <TextRevealTW />
+
 
                             <div className="tracking-wide font-SFpro text-stone-400 text-xxs max-w-lg">
 
@@ -155,7 +157,13 @@ export default function Home() {
                     </div>
 
 
-
+                    <div className="block md:hidden pt-60">
+                        <h2 className="text-stone-800 text-xxs font-SFpro pt-2">HELLO!</h2>
+                        <div className="gap-2 md:max-w-2xl">
+                            <div className="text-xxs font-SFpro text-stone-400 pt-2">MY CRAFT IS DEFINED BY MY APPROACH; METICULOUSLY DETAILED, SOCIALLY CONSCIOUS, AND VALUE BASED. I ENJOY WEAVING PUNCHY AND POWERFUL VISUAL LANGUAGE TOWARD ELEGANT AND THOUGHTFUL EXPERIENCES.</div>
+                            <div className="text-xxs font-SFpro text-stone-400 pt-2">I CARRY MY PASSION FOR PROBLEM SOLVING ACROSS INDUSTRIES AND DISCIPLINES, UNDERSTANDING THAT CREATING VALUE FOR PEOPLE IS THE PURPOSE OF DESIGN.</div>
+                        </div>
+                    </div>
 
                     <div className="tracking-wide font-SFpro text-stone-400 text-xxs pt-10">
                         <div>[FEATURED PROJECTS]</div>
@@ -175,7 +183,7 @@ export default function Home() {
 
                         </div>
 
-                        <div className="contents md:hidden  pt-10">
+                        <div className="contents md:hidden  pt-2">
                             <div className="rounderFlat">
                                 <Link href="/insearchof">
                                     <MuxPlayerComponent className="" playbackId="019702D00dSt00J82rNhLOnHZQxx9MVCyAZHJgCvXyjz3R8" />
@@ -185,96 +193,57 @@ export default function Home() {
 
 
 
-                        </div>
-                    
-                        <div className="grid grid-cols-2 w-full">
-                            <div className="">
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                    <div>
-                                        <button role="link" className="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150 after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">IN SEARCH OF</button>
+                    </div>
 
-                                        <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-                                            <div>FREELANCE</div>
-                                        </div>
+                    <div className="grid grid-cols-2 w-full">
+                        <div className="">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                <div>
+                                    <button role="link" className="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150 after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">IN SEARCH OF</button>
+
+                                    <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+                                        <div>FREELANCE</div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <div className="pl-2">
-                                <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-                                    <button role="link" className="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150 after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
-                                </div>
-                                <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-                                    <div>A CURATED AND EDUCATIONAL DESIGN DIRECTORY</div>
-                                </div>
+                        <div className="pl-2">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                <button role="link" className="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150 after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
                             </div>
-</div>
-                      
-
-                     
-                        
-
-
+                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+                                <div>A CURATED AND EDUCATIONAL DESIGN DIRECTORY</div>
+                            </div>
+                        </div>
+                    </div>
 
 
 
-<div className="hidden md:block col-span-3 pt-10">
 
-<VideoZoom project={Moment} playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
-{/* <div className="rounder hover:shadow-2xl transition-shadow duration-500">
+
+
+
+
+
+                    <div className="hidden md:block col-span-3 pt-10">
+
+                        <VideoZoom project={Moment} playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
+                        {/* <div className="rounder hover:shadow-2xl transition-shadow duration-500">
     <MyModal Component={Moment} className="px-0">
         <MuxPlayerComponent className="rounder" playbackId="jQINbX00JYpZpPZLn3ED8VmoMcxQ741a5GOAfR6DITGw" />
     </MyModal>
 </div> */}
-</div>
+                    </div>
 
 
-<div className="rounderFlat contents md:hidden col-span-3 pt-10 ">
-<div style={{ borderRadius: '8px', overflow: 'hidden' }}>
-    <Link href="/moment">
-        <MuxPlayerComponent className="" playbackId="zlM8Mryy00bGsUzAFj6OrGcOgH5uNbbbNHQStMtGiaIY" />
-    </Link>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-<div className="grid grid-cols-2 w-full">
-<div className=" text-stone-500">
-    <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-        <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">MOMENT ENERGY</button>
-    </div>
-    <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-        <div>INTERNSHIP</div>
-    </div>
-</div>
-
-<div className="pl-2 text-stone-500">
-    <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-        <div>
-            <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
-            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-
-                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-stone-400 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div className="hidden md:block text-stone-500">
-    <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
-
-    </div>
-    <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
-        <div></div>
-    </div>
-</div>
-</div>
+                    <div className="rounderFlat contents md:hidden col-span-3 pt-10 ">
+                        <div style={{ borderRadius: '8px', overflow: 'hidden' }}>
+                            <Link href="/moment">
+                                <MuxPlayerComponent className="" playbackId="zlM8Mryy00bGsUzAFj6OrGcOgH5uNbbbNHQStMtGiaIY" />
+                            </Link>
+                        </div>
+                    </div>
 
 
 
@@ -284,31 +253,71 @@ export default function Home() {
 
 
 
+                    <div className="grid grid-cols-2 w-full">
+                        <div className=" text-stone-500">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">MOMENT ENERGY</button>
+                            </div>
+                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+                                <div>INTERNSHIP</div>
+                            </div>
+                        </div>
+
+                        <div className="pl-2 text-stone-500">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+                                <div>
+                                    <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
+                                    <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+
+                                        <button role="link" class="hidden md:block relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-stone-400 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</button>
+                                        <button role="link" class="md:hidden text-left">A NEW WEBSITE AND BRAND TO DISRUPT THE ENERGY STORAGE INDUSTRY</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="hidden md:block text-stone-500">
+                            <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
+
+                            </div>
+                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
 
 
-                        <div className="hidden md:block col-span-3 pt-5">
 
-                            <VideoZoom project={Aria} playbackId="D4GHIo5JY2jYtubriqhE01VbXv027KjpoWxY6tRPlhKeo" />
-                            {/* <div className="rounder cursor-pointer hover:shadow-2xl transition-shadow duration-500">
+
+
+
+
+
+
+
+
+                    <div className="hidden md:block col-span-3 pt-5">
+
+                        <VideoZoom project={Aria} playbackId="D4GHIo5JY2jYtubriqhE01VbXv027KjpoWxY6tRPlhKeo" />
+                        {/* <div className="rounder cursor-pointer hover:shadow-2xl transition-shadow duration-500">
                                 <MyModal Component={InSearchOf} className="px-0">
                                     <MuxPlayerComponent className="rounder" playbackId="W1tCvXEcikb01SJO0201MBpdgq17lCtKgU6VtprSweuWQ00" />
                                 </MyModal>
                             </div> */}
 
+                    </div>
+
+                    <div className="contents md:hidden col-span-3 pt-10">
+                        <div className="rounderFlat">
+                            <Link href="/aria">
+                                <MuxPlayerComponent className="" playbackId="nGIXclfTrpmOqcFM019SlkeOTTHQJznmH3UAttTuxxOQ" />
+                            </Link>
                         </div>
-
-                        <div className="contents md:hidden col-span-3 pt-10">
-                            <div className="rounderFlat">
-                                <Link href="/aria">
-                                    <MuxPlayerComponent className="" playbackId="nGIXclfTrpmOqcFM019SlkeOTTHQJznmH3UAttTuxxOQ" />
-                                </Link>
-                            </div>
-                        </div>
+                    </div>
 
 
 
 
-                        <div className="grid grid-cols-2 w-full">
+                    <div className="grid grid-cols-2 w-full">
                         <div className=" text-stone-500">
                             <div className="font-SFpro text-stone-800 tracking-wide text-xxs pt-2">
                                 <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">ARIA</button>
@@ -323,7 +332,9 @@ export default function Home() {
                                     <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
                                     <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
 
-                                        <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-stone-400 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">AN UNDERGROUND MUSIC EVENT TRICKET PLATFORM</button>
+                                        <button role="link" class="hidden md:block relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-stone-400 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">AN UNDERGROUND MUSIC EVENT TRICKET PLATFORM</button>
+                                        <button role="link" class="md:hidden text-left">AN UNDERGROUND MUSIC EVENT TRICKET PLATFORM</button>
+
                                     </div>
                                 </div>
                             </div>
@@ -336,7 +347,7 @@ export default function Home() {
                                 <div></div>
                             </div>
                         </div>
-</div>
+                    </div>
 
 
 
@@ -513,19 +524,23 @@ export default function Home() {
                 </div>
 
 
+                <div className="hidden md:absolute">
+                    <TwilightFade  >
 
-                <TwilightFade >
-                    
-                </TwilightFade>
-
+                    </TwilightFade>
+                </div>
                 {/* <div className="pt-40  text-stone-800 text-2xl">yooooo im a div wit text</div>
  */}
 
                 {/* <div class="animated-div"></div> */}
                 {/* <FadeInOnScroll></FadeInOnScroll> */}
 
-                <FadeInOnScrollBackground src="/image/sky.svg">
-                </FadeInOnScrollBackground>
+                <div className="hidden md:absolute">
+                    <FadeInOnScrollBackground src="/image/sky.svg">
+                    </FadeInOnScrollBackground>
+                </div>
+
+
                 <div className="z-10 relative h-full">
 
                     {/* <Image className="z-0 absolute w-full" src={sky} /> */}
@@ -571,27 +586,33 @@ export default function Home() {
                     <div className="z-10"></div>
 
 
-                    <div className="absolute inset-0 flex items-center justify-center">
-                        <h1 className="text-3xl pt-10 max-w-footer md:text-4xl text-center tracking-loose font-Avenir leading-tighter md:leading-tighter bg-gradient-to-r from-azure-100 via-azure-200 to-azure-300 text-transparent bg-clip-text bg-300% animate-gradient">
-                            {/* Practicing on the west coast of Canada.<br></br>
+                    <div className="hidden md:block">
+                        <div className=" absolute inset-0 flex items-center justify-center">
+                            <h1 className="text-3xl pt-10 max-w-footer md:text-4xl text-center tracking-loose font-Avenir leading-tighter md:leading-tighter bg-gradient-to-r from-azure-100 via-azure-200 to-azure-300 text-transparent bg-clip-text bg-300% animate-gradient">
+                                {/* Practicing on the west coast of Canada.<br></br>
         Creating design solutions internationally. */}
-                            Reach out for a chat, <br></br>
-                            and let me determine how <br></br>
-                            I can help realize your dreams.
-                        </h1>
+                                Reach out for a chat, <br></br>
+                                and let me determine how <br></br>
+                                I can help realize your dreams.
+                            </h1>
+                        </div>
                     </div>
 
+                    <Image className="z-0 absolute right-32 pt-20 hidden md:block" src={moon} />
 
-                    <Image className="z-0 absolute right-32 pt-20" src={moon} />
+                    <div className="hidden md:block">
+                        <MovingRectangles ></MovingRectangles>
+                    </div>
 
-                    <MovingRectangles ></MovingRectangles>
-
-                    <Image className="z-0 absolute right-1/3  bottom-5" src={house} />
+                    <Image className="z-0 absolute right-1/3 bottom-20 md:bottom-5" src={house} />
                     {/* <div className="z-5 absolute pt-40">yoooooo</div> */}
-                    <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pl-5 pb-4 absolute bottom-0 z-5">
+                    <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pl-5 pb-4 absolute bottom-0 z-5 ">
                         2024 BRENDAN MCKAY
                     </h2>
-                    <RainDrop className="z-4 absolute"></RainDrop>
+                    <div className="pt-40"></div>
+                    <RainDrop className="z-4 absolute">
+
+                    </RainDrop>
                     {/* <ScrollAnimatedImage className="absolute" src={sky} /> */}
 
 

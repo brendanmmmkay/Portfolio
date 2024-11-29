@@ -211,7 +211,7 @@ export default function Bosch() {
                         <div className="md:grid lg:grid-cols-5 grid-cols-1 gap-6 ">
                             <div className="col-start-1 col-span-2">
 
-                                <h2 className="text-stone-800 text-xxs font-SFpro pt-2">APRIL — AUGUST 2021</h2>
+                                <h2 className="text-stone-800 text-xxs font-SFpro pt-2 text-justify">APRIL — AUGUST 2021</h2>
                                 <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pt-0 pb-20 md:pb-0"> PRODUCT DESIGN AND BRAND REFRESH <br></br> 4 MONTH INTERNSHIP</h2>
 
                             </div>
