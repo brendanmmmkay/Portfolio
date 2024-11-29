@@ -554,7 +554,6 @@ export default function Bosch() {
 
                 </div>
 
-                <Image className="block md:hidden z-0 absolute pt-10 right-5/6 mb-10 scale-50" src={house} />
 
                 <div className="rounded-md overflow-hidden">
                     {/* <Image
