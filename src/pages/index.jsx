@@ -466,7 +466,7 @@ export default function Home() {
                                 {/* <button className="group text-chip-deep-gray borderColor-off-white font-SFpro relative h-6 overflow-hidden text-xxs tracking-wider text-toverflow-x-hidden rounded-8 bg-white px-8 py-1 cursor-pointer text-neutral-750"><span className="relative z-10">LINKEDIN</span><span className="absolute inset-0 overflow-hidden rounded-md"><span className="absolute left-0 aspect-square w-full origin-center -translate-x-full text-stone-700 rounded-full bg-off-white transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button> */}
                                 <button className="text-xxs font-SFpro text-stone-600 pr-10">LINKEDIN</button>
                             </Link>
-                            <Clipboard text="BPMCKAY@SFU.CA" />
+                            <Clipboard text="BRENDANMCKAYDESIGN@GMAIL.COM" />
                         </div>
                     </div>
 

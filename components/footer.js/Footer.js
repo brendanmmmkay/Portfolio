@@ -26,8 +26,17 @@ const Footer = () => {
 
 
 
-            <div></div>
+            <div className="block md:hidden">
+            <h2 className="text-stone-800 text-xxs font-SFpro pt-2">ETHOS</h2>
+            <div className="">
 
+                <div className="text-xxs font-SFpro text-stone-400 pt-2">I BELIEVE CANDID CONVERSATION AND EMPATHY ARE KEY TO UNDERSTAND THE TRUE NEEDS OF PEOPLE WE DESIGN FOR.</div>
+                <div className="text-xxs font-SFpro text-stone-400  pt-2">I WEAVE BUSINESS VALUE WITH DIGITAL STORYTELLING TO CREATE DESIGN THAT SOLVES REAL PROBLEMS FOR PEOPLE.</div>
+                <div className="text-xxs font-SFpro text-stone-400  pt-2">I SEEK TO CHALLENGE MYSELF AND LEARN FROM NEW PERSPECTIVES TO MAKE IMPACTFUL CHANGE THROUGH DESIGN.</div>
+            </div>
+            </div>
+
+            <div className="hidden md:block">
             <h2 className="text-stone-800 text-xxs font-SFpro pt-2">ETHOS</h2>
             <div className="grid grid-cols-3 gap-2 md:max-w-2xl">
 
@@ -35,6 +44,8 @@ const Footer = () => {
                 <div className="text-xxs font-SFpro text-stone-400 max-w-xs">I WEAVE BUSINESS VALUE WITH DIGITAL STORYTELLING TO CREATE DESIGN THAT SOLVES REAL PROBLEMS FOR PEOPLE.</div>
                 <div className="text-xxs font-SFpro text-stone-400 max-w-xs">I SEEK TO CHALLENGE MYSELF AND LEARN FROM NEW PERSPECTIVES TO MAKE IMPACTFUL CHANGE THROUGH DESIGN.</div>
             </div>
+            </div>
+            
 
             <div className="">
                 <h1 className="text-3xl max-w-footer md:text-4xl text-left  tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter pt-10 pb-40">
