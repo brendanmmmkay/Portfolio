@@ -604,12 +604,16 @@ export default function Home() {
                         <MovingRectangles ></MovingRectangles>
                     </div>
 
-                    <Image className="z-0 absolute right-1/3 bottom-20 md:bottom-5" src={house} />
+
+                    <Image className="block md:hidden z-0 absolute pt-10 right-0 bottom-5  scale-50" src={house} />
+                    <div className="pt-5"></div>
+                    <Image className="hidden md:block z-0 absolute right-1/3 bottom-20 md:bottom-5" src={house} />
+
                     {/* <div className="z-5 absolute pt-40">yoooooo</div> */}
                     <h2 className="text-stone-400 font-SFpro text-xxs gap-10 pl-5 pb-4 absolute bottom-0 z-5 ">
                         2024 BRENDAN MCKAY
                     </h2>
-                    <div className="pt-40"></div>
+                    <div className=""></div>
                     <RainDrop className="z-4 absolute">
 
                     </RainDrop>
