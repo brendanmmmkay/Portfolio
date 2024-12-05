@@ -136,7 +136,9 @@ export default function Home() {
 
 
                     <div className="hidden md:block pt-20">
-                        <div className="grid grid-cols-2 gap-4">
+                        {/* <div className="grid grid-cols-2 gap-4">
+                            </div> */}
+                            <div>
                             {/* <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
                                 I make aspirational value real through<br></br> user experience design & product strategy.
                             </h1> */}
