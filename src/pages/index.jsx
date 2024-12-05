@@ -135,7 +135,7 @@ export default function Home() {
 
 
 
-                    <div className="hidden md:block pt-40">
+                    <div className="hidden md:block pt-20">
                         <div className="grid grid-cols-2 gap-4">
                             {/* <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
                                 I make aspirational value real through<br></br> user experience design & product strategy.
@@ -143,7 +143,7 @@ export default function Home() {
                             <TextRevealTW />
 
 
-                            <div className="tracking-wide font-SFpro text-stone-400 text-xxs max-w-lg">
+                            {/* <div className="tracking-wide font-SFpro text-stone-400 text-xxs max-w-lg">
 
                                 <p className="pb-5">
                                     HELLO!
@@ -152,7 +152,9 @@ export default function Home() {
                                 <p>
                                     MY CRAFT IS DEFINED BY MY APPROACH; METICULOUSLY DETAILED, SOCIALLY CONSCIOUS, AND VALUE BASED. MEANINGFUL WORK FOR ME IS WHEN I CAN ELIMINATE FRICTIONS FOR PEOPLE IN NEED. I FEEL FULFILLED WHEN I CREATE A VALUABLE SOLUTION THAT INCORPORATES PLAY AND SPARKS JOY. I ENJOY WEAVING PUNCHY AND POWERFUL VISUAL LANGUAGE WITH ELEGANT AND THOUGHTFUL EXPERIENCES. I CARRY MY PASSION FOR PROBLEM SOLVING ACROSS INDUSTRIES AND DISCIPLINES, UNDERSTANDING THAT CREATING VALUE FOR PEOPLE IS THE PURPOSE OF DESIGN.
                                 </p>
-                            </div>
+                            </div> */}
+
+
                         </div>
                     </div>
 
@@ -333,7 +335,7 @@ export default function Home() {
                                     <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
 
                                         <button role="link" class="hidden md:block relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-stone-400 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">AN UNDERGROUND MUSIC EVENT TRICKET PLATFORM</button>
-                                        <button role="link" class="md:hidden text-left">AN UNDERGROUND MUSIC EVENT TRICKET PLATFORM</button>
+                                        <button role="link" class="md:hidden text-left">AN UNDERGROUND MUSIC EVENT TICKET PLATFORM</button>
 
                                     </div>
                                 </div>
