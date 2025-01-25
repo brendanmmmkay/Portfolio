@@ -129,7 +129,7 @@ export default function Home() {
 
                     <div className="block md:hidden">
                         <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
-                         I bring aspirational value to reality through<br></br> user experience design and product strategy.
+                            I bring aspirational value to reality through<br></br> user experience design and product strategy.
                         </h1>
                     </div>
 
@@ -138,7 +138,7 @@ export default function Home() {
                     <div className="hidden md:block pt-20">
                         {/* <div className="grid grid-cols-2 gap-4">
                             </div> */}
-                            <div>
+                        <div>
                             {/* <h1 className="text-3xl md:text-3xl tracking-loose font-Avenir text-stone-700 leading-tighter md:leading-tighter">
                                 I make aspirational value real through<br></br> user experience design & product strategy.
                             </h1> */}
@@ -336,7 +336,7 @@ export default function Home() {
                                     <button role="link" class="relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-blue-600 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">CONTEXT</button>
                                     <div className="tracking-wide font-SFpro text-stone-400 text-xxs">
 
-                                        <button role="link" class="hidden md:block relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-stone-400 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">AN UNDERGROUND MUSIC EVENT TRICKET PLATFORM</button>
+                                        <button role="link" class="hidden md:block relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:translate-y-1 after:bg-stone-400 after:opacity-0 after:transition after:duration-150   after:ease-in-out hover:after:translate-y-0 hover:after:opacity-100">AN UNDERGROUND MUSIC EVENT TICKET PLATFORM</button>
                                         <button role="link" class="md:hidden text-left">AN UNDERGROUND MUSIC EVENT TICKET PLATFORM</button>
 
                                     </div>
